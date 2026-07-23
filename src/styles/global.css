@@ -302,7 +302,12 @@ table.settings tbody th { color: var(--ink); white-space: nowrap; }
 }
 .docs-search .pagefind-ui__search-input::placeholder { color: var(--ink-soft); opacity: 1; }
 .docs-search .pagefind-ui__search-clear { background: transparent; color: var(--ink-soft); }
-.docs-search .pagefind-ui__drawer { background: var(--bg); border: 1px solid var(--line); border-radius: 16px; margin-top: 8px; padding: 4px 12px 12px; }
+.docs-search .pagefind-ui__drawer {
+  position: absolute; top: calc(100% + 8px); left: 0; right: 0; z-index: 20;
+  max-height: min(65vh, 480px); overflow-y: auto; overscroll-behavior: contain;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 16px;
+  padding: 4px 12px 12px; box-shadow: 0 20px 40px -24px rgb(51 38 27 / 0.35);
+}
 /* "/" keyboard hint chip, overlaid on the pill (Pagefind owns #search's contents) */
 .search-kbd {
   position: absolute; right: 12px; top: 50%; transform: translateY(-50%); pointer-events: none;
