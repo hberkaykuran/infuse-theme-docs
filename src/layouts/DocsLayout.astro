@@ -93,7 +93,7 @@ const THEME_STORE = 'https://themes.shopify.com'; // TODO: real Theme Store list
       <script src={withBase('/pagefind/pagefind-ui.js')} is:inline></script>
       <script is:inline define:vars={{ bundle }}>
         window.addEventListener('DOMContentLoaded', () => {
-          new PagefindUI({ element: '#search', bundlePath: bundle, showSubResults: true });
+          new PagefindUI({ element: '#search', bundlePath: bundle, showSubResults: true, showImages: false });
         });
       </script>
     </>
