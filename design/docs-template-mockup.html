@@ -1,0 +1,198 @@
+<!-- APPROVED design mockup (Claude Design project 1c20ff3c-02ce-4d34-aed0-d7972a89dc9d, Docs Template.dc.html).
+     Reference for implementation: the markup below is the <x-dc> template body + styles, verbatim.
+     Source of truth for the docs layout; iterate in Claude Design, then re-export here. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,100;1,9..144,300..700,100&amp;display=swap" />
+    <style>
+          body { margin: 0; }
+          .docs {
+            --bg: #FCF4E4; --surface: #F8E7CB; --card: #F7EFE0; --ink: #33261B;
+            --ink-soft: #6E5E4C; --line: #E7DBC6; --accent: #C9663F; --vivid: #D96B42;
+            --fill: #BF5026; --accent-text: #9E4526; --on-accent: #FFF8EC;
+            --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+            background: var(--bg); color: var(--ink); min-height: 100vh;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6; text-wrap: pretty;
+          }
+          .docs a { color: var(--accent-text); text-decoration: none; }
+          .docs a:hover { color: var(--fill); }
+          .fraunces { font-family: Fraunces, Georgia, serif; font-variation-settings: 'SOFT' 100, 'opsz' 144; font-weight: 560; }
+          .eyebrow { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: var(--accent-text); }
+
+          .topbar { position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--line); z-index: 5; }
+          .topbar-in { max-width: 1360px; margin: 0 auto; padding: 14px 32px; display: flex; align-items: center; gap: 28px; }
+          .wordmark { font-family: Fraunces, Georgia, serif; font-style: italic; font-weight: 560; font-size: 1.3rem; color: var(--ink); white-space: nowrap; }
+          .wordmark b { color: var(--vivid); font-weight: 560; }
+          .wordmark .docs-tag { font-family: system-ui, sans-serif; font-style: normal; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-text); background: var(--surface); border-radius: 999px; padding: 0.28rem 0.6rem; margin-left: 0.55rem; vertical-align: middle; }
+          .search { flex: 1; max-width: 440px; display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 0.6rem 1rem; color: var(--ink-soft); font-size: 0.9rem; }
+          .search .glass { width: 13px; height: 13px; border: 2px solid var(--ink-soft); border-radius: 999px; position: relative; flex: none; }
+          .search .glass::after { content: ''; position: absolute; width: 6px; height: 2px; background: var(--ink-soft); transform: rotate(45deg); left: 10px; top: 11px; border-radius: 2px; }
+          .search .kbd { margin-left: auto; font: 600 0.72rem ui-monospace, Consolas, monospace; border: 1px solid var(--line); border-radius: 6px; padding: 0.1rem 0.45rem; background: var(--bg); color: var(--ink-soft); }
+          .top-links { margin-left: auto; display: flex; gap: 22px; font-size: 0.88rem; font-weight: 500; white-space: nowrap; }
+          .top-links a { color: var(--ink-soft); }
+          .top-links a:hover { color: var(--accent-text); }
+
+          .layout { max-width: 1360px; margin: 0 auto; padding: 44px 32px 80px; display: grid; grid-template-columns: 250px minmax(0, 1fr) 210px; gap: 56px; align-items: start; }
+
+          .side { position: sticky; top: 92px; display: flex; flex-direction: column; gap: 26px; }
+          .side-group { display: flex; flex-direction: column; gap: 2px; }
+          .side-group .eyebrow { margin-bottom: 8px; }
+          .side a { display: block; font-size: 0.92rem; color: var(--ink-soft); padding: 0.42rem 0.75rem; border-radius: 10px; }
+          .side a:hover { color: var(--ink); background: rgba(51, 38, 27, 0.045); }
+          .side a.active { color: var(--accent-text); background: var(--surface); font-weight: 600; }
+
+          .article { max-width: 46rem; }
+          .crumb { font-size: 0.82rem; color: var(--ink-soft); display: flex; gap: 8px; align-items: center; }
+          .crumb .sep { color: var(--line); }
+          .article h1 { font-size: clamp(2.4rem, 4vw, 3rem); line-height: 1.08; margin: 0.7rem 0 1rem; }
+          .lede { font-size: 1.1rem; color: var(--ink-soft); margin: 0 0 2.4rem; }
+          .step { display: flex; gap: 18px; margin-bottom: 2rem; }
+          .step-num { flex: none; width: 34px; height: 34px; border-radius: 999px; background: var(--vivid); color: var(--on-accent); display: grid; place-items: center; font: 700 0.95rem system-ui, sans-serif; margin-top: 0.2rem; }
+          .step h2 { font-size: 1.45rem; font-weight: 540; margin: 0 0 0.35rem; }
+          .step p { margin: 0 0 0.5rem; color: var(--ink); font-size: 0.97rem; }
+          .step p.soft { color: var(--ink-soft); }
+          .setting { font: 600 0.82rem ui-monospace, Consolas, monospace; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 0.1rem 0.4rem; white-space: nowrap; }
+
+          .callout { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px 18px; margin: 0 0 2.4rem; position: relative; }
+          .callout .tip { position: absolute; top: -11px; left: 18px; font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; background: var(--fill); color: var(--on-accent); border-radius: 999px; padding: 0.32rem 0.7rem; transform: rotate(-2deg); }
+          .callout p { margin: 0.4rem 0 0; font-size: 0.94rem; }
+
+          table.cmp { width: 100%; border-collapse: collapse; margin: 0.8rem 0 2.4rem; font-size: 0.92rem; }
+          table.cmp th { text-align: left; font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-text); padding: 0.5rem 0.9rem; border-bottom: 1px solid var(--line); }
+          table.cmp td { padding: 0.65rem 0.9rem; border-bottom: 1px solid var(--line); }
+          table.cmp tr td:first-child { color: var(--ink-soft); }
+
+          .pager { display: flex; justify-content: space-between; gap: 18px; margin-top: 3.2rem; }
+          .pager a { flex: 1; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 20px; display: flex; flex-direction: column; gap: 2px; transition: transform 0.25s var(--spring); }
+          .pager a:hover { transform: translateY(-2px); }
+          .pager .dir { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: var(--ink-soft); }
+          .pager .pg { font-family: Fraunces, Georgia, serif; font-weight: 540; font-size: 1.1rem; color: var(--ink); }
+          .pager a.next { text-align: right; }
+          @media (prefers-reduced-motion: reduce) { .pager a { transition: none; } }
+
+          .toc { position: sticky; top: 92px; font-size: 0.88rem; }
+          .toc .eyebrow { margin-bottom: 12px; }
+          .toc a { display: flex; align-items: center; gap: 8px; color: var(--ink-soft); padding: 0.3rem 0; }
+          .toc a .dot { width: 5px; height: 5px; border-radius: 999px; background: transparent; flex: none; }
+          .toc a.active { color: var(--accent-text); font-weight: 600; }
+          .toc a.active .dot { background: var(--vivid); }
+    </style>
+  </head>
+  <body>
+      <div class="docs">
+        <header class="topbar">
+          <div class="topbar-in">
+            <div class="wordmark">Infuse<b>.</b><span class="docs-tag">Docs</span></div>
+            <div class="search"><span class="glass"></span>Search the docs<span class="kbd">/</span></div>
+            <nav class="top-links">
+              <a href="#">Back to site</a>
+              <a href="#">Theme Store &#8599;</a>
+            </nav>
+          </div>
+        </header>
+
+        <div class="layout">
+          <nav class="side">
+            <div class="side-group">
+              <div class="eyebrow">Getting started</div>
+              <a href="#">Installation</a>
+              <a class="active" href="#">Quick start</a>
+            </div>
+            <div class="side-group">
+              <div class="eyebrow">Customization</div>
+              <a href="#">Theme settings</a>
+              <a href="#">Presets</a>
+            </div>
+            <div class="side-group">
+              <div class="eyebrow">Reference</div>
+              <a href="#">Sections</a>
+              <a href="#">Blocks</a>
+            </div>
+            <div class="side-group">
+              <div class="eyebrow">Guides</div>
+              <a href="#">Localization</a>
+            </div>
+            <div class="side-group">
+              <div class="eyebrow">Help</div>
+              <a href="#">FAQ</a>
+              <a href="#">Support</a>
+              <a href="#">Changelog</a>
+            </div>
+          </nav>
+
+          <article class="article">
+            <div class="crumb">Docs <span class="sep">/</span> Getting started <span class="sep">/</span> Quick start</div>
+            <h1 class="fraunces">Quick start</h1>
+            <p class="lede">From a fresh install to a finished home page. Every step happens in the Shopify editor, and none of them need code.</p>
+
+            <div class="step">
+              <span class="step-num">1</span>
+              <div>
+                <h2 class="fraunces">Add the theme</h2>
+                <p>Install Infuse from the Theme Store, then open it in the editor from <span class="setting">Online Store &#8594; Themes</span>. Keep it unpublished while you set things up; the preview link works either way.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <span class="step-num">2</span>
+              <div>
+                <h2 class="fraunces">Pick a preset</h2>
+                <p>Under <span class="setting">Theme settings &#8594; Design</span>, choose Infuse or Heirloom. Fonts, corners, colors and motion all switch together, so try both before you commit.</p>
+              </div>
+            </div>
+
+            <div class="callout">
+              <span class="tip">Tip</span>
+              <p>Both presets share the same sections and settings. Nothing you build is lost when you switch, so experiment freely.</p>
+            </div>
+
+            <div class="step">
+              <span class="step-num">3</span>
+              <div>
+                <h2 class="fraunces">Logo and menus</h2>
+                <p>Upload your logo in the header section, then point the header and footer at your menus under <span class="setting">Navigation</span>. A text wordmark is used until a logo is set.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <span class="step-num">4</span>
+              <div>
+                <h2 class="fraunces">Build the home page</h2>
+                <p>Start from the default layout: hero, featured collection, story, testimonials. Add, remove and reorder sections freely; each one keeps its own settings.</p>
+                <p class="soft">The sections reference lists everything you can add, with a picture of each.</p>
+              </div>
+            </div>
+
+            <h2 class="fraunces" style="font-size: 1.45rem; margin: 2.6rem 0 0.6rem">What the presets change</h2>
+            <table class="cmp">
+              <tbody>
+                <tr><th></th><th>Infuse</th><th>Heirloom</th></tr>
+                <tr><td>Display font</td><td>Fraunces</td><td>Marcellus</td></tr>
+                <tr><td>Corners</td><td>Soft, 16px</td><td>Crisp, 4px</td></tr>
+                <tr><td>Motion</td><td>Springy</td><td>Calm</td></tr>
+              </tbody>
+            </table>
+
+            <div class="pager">
+              <a href="#"><span class="dir">&#8592; Previous</span><span class="pg">Installation</span></a>
+              <a class="next" href="#"><span class="dir">Next &#8594;</span><span class="pg">Theme settings</span></a>
+            </div>
+          </article>
+
+          <nav class="toc">
+            <div class="eyebrow">On this page</div>
+            <a class="active" href="#"><span class="dot"></span>Add the theme</a>
+            <a href="#"><span class="dot"></span>Pick a preset</a>
+            <a href="#"><span class="dot"></span>Logo and menus</a>
+            <a href="#"><span class="dot"></span>Build the home page</a>
+            <a href="#"><span class="dot"></span>What the presets change</a>
+          </nav>
+        </div>
+      </div>
+  </body>
+</html>

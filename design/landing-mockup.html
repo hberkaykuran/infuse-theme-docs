@@ -1,0 +1,268 @@
+<!-- APPROVED design mockup (Claude Design project 1c20ff3c-02ce-4d34-aed0-d7972a89dc9d, Landing.dc.html).
+     Reference for implementation: the markup below is the <x-dc> template body + styles, verbatim.
+     Source of truth for site look; iterate in Claude Design, then re-export here. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,100;1,9..144,300..700,100&amp;family=Marcellus&amp;display=swap" />
+    <style>
+          body { margin: 0; }
+          .site {
+            --bg: #FCF4E4; --surface: #F8E7CB; --card: #F7EFE0; --ink: #33261B;
+            --ink-soft: #6E5E4C; --line: #E7DBC6; --accent: #C9663F; --vivid: #D96B42;
+            --fill: #BF5026; --accent-text: #9E4526; --on-accent: #FFF8EC;
+            --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+            background: var(--bg); color: var(--ink);
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.55; text-wrap: pretty;
+          }
+          .site a { color: var(--accent-text); text-decoration: none; }
+          .site a:hover { color: var(--fill); }
+          .fraunces { font-family: Fraunces, Georgia, serif; font-variation-settings: 'SOFT' 100, 'opsz' 144; font-weight: 560; }
+          .wink { font-style: italic; position: relative; white-space: nowrap; }
+          .wave { position: absolute; left: 0; bottom: -0.18em; width: 100%; height: 0.14em; }
+          .eyebrow { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: var(--accent-text); }
+          .wrap { max-width: 1160px; margin: 0 auto; padding-inline: 32px; }
+
+          .nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 22px; }
+          .wordmark { font-family: Fraunces, Georgia, serif; font-style: italic; font-weight: 560; font-size: 1.45rem; color: var(--ink); }
+          .wordmark b { color: var(--vivid); font-weight: 560; }
+          .nav-links { display: flex; gap: 28px; align-items: center; font-size: 0.9rem; font-weight: 500; }
+          .nav-links a { color: var(--ink-soft); }
+          .nav-links a:hover { color: var(--accent-text); }
+
+          .btn { display: inline-block; font: 600 0.9rem/1 system-ui, sans-serif; letter-spacing: 0.04em; padding: 0.95rem 1.7rem; border-radius: 16px; border: 1px solid transparent; cursor: pointer; transition: transform 0.25s var(--spring); }
+          .btn:hover { transform: translateY(-2px); }
+          .site .btn-primary { background: var(--fill); color: var(--on-accent); }
+          .site .btn-primary:hover { color: var(--on-accent); }
+          .site .btn-ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
+          .site .btn-ghost:hover { color: var(--ink); }
+          @media (prefers-reduced-motion: reduce) { .btn, .feat, .doc-card, .badge { transition: none; } }
+
+          .hero { text-align: center; padding-block: 84px 0; }
+          .hero h1 { font-size: clamp(3rem, 6vw, 4.4rem); line-height: 1.06; margin: 1.1rem 0 1.3rem; }
+          .hero .sub { font-size: 1.15rem; color: var(--ink-soft); max-width: 54ch; margin: 0 auto; }
+          .cta-row { display: flex; gap: 16px; justify-content: center; margin-top: 36px; }
+          .stats { display: flex; gap: 14px; justify-content: center; align-items: center; margin-top: 44px; flex-wrap: wrap; }
+          .stat { font-size: 0.875rem; font-weight: 600; }
+          .stat-dot { width: 5px; height: 5px; border-radius: 999px; background: var(--vivid); }
+
+          .shot { max-width: 1040px; margin: 60px auto 0; background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; box-shadow: 0 24px 48px -32px rgba(51, 38, 27, 0.35); }
+          .shot-bar { display: flex; gap: 7px; padding: 13px 18px; border-bottom: 1px solid var(--line); }
+          .shot-dot { width: 10px; height: 10px; border-radius: 999px; background: var(--line); }
+          .shot-body { height: 470px; display: grid; place-items: center; background: repeating-linear-gradient(45deg, transparent, transparent 14px, rgba(51, 38, 27, 0.035) 14px, rgba(51, 38, 27, 0.035) 28px); }
+          .ph-label { font: 500 0.8rem ui-monospace, Consolas, monospace; color: var(--ink-soft); background: var(--bg); border: 1px dashed var(--line); border-radius: 10px; padding: 0.6rem 1rem; }
+
+          .features { padding-block: 104px 96px; }
+          .sec-head { text-align: center; max-width: 60ch; margin: 0 auto 52px; }
+          .sec-head h2 { font-size: clamp(2rem, 3.6vw, 2.7rem); line-height: 1.12; margin: 0.8rem 0 0.9rem; }
+          .sec-head p { color: var(--ink-soft); font-size: 1.05rem; margin: 0; }
+          .feat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+          .feat { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px 26px 30px; transition: transform 0.25s var(--spring); }
+          .feat:hover { transform: translateY(-3px); }
+          .feat h3 { font-size: 1.25rem; margin: 1.1rem 0 0.4rem; font-weight: 540; }
+          .feat p { margin: 0; font-size: 0.94rem; color: var(--ink-soft); }
+          .icon { height: 38px; display: flex; align-items: center; }
+          .ic-sq { width: 22px; height: 22px; border-radius: 7px; background: var(--vivid); }
+          .ic-sq.back { margin-left: -12px; margin-top: 12px; background: var(--accent); opacity: 0.45; }
+          .ic-circle { width: 26px; height: 26px; border-radius: 999px; background: var(--vivid); }
+          .ic-circle.half { background: linear-gradient(90deg, var(--ink) 50%, var(--vivid) 50%); }
+          .ic-circle.ol { background: transparent; border: 2.5px solid var(--accent); margin-left: -10px; }
+          .ic-pill { width: 34px; height: 18px; border-radius: 999px; background: var(--vivid); }
+          .ic-bars { display: flex; flex-direction: column; gap: 4px; }
+          .ic-bar { height: 5px; border-radius: 999px; background: var(--vivid); }
+
+          .presets { background: var(--surface); padding-block: 96px; }
+          .preset-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+          .preset { border: 1px solid var(--line); border-radius: 16px; padding: 36px 34px 34px; }
+          .preset .desc { color: var(--ink-soft); font-size: 0.95rem; margin: 0.5rem 0 1.6rem; max-width: 44ch; }
+          .preset-infuse { background: #FCF4E4; }
+          .preset-infuse h3 { font-family: Fraunces, Georgia, serif; font-style: italic; font-weight: 560; font-size: 2rem; margin: 0.5rem 0 0; color: #33261B; }
+          .preset-heirloom { background: #FBF5EB; }
+          .preset-heirloom h3 { font-family: Marcellus, 'Times New Roman', serif; font-weight: 400; font-size: 2rem; margin: 0.5rem 0 0; color: #33261B; }
+          .mini-ui { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+          .badge { display: inline-block; font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; padding: 0.34rem 0.72rem; transition: transform 0.25s var(--spring); }
+          .badge-sale { background: #BF5026; color: #FFF8EC; border-radius: 999px; transform: rotate(-2deg); }
+          .badge-heir { background: #B67B3D; color: #FFF8EC; border-radius: 4px; }
+          .btn-heir { border-radius: 4px; background: #B67B3D; color: #FFF8EC; }
+          .swatches { display: flex; gap: 8px; margin-top: 20px; }
+          .sw { width: 22px; height: 22px; border-radius: 999px; border: 1px solid rgba(51, 38, 27, 0.18); }
+          .chips { display: flex; gap: 8px; margin-top: 18px; flex-wrap: wrap; }
+          .chip { font: 600 0.72rem ui-monospace, Consolas, monospace; color: var(--ink-soft); border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.7rem; background: rgba(255, 255, 255, 0.35); }
+
+          .docs-band { background: var(--bg); padding-block: 96px; }
+          .doc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-bottom: 40px; }
+          .doc-card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 26px 24px; transition: transform 0.25s var(--spring); display: flex; flex-direction: column; gap: 6px; }
+          .doc-card:hover { transform: translateY(-3px); }
+          .doc-card .t { font-family: Fraunces, Georgia, serif; font-weight: 540; font-size: 1.2rem; color: var(--ink); display: flex; justify-content: space-between; align-items: baseline; }
+          .doc-card .arrow { color: var(--accent-text); font-weight: 400; }
+          .doc-card p { margin: 0; font-size: 0.92rem; color: var(--ink-soft); }
+          .docs-cta { text-align: center; }
+
+          .footer { border-top: 1px solid var(--line); padding-block: 36px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+          .footer .tag { font-size: 0.85rem; color: var(--ink-soft); margin-top: 4px; }
+          .foot-links { display: flex; gap: 22px; font-size: 0.9rem; }
+          .copy { font-size: 0.8rem; color: var(--ink-soft); }
+    </style>
+  </head>
+  <body>
+      <div class="site">
+        <header class="wrap nav">
+          <div class="wordmark">Infuse<b>.</b></div>
+          <nav class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#presets">Presets</a>
+            <a href="#docs">Docs</a>
+            <a class="btn btn-primary" href="#">Get Infuse</a>
+          </nav>
+        </header>
+
+        <section class="wrap hero">
+          <div class="eyebrow">A Shopify theme</div>
+          <h1 class="fraunces">Sell beautifully.<br />Load <span class="wink">instantly<svg class="wave" viewBox="0 0 120 8" preserveAspectRatio="none" aria-hidden="true"><path d="M0 4 Q 10 0, 20 4 T 40 4 T 60 4 T 80 4 T 100 4 T 120 4" fill="none" stroke="#C9663F" stroke-width="2"></path></svg></span>.</h1>
+          <p class="sub">Infuse is a performance-first Shopify theme built from composable blocks. Zero dependencies, featherweight scripts, and two hand-tuned presets that restyle the whole store in one click.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#">Get Infuse on the Theme Store</a>
+            <a class="btn btn-ghost" href="#docs">Read the docs</a>
+          </div>
+          <div class="stats">
+            <span class="stat">30+ sections</span><span class="stat-dot"></span>
+            <span class="stat">10 composable blocks</span><span class="stat-dot"></span>
+            <span class="stat">2 presets</span><span class="stat-dot"></span>
+            <span class="stat">0 dependencies</span>
+          </div>
+          <div class="shot">
+            <div class="shot-bar"><span class="shot-dot"></span><span class="shot-dot"></span><span class="shot-dot"></span></div>
+            <div class="shot-body"><span class="ph-label">demo store screenshot: home page, Infuse preset</span></div>
+          </div>
+        </section>
+
+        <section class="wrap features" id="features">
+          <div class="sec-head">
+            <div class="eyebrow">Why Infuse</div>
+            <h2 class="fraunces">Small pieces, fast pages</h2>
+            <p>Everything in the theme is tuned for speed first, then dressed up. Your customers get instant pages; you get a storefront that is easy to rearrange.</p>
+          </div>
+          <div class="feat-grid">
+            <div class="feat">
+              <div class="icon"><span class="ic-sq"></span><span class="ic-sq back"></span></div>
+              <h3 class="fraunces">Built from blocks</h3>
+              <p>Compose pages from small reusable blocks: text, images, buttons, product cards. Arrange them in the editor without touching code.</p>
+            </div>
+            <div class="feat">
+              <div class="icon"><span class="ic-circle"></span></div>
+              <h3 class="fraunces">Fast on purpose</h3>
+              <p>Performance budgets are baked in: tiny deferred scripts, no third-party libraries, and images sized exactly to the layout.</p>
+            </div>
+            <div class="feat">
+              <div class="icon"><span class="ic-circle"></span><span class="ic-circle ol"></span></div>
+              <h3 class="fraunces">Two presets, one click</h3>
+              <p>Infuse is warm and playful, Heirloom is calm and classic. Switch the whole look from a single setting in the editor.</p>
+            </div>
+            <div class="feat">
+              <div class="icon"><span class="ic-circle half"></span></div>
+              <h3 class="fraunces">Accessible out of the box</h3>
+              <p>Every color pairing meets WCAG AA in both schemes, down to the small print. Keyboard and screen reader friendly throughout.</p>
+            </div>
+            <div class="feat">
+              <div class="icon"><span class="ic-pill"></span></div>
+              <h3 class="fraunces">Ready for the world</h3>
+              <p>Language and currency pickers come wired for Shopify Markets, and every line of theme copy is translatable.</p>
+            </div>
+            <div class="feat">
+              <div class="icon"><span class="ic-bars"><span class="ic-bar" style="width: 30px"></span><span class="ic-bar" style="width: 20px; opacity: 0.6"></span><span class="ic-bar" style="width: 25px; opacity: 0.35"></span></span></div>
+              <h3 class="fraunces">Deep settings, safe defaults</h3>
+              <p>Every section exposes spacing, color scheme, and layout knobs, and still looks right before you change a thing.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="presets" id="presets">
+          <div class="wrap">
+            <div class="sec-head">
+              <div class="eyebrow">Presets</div>
+              <h2 class="fraunces">One theme, two personalities</h2>
+              <p>Presets swap fonts, corners, color and motion together. Pick one and the whole store follows.</p>
+            </div>
+            <div class="preset-grid">
+              <div class="preset preset-infuse">
+                <div class="eyebrow">Preset 01</div>
+                <h3>Infuse</h3>
+                <p class="desc">Warm, sunny, a little playful. Fraunces headings, rosehip coral, soft corners and springy hovers.</p>
+                <div class="mini-ui">
+                  <span class="btn btn-primary" style="background: #BF5026; color: #FFF8EC">Add to cart</span>
+                  <span class="badge badge-sale">Sale &#8722;20%</span>
+                </div>
+                <div class="swatches">
+                  <span class="sw" style="background: #FCF4E4"></span>
+                  <span class="sw" style="background: #F8E7CB"></span>
+                  <span class="sw" style="background: #C9663F"></span>
+                  <span class="sw" style="background: #D96B42"></span>
+                  <span class="sw" style="background: #BF5026"></span>
+                </div>
+                <div class="chips"><span class="chip">Fraunces 540</span><span class="chip">radius 16</span><span class="chip">spring motion</span></div>
+              </div>
+              <div class="preset preset-heirloom">
+                <div class="eyebrow" style="color: #8A5C28">Preset 02</div>
+                <h3>Heirloom</h3>
+                <p class="desc">Calm, classic, quietly premium. Marcellus headings, warm amber, crisp corners and gentle motion.</p>
+                <div class="mini-ui">
+                  <span class="btn btn-heir">Add to cart</span>
+                  <span class="badge badge-heir">Sale &#8722;20%</span>
+                </div>
+                <div class="swatches">
+                  <span class="sw" style="background: #FBF5EB"></span>
+                  <span class="sw" style="background: #F3E7D3"></span>
+                  <span class="sw" style="background: #B67B3D"></span>
+                  <span class="sw" style="background: #8A5C28"></span>
+                  <span class="sw" style="background: #33261B"></span>
+                </div>
+                <div class="chips"><span class="chip">Marcellus</span><span class="chip">radius 4</span><span class="chip">calm motion</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="docs-band" id="docs">
+          <div class="wrap">
+            <div class="sec-head">
+              <div class="eyebrow">Documentation</div>
+              <h2 class="fraunces">Set up in an afternoon</h2>
+              <p>A quick start that takes you from install to a finished home page, a reference for every section and block, and honest answers in the FAQ.</p>
+            </div>
+            <div class="doc-grid">
+              <a class="doc-card" href="#">
+                <span class="t">Quick start <span class="arrow">&#8594;</span></span>
+                <p>Install to finished home page in six short steps.</p>
+              </a>
+              <a class="doc-card" href="#">
+                <span class="t">Theme settings <span class="arrow">&#8594;</span></span>
+                <p>Every global option explained, with sensible defaults.</p>
+              </a>
+              <a class="doc-card" href="#">
+                <span class="t">Sections &amp; blocks <span class="arrow">&#8594;</span></span>
+                <p>A reference card for everything you can add to a page.</p>
+              </a>
+            </div>
+            <div class="docs-cta"><a class="btn btn-primary" href="#">Browse the docs</a></div>
+          </div>
+        </section>
+
+        <footer class="wrap footer">
+          <div>
+            <div class="wordmark">Infuse<b>.</b></div>
+            <div class="tag">A performance-first Shopify theme.</div>
+          </div>
+          <nav class="foot-links">
+            <a href="#">Docs</a>
+            <a href="#">Support</a>
+            <a href="#">Changelog</a>
+          </nav>
+          <div class="copy">&#169; 2026 Infuse</div>
+        </footer>
+      </div>
+  </body>
+</html>

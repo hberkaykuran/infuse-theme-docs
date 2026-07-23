@@ -1,38 +1,22 @@
 ---
 import '../styles/global.css';
 import { withBase } from '../nav.js';
-
+// Minimal document shell for the landing page. The landing supplies its own
+// nav + footer (they are part of the approved mockup), so no site chrome here.
 const { title, description = '' } = Astro.props;
-const home = withBase('/');
-const docs = withBase('/docs');
 ---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{title} · Infuse theme docs</title>
+  <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="icon" href={withBase('/favicon.svg')} />
+  <link rel="preload" href={withBase('/fonts/fraunces-var.woff2')} as="font" type="font/woff2" crossorigin />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="inner">
-      <a class="brand" href={home}>Infuse<span class="brand-sub">theme docs</span></a>
-      <nav class="header-links" aria-label="Primary">
-        <a href={docs}>Docs</a>
-        <a href={withBase('/docs/reference/sections')}>Sections</a>
-        <a href={withBase('/docs/help/support')}>Support</a>
-      </nav>
-    </div>
-  </header>
   <slot />
-  <footer class="site-footer">
-    <div class="inner">
-      <p>Infuse theme documentation. Built as a static site, no tracking.</p>
-      <p><a href={withBase('/docs/help/support')}>Get support</a> · <a href={withBase('/docs/changelog')}>Changelog</a></p>
-    </div>
-  </footer>
 </body>
 </html>

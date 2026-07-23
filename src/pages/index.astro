@@ -1,26 +1,176 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { withBase } from '../nav.js';
-// PLACEHOLDER landing page. The real landing design comes from Claude Design
-// and will replace this. Keep it minimal.
+
+// TODO: Theme Store listing does not exist yet — point these at the real
+// listing URL once it's live.
+const THEME_STORE = 'https://themes.shopify.com';
+
+const quickStart = withBase('/docs/getting-started/quick-start');
+const themeSettings = withBase('/docs/customization/theme-settings');
+const sections = withBase('/docs/reference/sections');
+const docs = withBase('/docs');
+const support = withBase('/docs/help/support');
+const changelog = withBase('/docs/changelog');
 ---
-<BaseLayout title="Infuse — a performance-first Shopify theme" description="Set up and run the Infuse Shopify theme.">
-  <main id="main" class="landing">
-    <p class="eyebrow">Infuse theme</p>
-    <h1>A performance-first Shopify theme, built from composable blocks.</h1>
-    <p class="lead">Infuse is a fast, translatable Shopify theme with two ready-made styles. Build pages from small, nestable blocks; switch the whole look from a single setting.</p>
+<BaseLayout title="Infuse — a performance-first Shopify theme" description="Infuse is a performance-first Shopify theme built from composable blocks. Zero dependencies, featherweight scripts, two one-click presets.">
+  <main id="main">
+    <header class="wrap nav">
+      <div class="wordmark">Infuse<b>.</b></div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#presets">Presets</a>
+        <a href="#docs">Docs</a>
+        <a class="btn btn-primary" href={THEME_STORE}>Get Infuse</a>
+      </nav>
+    </header>
 
-    <ul class="features">
-      <li><strong>Fast by default.</strong> Small, deferred scripts and native browser features; primitive blocks ship no JavaScript.</li>
-      <li><strong>Composable blocks.</strong> Arrange headings, text, images, and buttons the way you want.</li>
-      <li><strong>Two styles.</strong> Infuse (rounded, expressive) and Heirloom (classic, refined), from one setting.</li>
-      <li><strong>Ready to translate.</strong> Every theme text works with Shopify Translate &amp; Adapt.</li>
-      <li><strong>Accessible.</strong> WCAG AA colour contrast and keyboard-friendly interactions.</li>
-    </ul>
+    <section class="wrap hero">
+      <div class="eyebrow">A Shopify theme</div>
+      <h1 class="fraunces">Sell beautifully.<br />Load <span class="wink">instantly<svg class="wave" viewBox="0 0 120 8" preserveAspectRatio="none" aria-hidden="true"><path d="M0 4 Q 10 0, 20 4 T 40 4 T 60 4 T 80 4 T 100 4 T 120 4" fill="none" stroke="#C9663F" stroke-width="2"></path></svg></span>.</h1>
+      <p class="sub">Infuse is a performance-first Shopify theme built from composable blocks. Zero dependencies, featherweight scripts, and two hand-tuned presets that restyle the whole store in one click.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href={THEME_STORE}>Get Infuse on the Theme Store</a>
+        <a class="btn btn-ghost" href="#docs">Read the docs</a>
+      </div>
+      <div class="stats">
+        <span class="stat">30+ sections</span><span class="stat-dot"></span>
+        <span class="stat">10 composable blocks</span><span class="stat-dot"></span>
+        <span class="stat">2 presets</span><span class="stat-dot"></span>
+        <span class="stat">0 dependencies</span>
+      </div>
+      <div class="shot">
+        <div class="shot-bar"><span class="shot-dot"></span><span class="shot-dot"></span><span class="shot-dot"></span></div>
+        <div class="shot-body">
+          {/* Drop the real screenshot in here (uncomment) and delete the placeholder label:
+          <img src={withBase('/screenshots/home-infuse.png')} alt="Infuse demo store home page" /> */}
+          <span class="ph-label">demo store screenshot: home page, Infuse preset</span>
+        </div>
+      </div>
+    </section>
 
-    <p class="cta-row">
-      <a class="btn" href={withBase('/docs')}>Read the docs</a>
-      <a class="btn btn-ghost" href={withBase('/docs/getting-started/quick-start')}>Quick start</a>
-    </p>
+    <section class="wrap features" id="features">
+      <div class="sec-head">
+        <div class="eyebrow">Why Infuse</div>
+        <h2 class="fraunces">Small pieces, fast pages</h2>
+        <p>Everything in the theme is tuned for speed first, then dressed up. Your customers get instant pages; you get a storefront that is easy to rearrange.</p>
+      </div>
+      <div class="feat-grid">
+        <div class="feat">
+          <div class="icon"><span class="ic-sq"></span><span class="ic-sq back"></span></div>
+          <h3 class="fraunces">Built from blocks</h3>
+          <p>Compose pages from small reusable blocks: text, images, buttons, product cards. Arrange them in the editor without touching code.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><span class="ic-circle"></span></div>
+          <h3 class="fraunces">Fast on purpose</h3>
+          <p>Performance budgets are baked in: tiny deferred scripts, no third-party libraries, and images sized exactly to the layout.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><span class="ic-circle"></span><span class="ic-circle ol"></span></div>
+          <h3 class="fraunces">Two presets, one click</h3>
+          <p>Infuse is warm and playful, Heirloom is calm and classic. Switch the whole look from a single setting in the editor.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><span class="ic-circle half"></span></div>
+          <h3 class="fraunces">Accessible out of the box</h3>
+          <p>Every color pairing meets WCAG AA in both schemes, down to the small print. Keyboard and screen reader friendly throughout.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><span class="ic-pill"></span></div>
+          <h3 class="fraunces">Ready for the world</h3>
+          <p>Language and currency pickers come wired for Shopify Markets, and every line of theme copy is translatable.</p>
+        </div>
+        <div class="feat">
+          <div class="icon"><span class="ic-bars"><span class="ic-bar" style="width: 30px"></span><span class="ic-bar" style="width: 20px; opacity: 0.6"></span><span class="ic-bar" style="width: 25px; opacity: 0.35"></span></span></div>
+          <h3 class="fraunces">Deep settings, safe defaults</h3>
+          <p>Every section exposes spacing, color scheme, and layout knobs, and still looks right before you change a thing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="presets" id="presets">
+      <div class="wrap">
+        <div class="sec-head">
+          <div class="eyebrow">Presets</div>
+          <h2 class="fraunces">One theme, two personalities</h2>
+          <p>Presets swap fonts, corners, color and motion together. Pick one and the whole store follows.</p>
+        </div>
+        <div class="preset-grid">
+          <div class="preset preset-infuse">
+            <div class="eyebrow">Preset 01</div>
+            <h3>Infuse</h3>
+            <p class="desc">Warm, sunny, a little playful. Fraunces headings, rosehip coral, soft corners and springy hovers.</p>
+            <div class="mini-ui">
+              <span class="btn btn-primary" style="background: #BF5026; color: #FFF8EC">Add to cart</span>
+              <span class="badge badge-sale">Sale &#8722;20%</span>
+            </div>
+            <div class="swatches">
+              <span class="sw" style="background: #FCF4E4"></span>
+              <span class="sw" style="background: #F8E7CB"></span>
+              <span class="sw" style="background: #C9663F"></span>
+              <span class="sw" style="background: #D96B42"></span>
+              <span class="sw" style="background: #BF5026"></span>
+            </div>
+            <div class="chips"><span class="chip">Fraunces 540</span><span class="chip">radius 16</span><span class="chip">spring motion</span></div>
+          </div>
+          <div class="preset preset-heirloom">
+            <div class="eyebrow" style="color: #8A5C28">Preset 02</div>
+            <h3>Heirloom</h3>
+            <p class="desc">Calm, classic, quietly premium. Marcellus headings, warm amber, crisp corners and gentle motion.</p>
+            <div class="mini-ui">
+              <span class="btn btn-heir">Add to cart</span>
+              <span class="badge badge-heir">Sale &#8722;20%</span>
+            </div>
+            <div class="swatches">
+              <span class="sw" style="background: #FBF5EB"></span>
+              <span class="sw" style="background: #F3E7D3"></span>
+              <span class="sw" style="background: #B67B3D"></span>
+              <span class="sw" style="background: #8A5C28"></span>
+              <span class="sw" style="background: #33261B"></span>
+            </div>
+            <div class="chips"><span class="chip">Marcellus</span><span class="chip">radius 4</span><span class="chip">calm motion</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="docs-band" id="docs">
+      <div class="wrap">
+        <div class="sec-head">
+          <div class="eyebrow">Documentation</div>
+          <h2 class="fraunces">Set up in an afternoon</h2>
+          <p>A quick start that takes you from install to a finished home page, a reference for every section and block, and honest answers in the FAQ.</p>
+        </div>
+        <div class="doc-grid">
+          <a class="doc-card" href={quickStart}>
+            <span class="t">Quick start <span class="arrow">&#8594;</span></span>
+            <p>Install to finished home page in six short steps.</p>
+          </a>
+          <a class="doc-card" href={themeSettings}>
+            <span class="t">Theme settings <span class="arrow">&#8594;</span></span>
+            <p>Every global option explained, with sensible defaults.</p>
+          </a>
+          <a class="doc-card" href={sections}>
+            <span class="t">Sections &amp; blocks <span class="arrow">&#8594;</span></span>
+            <p>A reference card for everything you can add to a page.</p>
+          </a>
+        </div>
+        <div class="docs-cta"><a class="btn btn-primary" href={docs}>Browse the docs</a></div>
+      </div>
+    </section>
+
+    <footer class="wrap footer">
+      <div>
+        <div class="wordmark">Infuse<b>.</b></div>
+        <div class="tag">A performance-first Shopify theme.</div>
+      </div>
+      <nav class="foot-links" aria-label="Footer">
+        <a href={docs}>Docs</a>
+        <a href={support}>Support</a>
+        <a href={changelog}>Changelog</a>
+      </nav>
+      <div class="copy">&#169; 2026 Infuse</div>
+    </footer>
   </main>
 </BaseLayout>

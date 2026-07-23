@@ -56,3 +56,19 @@ export function withBase(path) {
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   return base + path;
 }
+
+// Flat reading order (drives prev/next pager + breadcrumb group lookup).
+const flat = docsNav.flatMap((g) => g.items.map((it) => ({ ...it, group: g.title })));
+
+// prev/next cards for a page path. Null on the docs home or unknown paths.
+export function pager(path) {
+  const i = flat.findIndex((it) => it.path === path);
+  if (i === -1) return { prev: null, next: null };
+  return { prev: flat[i - 1] || null, next: flat[i + 1] || null };
+}
+
+// Breadcrumb trail: ['Docs', group, page] — group/page omitted if not found.
+export function crumb(path) {
+  const hit = flat.find((it) => it.path === path);
+  return hit ? ['Docs', hit.group, hit.label] : ['Docs'];
+}

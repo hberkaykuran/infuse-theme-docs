@@ -1,78 +1,92 @@
 ---
 import '../styles/global.css';
-import { docsNav, withBase } from '../nav.js';
+import { docsNav, withBase, pager, crumb } from '../nav.js';
 
 // path: base-relative path of the current page (e.g. '/docs/help/faq') — drives
-//       sidebar highlighting. headings: [{depth, slug, text}] for the TOC.
+//       sidebar highlighting, breadcrumb, and prev/next. headings: [{depth, slug, text}] for the TOC.
 const { title, description = '', path = '', headings = [] } = Astro.props;
 const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const { prev, next } = pager(path);
+const trail = crumb(path);
 const bundle = withBase('/pagefind/'); // e.g. /infuse-theme-docs/pagefind/
+const THEME_STORE = 'https://themes.shopify.com'; // TODO: real Theme Store listing once live
 ---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{title} · Infuse theme docs</title>
+  <title>{title} · Infuse docs</title>
   <meta name="description" content={description} />
   <link rel="icon" href={withBase('/favicon.svg')} />
+  <link rel="preload" href={withBase('/fonts/fraunces-var.woff2')} as="font" type="font/woff2" crossorigin />
   {import.meta.env.PROD && <link rel="stylesheet" href={withBase('/pagefind/pagefind-ui.css')} />}
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="inner">
-      <a class="brand" href={withBase('/')}>Infuse<span class="brand-sub">theme docs</span></a>
-      <div class="docs-search" id="search"></div>
-      <nav class="header-links" aria-label="Primary">
-        <a href={withBase('/docs')}>Docs home</a>
-        <a href={withBase('/docs/help/support')}>Support</a>
+
+  <header class="topbar">
+    <div class="topbar-in">
+      <a class="wordmark" href={withBase('/')}>Infuse<b>.</b><span class="docs-tag">Docs</span></a>
+      <div class="docs-search">
+        <div id="search"></div>
+        <span class="search-kbd" aria-hidden="true">/</span>
+      </div>
+      <nav class="top-links" aria-label="Site">
+        <a href={withBase('/')}>Back to site</a>
+        <a href={THEME_STORE}>Theme Store &#8599;</a>
       </nav>
     </div>
   </header>
 
-  <div class="docs-shell">
-    <nav class="docs-sidebar" aria-label="Documentation">
+  <div class="layout">
+    <nav class="side" aria-label="Documentation">
       {docsNav.map((group) => (
-        <div>
-          <h2>{group.title}</h2>
-          <ul>
-            {group.items.map((item) => (
-              <li>
-                <a href={withBase(item.path)} aria-current={item.path === path ? 'page' : undefined}>{item.label}</a>
-              </li>
-            ))}
-          </ul>
+        <div class="side-group">
+          <div class="eyebrow">{group.title}</div>
+          {group.items.map((item) => (
+            <a href={withBase(item.path)} class={item.path === path ? 'active' : undefined} aria-current={item.path === path ? 'page' : undefined}>{item.label}</a>
+          ))}
         </div>
       ))}
     </nav>
 
-    <main id="main" class="docs-main">
-      <article data-pagefind-body>
+    <main id="main" class="article">
+      <div class="crumb">
+        {trail.map((c, i) => (
+          <>
+            {i > 0 && <span class="sep">/</span>}
+            <span>{c}</span>
+          </>
+        ))}
+      </div>
+      <div data-pagefind-body>
         <slot />
-      </article>
+      </div>
+      {(prev || next) && (
+        <nav class="pager" aria-label="Pagination">
+          {prev
+            ? <a href={withBase(prev.path)}><span class="dir">&#8592; Previous</span><span class="pg">{prev.label}</span></a>
+            : <span></span>}
+          {next
+            ? <a class="next" href={withBase(next.path)}><span class="dir">Next &#8594;</span><span class="pg">{next.label}</span></a>
+            : <span></span>}
+        </nav>
+      )}
     </main>
 
-    <aside class="docs-toc" aria-label="On this page">
-      {toc.length > 0 && (
-        <>
-          <h2>On this page</h2>
-          <ul>
-            {toc.map((h) => (
-              <li class={`depth-${h.depth}`}><a href={`#${h.slug}`}>{h.text}</a></li>
-            ))}
-          </ul>
-        </>
-      )}
-    </aside>
+    {toc.length > 0 && (
+      <nav class="toc" aria-label="On this page">
+        {/* ponytail: static TOC, add IntersectionObserver highlight if users ask */}
+        <span class="eyebrow">On this page</span>
+        <ul>
+          {toc.map((h) => (
+            <li class={`depth-${h.depth}`}><a href={`#${h.slug}`}><span class="dot"></span>{h.text}</a></li>
+          ))}
+        </ul>
+      </nav>
+    )}
   </div>
-
-  <footer class="site-footer">
-    <div class="inner">
-      <p>Infuse theme documentation. Built as a static site, no tracking.</p>
-      <p><a href={withBase('/docs/help/support')}>Get support</a> · <a href={withBase('/docs/changelog')}>Changelog</a></p>
-    </div>
-  </footer>
 
   {import.meta.env.PROD && (
     <>
@@ -84,5 +98,13 @@ const bundle = withBase('/pagefind/'); // e.g. /infuse-theme-docs/pagefind/
       </script>
     </>
   )}
+  <script is:inline>
+    // "/" focuses the search input (unless already typing in a field).
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== '/' || /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName)) return;
+      const box = document.querySelector('.pagefind-ui__search-input');
+      if (box) { e.preventDefault(); box.focus(); }
+    });
+  </script>
 </body>
 </html>
