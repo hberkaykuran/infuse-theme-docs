@@ -1,9 +1,12 @@
 ---
 import DocsLayout from '../../../layouts/DocsLayout.astro';
 
-// Placeholders the merchant fills in before going live.
-const FORM_ENDPOINT = 'https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID';
-const SUPPORT_EMAIL = 'support@REPLACE_WITH_YOUR_DOMAIN.com';
+// FormSubmit.co (free, no account). First real submission triggers a one-time
+// activation email to this address — confirm it and the form goes live.
+// Optional later: swap the email in the action for the random alias FormSubmit
+// issues after activation, to keep the address out of the public HTML.
+const FORM_ENDPOINT = 'https://formsubmit.co/berkaykuran54@gmail.com';
+const SUPPORT_EMAIL = 'berkaykuran54@gmail.com';
 const THEME_VERSION = '1.0.0';
 
 const headings = [
@@ -22,8 +25,9 @@ const headings = [
   <p class="lead">Tell us what you are running into and we will help. The more detail you give, the faster we can sort it out.</p>
 
   <h2 id="form-h">Send a message</h2>
-  {/* FORM_ENDPOINT is a placeholder — replace it above with your real Formspree/Tally endpoint before going live. */}
   <form class="support-form" action={FORM_ENDPOINT} method="post">
+    <input type="hidden" name="_subject" value="Infuse theme support request" />
+    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
     <p class="field">
       <label for="store_url">Store URL</label>
       <input type="url" id="store_url" name="store_url" placeholder="https://your-store.myshopify.com" required />

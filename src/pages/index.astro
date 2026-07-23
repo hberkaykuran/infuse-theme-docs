@@ -41,10 +41,9 @@ const changelog = withBase('/docs/changelog');
       </div>
       <div class="shot">
         <div class="shot-bar"><span class="shot-dot"></span><span class="shot-dot"></span><span class="shot-dot"></span></div>
-        <div class="shot-body">
-          {/* Drop the real screenshot in here (uncomment) and delete the placeholder label:
-          <img src={withBase('/screenshots/home-infuse.png')} alt="Infuse demo store home page" /> */}
-          <span class="ph-label">demo store screenshot: home page, Infuse preset</span>
+        <img class="shot-desktop" src={withBase('/screenshots/home-desktop.webp')} alt="Infuse demo store home page on desktop" width="1568" height="744" />
+        <div class="shot-phone">
+          <img src={withBase('/screenshots/home-mobile.webp')} alt="Infuse demo store home page on mobile" width="365" height="794" loading="lazy" />
         </div>
       </div>
     </section>
