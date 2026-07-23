@@ -23,7 +23,9 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      # not `npm ci`: Windows-generated lockfile omits Linux-only optional deps
+      # (npm/cli#4828, sharp's @emnapi chain) and npm ci refuses the "out of sync" lockfile
+      - run: npm install --no-audit --no-fund
       # not `npm run build`: the sync-reference step needs the theme repo,
       # which only exists locally — src/data/*.json is committed instead
       - run: npx astro build
