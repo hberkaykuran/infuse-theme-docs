@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../nav.js';
+// PLACEHOLDER landing page. The real landing design comes from Claude Design
+// and will replace this. Keep it minimal.
+---
+<BaseLayout title="Infuse — a performance-first Shopify theme" description="Set up and run the Infuse Shopify theme.">
+  <main id="main" class="landing">
+    <p class="eyebrow">Infuse theme</p>
+    <h1>A performance-first Shopify theme, built from composable blocks.</h1>
+    <p class="lead">Infuse is a fast, translatable Shopify theme with two ready-made styles. Build pages from small, nestable blocks; switch the whole look from a single setting.</p>
+
+    <ul class="features">
+      <li><strong>Fast by default.</strong> Small, deferred scripts and native browser features; primitive blocks ship no JavaScript.</li>
+      <li><strong>Composable blocks.</strong> Arrange headings, text, images, and buttons the way you want.</li>
+      <li><strong>Two styles.</strong> Infuse (rounded, expressive) and Heirloom (classic, refined), from one setting.</li>
+      <li><strong>Ready to translate.</strong> Every theme text works with Shopify Translate &amp; Adapt.</li>
+      <li><strong>Accessible.</strong> WCAG AA colour contrast and keyboard-friendly interactions.</li>
+    </ul>
+
+    <p class="cta-row">
+      <a class="btn" href={withBase('/docs')}>Read the docs</a>
+      <a class="btn btn-ghost" href={withBase('/docs/getting-started/quick-start')}>Quick start</a>
+    </p>
+  </main>
+</BaseLayout>

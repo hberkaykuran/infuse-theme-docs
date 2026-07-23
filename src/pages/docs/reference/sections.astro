@@ -1,0 +1,19 @@
+---
+import DocsLayout from '../../../layouts/DocsLayout.astro';
+import RefGroups from '../../../components/RefGroups.astro';
+import data from '../../../data/sections.json';
+
+const headings = data.groups.map((g) => ({ depth: 2, slug: g.id, text: g.label }));
+---
+<DocsLayout
+  title="Sections reference"
+  description="Every section you can add to a page, with its settings."
+  path="/docs/reference/sections"
+  headings={headings}
+>
+  <h1>Sections reference</h1>
+  <p class="lead">Sections are the full-width building blocks of a page. Add them in the theme editor with <strong>Add section</strong>, then drag to reorder. Every section here lists what you can put inside it and the settings you can change. This page is generated from the theme's own schemas, so it always matches what you see in the editor.</p>
+  <p class="muted">{data.addableCount} sections you can add, plus the built-in page sections listed at the bottom.</p>
+
+  <RefGroups groups={data.groups} />
+</DocsLayout>

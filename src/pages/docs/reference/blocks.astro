@@ -1,0 +1,19 @@
+---
+import DocsLayout from '../../../layouts/DocsLayout.astro';
+import RefGroups from '../../../components/RefGroups.astro';
+import data from '../../../data/blocks.json';
+
+const headings = data.groups.map((g) => ({ depth: 2, slug: g.id, text: g.label }));
+---
+<DocsLayout
+  title="Blocks reference"
+  description="Every block you can place inside a section, with its settings."
+  path="/docs/reference/blocks"
+  headings={headings}
+>
+  <h1>Blocks reference</h1>
+  <p class="lead">Blocks are the smaller pieces you place inside sections: a heading, a button, a price, a customer review. You add them with <strong>Add block</strong> inside a section, and many blocks can nest inside other blocks (a group holds a heading and a button, for example). This page is generated from the theme's schemas, so it stays accurate.</p>
+  <p class="muted">{data.total} blocks in total.</p>
+
+  <RefGroups groups={data.groups} />
+</DocsLayout>

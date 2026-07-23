@@ -1,0 +1,35 @@
+---
+import DocsLayout from '../../layouts/DocsLayout.astro';
+import { docsNav, withBase } from '../../nav.js';
+
+const headings = [{ depth: 2, slug: 'browse', text: 'Browse the docs' }];
+---
+<DocsLayout
+  title="Documentation"
+  description="Everything you need to set up and run the Infuse Shopify theme."
+  path="/docs"
+  headings={headings}
+>
+  <h1>Infuse documentation</h1>
+  <p class="lead">Everything you need to set up and run the Infuse theme for Shopify. Infuse is a performance-first theme built from small, composable blocks, with two ready-made styles and full translation support.</p>
+
+  <p class="cta-row">
+    <a class="btn" href={withBase('/docs/getting-started/quick-start')}>Get started</a>
+    <a class="btn btn-ghost" href={withBase('/docs/reference/sections')}>Browse sections</a>
+  </p>
+
+  <h2 id="browse">Browse the docs</h2>
+  <div class="card-grid">
+    {docsNav.map((group) => (
+      <div class="card">
+        <h3>{group.title}</h3>
+        <p class="muted">{group.blurb}</p>
+        <ul class="link-list">
+          {group.items.map((item) => (
+            <li><a href={withBase(item.path)}>{item.label}</a></li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</DocsLayout>

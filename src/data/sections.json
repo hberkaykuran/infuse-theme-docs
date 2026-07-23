@@ -1,0 +1,3384 @@
+{
+  "addableCount": 36,
+  "groups": [
+    {
+      "id": "header",
+      "label": "Header and announcement bar",
+      "cards": [
+        {
+          "name": "Announcement bar",
+          "sysname": "announcement-bar",
+          "id": "announcement-bar",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "message",
+                  "code": true
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Announcement bar"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Text",
+              "desc": "Shown when there are no message blocks. Add message blocks to rotate several announcements.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Seconds per message",
+              "desc": "Only applies with two or more messages. Rotation is disabled for visitors who prefer reduced motion.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Compact (lighter secondary bar)",
+              "desc": "Reduces height and text size. Use on a second stacked bar.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banners",
+      "label": "Hero and banner sections",
+      "cards": [
+        {
+          "name": "Hero",
+          "sysname": "hero",
+          "id": "hero",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "split"
+                },
+                {
+                  "text": "banner"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Hero"
+                },
+                {
+                  "text": "Hero banner"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Split (copy + image)",
+                "Banner (media background)"
+              ]
+            },
+            {
+              "label": "Height",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
+              "label": "Background image",
+              "desc": "Banner layout only. Becomes the page's largest image (LCP), so do not also flag a split image block as priority on the same page.",
+              "options": null
+            },
+            {
+              "label": "Background image (mobile)",
+              "desc": "Optional art-directed crop shown at ≤749px.",
+              "options": null
+            },
+            {
+              "label": "Background video",
+              "desc": "Optional muted autoplay loop over the image. Hidden for visitors who prefer reduced motion, so set a background image as the fallback.",
+              "options": null
+            },
+            {
+              "label": "Background video (mobile)",
+              "desc": "Optional loop shown at ≤749px in place of the background video. Requires a background video to be set.",
+              "options": null
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Middle",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Text overlay opacity",
+              "desc": "Darkens the media behind the copy for AA contrast. 100% = the AA-tested scrim.",
+              "options": null
+            },
+            {
+              "label": "Height (mobile)",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
+              "label": "Horizontal position (mobile)",
+              "desc": "Banner layout only. \"Same as desktop\" keeps the desktop position.",
+              "options": [
+                "Same as desktop",
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Vertical position (mobile)",
+              "desc": "Banner layout only. \"Same as desktop\" keeps the desktop position.",
+              "options": [
+                "Same as desktop",
+                "Top",
+                "Middle",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Content alignment (mobile)",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center"
+              ]
+            },
+            {
+              "label": "Split image position (mobile)",
+              "desc": "Split layout only.",
+              "options": [
+                "Above copy",
+                "Below copy"
+              ]
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Hero slideshow",
+          "sysname": "hero-slideshow",
+          "id": "hero-slideshow",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Hero slideshow"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Height",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Middle",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Text overlay opacity",
+              "desc": "Darkens the media behind the copy for AA contrast. 100% = the AA-tested scrim.",
+              "options": null
+            },
+            {
+              "label": "Rotate automatically",
+              "desc": "Advances slides on a timer. Always disabled for visitors who prefer reduced motion; pauses on hover, focus, and hidden tabs. Arrows and dots stay available.",
+              "options": null
+            },
+            {
+              "label": "Seconds per slide",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Image banner",
+          "sysname": "image-banner",
+          "id": "image-banner",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Image banner"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Minimum height",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Priority load (LCP)",
+              "desc": "Enable for the one above-the-fold LCP image per page. Leave off elsewhere.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Promo bar",
+          "sysname": "promo-bar",
+          "id": "promo-bar",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Promo bar"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Message",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Button label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Button link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Quote banner",
+          "sysname": "quote-banner",
+          "id": "quote-banner",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Quote banner"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Quote",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Attribution",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collections",
+      "label": "Collection sections",
+      "cards": [
+        {
+          "name": "Collection list",
+          "sysname": "collection-list",
+          "id": "collection-list",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "grid"
+                },
+                {
+                  "text": "carousel"
+                },
+                {
+                  "text": "bento"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Collection list"
+                },
+                {
+                  "text": "Collections bento"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Collections",
+              "desc": "Leave empty to show the first six collections in the store.",
+              "options": null
+            },
+            {
+              "label": "Editorial pull quote",
+              "desc": "Shown as a large accent quote above the grid. Leave blank to hide.",
+              "options": null
+            },
+            {
+              "label": "Show \"view all\" link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "\"View all\" link",
+              "desc": "Defaults to the all-collections page (/collections).",
+              "options": null
+            },
+            {
+              "label": "\"View all\" label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Grid",
+                "Carousel",
+                "Bento"
+              ]
+            },
+            {
+              "label": "Tile style",
+              "desc": "Choose one option.",
+              "options": [
+                "Image (photo fills tile)",
+                "Box-shot on card",
+                "Box-shot, no background"
+              ]
+            },
+            {
+              "label": "Columns on desktop",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Tile aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Portrait",
+                "Square",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Image padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show collection title",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Title placement",
+              "desc": "Choose one option.",
+              "options": [
+                "On tile (chip)",
+                "Below tile"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "label": "Product sections",
+      "cards": [
+        {
+          "name": "Comparison table",
+          "sysname": "comparison-table",
+          "id": "comparison-table",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "column",
+                  "code": true
+                },
+                {
+                  "text": "row",
+                  "code": true
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Comparison table"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Show decoration",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Cell padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Featured collection",
+          "sysname": "featured-collection",
+          "id": "featured-collection",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "grid"
+                },
+                {
+                  "text": "editorial"
+                },
+                {
+                  "text": "list"
+                },
+                {
+                  "text": "organic"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Featured collection"
+                },
+                {
+                  "text": "Editorial products"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Collection",
+              "desc": "Pick one collection.",
+              "options": null
+            },
+            {
+              "label": "Products (manual)",
+              "desc": "Optional. When set, these products override the collection loop and render in this order.",
+              "options": null
+            },
+            {
+              "label": "\"View all\" link URL",
+              "desc": "Optional. Defaults to the chosen collection. The link hides when this and the collection are both empty.",
+              "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Grid",
+                "Editorial",
+                "List",
+                "Organic gallery"
+              ]
+            },
+            {
+              "label": "Editorial pull quote",
+              "desc": "Shown as an accent tile in the Editorial layout. Leave blank to hide.",
+              "options": null
+            },
+            {
+              "label": "Products to show",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "label": "Show \"view all\" link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Featured product",
+          "sysname": "featured-product",
+          "id": "featured-product",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "app blocks"
+                },
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Featured product"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Product",
+              "desc": "Pick one product.",
+              "options": null
+            },
+            {
+              "label": "Eyebrow",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Image position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Priority load (LCP)",
+              "desc": "Enable for the one above-the-fold LCP image per page. Leave off elsewhere.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Product anchors",
+          "sysname": "product-anchors",
+          "id": "product-anchors",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "anchor",
+                  "code": true
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Product anchors"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Stick below the header",
+              "desc": "Keeps the row pinned while scrolling through the sections it links to.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Product carousel",
+          "sysname": "product-carousel",
+          "id": "product-carousel",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Product carousel"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Collection",
+              "desc": "Pick one collection.",
+              "options": null
+            },
+            {
+              "label": "Products to show",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Recently viewed",
+          "sysname": "recently-viewed",
+          "id": "recently-viewed",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "grid"
+                },
+                {
+                  "text": "strip"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Recently viewed"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Products to show",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Grid",
+                "Strip"
+              ]
+            },
+            {
+              "label": "Tile width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Related products",
+          "sysname": "related-products",
+          "id": "related-products",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Related products"
+                },
+                {
+                  "text": "Complementary products"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Products to show",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Recommendation type",
+              "desc": "Complementary products are set in the Search & Discovery app. Related products are generated automatically.",
+              "options": [
+                "Related products",
+                "Complementary products (pairs well with)"
+              ]
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Portrait",
+                "Square",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Show vendor",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show price",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Spec table",
+          "sysname": "spec-table",
+          "id": "spec-table",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                },
+                {
+                  "text": "spec-row",
+                  "page": "blocks",
+                  "anchor": "spec-row"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Spec table"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Product metafield",
+              "desc": "On product pages, appends rows from a multi-line text metafield. Give its namespace.key (e.g. custom.specs) and write one row per line as \"Label: Value\". Leave blank to use manual rows only. Ignored off product pages.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Spotlight",
+          "sysname": "spotlight",
+          "id": "spotlight",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Spotlight"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Collection",
+              "desc": "Pick one collection.",
+              "options": null
+            },
+            {
+              "label": "Products (manual)",
+              "desc": "Optional. When set, these products override the collection loop and render in this order.",
+              "options": null
+            },
+            {
+              "label": "Layout variant",
+              "desc": "Choose one option.",
+              "options": [
+                "Hero card",
+                "Editorial band",
+                "Framed feature"
+              ]
+            },
+            {
+              "label": "\"View all\" link URL",
+              "desc": "Optional. Defaults to the chosen collection. The link hides when this and the collection are both empty.",
+              "options": null
+            },
+            {
+              "label": "Show \"view all\" link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Products to show",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "storytelling",
+      "label": "Storytelling and social proof",
+      "cards": [
+        {
+          "name": "A+ split feature",
+          "sysname": "aplus-split",
+          "id": "aplus-split",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "A+ split feature"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Blog posts",
+          "sysname": "blog-posts",
+          "id": "blog-posts",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Blog posts"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Blog",
+              "desc": "Pick a blog.",
+              "options": null
+            },
+            {
+              "label": "Show \"view all\" link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Articles to show",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Logo bar",
+          "sysname": "logo-bar",
+          "id": "logo-bar",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                },
+                {
+                  "text": "logo",
+                  "page": "blocks",
+                  "anchor": "logo"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Logo bar"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Logo height",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Gap between logos",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Logo treatment",
+              "desc": "Choose one option.",
+              "options": [
+                "Full color",
+                "Muted (grayscale, brightens on hover)"
+              ]
+            },
+            {
+              "label": "Content gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Stats row",
+          "sysname": "stats-row",
+          "id": "stats-row",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Stats row"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Testimonials",
+          "sysname": "testimonials",
+          "id": "testimonials",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "grid"
+                },
+                {
+                  "text": "carousel"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Testimonials"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Grid",
+                "Carousel"
+              ]
+            },
+            {
+              "label": "Columns on desktop",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Trust strip",
+          "sysname": "trust-strip",
+          "id": "trust-strip",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Trust strip"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "UGC gallery",
+          "sysname": "ugc-gallery",
+          "id": "ugc-gallery",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "grid"
+                },
+                {
+                  "text": "stories"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "UGC gallery"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Grid",
+                "Stories (circles)"
+              ]
+            },
+            {
+              "label": "Story circle size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Caption style",
+              "desc": "Card is the default surface. Accent fills the caption with the accent color; set caption heading and text blocks to the \"On accent\" color for readable contrast, since block-level color settings override the band.",
+              "options": [
+                "Card",
+                "Accent band"
+              ]
+            },
+            {
+              "label": "Tile style",
+              "desc": "Choose one option.",
+              "options": [
+                "Plain",
+                "Card"
+              ]
+            },
+            {
+              "label": "Tile tilt",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Video",
+          "sysname": "video",
+          "id": "video",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Video"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Hosted video",
+              "desc": "A video hosted on Shopify.",
+              "options": null
+            },
+            {
+              "label": "External video URL",
+              "desc": "YouTube or Vimeo. Used only when no hosted video is set; loads on play via a poster facade.",
+              "options": null
+            },
+            {
+              "label": "Poster image",
+              "desc": "Shown before playback. Required for an external video.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "label": "Text and content sections",
+      "cards": [
+        {
+          "name": "Custom Liquid",
+          "sysname": "custom-liquid",
+          "id": "custom-liquid",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Custom Liquid"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Liquid code",
+              "desc": "Custom Liquid code, for advanced use.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "FAQ",
+          "sysname": "faq",
+          "id": "faq",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "FAQ"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Answer alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "How-to steps",
+          "sysname": "how-to",
+          "id": "how-to",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                },
+                {
+                  "text": "step",
+                  "page": "blocks",
+                  "anchor": "step"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "How-to steps"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Rich text",
+          "sysname": "rich-text",
+          "id": "rich-text",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Rich text"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "layout",
+      "label": "Layout and structure sections",
+      "cards": [
+        {
+          "name": "Custom section",
+          "sysname": "custom-section",
+          "id": "custom-section",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "app blocks"
+                },
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Custom section"
+                },
+                {
+                  "text": "Image compare"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Layout direction",
+              "desc": "Choose one option.",
+              "options": [
+                "Vertical",
+                "Horizontal"
+              ]
+            },
+            {
+              "label": "Horizontal alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Vertical alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Gap",
+              "desc": "Choose one option.",
+              "options": [
+                "XX small",
+                "X small",
+                "Small",
+                "Medium",
+                "Large",
+                "X large",
+                "XX large"
+              ]
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Divider",
+          "sysname": "divider",
+          "id": "divider",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Divider"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Horizontal line",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Feature grid",
+          "sysname": "feature-grid",
+          "id": "feature-grid",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Feature grid"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Card style",
+              "desc": "Choose one option.",
+              "options": [
+                "Plain",
+                "Card"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Marquee",
+          "sysname": "marquee",
+          "id": "marquee",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Marquee"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Speed",
+              "desc": "Choose one option.",
+              "options": [
+                "Slow",
+                "Normal",
+                "Fast"
+              ]
+            },
+            {
+              "label": "Direction",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Multicolumn",
+          "sysname": "multicolumn",
+          "id": "multicolumn",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Multicolumn"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "label": "Form sections",
+      "cards": [
+        {
+          "name": "Contact form",
+          "sysname": "contact",
+          "id": "contact",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Contact form"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Newsletter",
+          "sysname": "newsletter",
+          "id": "newsletter",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Newsletter"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "label": "Footer",
+      "cards": [
+        {
+          "name": "Footer",
+          "sysname": "footer",
+          "id": "footer",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "brand",
+                  "code": true
+                },
+                {
+                  "text": "menu",
+                  "code": true
+                },
+                {
+                  "text": "newsletter",
+                  "code": true
+                },
+                {
+                  "text": "social",
+                  "code": true
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Footer"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Copyright text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Column gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show payment icons",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show country/region and language picker",
+              "desc": "Turn off to hide the localization form and its divider.",
+              "options": null
+            },
+            {
+              "label": "Show country/currency picker",
+              "desc": "Off by default. The language picker still shows when more than one language is published. Turn on only if you sell in multiple currencies.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "builtin",
+      "label": "Built-in page sections",
+      "note": "These sections are part of specific page templates (the product page, cart, collection, header, footer, and account pages). You do not add them by hand. You edit their settings on the template where they appear.",
+      "cards": [
+        {
+          "name": "404 page",
+          "sysname": "404",
+          "id": "404",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Article",
+          "sysname": "article",
+          "id": "article",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Blog",
+          "sysname": "blog",
+          "id": "blog",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Show featured post",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Articles per page",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cart",
+          "sysname": "cart",
+          "id": "cart",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Show order note",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Cart drawer",
+          "sysname": "cart-drawer",
+          "id": "cart-drawer",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Show product suggestions",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Suggestion source",
+              "desc": "Automatic uses Shopify product recommendations drawn from the items in the cart. Manual uses the list below.",
+              "options": [
+                "Manual list",
+                "Automatic (based on cart)"
+              ]
+            },
+            {
+              "label": "Suggestions heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Products to suggest",
+              "desc": "Pick several products.",
+              "options": null
+            },
+            {
+              "label": "Products to show",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Collection",
+          "sysname": "collection",
+          "id": "collection",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "grid"
+                },
+                {
+                  "text": "editorial"
+                },
+                {
+                  "text": "list"
+                },
+                {
+                  "text": "organic"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Products per page",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Grid",
+                "Editorial",
+                "List",
+                "Organic gallery"
+              ]
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Filter layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Filters on top",
+                "Sidebar (desktop)"
+              ]
+            },
+            {
+              "label": "Full width",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Hero",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Image banner"
+              ]
+            },
+            {
+              "label": "Hero image",
+              "desc": "Optional. Leave empty to use the collection's own image (set in the collection admin). With neither, the banner is skipped and a plain header shows. Loads with high priority so it becomes the page's first painted image.",
+              "options": null
+            },
+            {
+              "label": "Overlay strength",
+              "desc": "Darkens the image behind the title so the text stays readable (AA). 100% = the full tested overlay; lower it over darker images.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Space under breadcrumbs",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Space under header",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Collections list",
+          "sysname": "collections",
+          "id": "collections",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Customer account",
+          "sysname": "customer-account",
+          "id": "customer-account",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Customer activate account",
+          "sysname": "customer-activate",
+          "id": "customer-activate",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Customer addresses",
+          "sysname": "customer-addresses",
+          "id": "customer-addresses",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Customer login",
+          "sysname": "customer-login",
+          "id": "customer-login",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Customer order",
+          "sysname": "customer-order",
+          "id": "customer-order",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Customer register",
+          "sysname": "customer-register",
+          "id": "customer-register",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Customer reset password",
+          "sysname": "customer-reset-password",
+          "id": "customer-reset-password",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Header",
+          "sysname": "header",
+          "id": "header",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Logo image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Logo width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Menu",
+              "desc": "Pick a navigation menu.",
+              "options": null
+            },
+            {
+              "label": "Show search icon",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Scroll behavior",
+              "desc": "Hide-on-scroll hides the header as you scroll down and reveals it on scroll up. Reduced-motion visitors get a plain always-sticky header.",
+              "options": [
+                "Not sticky",
+                "Always sticky",
+                "Sticky, hide on scroll down"
+              ]
+            },
+            {
+              "label": "Frosted glass background",
+              "desc": "Translucent scheme background with a blur while sticky. Ignored when scroll behavior is not sticky.",
+              "options": null
+            },
+            {
+              "label": "Static on product pages",
+              "desc": "Keeps the header static on product pages (which already carry a sticky buy bar).",
+              "options": null
+            },
+            {
+              "label": "Promo image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Kicker",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Title",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Page",
+          "sysname": "page",
+          "id": "page",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "sysname": "password",
+          "id": "password",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Pickup availability",
+          "sysname": "pickup-availability",
+          "id": "pickup-availability",
+          "meta": [],
+          "settings": []
+        },
+        {
+          "name": "Predictive search",
+          "sysname": "predictive-search",
+          "id": "predictive-search",
+          "meta": [],
+          "settings": []
+        },
+        {
+          "name": "Product",
+          "sysname": "product",
+          "id": "product",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "app blocks"
+                },
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Gallery layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Thumbnails below",
+                "Thumbnails beside"
+              ]
+            },
+            {
+              "label": "Gallery / details ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "40 / 60",
+                "45 / 55",
+                "50 / 50",
+                "55 / 45",
+                "60 / 40"
+              ]
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Square",
+                "Portrait",
+                "Adapt to image"
+              ]
+            },
+            {
+              "label": "Image stage padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Thumbnail size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Breadcrumb top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Breadcrumb bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Enable image zoom",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Sticky buy bar",
+              "desc": "Choose one option.",
+              "options": [
+                "Off",
+                "Mobile only",
+                "Mobile and desktop"
+              ]
+            },
+            {
+              "label": "Show quantity stepper in the desktop bar",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show compare-at price in the bar",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show pickup availability",
+              "desc": "Lists store locations offering local pickup for the selected variant.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Search",
+          "sysname": "search",
+          "id": "search",
+          "meta": [],
+          "settings": [
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

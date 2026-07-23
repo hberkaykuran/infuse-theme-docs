@@ -1,0 +1,2513 @@
+{
+  "total": 34,
+  "groups": [
+    {
+      "id": "layout-and-text",
+      "label": "Layout and text",
+      "note": "The core building blocks you drop into almost any section.",
+      "cards": [
+        {
+          "name": "Heading",
+          "sysname": "heading",
+          "id": "heading",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "HTML tag",
+              "desc": "Choose one option.",
+              "options": [
+                "H1",
+                "H2",
+                "H3",
+                "Paragraph"
+              ]
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Follows the color scheme. Edit the palette under Theme settings > Colors.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show decoration",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "sysname": "text",
+          "id": "text",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "footer",
+                  "page": "sections",
+                  "anchor": "footer"
+                },
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Follows the color scheme. Edit the palette under Theme settings > Colors.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Label",
+          "sysname": "label",
+          "id": "label",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Accent text",
+                "Muted text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Button",
+          "sysname": "button",
+          "id": "button",
+          "meta": [
+            {
+              "label": "Styles",
+              "items": [
+                {
+                  "text": "primary"
+                },
+                {
+                  "text": "secondary"
+                },
+                {
+                  "text": "ghost"
+                },
+                {
+                  "text": "text"
+                }
+              ]
+            },
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Style",
+              "desc": "Choose one option.",
+              "options": [
+                "Primary",
+                "Secondary",
+                "Ghost",
+                "Link"
+              ]
+            },
+            {
+              "label": "Open in new tab",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Icon",
+          "sysname": "icon",
+          "id": "icon",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Glyph",
+              "desc": "Choose one option.",
+              "options": [
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle",
+                "Return (easy returns)",
+                "Lock (secure payment)",
+                "Drop (no-drip)",
+                "Swirl (stir)",
+                "No spoon",
+                "Mesh brew"
+              ]
+            },
+            {
+              "label": "Custom icon",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Accent (vivid)",
+                "Accent text",
+                "Text",
+                "Muted text"
+              ]
+            },
+            {
+              "label": "Accessible label",
+              "desc": "Optional. Adds a screen-reader name; leave blank for a decorative icon.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Image",
+          "sysname": "image",
+          "id": "image",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Natural",
+                "Square",
+                "Portrait",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Fit",
+              "desc": "Choose one option.",
+              "options": [
+                "Cover",
+                "Contain"
+              ]
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            },
+            {
+              "label": "Priority load (LCP)",
+              "desc": "Enable for the one above-the-fold LCP image per page. Leave off elsewhere.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "sysname": "group",
+          "id": "group",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout direction",
+              "desc": "Choose one option.",
+              "options": [
+                "Horizontal",
+                "Vertical"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right",
+                "Stretch"
+              ]
+            },
+            {
+              "label": "Horizontal distribution",
+              "desc": "Choose one option.",
+              "options": [
+                "Start",
+                "Center",
+                "End",
+                "Space between"
+              ]
+            },
+            {
+              "label": "Vertical alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom",
+                "Stretch"
+              ]
+            },
+            {
+              "label": "Mobile layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Row",
+                "Column"
+              ]
+            },
+            {
+              "label": "Width",
+              "desc": "Choose one option.",
+              "options": [
+                "Fill",
+                "Fit content"
+              ]
+            },
+            {
+              "label": "Max width",
+              "desc": "0 = no limit.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Use a different gap on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Mobile gap",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-and-commerce",
+      "label": "Product and commerce",
+      "note": "Blocks for product pages and product cards: the buy area, pricing, variants, stock, and delivery.",
+      "cards": [
+        {
+          "name": "Product card",
+          "sysname": "product-card",
+          "id": "product-card",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "buy-buttons",
+                  "page": "blocks",
+                  "anchor": "buy-buttons"
+                },
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                },
+                {
+                  "text": "label",
+                  "page": "blocks",
+                  "anchor": "label"
+                },
+                {
+                  "text": "price",
+                  "page": "blocks",
+                  "anchor": "price"
+                },
+                {
+                  "text": "product-description",
+                  "page": "blocks",
+                  "anchor": "product-description"
+                },
+                {
+                  "text": "product-image",
+                  "page": "blocks",
+                  "anchor": "product-image"
+                },
+                {
+                  "text": "product-meta",
+                  "page": "blocks",
+                  "anchor": "product-meta"
+                },
+                {
+                  "text": "product-title",
+                  "page": "blocks",
+                  "anchor": "product-title"
+                },
+                {
+                  "text": "sale-badge",
+                  "page": "blocks",
+                  "anchor": "sale-badge"
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Vertical gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Background",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Border",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Solid"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Quick add button",
+              "desc": "Overlays the product image. Single-variant products add to cart in one tap; multi-variant products link to the product page.",
+              "options": null
+            },
+            {
+              "label": "Show on desktop",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "Plus",
+                "Bag"
+              ]
+            },
+            {
+              "label": "Button style",
+              "desc": "Choose one option.",
+              "options": [
+                "Blurred glass",
+                "Solid fill"
+              ]
+            },
+            {
+              "label": "Quick view button",
+              "desc": "Opens a dialog to pick a variant and add to cart without leaving the page. Products with two or more option types link to the product page instead.",
+              "options": null
+            },
+            {
+              "label": "Show on desktop",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Product title",
+          "sysname": "product-title",
+          "id": "product-title",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Link to product page",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)"
+              ]
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Product image",
+          "sysname": "product-image",
+          "id": "product-image",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Fit",
+              "desc": "Choose one option.",
+              "options": [
+                "Contain",
+                "Cover"
+              ]
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Product meta",
+          "sysname": "product-meta",
+          "id": "product-meta",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Show vendor",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show SKU",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show inventory status",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Low-stock threshold",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show tax / shipping note",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Benefit checklist",
+          "sysname": "product-benefits",
+          "id": "product-benefits",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Check icon",
+              "desc": "Choose one option.",
+              "options": [
+                "Check",
+                "Leaf",
+                "Shield",
+                "Recycle"
+              ]
+            },
+            {
+              "label": "Custom icon",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "options": null
+            },
+            {
+              "label": "Metafield (namespace.key)",
+              "desc": "A product metafield list of strings, e.g. custom.benefits. Overrides the manual lines when set.",
+              "options": null
+            },
+            {
+              "label": "Manual lines",
+              "desc": "One benefit per line. Used only when the metafield above is empty.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Description text",
+          "sysname": "product-description",
+          "id": "product-description",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Content source",
+              "desc": "Choose one option.",
+              "options": [
+                "Product description",
+                "Product metafield"
+              ]
+            },
+            {
+              "label": "Metafield (namespace.key)",
+              "desc": "Used when source is Product metafield, e.g. custom.subtitle.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text"
+              ]
+            },
+            {
+              "label": "Max lines (0 = no clamp)",
+              "desc": "Truncates after this many lines. Set 0 to show the full text.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Details / accordion",
+          "sysname": "product-details",
+          "id": "product-details",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Title",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Title size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle"
+              ]
+            },
+            {
+              "label": "Content source",
+              "desc": "Choose one option.",
+              "options": [
+                "Rich text (below)",
+                "Product description",
+                "Product metafield",
+                "Store policy",
+                "Page"
+              ]
+            },
+            {
+              "label": "Rich text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Metafield (namespace.key)",
+              "desc": "Used when source is Product metafield. A rich-text or multi-line product metafield, e.g. custom.nutrition.",
+              "options": null
+            },
+            {
+              "label": "Policy (when source is Store policy)",
+              "desc": "Choose one option.",
+              "options": [
+                "Refund policy",
+                "Shipping policy",
+                "Privacy policy",
+                "Terms of service"
+              ]
+            },
+            {
+              "label": "Page (when source is Page)",
+              "desc": "Pick a page.",
+              "options": null
+            },
+            {
+              "label": "Open by default",
+              "desc": "An on / off switch.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Price",
+          "sysname": "price",
+          "id": "price",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Compare-at layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Stacked (above price)",
+                "Stacked (below price)",
+                "Inline (before price)",
+                "Inline (after price)"
+              ]
+            },
+            {
+              "label": "Show savings amount",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Savings style",
+              "desc": "Choose one option.",
+              "options": [
+                "Amount saved",
+                "Percent saved",
+                "Percent badge"
+              ]
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Badge",
+          "sysname": "sale-badge",
+          "id": "sale-badge",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Style",
+              "desc": "Choose one option.",
+              "options": [
+                "Sale (accent)",
+                "Bestseller (dark)",
+                "New (vivid)"
+              ]
+            },
+            {
+              "label": "Show badge",
+              "desc": "Choose one option.",
+              "options": [
+                "When on sale (adds −%)",
+                "When product has a tag",
+                "Always"
+              ]
+            },
+            {
+              "label": "Badge text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Bestseller promotion text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "New promotion text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Trigger tag",
+              "desc": "Badge shows on products tagged with this word.",
+              "options": null
+            },
+            {
+              "label": "Position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top left",
+                "Top right"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add to cart",
+          "sysname": "buy-buttons",
+          "id": "buy-buttons",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Show dynamic checkout button",
+              "desc": "Shows the customer's one-click checkout buttons (Shop Pay, PayPal…).",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Variant picker",
+          "sysname": "variant-picker",
+          "id": "variant-picker",
+          "meta": [
+            {
+              "label": "Styles",
+              "items": [
+                {
+                  "text": "select"
+                },
+                {
+                  "text": "swatches"
+                }
+              ]
+            },
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Style",
+              "desc": "Choose one option.",
+              "options": [
+                "Dropdown",
+                "Swatches"
+              ]
+            },
+            {
+              "label": "Swatch shape",
+              "desc": "Choose one option.",
+              "options": [
+                "Round",
+                "Square"
+              ]
+            },
+            {
+              "label": "Swatch size",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Quantity",
+          "sysname": "quantity",
+          "id": "quantity",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Label",
+              "desc": "Text you type in.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Stock counter",
+          "sysname": "stock-counter",
+          "id": "stock-counter",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Low-stock threshold",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Delivery estimate",
+          "sysname": "delivery-estimate",
+          "id": "delivery-estimate",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Fastest delivery (days from order)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Latest delivery (days from order)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Truck",
+                "Shield",
+                "Recycle",
+                "Leaf",
+                "Cup",
+                "Stick"
+              ]
+            },
+            {
+              "label": "Custom icon",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Size chart",
+          "sysname": "size-chart",
+          "id": "size-chart",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Trigger label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Trigger style",
+              "desc": "Choose one option.",
+              "options": [
+                "Link",
+                "Button"
+              ]
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Dialog heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Content page",
+              "desc": "Pick a page.",
+              "options": null
+            },
+            {
+              "label": "Fallback content",
+              "desc": "Shown when no page is selected above.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Spec row",
+          "sysname": "spec-row",
+          "id": "spec-row",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "spec-table",
+                  "page": "sections",
+                  "anchor": "spec-table"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Value",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Label size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Value size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reviews-and-social-proof",
+      "label": "Reviews and social proof",
+      "note": "Blocks that show ratings, customer photos, and trust signals.",
+      "cards": [
+        {
+          "name": "Testimonial",
+          "sysname": "testimonial",
+          "id": "testimonial",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Star rating",
+              "desc": "Choose one option.",
+              "options": [
+                "5",
+                "4",
+                "3",
+                "2",
+                "1"
+              ]
+            },
+            {
+              "label": "Quote",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Author",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Verified buyer",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Quote size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Author size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Star color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text"
+              ]
+            },
+            {
+              "label": "Star size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Star spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Review photos",
+          "sysname": "review-photos",
+          "id": "review-photos",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Rating text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Link label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Photo 1",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Photo 2",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Photo 3",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Photo 4",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Photo 5",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Photo 6",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Photo 7",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Photo 8",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Round"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Badge",
+          "sysname": "trust-item",
+          "id": "trust-item",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle",
+                "Return (easy returns)",
+                "Lock (secure payment)",
+                "Drop (no-drip)",
+                "Swirl (stir)",
+                "No spoon",
+                "Mesh brew"
+              ]
+            },
+            {
+              "label": "Custom icon",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "options": null
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "UGC item",
+          "sysname": "ugc-item",
+          "id": "ugc-item",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Video",
+              "desc": "Autoplays muted and looping. Takes over the tile when set (image becomes its poster fallback). Nest text blocks to add a caption bar.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "media-and-section-content",
+      "label": "Media and section content",
+      "note": "Blocks used to fill specific storytelling sections.",
+      "cards": [
+        {
+          "name": "Feature",
+          "sysname": "feature",
+          "id": "feature",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Glyph",
+              "desc": "Choose one option.",
+              "options": [
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle"
+              ]
+            },
+            {
+              "label": "Custom icon",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "options": null
+            },
+            {
+              "label": "Icon style",
+              "desc": "Choose one option.",
+              "options": [
+                "Coral chip",
+                "Accent",
+                "Ink",
+                "Muted"
+              ]
+            },
+            {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Title size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large"
+              ]
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Card background",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Step",
+          "sysname": "step",
+          "id": "step",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "how-to",
+                  "page": "sections",
+                  "anchor": "how-to"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Eyebrow",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Media type",
+              "desc": "Choose one option.",
+              "options": [
+                "Image",
+                "Icon"
+              ]
+            },
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Glyph",
+              "desc": "Choose one option.",
+              "options": [
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle"
+              ]
+            },
+            {
+              "label": "Media position",
+              "desc": "Choose one option.",
+              "options": [
+                "Above eyebrow",
+                "Below eyebrow"
+              ]
+            },
+            {
+              "label": "Media ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Square",
+                "Portrait",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Media width",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Full"
+              ]
+            },
+            {
+              "label": "Media corner radius",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Round"
+              ]
+            },
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Title size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large"
+              ]
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Question",
+          "sysname": "faq-item",
+          "id": "faq-item",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Question",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Answer",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Question size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Answer size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Open by default",
+              "desc": "An on / off switch.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Slide",
+          "sysname": "hero-slide",
+          "id": "hero-slide",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Background image (mobile)",
+              "desc": "Optional art-directed crop shown at ≤749px.",
+              "options": null
+            },
+            {
+              "label": "Load image eagerly",
+              "desc": "Turn on for the first slide only so its background image isn't lazy-loaded (helps LCP). Leave off for the rest.",
+              "options": null
+            },
+            {
+              "label": "Eyebrow",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Heading size",
+              "desc": "Choose one option.",
+              "options": [
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Button label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Button link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Logo",
+          "sysname": "logo",
+          "id": "logo",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "logo-bar",
+                  "page": "sections",
+                  "anchor": "logo-bar"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Height override",
+              "desc": "0 uses the section's logo height.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Image compare",
+          "sysname": "image-compare",
+          "id": "image-compare",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Before image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "After image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Before label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "After label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Adapt to image",
+                "Square",
+                "Landscape",
+                "Portrait"
+              ]
+            },
+            {
+              "label": "Width",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Full"
+              ]
+            },
+            {
+              "label": "Starting position",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Video",
+          "sysname": "video",
+          "id": "video",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Video",
+              "desc": "A video hosted on Shopify.",
+              "options": null
+            },
+            {
+              "label": "Show player controls",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Natural",
+                "Square",
+                "Portrait",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Fit",
+              "desc": "Choose one option.",
+              "options": [
+                "Cover",
+                "Contain"
+              ]
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

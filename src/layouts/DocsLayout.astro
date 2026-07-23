@@ -1,0 +1,88 @@
+---
+import '../styles/global.css';
+import { docsNav, withBase } from '../nav.js';
+
+// path: base-relative path of the current page (e.g. '/docs/help/faq') — drives
+//       sidebar highlighting. headings: [{depth, slug, text}] for the TOC.
+const { title, description = '', path = '', headings = [] } = Astro.props;
+const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const bundle = withBase('/pagefind/'); // e.g. /infuse-theme-docs/pagefind/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} · Infuse theme docs</title>
+  <meta name="description" content={description} />
+  <link rel="icon" href={withBase('/favicon.svg')} />
+  {import.meta.env.PROD && <link rel="stylesheet" href={withBase('/pagefind/pagefind-ui.css')} />}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href={withBase('/')}>Infuse<span class="brand-sub">theme docs</span></a>
+      <div class="docs-search" id="search"></div>
+      <nav class="header-links" aria-label="Primary">
+        <a href={withBase('/docs')}>Docs home</a>
+        <a href={withBase('/docs/help/support')}>Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="docs-shell">
+    <nav class="docs-sidebar" aria-label="Documentation">
+      {docsNav.map((group) => (
+        <div>
+          <h2>{group.title}</h2>
+          <ul>
+            {group.items.map((item) => (
+              <li>
+                <a href={withBase(item.path)} aria-current={item.path === path ? 'page' : undefined}>{item.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </nav>
+
+    <main id="main" class="docs-main">
+      <article data-pagefind-body>
+        <slot />
+      </article>
+    </main>
+
+    <aside class="docs-toc" aria-label="On this page">
+      {toc.length > 0 && (
+        <>
+          <h2>On this page</h2>
+          <ul>
+            {toc.map((h) => (
+              <li class={`depth-${h.depth}`}><a href={`#${h.slug}`}>{h.text}</a></li>
+            ))}
+          </ul>
+        </>
+      )}
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p>Infuse theme documentation. Built as a static site, no tracking.</p>
+      <p><a href={withBase('/docs/help/support')}>Get support</a> · <a href={withBase('/docs/changelog')}>Changelog</a></p>
+    </div>
+  </footer>
+
+  {import.meta.env.PROD && (
+    <>
+      <script src={withBase('/pagefind/pagefind-ui.js')} is:inline></script>
+      <script is:inline define:vars={{ bundle }}>
+        window.addEventListener('DOMContentLoaded', () => {
+          new PagefindUI({ element: '#search', bundlePath: bundle, showSubResults: true });
+        });
+      </script>
+    </>
+  )}
+</body>
+</html>

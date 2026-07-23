@@ -1,0 +1,55 @@
+---
+import { withBase } from '../nav.js';
+// Renders the generated reference groups (shared by Sections and Blocks pages).
+// Cross-link tokens: {text} plain | {text,code} | {text,page,anchor} link.
+const { groups } = Astro.props;
+
+const hrefFor = (item) => withBase(`/docs/reference/${item.page}#${item.anchor}`);
+---
+{groups.map((group) => (
+  <section class="group" aria-labelledby={`grp-${group.id}`}>
+    <h2 id={group.id}>{group.label}</h2>
+    {group.note && <p>{group.note}</p>}
+    {group.cards.map((card) => (
+      <article class="ref-card" id={card.id}>
+        <h3>{card.name} <span class="sysname">{card.sysname}</span></h3>
+        {card.meta.length > 0 && (
+          <ul class="meta">
+            {card.meta.map((line) => (
+              <li>
+                <strong>{line.label}:</strong>{' '}
+                {line.items.map((item, i) => (
+                  <>
+                    {i > 0 && ', '}
+                    {item.page
+                      ? <a href={hrefFor(item)}>{item.text}</a>
+                      : item.code
+                        ? <code>{item.text}</code>
+                        : <span>{item.text}</span>}
+                  </>
+                ))}
+              </li>
+            ))}
+          </ul>
+        )}
+        {card.settings.length > 0 ? (
+          <div class="table-wrap">
+            <table class="settings">
+              <thead><tr><th scope="col">Setting</th><th scope="col">What it controls</th></tr></thead>
+              <tbody>
+                {card.settings.map((s) => (
+                  <tr>
+                    <th scope="row">{s.label}</th>
+                    <td>{s.desc}{s.options && <span class="muted"> Options: {s.options.join(', ')}.</span>}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p class="muted">No settings.</p>
+        )}
+      </article>
+    ))}
+  </section>
+))}

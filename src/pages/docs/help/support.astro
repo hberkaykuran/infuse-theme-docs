@@ -1,0 +1,59 @@
+---
+import DocsLayout from '../../../layouts/DocsLayout.astro';
+
+// Placeholders the merchant fills in before going live.
+const FORM_ENDPOINT = 'https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID';
+const SUPPORT_EMAIL = 'support@REPLACE_WITH_YOUR_DOMAIN.com';
+const THEME_VERSION = '1.0.0';
+
+const headings = [
+  { depth: 2, slug: 'form-h', text: 'Send a message' },
+  { depth: 2, slug: 'email-h', text: 'Prefer email?' },
+  { depth: 2, slug: 'expect-h', text: 'What to expect' },
+];
+---
+<DocsLayout
+  title="Support"
+  description="Contact us for help with the Infuse theme."
+  path="/docs/help/support"
+  headings={headings}
+>
+  <h1>Support</h1>
+  <p class="lead">Tell us what you are running into and we will help. The more detail you give, the faster we can sort it out.</p>
+
+  <h2 id="form-h">Send a message</h2>
+  {/* FORM_ENDPOINT is a placeholder — replace it above with your real Formspree/Tally endpoint before going live. */}
+  <form class="support-form" action={FORM_ENDPOINT} method="post">
+    <p class="field">
+      <label for="store_url">Store URL</label>
+      <input type="url" id="store_url" name="store_url" placeholder="https://your-store.myshopify.com" required />
+    </p>
+    <p class="field">
+      <label for="theme_version">Theme version</label>
+      <input type="text" id="theme_version" name="theme_version" placeholder={`e.g. ${THEME_VERSION}`} required />
+      <span class="hint">Find this in the theme editor under Theme settings, or on the theme in your library.</span>
+    </p>
+    <p class="field">
+      <label for="topic">Topic</label>
+      <select id="topic" name="topic">
+        <option>Setup and installation</option>
+        <option>Sections and blocks</option>
+        <option>Colours and styles</option>
+        <option>Localization</option>
+        <option>Something looks broken</option>
+        <option>Other</option>
+      </select>
+    </p>
+    <p class="field">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required placeholder="What are you trying to do, and what happens instead?"></textarea>
+    </p>
+    <p><button type="submit" class="btn">Send message</button></p>
+  </form>
+
+  <h2 id="email-h">Prefer email?</h2>
+  <p>Write to <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>. Include your store URL and theme version so we can look into it right away.</p>
+
+  <h2 id="expect-h">What to expect</h2>
+  <p>We reply within two business days. Support covers theme setup, settings, and fixing theme issues. It does not cover custom code changes or third-party apps, though we are glad to point you in the right direction.</p>
+</DocsLayout>
