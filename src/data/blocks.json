@@ -1,5 +1,5 @@
 {
-  "total": 34,
+  "total": 36,
   "groups": [
     {
       "id": "layout-and-text",
@@ -14,6 +14,11 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "header",
+                  "page": "sections",
+                  "anchor": "header"
+                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -79,6 +84,23 @@
               "options": null
             },
             {
+              "label": "Decoration style",
+              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. For Circled word, italicize the word or phrase to circle in the heading text; without italics the last word is circled.",
+              "options": [
+                "Use theme default",
+                "Wavy line",
+                "Straight rule",
+                "Dotted rule",
+                "Double stroke",
+                "Brush stroke",
+                "Looping line",
+                "Sparkles",
+                "Sticker",
+                "Highlight marker",
+                "Circled word"
+              ]
+            },
+            {
               "label": "Alignment",
               "desc": "Left, center, or right alignment.",
               "options": null
@@ -107,6 +129,11 @@
                   "text": "footer",
                   "page": "sections",
                   "anchor": "footer"
+                },
+                {
+                  "text": "header",
+                  "page": "sections",
+                  "anchor": "header"
                 },
                 {
                   "text": "product-card",
@@ -278,6 +305,11 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "header",
+                  "page": "sections",
+                  "anchor": "header"
+                },
+                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -399,6 +431,11 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "header",
+                  "page": "sections",
+                  "anchor": "header"
+                },
+                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -453,6 +490,11 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "header",
+                  "page": "sections",
+                  "anchor": "header"
+                },
                 {
                   "text": "product-card",
                   "page": "blocks",
@@ -843,6 +885,15 @@
               "label": "Sizes attribute",
               "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
               "options": null
+            },
+            {
+              "label": "Hover effect",
+              "desc": "Reveals more product photos on hover (desktop only). Needs a product with two or more images.",
+              "options": [
+                "None",
+                "Show 2nd image",
+                "Scrub gallery"
+              ]
             }
           ]
         },
@@ -2346,6 +2397,34 @@
               "label": "Button link",
               "desc": "A link to a page, product, or collection.",
               "options": null
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Middle",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Max width",
+              "desc": "Max width of the copy column. 0 = auto.",
+              "options": null
+            },
+            {
+              "label": "Text overlay opacity",
+              "desc": "Darkens the media behind the copy for AA contrast. 100% = the AA-tested scrim.",
+              "options": null
             }
           ]
         },
@@ -2466,6 +2545,11 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "header",
+                  "page": "sections",
+                  "anchor": "header"
+                },
+                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -2503,6 +2587,104 @@
             {
               "label": "Corner radius",
               "desc": "A slider.",
+              "options": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other blocks",
+      "cards": [
+        {
+          "name": "Hotspot",
+          "sysname": "hotspot",
+          "id": "hotspot",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "hotspot-image",
+                  "page": "blocks",
+                  "anchor": "hotspot-image"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Product",
+              "desc": "Pick one product.",
+              "options": null
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical position",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Shoppable image cell",
+          "sysname": "hotspot-image",
+          "id": "hotspot-image",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "hotspot",
+                  "page": "blocks",
+                  "anchor": "hotspot"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Used in the single layout. In a lookbook grid the grid controls the cell height.",
+              "options": [
+                "Adapt to image",
+                "Square",
+                "Landscape",
+                "Portrait"
+              ]
+            },
+            {
+              "label": "Cell size (lookbook)",
+              "desc": "Tall makes this cell span two rows of the lookbook grid.",
+              "options": [
+                "Normal",
+                "Tall"
+              ]
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
               "options": null
             }
           ]

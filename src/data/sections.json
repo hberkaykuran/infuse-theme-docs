@@ -1,5 +1,5 @@
 {
-  "addableCount": 36,
+  "addableCount": 38,
   "groups": [
     {
       "id": "header",
@@ -273,27 +273,13 @@
               ]
             },
             {
-              "label": "Horizontal position",
+              "label": "Navigation arrows",
               "desc": "Choose one option.",
               "options": [
-                "Left",
-                "Center",
-                "Right"
+                "Sides",
+                "Bottom corner",
+                "Hidden"
               ]
-            },
-            {
-              "label": "Vertical position",
-              "desc": "Choose one option.",
-              "options": [
-                "Top",
-                "Middle",
-                "Bottom"
-              ]
-            },
-            {
-              "label": "Text overlay opacity",
-              "desc": "Darkens the media behind the copy for AA contrast. 100% = the AA-tested scrim.",
-              "options": null
             },
             {
               "label": "Rotate automatically",
@@ -716,6 +702,23 @@
               "label": "Show decoration",
               "desc": "An on / off switch.",
               "options": null
+            },
+            {
+              "label": "Decoration style",
+              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. For Circled word, italicize the word or phrase to circle in the heading text; without italics the last word is circled.",
+              "options": [
+                "Use theme default",
+                "Wavy line",
+                "Straight rule",
+                "Dotted rule",
+                "Double stroke",
+                "Brush stroke",
+                "Looping line",
+                "Sparkles",
+                "Sticker",
+                "Highlight marker",
+                "Circled word"
+              ]
             },
             {
               "label": "Size",
@@ -1595,6 +1598,84 @@
             },
             {
               "label": "Content gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Shoppable image",
+          "sysname": "shoppable-image",
+          "id": "shoppable-image",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "single"
+                },
+                {
+                  "text": "lookbook"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Shoppable image"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Single image",
+                "Lookbook grid"
+              ]
+            },
+            {
+              "label": "Grid spacing",
               "desc": "A slider.",
               "options": null
             },
@@ -2688,6 +2769,56 @@
               "options": null
             }
           ]
+        },
+        {
+          "name": "Promo popup",
+          "sysname": "promo-popup",
+          "id": "promo-popup",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Promo popup"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Show image",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Open after",
+              "desc": "Seconds before the popup appears. Set to 0 to open immediately.",
+              "options": null
+            },
+            {
+              "label": "Open on exit intent",
+              "desc": "Also open when the cursor leaves the top of the window (desktop mouse only).",
+              "options": null
+            },
+            {
+              "label": "Don't show again for",
+              "desc": "Days to wait before showing the popup again after it's dismissed or a visitor subscribes. Set to 0 to show every visit.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
         }
       ]
     },
@@ -3130,7 +3261,43 @@
           "name": "Header",
           "sysname": "header",
           "id": "header",
-          "meta": [],
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "button",
+                  "page": "blocks",
+                  "anchor": "button"
+                },
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                },
+                {
+                  "text": "heading",
+                  "page": "blocks",
+                  "anchor": "heading"
+                },
+                {
+                  "text": "image",
+                  "page": "blocks",
+                  "anchor": "image"
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                },
+                {
+                  "text": "video",
+                  "page": "blocks",
+                  "anchor": "video"
+                }
+              ]
+            }
+          ],
           "settings": [
             {
               "label": "Logo image",
@@ -3313,6 +3480,19 @@
               "label": "Enable image zoom",
               "desc": "An on / off switch.",
               "options": null
+            },
+            {
+              "label": "Enable hover-to-magnify",
+              "desc": "Desktop only: hovering a gallery image magnifies it, following the cursor.",
+              "options": null
+            },
+            {
+              "label": "Hover magnify style",
+              "desc": "Choose one option.",
+              "options": [
+                "Magnify in place",
+                "Side panel with lens"
+              ]
             },
             {
               "label": "Sticky buy bar",
