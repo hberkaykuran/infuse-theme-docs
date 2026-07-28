@@ -2157,15 +2157,25 @@
             },
             {
               "label": "Opening an item",
-              "desc": "The player opens all items in one viewer: auto-advancing, with progress, tap or swipe to move, and a sound toggle. Off makes each item a plain link instead.",
+              "desc": "The player opens all items in one viewer you drag through, with arrows beside the media and a sound toggle. Clicking a video plays or pauses it. Off makes each item a plain link instead.",
               "options": [
                 "Stories player",
                 "Off (link out)"
               ]
             },
             {
+              "label": "Play through automatically",
+              "desc": "Off by default: a video that ends rests on its last frame and the visitor moves on when they choose. Turn it on for a reel-style run-through of the whole set.",
+              "options": null
+            },
+            {
               "label": "Seconds per photo",
-              "desc": "Videos run their own length instead.",
+              "desc": "How long a photo shows before moving on. Videos run their own length instead.",
+              "options": null
+            },
+            {
+              "label": "Show a tagged product on the tile",
+              "desc": "The first tagged product appears over the foot of the tile itself. The rest stay in the viewer. Not shown on the circular stories layout, which has no room.",
               "options": null
             },
             {
