@@ -2029,6 +2029,11 @@
               "label": "Link",
               "desc": "A link to a page, product, or collection.",
               "options": null
+            },
+            {
+              "label": "Products",
+              "desc": "Pick several products.",
+              "options": null
             }
           ]
         }

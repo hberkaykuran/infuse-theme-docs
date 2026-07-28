@@ -2083,6 +2083,12 @@
                   "text": "grid"
                 },
                 {
+                  "text": "carousel"
+                },
+                {
+                  "text": "spotlight"
+                },
+                {
                   "text": "stories"
                 }
               ]
@@ -2110,12 +2116,56 @@
               "desc": "Choose one option.",
               "options": [
                 "Grid",
+                "Carousel",
+                "Spotlight",
                 "Stories (circles)"
               ]
             },
             {
+              "label": "Aspect ratio",
+              "desc": "UGC is usually shot vertical. Applies to the cards and to the viewer.",
+              "options": [
+                "Tall (9:16)",
+                "Portrait (4:5)",
+                "Square (1:1)"
+              ]
+            },
+            {
+              "label": "Card width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Centre card scale",
+              "desc": "How much the centred card grows as it passes the middle. Browsers without scroll-driven animations, and visitors who prefer reduced motion, see an even carousel instead.",
+              "options": null
+            },
+            {
+              "label": "Show arrows",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show dots",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Story circle size",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Opening an item",
+              "desc": "The player opens all items in one viewer: auto-advancing, with progress, tap or swipe to move, and a sound toggle. Off makes each item a plain link instead.",
+              "options": [
+                "Stories player",
+                "Off (link out)"
+              ]
+            },
+            {
+              "label": "Seconds per photo",
+              "desc": "Videos run their own length instead.",
               "options": null
             },
             {
