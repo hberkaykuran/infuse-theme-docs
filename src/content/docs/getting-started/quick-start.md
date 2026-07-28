@@ -31,7 +31,21 @@ Select the header in the theme editor and set the **Logo image**. Adjust **Logo 
 
 ## Set up your navigation
 
-Menus live in your Shopify admin under *Online Store → Navigation*, not in the theme. Create or edit your main menu there, then select it in the header's **Menu** setting. The header supports a promo panel as well, with a kicker, title, image, and link.
+Menus live in your Shopify admin under *Online Store → Navigation*, not in the theme. Create or edit your main menu there, then select it in the header's **Menu** setting.
+
+A menu item with sub-items becomes a dropdown. If those sub-items have their own children, it becomes a full mega menu instead, and you can add blocks to fill the space beside the link columns: an image, a heading, some text, a button, or a group holding several of those. The older promo panel settings (kicker, title, image, link) still work, but they only show when you have not added any blocks.
+
+## Arrange your header
+
+The header's **Layout** setting moves the fixed pieces around without changing what they are:
+
+- **Logo left** — logo, then the menu, then search, account, and cart.
+- **Logo centered** — menu on the left, logo in the middle, actions on the right.
+- **Navigation below** — logo and actions on the top row, the menu on its own row underneath. Useful for a long menu or a wide logo.
+
+Every layout collapses to the same mobile bar: menu button, logo, actions.
+
+Beside the actions there is a **Header bar** group you can fill with your own blocks — a shipping note, a phone number, a small button. Leave it empty and nothing shows.
 
 ## Choose your colours
 

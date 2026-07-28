@@ -1,5 +1,5 @@
 {
-  "total": 36,
+  "total": 37,
   "groups": [
     {
       "id": "layout-and-text",
@@ -534,8 +534,18 @@
               ]
             },
             {
-              "label": "Horizontal distribution",
+              "label": "Distribution",
               "desc": "Choose one option.",
+              "options": [
+                "Start",
+                "Center",
+                "End",
+                "Space between"
+              ]
+            },
+            {
+              "label": "Distribution",
+              "desc": "Distributes free vertical space, so it only has an effect when the group is taller than its contents — stretched inside a grid or given a minimum height.",
               "options": [
                 "Start",
                 "Center",
@@ -654,6 +664,11 @@
                   "text": "product-meta",
                   "page": "blocks",
                   "anchor": "product-meta"
+                },
+                {
+                  "text": "product-specs",
+                  "page": "blocks",
+                  "anchor": "product-specs"
                 },
                 {
                   "text": "product-title",
@@ -882,17 +897,26 @@
               "options": null
             },
             {
+              "label": "Size",
+              "desc": "Editorial gives the image more room to breathe — use it in spotlight or editorial layouts, not dense grids.",
+              "options": [
+                "Standard",
+                "Editorial (larger)"
+              ]
+            },
+            {
               "label": "Sizes attribute",
               "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
               "options": null
             },
             {
               "label": "Hover effect",
-              "desc": "Reveals more product photos on hover (desktop only). Needs a product with two or more images.",
+              "desc": "Changes the product image on hover (desktop only). The gallery options need a product with two or more images.",
               "options": [
                 "None",
                 "Show 2nd image",
-                "Scrub gallery"
+                "Scrub gallery",
+                "Grey until hover"
               ]
             }
           ]
@@ -1332,6 +1356,14 @@
             }
           ],
           "settings": [
+            {
+              "label": "Button emphasis",
+              "desc": "Outline gives up the accent fill while keeping the full hit area. Use it on product grids, where a filled accent on every card stops reading as an accent.",
+              "options": [
+                "Filled (accent)",
+                "Outline"
+              ]
+            },
             {
               "label": "Show dynamic checkout button",
               "desc": "Shows the customer's one-click checkout buttons (Shop Pay, PayPal…).",
@@ -2631,6 +2663,56 @@
               "label": "Vertical position",
               "desc": "A slider.",
               "options": null
+            }
+          ]
+        },
+        {
+          "name": "Product specs",
+          "sysname": "product-specs",
+          "id": "product-specs",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Spec metafield",
+              "desc": "Namespace and key, e.g. custom.specs. The value is one \"Label: Value\" per line. Cards whose product has no value simply omit this block.",
+              "options": null
+            },
+            {
+              "label": "Rows to show",
+              "desc": "Keep this low on a dense grid; two rows reads cleanly at four or five columns.",
+              "options": null
+            },
+            {
+              "label": "Label size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium"
+              ]
+            },
+            {
+              "label": "Value size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium"
+              ]
             }
           ]
         },

@@ -1,5 +1,5 @@
 {
-  "addableCount": 38,
+  "addableCount": 39,
   "groups": [
     {
       "id": "header",
@@ -52,6 +52,145 @@
             {
               "label": "Compact (lighter secondary bar)",
               "desc": "Reduces height and text size. Use on a second stacked bar.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Header",
+          "sysname": "header",
+          "id": "header",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "left"
+                },
+                {
+                  "text": "centre"
+                },
+                {
+                  "text": "below"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "button",
+                  "page": "blocks",
+                  "anchor": "button"
+                },
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                },
+                {
+                  "text": "heading",
+                  "page": "blocks",
+                  "anchor": "heading"
+                },
+                {
+                  "text": "image",
+                  "page": "blocks",
+                  "anchor": "image"
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                },
+                {
+                  "text": "video",
+                  "page": "blocks",
+                  "anchor": "video"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Header"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout",
+              "desc": "Logo, navigation, search, account and cart are fixed. This only changes where they sit. Blocks you add to the header bar group sit beside the actions.",
+              "options": [
+                "Logo left",
+                "Logo centered",
+                "Navigation below"
+              ]
+            },
+            {
+              "label": "Logo image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Logo width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Menu",
+              "desc": "Pick a navigation menu.",
+              "options": null
+            },
+            {
+              "label": "Show search icon",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Search shortcuts",
+              "desc": "Collections offered in the search dialog before typing. Leave empty to use your first collections automatically.",
+              "options": null
+            },
+            {
+              "label": "Scroll behavior",
+              "desc": "Hide-on-scroll hides the header as you scroll down and reveals it on scroll up. Reduced-motion visitors get a plain always-sticky header.",
+              "options": [
+                "Not sticky",
+                "Always sticky",
+                "Sticky, hide on scroll down"
+              ]
+            },
+            {
+              "label": "Frosted glass background",
+              "desc": "Translucent scheme background with a blur while sticky. Ignored when scroll behavior is not sticky.",
+              "options": null
+            },
+            {
+              "label": "Static on product pages",
+              "desc": "Keeps the header static on product pages (which already carry a sticky buy bar).",
+              "options": null
+            },
+            {
+              "label": "Promo image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Kicker",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Title",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
               "options": null
             }
           ]
@@ -154,6 +293,19 @@
                 "Middle",
                 "Bottom"
               ]
+            },
+            {
+              "label": "Content width",
+              "desc": "Readable measure caps the copy at about 40rem, which suits centred copy over an image. Full width suits a two-column split, such as copy beside a data table.",
+              "options": [
+                "Readable measure",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Placeholder image",
+              "desc": "Shows a stock illustration when no background media is set. Turn off for a deliberately media-less banner.",
+              "options": null
             },
             {
               "label": "Text overlay opacity",
@@ -3258,109 +3410,6 @@
           ]
         },
         {
-          "name": "Header",
-          "sysname": "header",
-          "id": "header",
-          "meta": [
-            {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "button",
-                  "page": "blocks",
-                  "anchor": "button"
-                },
-                {
-                  "text": "group",
-                  "page": "blocks",
-                  "anchor": "group"
-                },
-                {
-                  "text": "heading",
-                  "page": "blocks",
-                  "anchor": "heading"
-                },
-                {
-                  "text": "image",
-                  "page": "blocks",
-                  "anchor": "image"
-                },
-                {
-                  "text": "text",
-                  "page": "blocks",
-                  "anchor": "text"
-                },
-                {
-                  "text": "video",
-                  "page": "blocks",
-                  "anchor": "video"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Logo image",
-              "desc": "An image you upload or pick from files.",
-              "options": null
-            },
-            {
-              "label": "Logo width",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Menu",
-              "desc": "Pick a navigation menu.",
-              "options": null
-            },
-            {
-              "label": "Show search icon",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Scroll behavior",
-              "desc": "Hide-on-scroll hides the header as you scroll down and reveals it on scroll up. Reduced-motion visitors get a plain always-sticky header.",
-              "options": [
-                "Not sticky",
-                "Always sticky",
-                "Sticky, hide on scroll down"
-              ]
-            },
-            {
-              "label": "Frosted glass background",
-              "desc": "Translucent scheme background with a blur while sticky. Ignored when scroll behavior is not sticky.",
-              "options": null
-            },
-            {
-              "label": "Static on product pages",
-              "desc": "Keeps the header static on product pages (which already carry a sticky buy bar).",
-              "options": null
-            },
-            {
-              "label": "Promo image",
-              "desc": "An image you upload or pick from files.",
-              "options": null
-            },
-            {
-              "label": "Kicker",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Title",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Link",
-              "desc": "A link to a page, product, or collection.",
-              "options": null
-            }
-          ]
-        },
-        {
           "name": "Page",
           "sysname": "page",
           "id": "page",
@@ -3445,6 +3494,24 @@
                 "Portrait",
                 "Adapt to image"
               ]
+            },
+            {
+              "label": "Sticky gallery",
+              "desc": "Holds the media in place while the details column scrolls. Desktop only. Leave off when the gallery is taller than the viewport, since it can never fully rest.",
+              "options": null
+            },
+            {
+              "label": "Image fit",
+              "desc": "Contain suits packshots on a plain background. Cover suits real photography, which would otherwise letterbox inside the stage.",
+              "options": [
+                "Contain",
+                "Cover"
+              ]
+            },
+            {
+              "label": "Tint the stage",
+              "desc": "Washes the image ground with the collection accent. Turn off for a neutral ground.",
+              "options": null
             },
             {
               "label": "Image stage padding",
