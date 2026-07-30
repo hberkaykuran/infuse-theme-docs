@@ -1,5 +1,5 @@
 {
-  "total": 37,
+  "total": 39,
   "groups": [
     {
       "id": "layout-and-text",
@@ -14,11 +14,6 @@
             {
               "label": "Where it works",
               "items": [
-                {
-                  "text": "header",
-                  "page": "sections",
-                  "anchor": "header"
-                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -129,11 +124,6 @@
                   "text": "footer",
                   "page": "sections",
                   "anchor": "footer"
-                },
-                {
-                  "text": "header",
-                  "page": "sections",
-                  "anchor": "header"
                 },
                 {
                   "text": "product-card",
@@ -305,11 +295,6 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "header",
-                  "page": "sections",
-                  "anchor": "header"
-                },
-                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -431,11 +416,6 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "header",
-                  "page": "sections",
-                  "anchor": "header"
-                },
-                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -490,11 +470,6 @@
             {
               "label": "Where it works",
               "items": [
-                {
-                  "text": "header",
-                  "page": "sections",
-                  "anchor": "header"
-                },
                 {
                   "text": "product-card",
                   "page": "blocks",
@@ -586,6 +561,11 @@
               "options": null
             },
             {
+              "label": "Minimum height",
+              "desc": "0 = fits content. Distribute settings need spare height to do anything.",
+              "options": null
+            },
+            {
               "label": "Gap",
               "desc": "A slider.",
               "options": null
@@ -603,6 +583,50 @@
             {
               "label": "Mobile gap",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Background",
+              "desc": "Turns this group into a card. Every layout setting above still applies.",
+              "options": [
+                "None",
+                "Image"
+              ]
+            },
+            {
+              "label": "Background image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Image position",
+              "desc": "Choose one option.",
+              "options": [
+                "Center",
+                "Top",
+                "Bottom",
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Overlay",
+              "desc": "Darkens the image so text on top stays readable.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Colors the text and buttons sitting on the image.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
               "options": null
             }
           ]
@@ -2034,6 +2058,31 @@
               "label": "Products",
               "desc": "Pick several products.",
               "options": null
+            },
+            {
+              "label": "Show the first one on the tile",
+              "desc": "A small tag over the foot of the tile (under the circle on the stories layout). All tagged products appear in the viewer regardless.",
+              "options": null
+            },
+            {
+              "label": "Button on the tile",
+              "desc": "Automatic picks per product: add to cart when there is one variant, quick view when there is one option to choose, otherwise the product page. A forced choice falls back the same way when a product cannot support it.",
+              "options": [
+                "Automatic",
+                "Add to cart",
+                "Quick view",
+                "Discover (product page)"
+              ]
+            },
+            {
+              "label": "Button in the viewer",
+              "desc": "Choose one option.",
+              "options": [
+                "Automatic",
+                "Add to cart",
+                "Quick view",
+                "Discover (product page)"
+              ]
             }
           ]
         }
@@ -2289,13 +2338,18 @@
           ]
         },
         {
-          "name": "Question",
-          "sysname": "faq-item",
-          "id": "faq-item",
+          "name": "Accordion",
+          "sysname": "accordion",
+          "id": "accordion",
           "meta": [
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "faq",
+                  "page": "sections",
+                  "anchor": "faq"
+                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -2305,45 +2359,17 @@
               "label": "Nest inside it",
               "items": [
                 {
-                  "text": "any content block"
+                  "text": "_accordion-row",
+                  "page": "blocks",
+                  "anchor": "accordion-row"
                 }
               ]
             }
           ],
           "settings": [
             {
-              "label": "Question",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Answer",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Question size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large"
-              ]
-            },
-            {
-              "label": "Answer size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
-            {
-              "label": "Open by default",
-              "desc": "An on / off switch.",
+              "label": "Gap",
+              "desc": "A slider.",
               "options": null
             }
           ]
@@ -2582,11 +2608,6 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "header",
-                  "page": "sections",
-                  "anchor": "header"
-                },
-                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -2672,6 +2693,73 @@
           ]
         },
         {
+          "name": "Mega menu panel",
+          "sysname": "mega-panel",
+          "id": "mega-panel",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "app blocks"
+                },
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Category marker",
+              "desc": "Shopify menus carry no per-link settings, so dots and icons are read from the linked collection’s metafield.",
+              "options": [
+                "Same as header",
+                "Nothing",
+                "Collection image",
+                "Colour dot",
+                "Icon"
+              ]
+            },
+            {
+              "label": "Marker metafield",
+              "desc": "namespace.key of a collection metafield. For a colour dot it should hold a colour; for an icon, one of: leaf, cup, stick, shield, truck, recycle, check, return, lock, drop, swirl, no-spoon, mesh-brew.",
+              "options": null
+            },
+            {
+              "label": "Show product counts",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Fill empty space with",
+              "desc": "Ignored when you add blocks below — your blocks are shown instead.",
+              "options": [
+                "Nothing",
+                "Featured products"
+              ]
+            },
+            {
+              "label": "Products to show",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Block area width",
+              "desc": "Width of the area your blocks sit in, to the right of the links.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Product specs",
           "sysname": "product-specs",
           "id": "product-specs",
@@ -2683,9 +2771,6 @@
                   "text": "product-card",
                   "page": "blocks",
                   "anchor": "product-card"
-                },
-                {
-                  "text": "most sections that accept content"
                 }
               ]
             }
@@ -2718,6 +2803,68 @@
                 "Small",
                 "Medium"
               ]
+            }
+          ]
+        },
+        {
+          "name": "Question",
+          "sysname": "_accordion-row",
+          "id": "accordion-row",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "accordion",
+                  "page": "blocks",
+                  "anchor": "accordion"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Question",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Answer",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Question size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Answer size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Open by default",
+              "desc": "An on / off switch.",
+              "options": null
             }
           ]
         },

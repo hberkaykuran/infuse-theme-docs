@@ -76,41 +76,6 @@
               ]
             },
             {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "button",
-                  "page": "blocks",
-                  "anchor": "button"
-                },
-                {
-                  "text": "group",
-                  "page": "blocks",
-                  "anchor": "group"
-                },
-                {
-                  "text": "heading",
-                  "page": "blocks",
-                  "anchor": "heading"
-                },
-                {
-                  "text": "image",
-                  "page": "blocks",
-                  "anchor": "image"
-                },
-                {
-                  "text": "text",
-                  "page": "blocks",
-                  "anchor": "text"
-                },
-                {
-                  "text": "video",
-                  "page": "blocks",
-                  "anchor": "video"
-                }
-              ]
-            },
-            {
               "label": "Presets",
               "items": [
                 {
@@ -174,23 +139,18 @@
               "options": null
             },
             {
-              "label": "Promo image",
-              "desc": "An image you upload or pick from files.",
-              "options": null
+              "label": "Default category marker",
+              "desc": "What shows next to each collection link in a mega menu. Individual mega menus can override this in their own panel settings.",
+              "options": [
+                "Nothing",
+                "Collection image",
+                "Colour dot",
+                "Icon"
+              ]
             },
             {
-              "label": "Kicker",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Title",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Link",
-              "desc": "A link to a page, product, or collection.",
+              "label": "Image corner radius",
+              "desc": "A slider.",
               "options": null
             }
           ]
@@ -2131,9 +2091,14 @@
               ]
             },
             {
-              "label": "Card width",
-              "desc": "A slider.",
-              "options": null
+              "label": "Card size",
+              "desc": "How wide each card is in the carousel and spotlight rows.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
             },
             {
               "label": "Centre card scale",
@@ -2171,11 +2136,6 @@
             {
               "label": "Seconds per photo",
               "desc": "How long a photo shows before moving on. Videos run their own length instead.",
-              "options": null
-            },
-            {
-              "label": "Show a tagged product on the tile",
-              "desc": "The first tagged product appears over the foot of the tile itself. The rest stay in the viewer. Not shown on the circular stories layout, which has no room.",
               "options": null
             },
             {
@@ -2344,7 +2304,9 @@
               "label": "Add inside",
               "items": [
                 {
-                  "text": "any content block"
+                  "text": "accordion",
+                  "page": "blocks",
+                  "anchor": "accordion"
                 }
               ]
             },
@@ -2361,11 +2323,6 @@
             {
               "label": "Answer alignment",
               "desc": "Left, center, or right alignment.",
-              "options": null
-            },
-            {
-              "label": "Gap",
-              "desc": "A slider.",
               "options": null
             },
             {
@@ -3213,8 +3170,50 @@
           "name": "Cart drawer",
           "sysname": "cart-drawer",
           "id": "cart-drawer",
-          "meta": [],
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "app blocks"
+                },
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
           "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Heading",
+              "desc": "Leave blank to use the default “Cart” label.",
+              "options": null
+            },
+            {
+              "label": "Show item count",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show free shipping progress",
+              "desc": "Only appears when a free shipping threshold is set in theme settings or the shop metafield.",
+              "options": null
+            },
+            {
+              "label": "Note under the subtotal",
+              "desc": "Leave blank to use the default taxes and shipping note.",
+              "options": null
+            },
+            {
+              "label": "Checkout button label",
+              "desc": "Leave blank to use the default “Checkout” label.",
+              "options": null
+            },
             {
               "label": "Show product suggestions",
               "desc": "An on / off switch.",

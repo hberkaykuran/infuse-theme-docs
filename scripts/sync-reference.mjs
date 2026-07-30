@@ -130,17 +130,20 @@ const BLOCK_GROUPS = [
   ['Reviews and social proof', 'Blocks that show ratings, customer photos, and trust signals.',
     ['testimonial', 'review-photos', 'trust-item', 'ugc-item']],
   ['Media and section content', 'Blocks used to fill specific storytelling sections.',
-    ['feature', 'step', 'faq-item', 'hero-slide', 'logo', 'image-compare', 'video']],
+    ['feature', 'step', 'accordion', 'hero-slide', 'logo', 'image-compare', 'video']],
 ];
 
 function blockCard(b) {
   const meta = [];
   if (b.layout_variants && b.layout_variants.length)
     meta.push({ label: 'Styles', items: b.layout_variants.map((v) => ({ text: v })) });
+  const isPickable = b.addable !== false && !b.name.startsWith('_');
   const homes = [];
   if (b.accepted_by && b.accepted_by.length) homes.push(...b.accepted_by.map(hostLink));
-  if (b.accepted_via_theme && b.accepted_via_theme.length) homes.push({ text: 'most sections that accept content' });
+  if (isPickable && b.accepted_via_theme && b.accepted_via_theme.length) homes.push({ text: 'most sections that accept content' });
   if (homes.length) meta.push({ label: 'Where it works', items: homes });
+  if (!isPickable && !homes.length)
+    meta.push({ label: 'Where it works', items: [{ text: b.addable === false ? 'Built into the header. You cannot add this block manually.' : 'Only addable inside its parent block.' }] });
   if (b.accepted_blocks && b.accepted_blocks.length)
     meta.push({ label: 'Nest inside it', items: b.accepted_blocks.map(blockRef) });
   return { name: b.schema_name || b.name, sysname: b.name, id: slugId(b.name), meta, settings: settings(b.settings) };

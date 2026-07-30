@@ -16,7 +16,7 @@ export const docsNav = [
     blurb: 'Store-wide theme settings and the two built-in styles.',
     items: [
       { path: '/docs/customization/theme-settings', label: 'Theme settings' },
-      { path: '/docs/customization/presets', label: 'Styles (Infuse & Heirloom)' },
+      { path: '/docs/customization/presets', label: 'Styles (Infuse & Utility)' },
     ],
   },
   {
