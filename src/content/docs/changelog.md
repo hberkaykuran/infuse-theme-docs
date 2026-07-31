@@ -8,6 +8,15 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-01
+
+- **Blog posts and pages style the HTML you write.** Tables, expandable `details` questions, quotes, figures with captions, horizontal rules and nested lists are all styled from your colour scheme and type scale. A wide table scrolls inside itself instead of pushing the page sideways. See [Blog posts](/docs/guides/blog-posts).
+- An `aside` in a post is half width with text wrapping around it, and several in a row alternate sides on their own. A `figure` stays full width and extends slightly past the reading column on wide screens.
+- Blog posts have a **table of contents**, built from the headings already in the post. It sits beside the article and highlights the section being read, and becomes a card above the post on narrower screens.
+- The Article section gained settings: content width, full-width or contained featured image, table of contents position and depth, and toggles for author, date, reading time, tags, share links and related reads. It had one setting before.
+- `h4` in a post body was rendering at the browser's default size instead of the theme's. Fixed, along with list spacing that was looser on pages than in posts.
+- Heading weight now comes from the style rather than a fixed value, so Utility's monospace headings pick a weight that family actually has instead of falling back unpredictably.
+
 ## Unreleased — 2026-07-31
 
 - Groups have a **Display** setting. Set it to Overlay and the group lifts out of the layout and sits on top of the block behind it, with nine positions to choose from and an edge offset. Its blocks still arrange by direction and gap.

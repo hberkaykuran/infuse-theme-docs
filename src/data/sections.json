@@ -3119,6 +3119,70 @@
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
+            },
+            {
+              "label": "Content width",
+              "desc": "Body text only. Images and tables extend past it on wide screens.",
+              "options": [
+                "Narrow",
+                "Standard",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Featured image",
+              "desc": "Choose one option.",
+              "options": [
+                "In the column",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Position",
+              "desc": "Built from the headings in the post. Needs at least two, and falls back to a card above the article on narrow screens.",
+              "options": [
+                "Beside the article",
+                "Above the article",
+                "None"
+              ]
+            },
+            {
+              "label": "Include",
+              "desc": "Choose one option.",
+              "options": [
+                "Main headings only",
+                "Main and sub headings"
+              ]
+            },
+            {
+              "label": "Show author",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show date",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show reading time",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show tags",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show share links",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show related reads",
+              "desc": "An on / off switch.",
+              "options": null
             }
           ]
         },
