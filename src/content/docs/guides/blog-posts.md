@@ -75,7 +75,15 @@ Built from the headings already in your post, so there is nothing to maintain. I
 
 ### Article details
 
-Individual toggles for the author, date, reading time, tags, share links and the related reads strip at the bottom. Turn off what you do not use.
+Individual toggles for the author, date, reading time, tags and share links. Turn off what you do not use.
+
+## Related reads
+
+This is its own section, sitting under the Article section in the theme editor, so you can move it, restyle it or remove it like any other. Its heading is a Heading block, so it takes the same decoration and size settings as every other section heading.
+
+Posts sharing a tag with the one being read come first, then the most recent fill the rest. Settings cover how many to show, how many columns, whether cards carry a summary and a category chip, and the usual width, spacing and colour scheme.
+
+It renders nothing when there is nothing to show, so a blog with a single post is safe to leave it in.
 
 ## Notes
 

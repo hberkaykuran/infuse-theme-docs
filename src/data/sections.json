@@ -1,5 +1,5 @@
 {
-  "addableCount": 39,
+  "addableCount": 40,
   "groups": [
     {
       "id": "header",
@@ -3176,11 +3176,6 @@
             },
             {
               "label": "Show share links",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show related reads",
               "desc": "An on / off switch.",
               "options": null
             }
