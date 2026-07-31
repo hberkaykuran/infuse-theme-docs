@@ -522,6 +522,11 @@
               "options": null
             },
             {
+              "label": "Show only the highest-priority badge",
+              "desc": "Hides every badge in this group except the one with the lowest priority number.",
+              "options": null
+            },
+            {
               "label": "Layout direction",
               "desc": "Choose one option.",
               "options": [
@@ -643,6 +648,11 @@
             {
               "label": "Overlay",
               "desc": "Darkens the image so text on top stays readable.",
+              "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "Repaints everything inside this group. Leave off to follow the section.",
               "options": null
             },
             {
@@ -1159,98 +1169,6 @@
               "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
-            }
-          ]
-        },
-        {
-          "name": "Badge",
-          "sysname": "sale-badge",
-          "id": "sale-badge",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "_product-card",
-                  "page": "blocks",
-                  "anchor": "product-card"
-                },
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Style",
-              "desc": "Choose one option.",
-              "options": [
-                "Sale (accent)",
-                "Bestseller (dark)",
-                "New (vivid)"
-              ]
-            },
-            {
-              "label": "Show badge",
-              "desc": "Choose one option.",
-              "options": [
-                "When on sale (adds −%)",
-                "When product has a tag",
-                "Always"
-              ]
-            },
-            {
-              "label": "Badge text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Bestseller trigger tag",
-              "desc": "Tag a product with this word in Shopify admin to promote its badge. Capitals are ignored.",
-              "options": null
-            },
-            {
-              "label": "Bestseller promotion text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "New trigger tag",
-              "desc": "Tag a product with this word in Shopify admin to promote its badge. Capitals are ignored.",
-              "options": null
-            },
-            {
-              "label": "New promotion text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Trigger tag",
-              "desc": "Badge shows on products tagged with this word in Shopify admin. Capitals are ignored.",
-              "options": null
-            },
-            {
-              "label": "Size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
-            {
-              "label": "Only if no other badge is showing",
-              "desc": "Yields to any other badge in the same overlay group, so this one acts as the lower-priority option.",
-              "options": null
-            },
-            {
-              "label": "Position",
-              "desc": "Applies when the badge sits directly in a product card. Inside an overlay group the group's position wins.",
-              "options": [
-                "Top left",
-                "Top right"
-              ]
             }
           ]
         },
@@ -1953,6 +1871,134 @@
           ]
         },
         {
+          "name": "Badge",
+          "sysname": "badge",
+          "id": "badge",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Text",
+              "desc": "Leave blank to hide the badge. Connect a metafield here to show it only on the products that carry one.",
+              "options": null
+            },
+            {
+              "label": "Show badge",
+              "desc": "Choose one option.",
+              "options": [
+                "Always",
+                "When on sale",
+                "When product has a tag",
+                "When sold out",
+                "When in stock"
+              ]
+            },
+            {
+              "label": "Add the discount percent",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Trigger tag",
+              "desc": "Badge shows on products tagged with this word in Shopify admin. Capitals are ignored.",
+              "options": null
+            },
+            {
+              "label": "Priority",
+              "desc": "Sets the order badges stack in, 1 first. Turn on the group's badge override to show only the highest one.",
+              "options": null
+            },
+            {
+              "label": "Fill",
+              "desc": "Choose one option.",
+              "options": [
+                "Accent",
+                "Ink",
+                "Outline",
+                "Soft accent",
+                "Neutral"
+              ]
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "Repaints just this badge. Add a scheme under Theme settings > Colors to create a new badge color.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Corner radius",
+              "desc": "Choose one option.",
+              "options": [
+                "Follow theme style",
+                "Pill",
+                "Rounded",
+                "Square"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "Leave at 0 to keep the fill's own border. Outline draws its own.",
+              "options": null
+            },
+            {
+              "label": "Tilt",
+              "desc": "Follows the theme style. Styles with no tilt stay flat, and reduced motion flattens all of them.",
+              "options": [
+                "Angle A",
+                "Angle B",
+                "None"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Check",
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle",
+                "Return (easy returns)",
+                "Lock (secure payment)"
+              ]
+            }
+          ]
+        },
+        {
           "name": "Feature",
           "sysname": "_feature",
           "id": "feature",
@@ -2180,6 +2226,11 @@
               "label": "Nest inside it",
               "items": [
                 {
+                  "text": "badge",
+                  "page": "blocks",
+                  "anchor": "badge"
+                },
+                {
                   "text": "buy-buttons",
                   "page": "blocks",
                   "anchor": "buy-buttons"
@@ -2223,11 +2274,6 @@
                   "text": "product-title",
                   "page": "blocks",
                   "anchor": "product-title"
-                },
-                {
-                  "text": "sale-badge",
-                  "page": "blocks",
-                  "anchor": "sale-badge"
                 },
                 {
                   "text": "text",
