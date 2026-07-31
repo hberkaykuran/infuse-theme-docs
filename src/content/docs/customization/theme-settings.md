@@ -10,11 +10,11 @@ Theme settings are the store-wide options that apply everywhere, separate from a
 
 ## Design preset
 
-Chooses the overall look: **Infuse** or **Heirloom**. The preset sets the display font, corner radius, and motion feel for the whole theme. Colours are handled separately in the schemes below. See [Styles](/docs/customization/presets) for the difference between the two.
+Chooses the overall look: **Infuse** or **Utility**. The preset sets the display font, corner radius, and motion feel for the whole theme. Colours are handled separately in the schemes below. See [Styles](/docs/customization/presets) for the difference between the two.
 
 ## Typography
 
-The Heirloom style lets you pick its display font from Shopify's font list. The Infuse style uses a self-hosted font that loads with the theme, so there is nothing to configure for it. Body text uses a clean system font stack in both styles for fast loading.
+Neither style uses Shopify's font picker, so there is nothing to configure here. Infuse uses a self-hosted display font that loads with the theme. Utility uses your system's monospace font for both headings and body text, so it makes no font request at all, and it keeps prices, SKUs, and spec columns lined up without any extra setup.
 
 ## Layout
 

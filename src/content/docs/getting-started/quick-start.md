@@ -11,7 +11,7 @@ This guide takes you from a fresh install to a home page you can publish. It ass
 ## The five-minute checklist
 
 1. **Add the theme to your store.** From your Shopify admin, add Infuse to your theme library, then open the theme editor.
-2. **Pick a style.** In *Theme settings → Design preset*, choose Infuse or Heirloom. See [Styles](/docs/customization/presets).
+2. **Pick a style.** In *Theme settings → Design preset*, choose Infuse or Utility. See [Styles](/docs/customization/presets).
 3. **Add your logo and menu.** Set your logo in the header and connect your main navigation menu.
 4. **Set your colours.** Adjust the colour schemes so they match your brand. See [Theme settings](/docs/customization/theme-settings).
 5. **Build your home page.** Add and arrange [sections](/docs/reference/sections), then preview and publish.
@@ -21,7 +21,7 @@ This guide takes you from a fresh install to a home page you can publish. It ass
 Infuse ships with two styles. In the theme editor, open *Theme settings → Design preset* and choose one:
 
 - **Infuse**: rounded corners, an expressive display font, and a warm coral accent.
-- **Heirloom**: square corners, a refined serif, and a classic amber accent.
+- **Utility**: square corners, a system monospace font, and a rust-red accent.
 
 The style changes fonts, corner radius, and motion across the whole theme. Colours are set separately in the colour schemes. See [Styles](/docs/customization/presets) for a full comparison.
 
@@ -33,7 +33,7 @@ Select the header in the theme editor and set the **Logo image**. Adjust **Logo 
 
 Menus live in your Shopify admin under *Online Store → Navigation*, not in the theme. Create or edit your main menu there, then select it in the header's **Menu** setting.
 
-A menu item with sub-items becomes a dropdown. If those sub-items have their own children, it becomes a full mega menu instead, and you can add blocks to fill the space beside the link columns: an image, a heading, some text, a button, or a group holding several of those. The older promo panel settings (kicker, title, image, link) still work, but they only show when you have not added any blocks.
+A menu item with sub-items becomes a dropdown. If those sub-items have their own children, it becomes a full mega menu instead, and you can add blocks to fill the space beside the link columns: an image, a heading, some text, a button, or a group holding several of those. A group can also carry its own background image, which turns it into a promo card, handy for a small feature panel beside your menu links. The older promo panel settings (kicker, title, image, link) still work, but they only show when you have not added any blocks.
 
 ## Arrange your header
 
@@ -53,7 +53,7 @@ Colours are grouped into **schemes** under *Theme settings → Colors*. A scheme
 
 ## Build your home page
 
-In the theme editor, use **Add section** to place a hero, featured products, testimonials, and more, then drag sections to reorder them. Inside a section, use **Add block** to place headings, text, buttons, and images. The [Sections](/docs/reference/sections) and [Blocks](/docs/reference/blocks) references list everything available and what each setting does.
+In the theme editor, use **Add section** to place a hero, featured products, testimonials, and more, then drag sections to reorder them. Inside a section, use **Add block** to place headings, text, buttons, and images. The [Sections](/docs/reference/sections) and [Blocks](/docs/reference/blocks) references list everything available and what each setting does. Some settings only appear once they are relevant, for example a link's "Open in new tab" toggle shows up after you set the link, so do not worry if a panel looks shorter than the reference page until you fill in the setting above it.
 
 A common home page order: a hero, a row of trust points, a featured collection, an A+ story section, testimonials, and a newsletter signup.
 

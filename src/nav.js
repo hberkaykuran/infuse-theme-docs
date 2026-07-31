@@ -16,7 +16,7 @@ export const docsNav = [
     blurb: 'Store-wide theme settings and the two built-in styles.',
     items: [
       { path: '/docs/customization/theme-settings', label: 'Theme settings' },
-      { path: '/docs/customization/presets', label: 'Styles (Infuse & Heirloom)' },
+      { path: '/docs/customization/presets', label: 'Styles (Infuse & Utility)' },
     ],
   },
   {
@@ -29,8 +29,9 @@ export const docsNav = [
   },
   {
     title: 'Guides',
-    blurb: 'Translate your store into more languages.',
+    blurb: 'Badge your products and translate your store into more languages.',
     items: [
+      { path: '/docs/guides/product-badges', label: 'Product badges' },
       { path: '/docs/guides/localization', label: 'Localization' },
     ],
   },

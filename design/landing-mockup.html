@@ -82,15 +82,16 @@
           .preset .desc { color: var(--ink-soft); font-size: 0.95rem; margin: 0.5rem 0 1.6rem; max-width: 44ch; }
           .preset-infuse { background: #FCF4E4; }
           .preset-infuse h3 { font-family: Fraunces, Georgia, serif; font-style: italic; font-weight: 560; font-size: 2rem; margin: 0.5rem 0 0; color: #33261B; }
-          .preset-heirloom { background: #FBF5EB; }
-          .preset-heirloom h3 { font-family: Marcellus, 'Times New Roman', serif; font-weight: 400; font-size: 2rem; margin: 0.5rem 0 0; color: #33261B; }
+          .preset-utility { background: #F7F6F2; border-radius: 0; border-width: 2px; }
+          .preset-utility h3 { font-family: ui-monospace, Consolas, monospace; font-weight: 600; font-size: 2rem; margin: 0.5rem 0 0; color: #111111; }
           .mini-ui { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
           .badge { display: inline-block; font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; padding: 0.34rem 0.72rem; transition: transform 0.25s var(--spring); }
           .badge-sale { background: #BF5026; color: #FFF8EC; border-radius: 999px; transform: rotate(-2deg); }
-          .badge-heir { background: #B67B3D; color: #FFF8EC; border-radius: 4px; }
-          .btn-heir { border-radius: 4px; background: #B67B3D; color: #FFF8EC; }
+          .badge-utility { background: #B8280F; color: #F7F6F2; border-radius: 0; }
+          .btn-utility { border-radius: 0; background: #B8280F; color: #F7F6F2; }
           .swatches { display: flex; gap: 8px; margin-top: 20px; }
           .sw { width: 22px; height: 22px; border-radius: 999px; border: 1px solid rgba(51, 38, 27, 0.18); }
+          .sw-utility { border-radius: 0; border: 1px solid rgba(17, 17, 17, 0.18); }
           .chips { display: flex; gap: 8px; margin-top: 18px; flex-wrap: wrap; }
           .chip { font: 600 0.72rem ui-monospace, Consolas, monospace; color: var(--ink-soft); border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.7rem; background: rgba(255, 255, 255, 0.35); }
 
@@ -162,7 +163,7 @@
             <div class="feat">
               <div class="icon"><span class="ic-circle"></span><span class="ic-circle ol"></span></div>
               <h3 class="fraunces">Two presets, one click</h3>
-              <p>Infuse is warm and playful, Heirloom is calm and classic. Switch the whole look from a single setting in the editor.</p>
+              <p>Infuse is warm and playful, Utility is dense and engineered. Switch the whole look from a single setting in the editor.</p>
             </div>
             <div class="feat">
               <div class="icon"><span class="ic-circle half"></span></div>
@@ -207,22 +208,22 @@
                 </div>
                 <div class="chips"><span class="chip">Fraunces 540</span><span class="chip">radius 16</span><span class="chip">spring motion</span></div>
               </div>
-              <div class="preset preset-heirloom">
-                <div class="eyebrow" style="color: #8A5C28">Preset 02</div>
-                <h3>Heirloom</h3>
-                <p class="desc">Calm, classic, quietly premium. Marcellus headings, warm amber, crisp corners and gentle motion.</p>
+              <div class="preset preset-utility">
+                <div class="eyebrow" style="color: #B8280F">Preset 02</div>
+                <h3>Utility</h3>
+                <p class="desc">Engineered, brutalist-adjacent, quietly dense. System monospace headings and body, rust-red accent, square corners and instant state flips.</p>
                 <div class="mini-ui">
-                  <span class="btn btn-heir">Add to cart</span>
-                  <span class="badge badge-heir">Sale &#8722;20%</span>
+                  <span class="btn btn-utility">Add to cart</span>
+                  <span class="badge badge-utility">Sale &#8722;20%</span>
                 </div>
                 <div class="swatches">
-                  <span class="sw" style="background: #FBF5EB"></span>
-                  <span class="sw" style="background: #F3E7D3"></span>
-                  <span class="sw" style="background: #B67B3D"></span>
-                  <span class="sw" style="background: #8A5C28"></span>
-                  <span class="sw" style="background: #33261B"></span>
+                  <span class="sw sw-utility" style="background: #F7F6F2"></span>
+                  <span class="sw sw-utility" style="background: #EFEDE7"></span>
+                  <span class="sw sw-utility" style="background: #B8280F"></span>
+                  <span class="sw sw-utility" style="background: #111111"></span>
+                  <span class="sw sw-utility" style="background: #111111"></span>
                 </div>
-                <div class="chips"><span class="chip">Marcellus</span><span class="chip">radius 4</span><span class="chip">calm motion</span></div>
+                <div class="chips"><span class="chip">System mono</span><span class="chip">radius 0</span><span class="chip">instant motion</span></div>
               </div>
             </div>
           </div>

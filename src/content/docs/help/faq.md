@@ -16,7 +16,7 @@ Add Infuse to your theme library from your Shopify admin under Online Store then
 </details>
 
 <details>
-<summary>How do I switch between the Infuse and Heirloom styles?</summary>
+<summary>How do I switch between the Infuse and Utility styles?</summary>
 
 Open Theme settings then Design preset and choose one. The change applies across the whole theme. See [Styles](/docs/customization/presets).
 
@@ -47,6 +47,13 @@ Colours live in schemes under Theme settings then Colors. Set your brand colours
 <summary>Can I add my own sections and blocks?</summary>
 
 Yes. Use Add section on a page, then Add block inside a section. The [Sections](/docs/reference/sections) and [Blocks](/docs/reference/blocks) pages list everything available.
+
+</details>
+
+<details>
+<summary>How do I build an FAQ section?</summary>
+
+Add an FAQ section, then add an Accordion block inside it. Each question is its own Question block added inside the accordion, so build your list by adding a Question for every entry you want. Spacing between rows is set on the accordion itself.
 
 </details>
 
