@@ -121,14 +121,14 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "_product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
                   "text": "footer",
                   "page": "sections",
                   "anchor": "footer"
-                },
-                {
-                  "text": "product-card",
-                  "page": "blocks",
-                  "anchor": "product-card"
                 },
                 {
                   "text": "most sections that accept content"
@@ -205,7 +205,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -471,7 +471,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -490,6 +490,37 @@
             }
           ],
           "settings": [
+            {
+              "label": "Display",
+              "desc": "Overlay lifts this group out of the layout and pins it over the block behind it, such as a product image. Its blocks still stack by direction and gap.",
+              "options": [
+                "In the layout",
+                "Overlay"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Edge offset",
+              "desc": "A slider.",
+              "options": null
+            },
             {
               "label": "Layout direction",
               "desc": "Choose one option.",
@@ -639,167 +670,6 @@
       "note": "Blocks for product pages and product cards: the buy area, pricing, variants, stock, and delivery.",
       "cards": [
         {
-          "name": "Product card",
-          "sysname": "product-card",
-          "id": "product-card",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "buy-buttons",
-                  "page": "blocks",
-                  "anchor": "buy-buttons"
-                },
-                {
-                  "text": "group",
-                  "page": "blocks",
-                  "anchor": "group"
-                },
-                {
-                  "text": "label",
-                  "page": "blocks",
-                  "anchor": "label"
-                },
-                {
-                  "text": "price",
-                  "page": "blocks",
-                  "anchor": "price"
-                },
-                {
-                  "text": "product-description",
-                  "page": "blocks",
-                  "anchor": "product-description"
-                },
-                {
-                  "text": "product-image",
-                  "page": "blocks",
-                  "anchor": "product-image"
-                },
-                {
-                  "text": "product-meta",
-                  "page": "blocks",
-                  "anchor": "product-meta"
-                },
-                {
-                  "text": "product-specs",
-                  "page": "blocks",
-                  "anchor": "product-specs"
-                },
-                {
-                  "text": "product-title",
-                  "page": "blocks",
-                  "anchor": "product-title"
-                },
-                {
-                  "text": "sale-badge",
-                  "page": "blocks",
-                  "anchor": "sale-badge"
-                },
-                {
-                  "text": "text",
-                  "page": "blocks",
-                  "anchor": "text"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Vertical gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Background",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Corner radius",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Border",
-              "desc": "Choose one option.",
-              "options": [
-                "None",
-                "Solid"
-              ]
-            },
-            {
-              "label": "Border width",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Quick add button",
-              "desc": "Overlays the product image. Single-variant products add to cart in one tap; multi-variant products link to the product page.",
-              "options": null
-            },
-            {
-              "label": "Show on desktop",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show on mobile",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Icon",
-              "desc": "Choose one option.",
-              "options": [
-                "Plus",
-                "Bag"
-              ]
-            },
-            {
-              "label": "Button style",
-              "desc": "Choose one option.",
-              "options": [
-                "Blurred glass",
-                "Solid fill"
-              ]
-            },
-            {
-              "label": "Quick view button",
-              "desc": "Opens a dialog to pick a variant and add to cart without leaving the page. Products with two or more option types link to the product page instead.",
-              "options": null
-            },
-            {
-              "label": "Show on desktop",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show on mobile",
-              "desc": "An on / off switch.",
-              "options": null
-            }
-          ]
-        },
-        {
           "name": "Product title",
           "sysname": "product-title",
           "id": "product-title",
@@ -808,7 +678,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -886,7 +756,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -954,7 +824,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -1073,7 +943,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -1232,7 +1102,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -1301,7 +1171,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -1336,8 +1206,18 @@
               "options": null
             },
             {
+              "label": "Bestseller trigger tag",
+              "desc": "Tag a product with this word in Shopify admin to promote its badge. Capitals are ignored.",
+              "options": null
+            },
+            {
               "label": "Bestseller promotion text",
               "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "New trigger tag",
+              "desc": "Tag a product with this word in Shopify admin to promote its badge. Capitals are ignored.",
               "options": null
             },
             {
@@ -1347,12 +1227,26 @@
             },
             {
               "label": "Trigger tag",
-              "desc": "Badge shows on products tagged with this word.",
+              "desc": "Badge shows on products tagged with this word in Shopify admin. Capitals are ignored.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Only if no other badge is showing",
+              "desc": "Yields to any other badge in the same overlay group, so this one acts as the lower-priority option.",
               "options": null
             },
             {
               "label": "Position",
-              "desc": "Choose one option.",
+              "desc": "Applies when the badge sits directly in a product card. Inside an overlay group the group's position wins.",
               "options": [
                 "Top left",
                 "Top right"
@@ -1369,7 +1263,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 },
@@ -1659,63 +1553,6 @@
               "options": null
             }
           ]
-        },
-        {
-          "name": "Spec row",
-          "sysname": "spec-row",
-          "id": "spec-row",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "spec-table",
-                  "page": "sections",
-                  "anchor": "spec-table"
-                },
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Label",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Value",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Label size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
-            {
-              "label": "Value size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
-            {
-              "label": "Vertical padding",
-              "desc": "A slider.",
-              "options": null
-            }
-          ]
         }
       ]
     },
@@ -1724,117 +1561,6 @@
       "label": "Reviews and social proof",
       "note": "Blocks that show ratings, customer photos, and trust signals.",
       "cards": [
-        {
-          "name": "Testimonial",
-          "sysname": "testimonial",
-          "id": "testimonial",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Star rating",
-              "desc": "Choose one option.",
-              "options": [
-                "5",
-                "4",
-                "3",
-                "2",
-                "1"
-              ]
-            },
-            {
-              "label": "Quote",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Author",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Verified buyer",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Quote size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Author size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Star color",
-              "desc": "Choose one option.",
-              "options": [
-                "Text",
-                "Muted text",
-                "Accent text"
-              ]
-            },
-            {
-              "label": "Star size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Star spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
-              "options": null
-            },
-            {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Padding",
-              "desc": "A slider.",
-              "options": null
-            }
-          ]
-        },
         {
           "name": "Review photos",
           "sysname": "review-photos",
@@ -1930,161 +1656,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Badge",
-          "sysname": "trust-item",
-          "id": "trust-item",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Icon",
-              "desc": "Choose one option.",
-              "options": [
-                "Leaf",
-                "Cup",
-                "Stick",
-                "Shield",
-                "Truck",
-                "Recycle",
-                "Return (easy returns)",
-                "Lock (secure payment)",
-                "Drop (no-drip)",
-                "Swirl (stir)",
-                "No spoon",
-                "Mesh brew"
-              ]
-            },
-            {
-              "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
-              "options": null
-            },
-            {
-              "label": "Text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large"
-              ]
-            },
-            {
-              "label": "Color",
-              "desc": "Choose one option.",
-              "options": [
-                "Text",
-                "Muted text",
-                "Accent text",
-                "Background (for dark surfaces)",
-                "On accent (for accent fills)"
-              ]
-            },
-            {
-              "label": "Icon size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            }
-          ]
-        },
-        {
-          "name": "UGC item",
-          "sysname": "ugc-item",
-          "id": "ugc-item",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Image",
-              "desc": "An image you upload or pick from files.",
-              "options": null
-            },
-            {
-              "label": "Video",
-              "desc": "Autoplays muted and looping. Takes over the tile when set (image becomes its poster fallback). Nest text blocks to add a caption bar.",
-              "options": null
-            },
-            {
-              "label": "Link",
-              "desc": "A link to a page, product, or collection.",
-              "options": null
-            },
-            {
-              "label": "Products",
-              "desc": "Pick several products.",
-              "options": null
-            },
-            {
-              "label": "Show the first one on the tile",
-              "desc": "A small tag over the foot of the tile (under the circle on the stories layout). All tagged products appear in the viewer regardless.",
-              "options": null
-            },
-            {
-              "label": "Button on the tile",
-              "desc": "Automatic picks per product: add to cart when there is one variant, quick view when there is one option to choose, otherwise the product page. A forced choice falls back the same way when a product cannot support it.",
-              "options": [
-                "Automatic",
-                "Add to cart",
-                "Quick view",
-                "Discover (product page)"
-              ]
-            },
-            {
-              "label": "Button in the viewer",
-              "desc": "Choose one option.",
-              "options": [
-                "Automatic",
-                "Add to cart",
-                "Quick view",
-                "Discover (product page)"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2093,250 +1664,6 @@
       "label": "Media and section content",
       "note": "Blocks used to fill specific storytelling sections.",
       "cards": [
-        {
-          "name": "Feature",
-          "sysname": "feature",
-          "id": "feature",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Glyph",
-              "desc": "Choose one option.",
-              "options": [
-                "Leaf",
-                "Cup",
-                "Stick",
-                "Shield",
-                "Truck",
-                "Recycle"
-              ]
-            },
-            {
-              "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
-              "options": null
-            },
-            {
-              "label": "Icon style",
-              "desc": "Choose one option.",
-              "options": [
-                "Coral chip",
-                "Accent",
-                "Ink",
-                "Muted"
-              ]
-            },
-            {
-              "label": "Icon size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Heading",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Title size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large"
-              ]
-            },
-            {
-              "label": "Text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Text size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
-              "options": null
-            },
-            {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Card background",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Padding",
-              "desc": "A slider.",
-              "options": null
-            }
-          ]
-        },
-        {
-          "name": "Step",
-          "sysname": "step",
-          "id": "step",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "how-to",
-                  "page": "sections",
-                  "anchor": "how-to"
-                },
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Eyebrow",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Media type",
-              "desc": "Choose one option.",
-              "options": [
-                "Image",
-                "Icon"
-              ]
-            },
-            {
-              "label": "Image",
-              "desc": "An image you upload or pick from files.",
-              "options": null
-            },
-            {
-              "label": "Glyph",
-              "desc": "Choose one option.",
-              "options": [
-                "Leaf",
-                "Cup",
-                "Stick",
-                "Shield",
-                "Truck",
-                "Recycle"
-              ]
-            },
-            {
-              "label": "Media position",
-              "desc": "Choose one option.",
-              "options": [
-                "Above eyebrow",
-                "Below eyebrow"
-              ]
-            },
-            {
-              "label": "Media ratio",
-              "desc": "Choose one option.",
-              "options": [
-                "Square",
-                "Portrait",
-                "Landscape"
-              ]
-            },
-            {
-              "label": "Media width",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Full"
-              ]
-            },
-            {
-              "label": "Media corner radius",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Round"
-              ]
-            },
-            {
-              "label": "Heading",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Title size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large"
-              ]
-            },
-            {
-              "label": "Text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Text size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
-            {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Padding",
-              "desc": "A slider.",
-              "options": null
-            }
-          ]
-        },
         {
           "name": "Accordion",
           "sysname": "accordion",
@@ -2370,123 +1697,6 @@
             {
               "label": "Gap",
               "desc": "A slider.",
-              "options": null
-            }
-          ]
-        },
-        {
-          "name": "Slide",
-          "sysname": "hero-slide",
-          "id": "hero-slide",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Image",
-              "desc": "An image you upload or pick from files.",
-              "options": null
-            },
-            {
-              "label": "Background image (mobile)",
-              "desc": "Optional art-directed crop shown at ≤749px.",
-              "options": null
-            },
-            {
-              "label": "Load image eagerly",
-              "desc": "Turn on for the first slide only so its background image isn't lazy-loaded (helps LCP). Leave off for the rest.",
-              "options": null
-            },
-            {
-              "label": "Eyebrow",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Heading",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Heading size",
-              "desc": "Choose one option.",
-              "options": [
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Text size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large"
-              ]
-            },
-            {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Button label",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Button link",
-              "desc": "A link to a page, product, or collection.",
-              "options": null
-            },
-            {
-              "label": "Horizontal position",
-              "desc": "Choose one option.",
-              "options": [
-                "Left",
-                "Center",
-                "Right"
-              ]
-            },
-            {
-              "label": "Vertical position",
-              "desc": "Choose one option.",
-              "options": [
-                "Top",
-                "Middle",
-                "Bottom"
-              ]
-            },
-            {
-              "label": "Max width",
-              "desc": "Max width of the copy column. 0 = auto.",
-              "options": null
-            },
-            {
-              "label": "Text overlay opacity",
-              "desc": "Darkens the media behind the copy for AA contrast. 100% = the AA-tested scrim.",
               "options": null
             }
           ]
@@ -2656,20 +1866,214 @@
       "label": "Other blocks",
       "cards": [
         {
+          "name": "Badge",
+          "sysname": "_trust-item",
+          "id": "trust-item",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "trust-strip",
+                  "page": "sections",
+                  "anchor": "trust-strip"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle",
+                "Return (easy returns)",
+                "Lock (secure payment)",
+                "Drop (no-drip)",
+                "Swirl (stir)",
+                "No spoon",
+                "Mesh brew"
+              ]
+            },
+            {
+              "label": "Custom icon",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "options": null
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Feature",
+          "sysname": "_feature",
+          "id": "feature",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "feature-grid",
+                  "page": "sections",
+                  "anchor": "feature-grid"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Glyph",
+              "desc": "Choose one option.",
+              "options": [
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle"
+              ]
+            },
+            {
+              "label": "Custom icon",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "options": null
+            },
+            {
+              "label": "Icon style",
+              "desc": "Choose one option.",
+              "options": [
+                "Coral chip",
+                "Accent",
+                "Ink",
+                "Muted"
+              ]
+            },
+            {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Title size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large"
+              ]
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Card background",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Hotspot",
-          "sysname": "hotspot",
+          "sysname": "_hotspot",
           "id": "hotspot",
           "meta": [
             {
               "label": "Where it works",
               "items": [
                 {
-                  "text": "hotspot-image",
+                  "text": "_hotspot-image",
                   "page": "blocks",
                   "anchor": "hotspot-image"
-                },
-                {
-                  "text": "most sections that accept content"
                 }
               ]
             }
@@ -2760,6 +2164,167 @@
           ]
         },
         {
+          "name": "Product card",
+          "sysname": "_product-card",
+          "id": "product-card",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Only addable inside its parent block."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "buy-buttons",
+                  "page": "blocks",
+                  "anchor": "buy-buttons"
+                },
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                },
+                {
+                  "text": "label",
+                  "page": "blocks",
+                  "anchor": "label"
+                },
+                {
+                  "text": "price",
+                  "page": "blocks",
+                  "anchor": "price"
+                },
+                {
+                  "text": "product-description",
+                  "page": "blocks",
+                  "anchor": "product-description"
+                },
+                {
+                  "text": "product-image",
+                  "page": "blocks",
+                  "anchor": "product-image"
+                },
+                {
+                  "text": "product-meta",
+                  "page": "blocks",
+                  "anchor": "product-meta"
+                },
+                {
+                  "text": "product-specs",
+                  "page": "blocks",
+                  "anchor": "product-specs"
+                },
+                {
+                  "text": "product-title",
+                  "page": "blocks",
+                  "anchor": "product-title"
+                },
+                {
+                  "text": "sale-badge",
+                  "page": "blocks",
+                  "anchor": "sale-badge"
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Vertical gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Background",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Border",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Solid"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Quick add button",
+              "desc": "Overlays the product image. Single-variant products add to cart in one tap; multi-variant products link to the product page.",
+              "options": null
+            },
+            {
+              "label": "Show on desktop",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "Plus",
+                "Bag"
+              ]
+            },
+            {
+              "label": "Button style",
+              "desc": "Choose one option.",
+              "options": [
+                "Blurred glass",
+                "Solid fill"
+              ]
+            },
+            {
+              "label": "Quick view button",
+              "desc": "Opens a dialog to pick a variant and add to cart without leaving the page. Products with two or more option types link to the product page instead.",
+              "options": null
+            },
+            {
+              "label": "Show on desktop",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Product specs",
           "sysname": "product-specs",
           "id": "product-specs",
@@ -2768,7 +2333,7 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "product-card",
+                  "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
                 }
@@ -2870,14 +2435,16 @@
         },
         {
           "name": "Shoppable image cell",
-          "sysname": "hotspot-image",
+          "sysname": "_hotspot-image",
           "id": "hotspot-image",
           "meta": [
             {
               "label": "Where it works",
               "items": [
                 {
-                  "text": "most sections that accept content"
+                  "text": "shoppable-image",
+                  "page": "sections",
+                  "anchor": "shoppable-image"
                 }
               ]
             },
@@ -2885,7 +2452,7 @@
               "label": "Nest inside it",
               "items": [
                 {
-                  "text": "hotspot",
+                  "text": "_hotspot",
                   "page": "blocks",
                   "anchor": "hotspot"
                 }
@@ -2920,6 +2487,497 @@
               "label": "Sizes attribute",
               "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
               "options": null
+            }
+          ]
+        },
+        {
+          "name": "Slide",
+          "sysname": "_hero-slide",
+          "id": "hero-slide",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "hero-slideshow",
+                  "page": "sections",
+                  "anchor": "hero-slideshow"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Background image (mobile)",
+              "desc": "Optional art-directed crop shown at ≤749px.",
+              "options": null
+            },
+            {
+              "label": "Load image eagerly",
+              "desc": "Turn on for the first slide only so its background image isn't lazy-loaded (helps LCP). Leave off for the rest.",
+              "options": null
+            },
+            {
+              "label": "Eyebrow",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Heading size",
+              "desc": "Choose one option.",
+              "options": [
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Button label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Button link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Middle",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Max width",
+              "desc": "Max width of the copy column. 0 = auto.",
+              "options": null
+            },
+            {
+              "label": "Text overlay opacity",
+              "desc": "Darkens the media behind the copy for AA contrast. 100% = the AA-tested scrim.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Spec row",
+          "sysname": "_spec-row",
+          "id": "spec-row",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "spec-table",
+                  "page": "sections",
+                  "anchor": "spec-table"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Value",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Label size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Value size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Step",
+          "sysname": "_step",
+          "id": "step",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "how-to",
+                  "page": "sections",
+                  "anchor": "how-to"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Eyebrow",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Media type",
+              "desc": "Choose one option.",
+              "options": [
+                "Image",
+                "Icon"
+              ]
+            },
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Glyph",
+              "desc": "Choose one option.",
+              "options": [
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle"
+              ]
+            },
+            {
+              "label": "Media position",
+              "desc": "Choose one option.",
+              "options": [
+                "Above eyebrow",
+                "Below eyebrow"
+              ]
+            },
+            {
+              "label": "Media ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Square",
+                "Portrait",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Media width",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Full"
+              ]
+            },
+            {
+              "label": "Media corner radius",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Round"
+              ]
+            },
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Title size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large"
+              ]
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Testimonial",
+          "sysname": "_testimonial",
+          "id": "testimonial",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "testimonials",
+                  "page": "sections",
+                  "anchor": "testimonials"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Star rating",
+              "desc": "Choose one option.",
+              "options": [
+                "5",
+                "4",
+                "3",
+                "2",
+                "1"
+              ]
+            },
+            {
+              "label": "Quote",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Author",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Verified buyer",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Quote size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Author size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Star color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text"
+              ]
+            },
+            {
+              "label": "Star size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Star spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "UGC item",
+          "sysname": "_ugc-item",
+          "id": "ugc-item",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "ugc-gallery",
+                  "page": "sections",
+                  "anchor": "ugc-gallery"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Video",
+              "desc": "Autoplays muted and looping. Takes over the tile when set (image becomes its poster fallback). Nest text blocks to add a caption bar.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Products",
+              "desc": "Pick several products.",
+              "options": null
+            },
+            {
+              "label": "Show the first one on the tile",
+              "desc": "A small tag over the foot of the tile (under the circle on the stories layout). All tagged products appear in the viewer regardless.",
+              "options": null
+            },
+            {
+              "label": "Button on the tile",
+              "desc": "Automatic picks per product: add to cart when there is one variant, quick view when there is one option to choose, otherwise the product page. A forced choice falls back the same way when a product cannot support it.",
+              "options": [
+                "Automatic",
+                "Add to cart",
+                "Quick view",
+                "Discover (product page)"
+              ]
+            },
+            {
+              "label": "Button in the viewer",
+              "desc": "Choose one option.",
+              "options": [
+                "Automatic",
+                "Add to cart",
+                "Quick view",
+                "Discover (product page)"
+              ]
             }
           ]
         }

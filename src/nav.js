@@ -29,8 +29,9 @@ export const docsNav = [
   },
   {
     title: 'Guides',
-    blurb: 'Translate your store into more languages.',
+    blurb: 'Badge your products and translate your store into more languages.',
     items: [
+      { path: '/docs/guides/product-badges', label: 'Product badges' },
       { path: '/docs/guides/localization', label: 'Localization' },
     ],
   },

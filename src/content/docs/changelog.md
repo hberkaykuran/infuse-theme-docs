@@ -8,6 +8,15 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-07-31
+
+- Groups have a **Display** setting. Set it to Overlay and the group lifts out of the layout and sits on top of the block behind it, with nine positions to choose from and an edge offset. Its blocks still arrange by direction and gap.
+- **Product cards can show more than one badge.** Put your Badge blocks inside an overlay group and they stack instead of landing on top of each other. See [Product badges](/docs/guides/product-badges).
+- Badges gained a **Size** setting (small, medium, large) and an **Only if no other badge is showing** option, which lets one badge act as the fallback when a higher-priority one is not showing.
+- The tags that promote a sale badge to Bestseller or New are now settings instead of fixed English words, so you can tag products in your own language. Tag matching ignores capitals everywhere.
+- Adding several different products to the cart in quick succession no longer drops any of them. This could show up when adding more than one tagged product from a UGC gallery.
+- A UGC gallery item tagged with a single product now shows that product full width in the viewer instead of leaving room for a second card.
+
 ## Unreleased — 2026-07-30
 
 - FAQ sections now use an Accordion block, and each question is a Question block you add inside it. Add an Accordion first, then add Questions inside it. Row spacing moved from the FAQ section onto the accordion itself.
