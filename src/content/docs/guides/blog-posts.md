@@ -61,21 +61,35 @@ Open a blog post in the theme editor and select the **Article** section.
 
 ### Layout
 
-**Content width** sets the reading column: narrow, standard or wide. Standard is the default and suits most posts. Wide is there for specs and legal text, not for making a post feel fuller — a longer line is harder to read, and images already extend past the column on their own.
+**Layout** picks between two shapes.
 
-**Featured image** is either full width across the top of the page, or contained inside the reading column.
+*Column with sidebar* is the default. A narrow rail beside your text carries the category, byline, contents and share links, and the reading column sits next to it. The rail is deliberately much narrower than the copy — it is a margin note, not a second column.
+
+*Centred column* drops the rail. Your text sits in the middle of the page and images extend further past it, which suits short posts where a sidebar has little to hold.
+
+**Content width** sets the reading column: narrow, standard or wide. Standard suits most posts. Wide is there for specs and legal text, not for filling the page — a longer line is harder to read, and images already extend past the column on their own.
+
+**Featured image** is contained in the column, full width across the top, or full width with the title sitting on top of it. For that last one, **Darken behind the title** controls how much the image is dimmed. The title stays light whatever colour scheme you pick, so it cannot end up dark text on a dark photo.
 
 ### Table of contents
 
-Built from the headings already in your post, so there is nothing to maintain. It needs at least two headings to appear.
+Built from the headings already in your post, so there is nothing to maintain. It needs at least two headings to appear, and it highlights the section being read as you scroll.
 
-**Position** puts it beside the article, above it, or turns it off. Beside the article is the default: it sits in the margin next to your text and highlights the section being read. On narrower screens it becomes a card above the post automatically, so you do not need a second setting for phones.
+Where it sits follows your layout: in the rail with the sidebar layout, or as a card above the article in the centred one. On narrow screens the rail becomes that card automatically, so phones need no separate setting.
+
+**Style** offers four looks: a ruled list, numbered, a bordered card, or a dotted leader with numbers running down the right.
+
+**Contents side** puts the rail left or right of the copy.
 
 **Include** chooses main headings only, or main and sub headings.
+
+**Contents heading** is the wording above the list. Clear it to show just the links.
 
 ### Article details
 
 Individual toggles for the author, date, reading time, tags and share links. Turn off what you do not use.
+
+**Share links** sit below the article or in the sidebar, when you are using the sidebar layout.
 
 ## Related reads
 

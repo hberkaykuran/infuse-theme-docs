@@ -3113,12 +3113,32 @@
           "name": "Article",
           "sysname": "article",
           "id": "article",
-          "meta": [],
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "centered"
+                },
+                {
+                  "text": "sidebar"
+                }
+              ]
+            }
+          ],
           "settings": [
             {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Centred suits short posts. Sidebar gives the margin a job, carrying the byline, contents and share beside the copy.",
+              "options": [
+                "Centred column",
+                "Column with sidebar"
+              ]
             },
             {
               "label": "Content width",
@@ -3134,17 +3154,42 @@
               "desc": "Choose one option.",
               "options": [
                 "In the column",
-                "Full width"
+                "Full width",
+                "Full width, title over it"
               ]
             },
             {
-              "label": "Position",
+              "label": "Darken behind the title",
+              "desc": "Only affects the overlay title. Text stays light whatever colour scheme you pick.",
+              "options": null
+            },
+            {
+              "label": "Show contents",
               "desc": "Built from the headings in the post. Needs at least two, and falls back to a card above the article on narrow screens.",
+              "options": null
+            },
+            {
+              "label": "Style",
+              "desc": "Choose one option.",
               "options": [
-                "Beside the article",
-                "Above the article",
-                "None"
+                "Ruled list",
+                "Numbered",
+                "Card",
+                "Dotted leader"
               ]
+            },
+            {
+              "label": "Contents side",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Contents heading",
+              "desc": "Leave blank to show just the links.",
+              "options": null
             },
             {
               "label": "Include",
@@ -3178,6 +3223,14 @@
               "label": "Show share links",
               "desc": "An on / off switch.",
               "options": null
+            },
+            {
+              "label": "Share links",
+              "desc": "Choose one option.",
+              "options": [
+                "Below the article",
+                "In the sidebar"
+              ]
             }
           ]
         },
