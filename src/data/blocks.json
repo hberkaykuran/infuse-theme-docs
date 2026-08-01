@@ -1,5 +1,5 @@
 {
-  "total": 39,
+  "total": 40,
   "groups": [
     {
       "id": "layout-and-text",
@@ -2444,6 +2444,118 @@
           ]
         },
         {
+          "name": "Promo slide",
+          "sysname": "_promo-slide",
+          "id": "promo-slide",
+          "meta": [
+            {
+              "label": "Styles",
+              "items": [
+                {
+                  "text": "background"
+                },
+                {
+                  "text": "top"
+                },
+                {
+                  "text": "left"
+                },
+                {
+                  "text": "right"
+                }
+              ]
+            },
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "promo-slideshow",
+                  "page": "sections",
+                  "anchor": "promo-slideshow"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Background image",
+                "Image on top",
+                "Image on left",
+                "Image on right"
+              ]
+            },
+            {
+              "label": "Media size",
+              "desc": "Share of the card given to the image rather than the copy.",
+              "options": null
+            },
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Background image (mobile)",
+              "desc": "Optional art-directed crop shown at ≤749px.",
+              "options": null
+            },
+            {
+              "label": "Load image eagerly",
+              "desc": "Turn on for the first slide only so its image is not lazy-loaded (helps LCP). Leave off for the rest.",
+              "options": null
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Middle",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Max width",
+              "desc": "Max width of the copy column. 0 = auto.",
+              "options": null
+            },
+            {
+              "label": "Text overlay opacity",
+              "desc": "Darkens the media behind the copy for AA contrast. 100% = the AA-tested scrim.",
+              "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "Repaints this slide even without a background image. Leave off to follow the section.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Repaints this slide and everything inside it. Needed for scrim contrast when the layout is a background image.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Question",
           "sysname": "_accordion-row",
           "id": "accordion-row",
@@ -2574,11 +2686,6 @@
                   "text": "hero-slideshow",
                   "page": "sections",
                   "anchor": "hero-slideshow"
-                },
-                {
-                  "text": "promo-slideshow",
-                  "page": "sections",
-                  "anchor": "promo-slideshow"
                 }
               ]
             },

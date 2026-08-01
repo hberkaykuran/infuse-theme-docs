@@ -556,9 +556,9 @@
               "label": "Add inside",
               "items": [
                 {
-                  "text": "_hero-slide",
+                  "text": "_promo-slide",
                   "page": "blocks",
-                  "anchor": "hero-slide"
+                  "anchor": "promo-slide"
                 }
               ]
             },
@@ -607,9 +607,18 @@
               "label": "Navigation arrows",
               "desc": "Choose one option.",
               "options": [
+                "Outside slides",
                 "Sides",
                 "Bottom corner",
                 "Hidden"
+              ]
+            },
+            {
+              "label": "Dots position",
+              "desc": "Choose one option.",
+              "options": [
+                "Over slides",
+                "Below slides"
               ]
             },
             {

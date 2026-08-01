@@ -10,6 +10,9 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-01
 
+- **Promo slides are composable cards.** Each slide picks a layout — background image, image on top, image on the left, image on the right — with a slider for how much of the card the image takes. The copy inside is a group block, so the label, heading, text and button show up as children you can reorder or remove, and each slide can run its own colour scheme.
+- **Slideshow dots can sit below the slides and arrows outside them**, so neither covers the artwork. Dots default to below, arrows to outside.
+- The **sage colour scheme** has been removed. Three schemes ship: warm, dark and sand.
 - **Promo slideshow** is a new section: the same slide mechanics as the hero, sized for the middle of a page. Show one, two or three slides at a time on desktop and one or two on a phone, with a gap you control. Arrows, dots and optional rotation work the same way. The hero stays the hero, because it carries the image-loading behaviour that only makes sense at the top of a page.
 - **Every text size now has a mobile size** under Theme settings → Typography, set independently of its desktop size. Headings that read well on a laptop were coming through oversized on a phone. See [Theme settings](/docs/customization/theme-settings).
 - **Groups can lay out as a grid.** Set a group's direction to Grid and choose how many columns it uses on desktop and on mobile, with separate spacing between columns and rows. A group inside a grid can span several columns or rows, so a feature tile can sit wider than the ones beside it. This is how you rebuild a multi-column band inside a Custom section instead of reaching for a fixed section.
