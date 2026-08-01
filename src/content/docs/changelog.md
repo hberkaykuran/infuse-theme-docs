@@ -10,6 +10,14 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-01
 
+- **Promo slideshow** is a new section: the same slide mechanics as the hero, sized for the middle of a page. Show one, two or three slides at a time on desktop and one or two on a phone, with a gap you control. Arrows, dots and optional rotation work the same way. The hero stays the hero, because it carries the image-loading behaviour that only makes sense at the top of a page.
+- **Every text size now has a mobile size** under Theme settings → Typography, set independently of its desktop size. Headings that read well on a laptop were coming through oversized on a phone. See [Theme settings](/docs/customization/theme-settings).
+- **Groups can lay out as a grid.** Set a group's direction to Grid and choose how many columns it uses on desktop and on mobile, with separate spacing between columns and rows. A group inside a grid can span several columns or rows, so a feature tile can sit wider than the ones beside it. This is how you rebuild a multi-column band inside a Custom section instead of reaching for a fixed section.
+- **Trust strip and Multicolumn take a column count**, on desktop and on mobile. Trust strip was centring whatever badges wrapped onto the last row, which read as one badge indented for no reason on a phone. It now lays out as an even grid.
+- The **Highlight marker** heading decoration marks a word instead of the whole heading, the same way Circled word already did. Italicise the word or phrase you want marked; with no italics the last word is marked.
+- **Underline decorations follow every line of a wrapped heading.** A heading that ran to two or three lines was getting a single rule under the bottom line, stretched to the width of the longest one.
+- A carousel showing more than one slide at a time was drawing one dot too many, and the extra dot moved the track by a few pixels.
+- The editorial pull quote in a featured collection was rendering as plain body text. It is back to accent colour, italic, and the display heading weight.
 - **Blog posts and pages style the HTML you write.** Tables, expandable `details` questions, quotes, figures with captions, horizontal rules and nested lists are all styled from your colour scheme and type scale. A wide table scrolls inside itself instead of pushing the page sideways. See [Blog posts](/docs/guides/blog-posts).
 - An `aside` in a post is half width with text wrapping around it, and several in a row alternate sides on their own. A `figure` stays full width and extends slightly past the reading column on wide screens.
 - Blog posts have a **table of contents**, built from the headings already in the post, highlighting the section being read. Four styles: ruled list, numbered, card, or a dotted leader. It sits in the sidebar or above the article depending on your layout, and becomes a card on narrower screens. The heading above it is yours to word, or clear.

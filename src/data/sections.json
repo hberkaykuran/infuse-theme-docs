@@ -1,5 +1,5 @@
 {
-  "addableCount": 40,
+  "addableCount": 41,
   "groups": [
     {
       "id": "header",
@@ -548,6 +548,112 @@
           ]
         },
         {
+          "name": "Promo slideshow",
+          "sysname": "promo-slideshow",
+          "id": "promo-slideshow",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "_hero-slide",
+                  "page": "blocks",
+                  "anchor": "hero-slide"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Promo slideshow"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Height",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Slides per view",
+              "desc": "Choose one option.",
+              "options": [
+                "1",
+                "2",
+                "3"
+              ]
+            },
+            {
+              "label": "Slides per view on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "label": "Gap between slides",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Navigation arrows",
+              "desc": "Choose one option.",
+              "options": [
+                "Sides",
+                "Bottom corner",
+                "Hidden"
+              ]
+            },
+            {
+              "label": "Rotate automatically",
+              "desc": "Advances slides on a timer. Always disabled for visitors who prefer reduced motion; pauses on hover, focus, and hidden tabs. Arrows and dots stay available.",
+              "options": null
+            },
+            {
+              "label": "Seconds per slide",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Quote banner",
           "sysname": "quote-banner",
           "id": "quote-banner",
@@ -819,7 +925,7 @@
             },
             {
               "label": "Decoration style",
-              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. For Circled word, italicize the word or phrase to circle in the heading text; without italics the last word is circled.",
+              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. For Circled word and Highlight marker, italicize the word or phrase to mark in the heading text; without italics the last word is marked.",
               "options": [
                 "Use theme default",
                 "Wavy line",
@@ -2015,6 +2121,16 @@
               "options": null
             },
             {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
@@ -2831,6 +2947,16 @@
           "settings": [
             {
               "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
               "desc": "A slider.",
               "options": null
             },

@@ -80,7 +80,7 @@
             },
             {
               "label": "Decoration style",
-              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. For Circled word, italicize the word or phrase to circle in the heading text; without italics the last word is circled.",
+              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. For Circled word and Highlight marker, italicize the word or phrase to mark in the heading text; without italics the last word is marked.",
               "options": [
                 "Use theme default",
                 "Wavy line",
@@ -531,8 +531,19 @@
               "desc": "Choose one option.",
               "options": [
                 "Horizontal",
-                "Vertical"
+                "Vertical",
+                "Grid"
               ]
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
+              "desc": "A slider.",
+              "options": null
             },
             {
               "label": "Alignment",
@@ -584,6 +595,16 @@
               ]
             },
             {
+              "label": "Column span",
+              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "options": null
+            },
+            {
+              "label": "Row span",
+              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "options": null
+            },
+            {
               "label": "Width",
               "desc": "Choose one option.",
               "options": [
@@ -618,6 +639,16 @@
             },
             {
               "label": "Mobile gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Use a different gap between rows",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Row gap",
               "desc": "A slider.",
               "options": null
             },
@@ -2548,6 +2579,11 @@
                   "text": "hero-slideshow",
                   "page": "sections",
                   "anchor": "hero-slideshow"
+                },
+                {
+                  "text": "promo-slideshow",
+                  "page": "sections",
+                  "anchor": "promo-slideshow"
                 }
               ]
             },

@@ -14,7 +14,15 @@ Chooses the overall look: **Infuse** or **Utility**. The preset sets the display
 
 ## Typography
 
-Neither style uses Shopify's font picker, so there is nothing to configure here. Infuse uses a self-hosted display font that loads with the theme. Utility uses your system's monospace font for both headings and body text, so it makes no font request at all, and it keeps prices, SKUs, and spec columns lined up without any extra setup.
+Neither style uses Shopify's font picker, so there is no font to choose. Infuse uses a self-hosted display font that loads with the theme. Utility uses your system's monospace font for both headings and body text, so it makes no font request at all, and it keeps prices, SKUs, and spec columns lined up without any extra setup.
+
+What you do set here is the **size ramp**: eyebrow, small, medium, large, extra large, 2X large, and a display size with a minimum and maximum. Every heading and text block picks one of these by name, so changing a size here changes it everywhere that size is used. Sizes are in pixels, and the whole ramp still responds to browser text zoom.
+
+Each step also has its own **mobile size**, used below 750 pixels wide. Desktop headings usually need to come down a step or two on a phone, and one shared percentage would shrink the large sizes and the body text by the same amount, which is rarely what you want. Set the pairs independently instead.
+
+Leave **Medium (body) on mobile** at 16 pixels or above. Safari on iPhone zooms the page whenever a customer taps a form field whose text is smaller than that, which throws off checkout and search.
+
+**Heading decoration** picks the default accent drawn under or around headings that turn on *Show decoration*: a wavy, straight, dotted, double or brush rule, a looping line, sparkles, a sticker, a highlight marker, or a circled word. Individual heading blocks can override it. For **Highlight marker** and **Circled word**, italicise the word or phrase you want marked in the heading text; with no italics the last word is marked.
 
 ## Layout
 
