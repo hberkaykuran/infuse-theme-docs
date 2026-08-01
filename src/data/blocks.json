@@ -491,42 +491,6 @@
           ],
           "settings": [
             {
-              "label": "Display",
-              "desc": "Overlay lifts this group out of the layout and pins it over the block behind it, such as a product image. Its blocks still stack by direction and gap.",
-              "options": [
-                "In the layout",
-                "Overlay"
-              ]
-            },
-            {
-              "label": "Vertical position",
-              "desc": "Choose one option.",
-              "options": [
-                "Top",
-                "Center",
-                "Bottom"
-              ]
-            },
-            {
-              "label": "Horizontal position",
-              "desc": "Choose one option.",
-              "options": [
-                "Left",
-                "Center",
-                "Right"
-              ]
-            },
-            {
-              "label": "Edge offset",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Show only the highest-priority badge",
-              "desc": "Hides every badge in this group except the one with the lowest priority number.",
-              "options": null
-            },
-            {
               "label": "Layout direction",
               "desc": "Choose one option.",
               "options": [
@@ -544,6 +508,15 @@
               "label": "Columns on mobile",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Mobile layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Row",
+                "Column"
+              ]
             },
             {
               "label": "Alignment",
@@ -586,22 +559,28 @@
               ]
             },
             {
-              "label": "Mobile layout",
-              "desc": "Choose one option.",
-              "options": [
-                "Same as desktop",
-                "Row",
-                "Column"
-              ]
-            },
-            {
-              "label": "Column span",
-              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "label": "Gap",
+              "desc": "In a grid this is the gap between columns. Row gap sets the space between rows.",
               "options": null
             },
             {
-              "label": "Row span",
-              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "label": "Row gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Use a different gap on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Mobile gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -623,33 +602,49 @@
               "options": null
             },
             {
-              "label": "Gap",
+              "label": "Column span",
+              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "options": null
+            },
+            {
+              "label": "Row span",
+              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "options": null
+            },
+            {
+              "label": "Display",
+              "desc": "Overlay lifts this group out of the layout and pins it over the block behind it, such as a product image. Its blocks still stack by direction and gap.",
+              "options": [
+                "In the layout",
+                "Overlay"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Edge offset",
               "desc": "A slider.",
               "options": null
             },
             {
-              "label": "Padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Use a different gap on mobile",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Mobile gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Use a different gap between rows",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Row gap",
-              "desc": "A slider.",
+              "label": "Show only the highest-priority badge",
+              "desc": "Hides every badge in this group except the one with the lowest priority number.",
               "options": null
             },
             {
@@ -682,16 +677,6 @@
               "options": null
             },
             {
-              "label": "Use a different color scheme",
-              "desc": "Repaints everything inside this group. Leave off to follow the section.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Colors the text and buttons sitting on the image.",
-              "options": null
-            },
-            {
               "label": "Corner radius",
               "desc": "A slider.",
               "options": null
@@ -699,6 +684,16 @@
             {
               "label": "Sizes attribute",
               "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "Repaints everything inside this group. Leave off to follow the section.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Colors the text and buttons sitting on the image.",
               "options": null
             }
           ]
