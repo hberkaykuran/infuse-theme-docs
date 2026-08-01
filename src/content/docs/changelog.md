@@ -10,6 +10,9 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-01
 
+- **The add-to-cart button has a style setting**: a label, an icon on its own, or both. Icon only shrinks to a compact 44 by 44 button instead of stretching across the card, so it sits beside the price rather than under it. It always announces the product name to a screen reader, so a grid of them does not read as "button" over and over.
+- Shopping bag and plus are now part of the icon set, so the add-to-cart icon and the quick-add button draw the same bag.
+- **Product cards on the home page and collection pages show a trust row**: easy refund, safe payment and fast shipment, three across on desktop and stacked on a phone. Built from icon and text blocks inside a grid group, so you can reword them, swap the icons, or take the row out.
 - **Promo slides are composable cards.** Each slide picks a layout — background image, image on top, image on the left, image on the right — with a slider for how much of the card the image takes. The copy inside is a group block, so the label, heading, text and button show up as children you can reorder or remove, and each slide can run its own colour scheme.
 - **Slideshow dots can sit below the slides and arrows outside them**, so neither covers the artwork. Dots default to below, arrows to outside.
 - The **sage colour scheme** has been removed. Three schemes ship: warm, dark and sand.

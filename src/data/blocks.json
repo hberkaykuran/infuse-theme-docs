@@ -1204,6 +1204,20 @@
           "id": "buy-buttons",
           "meta": [
             {
+              "label": "Styles",
+              "items": [
+                {
+                  "text": "label"
+                },
+                {
+                  "text": "icon"
+                },
+                {
+                  "text": "icon-label"
+                }
+              ]
+            },
+            {
               "label": "Where it works",
               "items": [
                 {
@@ -1222,8 +1236,37 @@
               "label": "Button emphasis",
               "desc": "Outline gives up the accent fill while keeping the full hit area. Use it on product grids, where a filled accent on every card stops reading as an accent.",
               "options": [
-                "Filled (accent)",
-                "Outline"
+                "blocks.buy_buttons.options.emphasis.filled",
+                "blocks.buy_buttons.options.emphasis.outline"
+              ]
+            },
+            {
+              "label": "Button style",
+              "desc": "Icon only sizes the button to itself instead of stretching to the card's width.",
+              "options": [
+                "Label",
+                "Icon only",
+                "Icon and label"
+              ]
+            },
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "Shopping bag",
+                "Plus",
+                "Leaf",
+                "Cup",
+                "Stick",
+                "Shield",
+                "Truck",
+                "Recycle",
+                "Return (easy returns)",
+                "Lock (secure payment)",
+                "Drop (no-drip)",
+                "Swirl (stir)",
+                "No spoon",
+                "Mesh brew"
               ]
             },
             {
