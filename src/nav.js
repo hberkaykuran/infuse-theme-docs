@@ -29,9 +29,12 @@ export const docsNav = [
   },
   {
     title: 'Guides',
-    blurb: 'Badge your products and translate your store into more languages.',
+    blurb: 'Badge your products, style your blog, and translate your store into more languages.',
     items: [
       { path: '/docs/guides/product-badges', label: 'Product badges' },
+      { path: '/docs/guides/blog-posts', label: 'Blog posts' },
+      { path: '/docs/guides/hover-effects', label: 'Hover effects and clickable cards' },
+      { path: '/docs/guides/age-verifier', label: 'Age verifier' },
       { path: '/docs/guides/localization', label: 'Localization' },
     ],
   },

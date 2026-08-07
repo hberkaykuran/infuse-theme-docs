@@ -8,6 +8,21 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-07
+
+- **Section settings are organised into the same groups everywhere**: content first, then Layout, Appearance, Spacing, Padding, and Advanced. Every section in the theme follows this order now, so once you have opened one you know your way around the rest.
+- **Six more blocks and the header can carry their own colour scheme**: testimonial, feature, trust item, step, UGC item and hotspot image. Turn on **Use a different colour scheme** and pick one; leave it off and the block keeps following the section around it, so nothing changes unless you ask it to.
+- **Section width** is now a setting on ten sections that did not have one: hero, hero slideshow, image banner, video, marquee, promo bar, featured product, product anchors, contact, and custom Liquid. Choose narrow, page, or full on each.
+- **Section padding** reaches five more sections — contact, footer, announcement bar, hero slideshow, and the header — and every padding control in the theme now shares one range, 0 to 100 pixels.
+- **New style controls on eight blocks.** Product meta gets a size and a colour. Stock counter and the price block's sale colour get a colour setting. Quantity gets a size, a colour, and padding. Button gets a colour scheme override. Hotspot image gets a corner radius. Variant picker gets a gap and padding.
+- **One name for image ratio everywhere.** Every block that crops an image now calls the setting **Ratio** with the same four choices — Adapt, Square, Portrait, Landscape — instead of a different name and a slightly different option list per block.
+- **Copy over a scrim always stays readable.** A hero slide, image banner, or gallery caption sitting on a darkened image keeps light text and outlines regardless of which colour scheme the section uses. Picking the dark scheme on a hero slideshow used to render dark text on a dark scrim, which was unreadable.
+- **Alignment settings are ready for right-to-left languages.** They describe start and end rather than left and right under the hood. Nothing changes for an English or Turkish store today.
+- **Back to top** is a new section: a link back to the top of the page once a visitor has scrolled down. Four styles (pill, soft, outline, or a labelled button), either side of the screen, and no JavaScript involved.
+- **Age verifier** is a new section for stores that need to check a visitor's age before they can shop. It opens as a dialog the moment the page loads and cannot be closed without answering. Compose the message from your own heading, text, and image blocks, choose a simple yes/no question or a date-of-birth check, set the minimum age, choose where a "no" answer sends the visitor, and decide how many days an answer is remembered before asking again.
+- **A whole image card can become one link.** Give a group a background image and a link, turn on **Make the whole card a link**, and the entire card becomes a single click target. A button inside the card still works on its own, and the card is one stop for a keyboard, not several.
+- **One hover vocabulary across image blocks.** Image, group, product card, product image, and logo blocks all now offer hover effects from the same list — none, zoom, lift, grayscale, or (on the product image block) swap to a second photo — with each block offering only the ones that make sense for it. Zoom now grows the image inside its own frame instead of spilling over whatever sits next to it. Product cards keep their lift and logos keep their colour-to-grayscale reveal by default, and both can be turned off. Every effect except grayscale switches off for visitors who have asked their device to reduce motion.
+
 ## Unreleased — 2026-08-01
 
 - **The add-to-cart button has a style setting**: a label, an icon on its own, or both. Icon only shrinks to a compact 44 by 44 button instead of stretching across the card, so it sits beside the price rather than under it. It always announces the product name to a screen reader, so a grid of them does not read as "button" over and over.

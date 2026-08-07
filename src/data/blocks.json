@@ -340,6 +340,16 @@
               "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
             }
           ]
         },
@@ -431,7 +441,7 @@
               "label": "Aspect ratio",
               "desc": "Choose one option.",
               "options": [
-                "Natural",
+                "Adapt to image",
                 "Square",
                 "Portrait",
                 "Landscape"
@@ -459,6 +469,16 @@
               "label": "Priority load (LCP)",
               "desc": "Enable for the one above-the-fold LCP image per page. Leave off elsewhere.",
               "options": null
+            },
+            {
+              "label": "Hover effect",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Zoom in",
+                "Lift",
+                "Reveal colour"
+              ]
             }
           ]
         },
@@ -490,6 +510,16 @@
             }
           ],
           "settings": [
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Make the whole card a link",
+              "desc": "Adds an invisible overlay so the whole card is clickable. Needs a nested heading or text block to carry the link text.",
+              "options": null
+            },
             {
               "label": "Layout direction",
               "desc": "Choose one option.",
@@ -687,6 +717,15 @@
               "options": null
             },
             {
+              "label": "Hover effect",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Zoom in",
+                "Lift"
+              ]
+            },
+            {
               "label": "Use a different color scheme",
               "desc": "Repaints everything inside this group. Leave off to follow the section.",
               "options": null
@@ -844,9 +883,10 @@
               "desc": "Changes the product image on hover (desktop only). The gallery options need a product with two or more images.",
               "options": [
                 "None",
-                "Show 2nd image",
-                "Scrub gallery",
-                "Grey until hover"
+                "Second image",
+                "Scrub",
+                "Reveal colour",
+                "Zoom in"
               ]
             }
           ]
@@ -895,6 +935,27 @@
               "label": "Show tax / shipping note",
               "desc": "An on / off switch.",
               "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
             },
             {
               "label": "Vertical padding",
@@ -1173,18 +1234,47 @@
               ]
             },
             {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
               "label": "Show savings amount",
               "desc": "An on / off switch.",
               "options": null
             },
             {
-              "label": "Savings style",
+              "label": "Savings format",
               "desc": "Choose one option.",
               "options": [
                 "Amount saved",
-                "Percent saved",
-                "Percent badge"
+                "Percent saved"
               ]
+            },
+            {
+              "label": "Savings appearance",
+              "desc": "Chip is the default and matches the sale badge tint. Solid takes the accent fill — remember only one element per tile should carry it, and a sale badge usually already does.",
+              "options": [
+                "Tinted chip",
+                "Solid pill",
+                "Plain text"
+              ]
+            },
+            {
+              "label": "Savings text",
+              "desc": "Write your own, using [amount] and [percent] where the numbers go — \"Save [amount]\", \"[percent]% off\", \"Save [amount] ([percent]%)\". Leave it empty to use the translated default.",
+              "options": null
+            },
+            {
+              "label": "Keep the savings row when not on sale",
+              "desc": "Holds the row open on full-price products so a mixed row of sale and full-price cards keeps one baseline. Turn it off only where every product is on sale.",
+              "options": null
             },
             {
               "label": "Vertical padding",
@@ -1234,10 +1324,19 @@
           "settings": [
             {
               "label": "Button emphasis",
-              "desc": "Outline gives up the accent fill while keeping the full hit area. Use it on product grids, where a filled accent on every card stops reading as an accent.",
+              "desc": "Tinted and outlined give up the accent fill while keeping the full hit area. Use one of them on product grids: a filled accent on every card stops reading as an accent, and where cards also carry a sale badge only one element should take the fill.",
               "options": [
-                "blocks.buy_buttons.options.emphasis.filled",
-                "blocks.buy_buttons.options.emphasis.outline"
+                "Filled",
+                "Tinted",
+                "Outlined"
+              ]
+            },
+            {
+              "label": "Button size",
+              "desc": "Compact takes one step off the padding and label. On product cards the button already steps down on mobile on its own.",
+              "options": [
+                "Default",
+                "Compact"
               ]
             },
             {
@@ -1332,6 +1431,21 @@
               "label": "Swatch size",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -1353,6 +1467,36 @@
             {
               "label": "Label",
               "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
               "options": null
             }
           ]
@@ -1384,6 +1528,17 @@
                 "Small",
                 "Medium",
                 "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
               ]
             },
             {
@@ -1722,6 +1877,14 @@
               "label": "Height override",
               "desc": "0 uses the section's logo height.",
               "options": null
+            },
+            {
+              "label": "Hover effect",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Reveal colour"
+              ]
             }
           ]
         },
@@ -1825,7 +1988,7 @@
               "label": "Aspect ratio",
               "desc": "Choose one option.",
               "options": [
-                "Natural",
+                "Adapt to image",
                 "Square",
                 "Portrait",
                 "Landscape"
@@ -1936,6 +2099,16 @@
               "label": "Gap",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
             }
           ]
         },
@@ -1961,7 +2134,7 @@
           "settings": [
             {
               "label": "Text",
-              "desc": "Leave blank to hide the badge. Connect a metafield here to show it only on the products that carry one.",
+              "desc": "Leave blank to hide the badge. Connect a metafield here to show it only on the products that carry one. On a sale badge, put [percent] where the discount number should go — \"Save [percent]%\", \"[percent]% off\", \"−[percent]%\".",
               "options": null
             },
             {
@@ -1976,8 +2149,8 @@
               ]
             },
             {
-              "label": "Add the discount percent",
-              "desc": "An on / off switch.",
+              "label": "Append the discount percent",
+              "desc": "Only applies when the label does not already place the number itself. Put [percent] in the label to control where it goes and whether it carries a sign.",
               "options": null
             },
             {
@@ -2173,6 +2346,16 @@
             {
               "label": "Padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             }
           ]
@@ -2390,6 +2573,15 @@
               "label": "Color",
               "desc": "A colour picker.",
               "options": null
+            },
+            {
+              "label": "Hover effect",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Zoom in",
+                "Lift"
+              ]
             },
             {
               "label": "Quick add button",
@@ -2714,6 +2906,21 @@
               "label": "Sizes attribute",
               "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
               "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
             }
           ]
         },
@@ -3020,6 +3227,16 @@
               "label": "Padding",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
             }
           ]
         },
@@ -3133,6 +3350,16 @@
               "label": "Padding",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
             }
           ]
         },
@@ -3205,6 +3432,16 @@
                 "Quick view",
                 "Discover (product page)"
               ]
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
             }
           ]
         }
