@@ -34,6 +34,8 @@ Leave **Medium (body) on mobile** at 16 pixels or above. Safari on iPhone zooms 
 
 Colours are organised into **schemes**. A scheme is a set of colours that belong together: a background, a surface, a card, text colours, and a set of accent colours. Sections each choose which scheme they use, so a single page can move between light and dark bands cleanly.
 
+Some blocks can break from the section around them: testimonial, feature, trust item, step, UGC item, hotspot image, badge, group and button all carry their own **Use a different colour scheme** switch, as does the header. Leave it off and the block follows its section; turn it on to give one card, badge or button a scheme of its own.
+
 The accent is split into four roles so text always stays readable:
 
 - **Accent**: borders, icons, and large accent text.

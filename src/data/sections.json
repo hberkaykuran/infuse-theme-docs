@@ -1,5 +1,5 @@
 {
-  "addableCount": 41,
+  "addableCount": 43,
   "groups": [
     {
       "id": "header",
@@ -53,6 +53,16 @@
               "label": "Compact (lighter secondary bar)",
               "desc": "Reduces height and text size. Use on a second stacked bar.",
               "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -85,15 +95,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Layout",
-              "desc": "Logo, navigation, search, account and cart are fixed. This only changes where they sit. Blocks you add to the header bar group sit beside the actions.",
-              "options": [
-                "Logo left",
-                "Logo centered",
-                "Navigation below"
-              ]
-            },
             {
               "label": "Logo image",
               "desc": "An image you upload or pick from files.",
@@ -152,6 +153,30 @@
               "label": "Image corner radius",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Logo, navigation, search, account and cart are fixed. This only changes where they sit. Blocks you add to the header bar group sit beside the actions.",
+              "options": [
+                "Logo left",
+                "Logo centered",
+                "Navigation below"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         }
@@ -198,24 +223,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Layout",
-              "desc": "Choose one option.",
-              "options": [
-                "Split (copy + image)",
-                "Banner (media background)"
-              ]
-            },
-            {
-              "label": "Height",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Full screen"
-              ]
-            },
             {
               "label": "Background image",
               "desc": "Banner layout only. Becomes the page's largest image (LCP), so do not also flag a split image block as priority on the same page.",
@@ -320,6 +327,38 @@
               ]
             },
             {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Split (copy + image)",
+                "Banner (media background)"
+              ]
+            },
+            {
+              "label": "Height",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
               "label": "Grid spacing",
               "desc": "A slider.",
               "options": null
@@ -327,11 +366,6 @@
             {
               "label": "Grid spacing (mobile)",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             },
             {
@@ -345,8 +379,8 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -377,6 +411,16 @@
           ],
           "settings": [
             {
+              "label": "Rotate automatically",
+              "desc": "Advances slides on a timer. Always disabled for visitors who prefer reduced motion; pauses on hover, focus, and hidden tabs. Arrows and dots stay available.",
+              "options": null
+            },
+            {
+              "label": "Seconds per slide",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Height",
               "desc": "Choose one option.",
               "options": [
@@ -384,6 +428,15 @@
                 "Medium",
                 "Large",
                 "Full screen"
+              ]
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
               ]
             },
             {
@@ -396,18 +449,18 @@
               ]
             },
             {
-              "label": "Rotate automatically",
-              "desc": "Advances slides on a timer. Always disabled for visitors who prefer reduced motion; pauses on hover, focus, and hidden tabs. Arrows and dots stay available.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Seconds per slide",
+              "label": "Top padding",
               "desc": "A slider.",
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Bottom padding",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -446,19 +499,23 @@
               "options": null
             },
             {
-              "label": "Minimum height",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Priority load (LCP)",
               "desc": "Enable for the one above-the-fold LCP image per page. Leave off elsewhere.",
               "options": null
             },
             {
-              "label": "Gap",
+              "label": "Minimum height",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
             },
             {
               "label": "Color scheme",
@@ -466,8 +523,8 @@
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Gap",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -478,6 +535,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -521,9 +583,13 @@
               "options": null
             },
             {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
             },
             {
               "label": "Color scheme",
@@ -531,8 +597,8 @@
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Gap",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -543,6 +609,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -573,6 +644,16 @@
           ],
           "settings": [
             {
+              "label": "Rotate automatically",
+              "desc": "Advances slides on a timer. Always disabled for visitors who prefer reduced motion; pauses on hover, focus, and hidden tabs. Arrows and dots stay available.",
+              "options": null
+            },
+            {
+              "label": "Seconds per slide",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Height",
               "desc": "Choose one option.",
               "options": [
@@ -599,9 +680,13 @@
               ]
             },
             {
-              "label": "Gap between slides",
-              "desc": "A slider.",
-              "options": null
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
             },
             {
               "label": "Navigation arrows",
@@ -622,32 +707,13 @@
               ]
             },
             {
-              "label": "Rotate automatically",
-              "desc": "Advances slides on a timer. Always disabled for visitors who prefer reduced motion; pauses on hover, focus, and hidden tabs. Arrows and dots stay available.",
-              "options": null
-            },
-            {
-              "label": "Seconds per slide",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Gap between slides",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -658,6 +724,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -696,16 +767,6 @@
               "options": null
             },
             {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -715,8 +776,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -727,6 +793,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -803,12 +874,39 @@
               "options": null
             },
             {
+              "label": "Show collection title",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Layout",
               "desc": "Choose one option.",
               "options": [
                 "Grid",
                 "Carousel",
                 "Bento"
+              ]
+            },
+            {
+              "label": "Columns on desktop",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Title placement",
+              "desc": "Choose one option.",
+              "options": [
+                "On tile (chip)",
+                "Below tile"
+              ]
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
               ]
             },
             {
@@ -821,11 +919,6 @@
               ]
             },
             {
-              "label": "Columns on desktop",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Tile aspect ratio",
               "desc": "Choose one option.",
               "options": [
@@ -835,6 +928,11 @@
               ]
             },
             {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
               "label": "Grid spacing",
               "desc": "A slider.",
               "options": null
@@ -842,24 +940,6 @@
             {
               "label": "Image padding",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Show collection title",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Title placement",
-              "desc": "Choose one option.",
-              "options": [
-                "On tile (chip)",
-                "Below tile"
-              ]
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             },
             {
@@ -873,18 +953,9 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
-            },
-            {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
             }
           ]
         }
@@ -968,16 +1039,6 @@
               "options": null
             },
             {
-              "label": "Cell padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -987,8 +1048,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Cell padding",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -999,6 +1065,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -1054,14 +1125,9 @@
               "options": null
             },
             {
-              "label": "Layout",
-              "desc": "Choose one option.",
-              "options": [
-                "Grid",
-                "Editorial",
-                "List",
-                "Organic gallery"
-              ]
+              "label": "Show \"view all\" link",
+              "desc": "An on / off switch.",
+              "options": null
             },
             {
               "label": "Editorial pull quote",
@@ -1074,12 +1140,17 @@
               "options": null
             },
             {
-              "label": "Columns",
-              "desc": "A slider.",
-              "options": null
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Grid",
+                "Editorial",
+                "List",
+                "Organic gallery"
+              ]
             },
             {
-              "label": "Grid spacing",
+              "label": "Columns",
               "desc": "A slider.",
               "options": null
             },
@@ -1092,13 +1163,22 @@
               ]
             },
             {
-              "label": "Show \"view all\" link",
-              "desc": "An on / off switch.",
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1112,18 +1192,9 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
-            },
-            {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
             }
           ]
         },
@@ -1164,6 +1235,11 @@
               "options": null
             },
             {
+              "label": "Priority load (LCP)",
+              "desc": "Enable for the one above-the-fold LCP image per page. Leave off elsewhere.",
+              "options": null
+            },
+            {
               "label": "Image position",
               "desc": "Choose one option.",
               "options": [
@@ -1172,8 +1248,17 @@
               ]
             },
             {
-              "label": "Priority load (LCP)",
-              "desc": "Enable for the one above-the-fold LCP image per page. Leave off elsewhere.",
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -1187,16 +1272,6 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
-              "options": null
-            },
-            {
               "label": "Top padding",
               "desc": "A slider.",
               "options": null
@@ -1204,6 +1279,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -1236,6 +1316,15 @@
               "label": "Stick below the header",
               "desc": "Keeps the row pinned while scrolling through the sections it links to.",
               "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
             },
             {
               "label": "Color scheme",
@@ -1285,13 +1374,22 @@
               "options": null
             },
             {
-              "label": "Gap",
-              "desc": "A slider.",
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Gap",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1305,18 +1403,9 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
-            },
-            {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
             }
           ]
         },
@@ -1365,16 +1454,6 @@
               "options": null
             },
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -1384,8 +1463,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1396,6 +1480,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -1432,35 +1521,6 @@
               ]
             },
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Aspect ratio",
-              "desc": "Choose one option.",
-              "options": [
-                "Portrait",
-                "Square",
-                "Landscape"
-              ]
-            },
-            {
-              "label": "Show vendor",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show price",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -1470,8 +1530,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1482,6 +1547,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -1512,8 +1582,8 @@
           ],
           "settings": [
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Product metafield",
+              "desc": "On product pages, appends rows from a multi-line text metafield. Give its namespace.key (e.g. custom.specs) and write one row per line as \"Label: Value\". Leave blank to use manual rows only. Ignored off product pages.",
               "options": null
             },
             {
@@ -1526,13 +1596,8 @@
               ]
             },
             {
-              "label": "Product metafield",
-              "desc": "On product pages, appends rows from a multi-line text metafield. Give its namespace.key (e.g. custom.specs) and write one row per line as \"Label: Value\". Leave blank to use manual rows only. Ignored off product pages.",
-              "options": null
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -1543,6 +1608,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -1573,15 +1643,6 @@
               "options": null
             },
             {
-              "label": "Layout variant",
-              "desc": "Choose one option.",
-              "options": [
-                "Hero card",
-                "Editorial band",
-                "Framed feature"
-              ]
-            },
-            {
               "label": "\"View all\" link URL",
               "desc": "Optional. Defaults to the chosen collection. The link hides when this and the collection are both empty.",
               "options": null
@@ -1597,8 +1658,26 @@
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Layout variant",
+              "desc": "Choose one option.",
+              "options": [
+                "Hero card",
+                "Editorial band",
+                "Framed feature"
+              ]
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -1612,18 +1691,9 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
-            },
-            {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
             }
           ]
         }
@@ -1665,6 +1735,20 @@
               ]
             },
             {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
               "label": "Grid spacing",
               "desc": "A slider.",
               "options": null
@@ -1675,25 +1759,6 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
-              "options": null
-            },
-            {
               "label": "Top padding",
               "desc": "A slider.",
               "options": null
@@ -1701,6 +1766,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -1731,23 +1801,32 @@
               "options": null
             },
             {
-              "label": "Columns",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Articles to show",
               "desc": "A slider.",
               "options": null
             },
             {
-              "label": "Grid spacing",
+              "label": "Columns",
               "desc": "A slider.",
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1761,18 +1840,9 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
-            },
-            {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
             }
           ]
         },
@@ -1805,12 +1875,16 @@
           ],
           "settings": [
             {
-              "label": "Logo height",
-              "desc": "A slider.",
-              "options": null
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
             },
             {
-              "label": "Gap between logos",
+              "label": "Logo height",
               "desc": "A slider.",
               "options": null
             },
@@ -1823,13 +1897,70 @@
               ]
             },
             {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Gap between logos",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Content gap",
               "desc": "A slider.",
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Related reads",
+          "sysname": "related-articles",
+          "id": "related-articles",
+          "meta": [
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Related reads"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Articles",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show summary",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show category chip",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1842,8 +1973,22 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Title size",
+              "desc": "Choose one option.",
+              "options": [
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1854,6 +1999,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -1906,16 +2056,6 @@
               ]
             },
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -1925,8 +2065,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1937,6 +2082,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -1965,16 +2115,6 @@
           ],
           "settings": [
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -1984,8 +2124,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1996,6 +2141,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2061,11 +2211,6 @@
               ]
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -2075,13 +2220,13 @@
               ]
             },
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -2092,6 +2237,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2125,11 +2275,6 @@
           ],
           "settings": [
             {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Columns",
               "desc": "A slider.",
               "options": null
@@ -2137,11 +2282,6 @@
             {
               "label": "Columns on mobile",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -2154,8 +2294,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -2166,6 +2311,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2216,6 +2366,24 @@
           ],
           "settings": [
             {
+              "label": "Opening an item",
+              "desc": "The player opens all items in one viewer you drag through, with arrows beside the media and a sound toggle. Clicking a video plays or pauses it. Off makes each item a plain link instead.",
+              "options": [
+                "Stories player",
+                "Off (link out)"
+              ]
+            },
+            {
+              "label": "Play through automatically",
+              "desc": "Off by default: a video that ends rests on its last frame and the visitor moves on when they choose. Turn it on for a reel-style run-through of the whole set.",
+              "options": null
+            },
+            {
+              "label": "Seconds per photo",
+              "desc": "How long a photo shows before moving on. Videos run their own length instead.",
+              "options": null
+            },
+            {
               "label": "Layout",
               "desc": "Choose one option.",
               "options": [
@@ -2265,22 +2433,13 @@
               "options": null
             },
             {
-              "label": "Opening an item",
-              "desc": "The player opens all items in one viewer you drag through, with arrows beside the media and a sound toggle. Clicking a video plays or pauses it. Off makes each item a plain link instead.",
+              "label": "Section width",
+              "desc": "Choose one option.",
               "options": [
-                "Stories player",
-                "Off (link out)"
+                "Narrow",
+                "Page",
+                "Full width"
               ]
-            },
-            {
-              "label": "Play through automatically",
-              "desc": "Off by default: a video that ends rests on its last frame and the visitor moves on when they choose. Turn it on for a reel-style run-through of the whole set.",
-              "options": null
-            },
-            {
-              "label": "Seconds per photo",
-              "desc": "How long a photo shows before moving on. Videos run their own length instead.",
-              "options": null
             },
             {
               "label": "Caption style",
@@ -2304,27 +2463,13 @@
               "options": null
             },
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -2335,6 +2480,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2370,13 +2520,17 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -2387,6 +2541,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2418,13 +2577,17 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -2435,6 +2598,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2470,11 +2638,6 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -2484,8 +2647,8 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -2496,6 +2659,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2526,6 +2694,20 @@
           ],
           "settings": [
             {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
               "label": "Grid spacing",
               "desc": "A slider.",
               "options": null
@@ -2536,25 +2718,6 @@
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
-              "options": null
-            },
-            {
               "label": "Top padding",
               "desc": "A slider.",
               "options": null
@@ -2562,6 +2725,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2590,16 +2758,6 @@
           ],
           "settings": [
             {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -2609,8 +2767,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -2622,6 +2785,11 @@
               "label": "Bottom padding",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
             }
           ]
         }
@@ -2631,6 +2799,78 @@
       "id": "layout",
       "label": "Layout and structure sections",
       "cards": [
+        {
+          "name": "Back to top",
+          "sysname": "back-to-top",
+          "id": "back-to-top",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "pill"
+                },
+                {
+                  "text": "soft"
+                },
+                {
+                  "text": "outline"
+                },
+                {
+                  "text": "labelled"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Back to top"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Button style",
+              "desc": "Choose one option.",
+              "options": [
+                "Pill",
+                "Soft",
+                "Outline",
+                "Labelled"
+              ]
+            },
+            {
+              "label": "Position",
+              "desc": "Choose one option.",
+              "options": [
+                "Start",
+                "End"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
         {
           "name": "Custom section",
           "sysname": "custom-section",
@@ -2661,11 +2901,6 @@
           ],
           "settings": [
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Layout direction",
               "desc": "Choose one option.",
               "options": [
@@ -2692,6 +2927,20 @@
               ]
             },
             {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
               "label": "Gap",
               "desc": "Choose one option.",
               "options": [
@@ -2705,20 +2954,6 @@
               ]
             },
             {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
-            },
-            {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
-              "options": null
-            },
-            {
               "label": "Top padding",
               "desc": "A slider.",
               "options": null
@@ -2726,6 +2961,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2765,11 +3005,6 @@
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
-              "options": null
-            },
-            {
               "label": "Top padding",
               "desc": "A slider.",
               "options": null
@@ -2777,6 +3012,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2815,14 +3055,13 @@
               "options": null
             },
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Grid spacing (mobile)",
-              "desc": "A slider.",
-              "options": null
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
             },
             {
               "label": "Card style",
@@ -2838,17 +3077,13 @@
               "options": null
             },
             {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Grid spacing (mobile)",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -2859,6 +3094,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2884,20 +3124,29 @@
               "options": null
             },
             {
+              "label": "Direction",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
               "label": "Speed",
               "desc": "Choose one option.",
               "options": [
                 "Slow",
                 "Normal",
                 "Fast"
-              ]
-            },
-            {
-              "label": "Direction",
-              "desc": "Choose one option.",
-              "options": [
-                "Left",
-                "Right"
               ]
             },
             {
@@ -2915,11 +3164,6 @@
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
-              "options": null
-            },
-            {
               "label": "Top padding",
               "desc": "A slider.",
               "options": null
@@ -2927,6 +3171,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -2955,11 +3204,6 @@
           ],
           "settings": [
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Columns",
               "desc": "A slider.",
               "options": null
@@ -2967,11 +3211,6 @@
             {
               "label": "Columns on mobile",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -2984,8 +3223,13 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -2997,6 +3241,11 @@
               "label": "Bottom padding",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
             }
           ]
         }
@@ -3006,6 +3255,59 @@
       "id": "forms",
       "label": "Form sections",
       "cards": [
+        {
+          "name": "Age verifier",
+          "sysname": "age-verifier",
+          "id": "age-verifier",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Age verifier"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Confirmation type",
+              "desc": "Choose one option.",
+              "options": [
+                "Yes / no",
+                "Date of birth"
+              ]
+            },
+            {
+              "label": "Minimum age",
+              "desc": "Used by the date of birth check.",
+              "options": null
+            },
+            {
+              "label": "Where \"no\" goes",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Remember answer for",
+              "desc": "How long before a visitor is asked again.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
         {
           "name": "Contact form",
           "sysname": "contact",
@@ -3030,8 +3332,27 @@
           ],
           "settings": [
             {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -3065,11 +3386,6 @@
           ],
           "settings": [
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -3079,8 +3395,8 @@
               ]
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -3091,6 +3407,11 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -3198,11 +3519,6 @@
               "options": null
             },
             {
-              "label": "Column gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Show payment icons",
               "desc": "An on / off switch.",
               "options": null
@@ -3220,6 +3536,21 @@
             {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Column gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
               "options": null
             }
           ]
@@ -3262,42 +3593,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
-              "label": "Layout",
-              "desc": "Centred suits short posts. Sidebar gives the margin a job, carrying the byline, contents and share beside the copy.",
-              "options": [
-                "Centred column",
-                "Column with sidebar"
-              ]
-            },
-            {
-              "label": "Content width",
-              "desc": "Body text only. Images and tables extend past it on wide screens.",
-              "options": [
-                "Narrow",
-                "Standard",
-                "Wide"
-              ]
-            },
-            {
-              "label": "Featured image",
-              "desc": "Choose one option.",
-              "options": [
-                "In the column",
-                "Full width",
-                "Full width, title over it"
-              ]
-            },
-            {
-              "label": "Darken behind the title",
-              "desc": "Only affects the overlay title. Text stays light whatever colour scheme you pick.",
-              "options": null
-            },
             {
               "label": "Show contents",
               "desc": "Built from the headings in the post. Needs at least two, and falls back to a card above the article on narrow screens.",
@@ -3366,6 +3661,42 @@
                 "Below the article",
                 "In the sidebar"
               ]
+            },
+            {
+              "label": "Layout",
+              "desc": "Centred suits short posts. Sidebar gives the margin a job, carrying the byline, contents and share beside the copy.",
+              "options": [
+                "Centred column",
+                "Column with sidebar"
+              ]
+            },
+            {
+              "label": "Content width",
+              "desc": "Body text only. Images and tables extend past it on wide screens.",
+              "options": [
+                "Narrow",
+                "Standard",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Featured image",
+              "desc": "Choose one option.",
+              "options": [
+                "In the column",
+                "Full width",
+                "Full width, title over it"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Darken behind the title",
+              "desc": "Only affects the overlay title. Text stays light whatever colour scheme you pick.",
+              "options": null
             }
           ]
         },
@@ -3381,13 +3712,27 @@
               "options": null
             },
             {
+              "label": "Articles per page",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Columns",
               "desc": "A slider.",
               "options": null
             },
             {
-              "label": "Articles per page",
-              "desc": "A slider.",
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -3399,20 +3744,6 @@
               "label": "Bottom padding",
               "desc": "A slider.",
               "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
-              "label": "Section width",
-              "desc": "Choose one option.",
-              "options": [
-                "Narrow",
-                "Page",
-                "Full width"
-              ]
             }
           ]
         },
@@ -3452,11 +3783,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
             {
               "label": "Heading",
               "desc": "Leave blank to use the default “Cart” label.",
@@ -3509,6 +3835,11 @@
               "label": "Products to show",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
             }
           ]
         },
@@ -3550,6 +3881,24 @@
               "options": null
             },
             {
+              "label": "Hero",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Image banner"
+              ]
+            },
+            {
+              "label": "Hero image",
+              "desc": "Optional. Leave empty to use the collection's own image (set in the collection admin). With neither, the banner is skipped and a plain header shows. Loads with high priority so it becomes the page's first painted image.",
+              "options": null
+            },
+            {
+              "label": "Overlay strength",
+              "desc": "Darkens the image behind the title so the text stays readable (AA). 100% = the full tested overlay; lower it over darker images.",
+              "options": null
+            },
+            {
               "label": "Layout",
               "desc": "Choose one option.",
               "options": [
@@ -3578,31 +3927,18 @@
               "options": null
             },
             {
-              "label": "Hero",
-              "desc": "Choose one option.",
-              "options": [
-                "None",
-                "Image banner"
-              ]
-            },
-            {
-              "label": "Hero image",
-              "desc": "Optional. Leave empty to use the collection's own image (set in the collection admin). With neither, the banner is skipped and a plain header shows. Loads with high priority so it becomes the page's first painted image.",
-              "options": null
-            },
-            {
-              "label": "Overlay strength",
-              "desc": "Darkens the image behind the title so the text stays readable (AA). 100% = the full tested overlay; lower it over darker images.",
-              "options": null
-            },
-            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Space under breadcrumbs",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Space under header",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -3616,13 +3952,8 @@
               "options": null
             },
             {
-              "label": "Space under breadcrumbs",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Space under header",
-              "desc": "A slider.",
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
             }
           ]
@@ -3634,13 +3965,13 @@
           "meta": [],
           "settings": [
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             }
           ]
@@ -3861,16 +4192,6 @@
               "options": null
             },
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Grid spacing (mobile)",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Enable image zoom",
               "desc": "An on / off switch.",
               "options": null
@@ -3918,8 +4239,13 @@
               "options": null
             },
             {
-              "label": "Anchor ID",
-              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing (mobile)",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -3931,6 +4257,11 @@
               "label": "Bottom padding",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
             }
           ]
         },
@@ -3941,13 +4272,13 @@
           "meta": [],
           "settings": [
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Grid spacing",
+              "desc": "A slider.",
               "options": null
             }
           ]
