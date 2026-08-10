@@ -3235,6 +3235,14 @@
               ]
             },
             {
+              "label": "Fit",
+              "desc": "Choose one option.",
+              "options": [
+                "Cover",
+                "Contain"
+              ]
+            },
+            {
               "label": "Media width",
               "desc": "Choose one option.",
               "options": [

@@ -51,7 +51,7 @@ Leave **Medium (body) on mobile** at 16 pixels or above. Safari on iPhone zooms 
 ## Layout
 
 - **Page width**: choose a narrower or wider maximum content width.
-- **Page margin**: the space between your content and the edge of the screen.
+- **Page margin**: the space between your content and the edge of the screen. Every section starts from this value. A section can add to it with its own **Horizontal padding**, and a section set to **Full** section width drops it entirely so its content runs edge to edge.
 - **Favicon**: the small icon shown in browser tabs. Use a square image of at least 64 by 64 pixels.
 
 ## Colors

@@ -379,6 +379,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -464,6 +469,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -538,6 +548,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -608,6 +623,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -727,6 +747,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -792,6 +817,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -953,6 +983,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -1076,6 +1111,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -1204,6 +1244,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -1294,6 +1339,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -1357,6 +1407,11 @@
               "label": "Bottom padding",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -1411,6 +1466,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -1495,6 +1555,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -1562,6 +1627,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -1619,6 +1689,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -1703,6 +1778,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -1781,6 +1861,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -1848,6 +1933,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -1934,6 +2024,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -2010,6 +2105,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -2097,6 +2197,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -2152,6 +2257,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -2252,6 +2362,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -2322,6 +2437,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -2495,6 +2615,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -2556,6 +2681,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -2609,6 +2739,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -2670,6 +2805,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -2740,6 +2880,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -2795,6 +2940,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -2976,6 +3126,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -3023,6 +3178,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -3109,6 +3269,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -3186,6 +3351,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -3251,6 +3421,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -3368,6 +3543,11 @@
               "options": null
             },
             {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -3418,6 +3598,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             },
@@ -3759,6 +3944,11 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             }
