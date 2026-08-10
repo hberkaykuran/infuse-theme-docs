@@ -23,7 +23,7 @@
           "settings": [
             {
               "label": "Heading",
-              "desc": "Text you type in.",
+              "desc": "Type &lt;br&gt; where you want the line to break.",
               "options": null
             },
             {
@@ -53,6 +53,18 @@
               "label": "Color",
               "desc": "Follows the color scheme. Edit the palette under Theme settings > Colors.",
               "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
+              "label": "Italic / marked word colour",
+              "desc": "Colours italic text in the heading. With the Highlight or Circled word decoration, that is the word you italicised to mark.",
+              "options": [
+                "Same as heading",
                 "Text",
                 "Muted text",
                 "Accent text",
@@ -139,7 +151,7 @@
           "settings": [
             {
               "label": "Text",
-              "desc": "Text you type in.",
+              "desc": "Type &lt;br&gt; where you want the line to break.",
               "options": null
             },
             {
@@ -388,7 +400,12 @@
             },
             {
               "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting. Paste the SVG code below instead if you want it to.",
+              "options": null
+            },
+            {
+              "label": "Custom icon (SVG code)",
+              "desc": "Optional. Paste the SVG source. Takes priority over the uploaded image, and because it is drawn inline it follows the icon colour and size settings, as long as the SVG uses currentColor rather than a hard-coded fill.",
               "options": null
             },
             {
@@ -425,6 +442,11 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "footer",
+                  "page": "sections",
+                  "anchor": "footer"
+                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -996,7 +1018,12 @@
             },
             {
               "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting. Paste the SVG code below instead if you want it to.",
+              "options": null
+            },
+            {
+              "label": "Custom icon (SVG code)",
+              "desc": "Optional. Paste the SVG source. Takes priority over the uploaded image, and because it is drawn inline it follows the icon colour and size settings, as long as the SVG uses currentColor rather than a hard-coded fill.",
               "options": null
             },
             {
@@ -1598,7 +1625,12 @@
             },
             {
               "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting. Paste the SVG code below instead if you want it to.",
+              "options": null
+            },
+            {
+              "label": "Custom icon (SVG code)",
+              "desc": "Optional. Paste the SVG source. Takes priority over the uploaded image, and because it is drawn inline it follows the icon colour and size settings, as long as the SVG uses currentColor rather than a hard-coded fill.",
               "options": null
             },
             {
@@ -1869,6 +1901,11 @@
               "options": null
             },
             {
+              "label": "Alt text",
+              "desc": "Optional. Falls back to the image's own alt text, then blank.",
+              "options": null
+            },
+            {
               "label": "Link",
               "desc": "A link to a page, product, or collection.",
               "options": null
@@ -1922,6 +1959,14 @@
               "label": "After label",
               "desc": "Text you type in.",
               "options": null
+            },
+            {
+              "label": "Label position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Bottom"
+              ]
             },
             {
               "label": "Aspect ratio",
@@ -2060,7 +2105,12 @@
             },
             {
               "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting. Paste the SVG code below instead if you want it to.",
+              "options": null
+            },
+            {
+              "label": "Custom icon (SVG code)",
+              "desc": "Optional. Paste the SVG source. Takes priority over the uploaded image, and because it is drawn inline it follows the icon colour and size settings, as long as the SVG uses currentColor rather than a hard-coded fill.",
               "options": null
             },
             {
@@ -2223,6 +2273,16 @@
               "options": null
             },
             {
+              "label": "Hover effect",
+              "desc": "How the badge reacts when the card it sits on is hovered. Following the card means it also stays still when the card's own hover effect is off.",
+              "options": [
+                "Follow the card",
+                "None",
+                "Straighten",
+                "Pop"
+              ]
+            },
+            {
               "label": "Icon",
               "desc": "Choose one option.",
               "options": [
@@ -2279,7 +2339,12 @@
             },
             {
               "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting.",
+              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting. Paste the SVG code below instead if you want it to.",
+              "options": null
+            },
+            {
+              "label": "Custom icon (SVG code)",
+              "desc": "Optional. Paste the SVG source. Takes priority over the uploaded image, and because it is drawn inline it follows the icon colour and size settings, as long as the SVG uses currentColor rather than a hard-coded fill.",
               "options": null
             },
             {

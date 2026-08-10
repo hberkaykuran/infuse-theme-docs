@@ -14,7 +14,31 @@ Chooses the overall look: **Infuse** or **Utility**. The preset sets the display
 
 ## Typography
 
-Neither style uses Shopify's font picker, so there is no font to choose. Infuse uses a self-hosted display font that loads with the theme. Utility uses your system's monospace font for both headings and body text, so it makes no font request at all, and it keeps prices, SKUs, and spec columns lined up without any extra setup.
+By default, Infuse uses a self-hosted display font that loads with the theme, and Utility uses your system's monospace font for both headings and body text, which makes no font request at all and keeps prices, SKUs, and spec columns lined up without any extra setup.
+
+You can override either of those with three settings:
+
+- **Heading font**: pick any font from Shopify's font library for headings.
+- **Body font**: pick any font from Shopify's font library for body text.
+- **Custom heading font URL**: a link to a font file for a licensed typeface that is not in Shopify's library, used for headings instead of the picker above.
+
+Leave all three at their defaults and nothing changes: the store keeps downloading exactly what it downloaded before. They are overrides, not requirements, and a merchant only takes on a new download by actively choosing one.
+
+If you set a custom heading font URL, it wins over Heading font for what is displayed, but Heading font still matters: it becomes the fallback typeface shown while your custom font loads (and if it ever fails to load), so pick the closest-looking option there rather than leaving it on the default. Only one font file is ever loaded per page, whichever setting wins.
+
+Choosing a font for Utility means giving up the alignment its monospace stack provides for prices, SKUs, and spec columns, so override it only if that trade-off is what you want.
+
+### Using a custom font
+
+1. In Shopify admin, go to **Content → Files**.
+2. Upload your font as a `.woff2` file — that is the format the theme expects.
+3. Copy the uploaded file's URL.
+4. Paste it into **Custom heading font URL**.
+5. Set **Heading font** to the closest-looking font in the library, so it shows as the fallback while your font loads.
+
+### Performance
+
+Leaving these settings alone costs nothing — the theme downloads no more than it already does. The cost, when there is one, is the font file itself, not the setting. A subset variable `.woff2` file, which is what the theme ships for its own Fraunces display font, is around 48 KB. An unsubset family converted from TTF with several separate weight files can run 300–400 KB and will slow the store down. Upload one `.woff2` file, subset it to the characters you need if your font tool supports that, and prefer a single variable font over uploading several weights.
 
 What you do set here is the **size ramp**: eyebrow, small, medium, large, extra large, 2X large, and a display size with a minimum and maximum. Every heading and text block picks one of these by name, so changing a size here changes it everywhere that size is used. Sizes are in pixels, and the whole ramp still responds to browser text zoom.
 

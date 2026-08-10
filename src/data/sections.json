@@ -1021,6 +1021,18 @@
               ]
             },
             {
+              "label": "Italic / marked word colour",
+              "desc": "Colours italic text in the heading. With the Highlight or Circled word decoration, that is the word you italicised to mark.",
+              "options": [
+                "Same as heading",
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)"
+              ]
+            },
+            {
               "label": "Size",
               "desc": "Choose one option.",
               "options": [
@@ -3483,6 +3495,11 @@
                 {
                   "text": "brand",
                   "code": true
+                },
+                {
+                  "text": "image",
+                  "page": "blocks",
+                  "anchor": "image"
                 },
                 {
                   "text": "menu",
