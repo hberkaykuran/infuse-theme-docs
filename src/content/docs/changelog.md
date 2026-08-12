@@ -8,6 +8,13 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-12b
+
+- **Slideshow arrows and dots can sit under the picture.** **Arrows** on the hero slideshow and the promo slideshow has a new **Under the slideshow** option. The back and forward arrows and the dots move off the picture and into one row beneath it, on the section's own background, so nothing covers your photograph and the dots stay readable whatever the photograph is doing. On the promo slideshow this setting takes over where the dots go as well, so the **Dots** setting is hidden while it is on.
+- **The dot for the slide you are on doubles as a rotation timer.** When **Rotate** is on, the wide dot fills across as the countdown to the next slide runs, so a visitor can see how long they have to read the slide. Hovering the slideshow or tabbing into it holds the timer where it is, the same pause that already stopped the slides from advancing. With Rotate off the dot is solid, exactly as before, and visitors who have asked their device to reduce motion see the solid dot too.
+- **The hero slideshow renders at all.** It was collapsing to nothing on any page it was added to, so the section took up its height and drew none of its slides. Nothing in the theme's own page layouts used it, which is why it went unnoticed.
+- **Slideshow dots keep their own colours on a page with two slideshows.** The dots are drawn light on the hero slideshow, dark on the promo slideshow, and grey in a blog post carousel. Putting two of those sections on the same page made them fight over one another, so a hero's dots could come out dark against its photograph.
+
 ## Unreleased — 2026-08-12
 
 - **Bold headings and bold text are really bold now.** The theme asked the browser for a bolder weight of your chosen font but only ever downloaded the regular file, so the browser drew a fake bold by smearing the regular letters wider. Every display heading in the theme was affected, and so was any bold body text, such as a `<strong>` word or a price. The theme now downloads the bold face of the font you picked, and the italic bold as well where the family has one.
