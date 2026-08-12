@@ -16,15 +16,20 @@ Chooses the overall look: **Infuse** or **Utility**. The preset sets the display
 
 By default, Infuse uses a self-hosted display font that loads with the theme, and Utility uses your system's monospace font for both headings and body text, which makes no font request at all and keeps prices, SKUs, and spec columns lined up without any extra setup.
 
-You can override either of those with three settings:
+You can override either of those. Two settings pick from Shopify's library:
 
 - **Heading font**: pick any font from Shopify's font library for headings.
 - **Body font**: pick any font from Shopify's font library for body text.
-- **Custom heading font URL**: a link to a font file for a licensed typeface that is not in Shopify's library, used for headings instead of the picker above.
 
-Leave all three at their defaults and nothing changes: the store keeps downloading exactly what it downloaded before. They are overrides, not requirements, and a merchant only takes on a new download by actively choosing one.
+The rest are for a licensed typeface that is not in Shopify's library, and they come in a matching set for headings and for body text:
 
-If you set a custom heading font URL, it wins over Heading font for what is displayed, but Heading font still matters: it becomes the fallback typeface shown while your custom font loads (and if it ever fails to load), so pick the closest-looking option there rather than leaving it on the default. Only one font file is ever loaded per page, whichever setting wins.
+- **Custom heading font URL** and **Custom body font URL**: a link to a font file, used instead of the picker above it.
+- **Regular weight**: which weight the file you uploaded actually is. Most regular faces are 400.
+- **Custom heading font URL, bold** and **Custom body font URL, bold**, each with a **Bold weight**: the second file, for wherever the theme renders that font bold. Optional, and covered under [Bold faces](#bold-faces) below.
+
+Leave all of these at their defaults and nothing changes: the store keeps downloading exactly what it downloaded before. They are overrides, not requirements, and a merchant only takes on a new download by actively choosing one.
+
+If you set a custom font URL, it wins over the picker above it for what is displayed, but the picker still matters: it becomes the fallback typeface shown while your custom font loads (and if it ever fails to load), so pick the closest-looking option there rather than leaving it on the default. The picker's own file is never downloaded once a custom URL is set.
 
 Choosing a font for Utility means giving up the alignment its monospace stack provides for prices, SKUs, and spec columns, so override it only if that trade-off is what you want.
 
@@ -33,12 +38,23 @@ Choosing a font for Utility means giving up the alignment its monospace stack pr
 1. In Shopify admin, go to **Content → Files**.
 2. Upload your font as a `.woff2` file — that is the format the theme expects.
 3. Copy the uploaded file's URL.
-4. Paste it into **Custom heading font URL**.
-5. Set **Heading font** to the closest-looking font in the library, so it shows as the fallback while your font loads.
+4. Paste it into **Custom heading font URL**, or **Custom body font URL** for body copy.
+5. Set **Regular weight** to the weight that file actually is. Most files named Regular or Book are 400.
+6. Set the matching picker, **Heading font** or **Body font**, to the closest-looking font in the library, so it shows as the fallback while your font loads.
+
+### Bold faces
+
+A font file holds one weight. The browser cannot make a real bold out of a regular file, so when something on the page is bold and only the regular file exists, it fakes one by smearing the letters wider. That fake is what makes an uploaded font look slightly wrong next to the same font in your design tool.
+
+Both custom font settings therefore have a second URL slot and a second weight beside it. Upload your font's bold file there and the theme uses it wherever it renders that font bold. Headings use it for display sizes; body text uses it for `<strong>` words, prices, and form labels. Leave the bold slot blank and the browser goes on faking the bold from the regular file, which is a reasonable choice if bold barely appears in your design.
+
+If you are uploading a **variable** font, put the same file URL in both slots and set the two weights to the weights you want, for example 400 and 700. The browser downloads that file once and draws both weights from it.
+
+The fonts you pick from Shopify's library need none of this. The theme downloads their bold face for you, and for headings the bold italic as well where the family has one.
 
 ### Performance
 
-Leaving these settings alone costs nothing — the theme downloads no more than it already does. The cost, when there is one, is the font file itself, not the setting. A subset variable `.woff2` file, which is what the theme ships for its own Fraunces display font, is around 48 KB. An unsubset family converted from TTF with several separate weight files can run 300–400 KB and will slow the store down. Upload one `.woff2` file, subset it to the characters you need if your font tool supports that, and prefer a single variable font over uploading several weights.
+Leaving these settings alone costs nothing: the theme downloads no more than it already does. The cost, when there is one, is the font file itself, not the setting. A subset variable `.woff2` file, which is what the theme ships for its own Fraunces display font, is around 48 KB. An unsubset family converted from TTF with several separate weight files can run 300–400 KB and will slow the store down. Upload `.woff2` files, subset them to the characters you need if your font tool supports that, and prefer one variable font used for both the regular and bold slot over two separate static files. Note that filling in a bold slot, or picking a library font that has a bold face, is a second download, so set it only if bold actually appears in your design.
 
 What you do set here is the **size ramp**: eyebrow, small, medium, large, extra large, 2X large, and a display size with a minimum and maximum. Every heading and text block picks one of these by name, so changing a size here changes it everywhere that size is used. Sizes are in pixels, and the whole ramp still responds to browser text zoom.
 

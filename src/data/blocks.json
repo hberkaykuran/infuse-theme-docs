@@ -527,6 +527,16 @@
               "items": [
                 {
                   "text": "any content block"
+                },
+                {
+                  "text": "_spec-row",
+                  "page": "blocks",
+                  "anchor": "spec-row"
+                },
+                {
+                  "text": "_trust-item",
+                  "page": "blocks",
+                  "anchor": "trust-item"
                 }
               ]
             }
@@ -1355,7 +1365,8 @@
               "options": [
                 "Filled",
                 "Tinted",
-                "Outlined"
+                "Outlined",
+                "Outlined (neutral)"
               ]
             },
             {
@@ -2068,6 +2079,11 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                },
                 {
                   "text": "trust-strip",
                   "page": "sections",
@@ -3116,6 +3132,11 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                },
                 {
                   "text": "spec-table",
                   "page": "sections",

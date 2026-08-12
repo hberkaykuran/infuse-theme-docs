@@ -335,6 +335,11 @@
               ]
             },
             {
+              "label": "Media width",
+              "desc": "Split layout only. How much of the row the picture takes. The picture never goes taller than the hero height, so a tall crop may sit narrower than this.",
+              "options": null
+            },
+            {
               "label": "Height",
               "desc": "Choose one option.",
               "options": [
@@ -1878,6 +1883,17 @@
           "id": "blog-posts",
           "meta": [
             {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "grid"
+                },
+                {
+                  "text": "carousel"
+                }
+              ]
+            },
+            {
               "label": "Presets",
               "items": [
                 {
@@ -1901,6 +1917,14 @@
               "label": "Articles to show",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Grid",
+                "Carousel"
+              ]
             },
             {
               "label": "Columns",
