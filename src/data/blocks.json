@@ -1,5 +1,5 @@
 {
-  "total": 40,
+  "total": 50,
   "groups": [
     {
       "id": "layout-and-text",
@@ -15,6 +15,16 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "_collection-card",
+                  "page": "blocks",
+                  "anchor": "collection-card"
+                },
+                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -23,7 +33,7 @@
           "settings": [
             {
               "label": "Heading",
-              "desc": "Type &lt;br&gt; where you want the line to break.",
+              "desc": "Type [br] where you want the line to break.",
               "options": null
             },
             {
@@ -133,6 +143,16 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "_collection-card",
+                  "page": "blocks",
+                  "anchor": "collection-card"
+                },
+                {
                   "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
@@ -151,7 +171,7 @@
           "settings": [
             {
               "label": "Text",
-              "desc": "Type &lt;br&gt; where you want the line to break.",
+              "desc": "Type [br] where you want the line to break.",
               "options": null
             },
             {
@@ -306,6 +326,16 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "_collection-card",
+                  "page": "blocks",
+                  "anchor": "collection-card"
+                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -512,6 +542,16 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "_collection-card",
+                  "page": "blocks",
+                  "anchor": "collection-card"
+                },
                 {
                   "text": "_product-card",
                   "page": "blocks",
@@ -891,6 +931,16 @@
                 "Contain",
                 "Cover"
               ]
+            },
+            {
+              "label": "Use the theme's radius",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Image corner radius",
+              "desc": "A slider.",
+              "options": null
             },
             {
               "label": "Padding",
@@ -2072,6 +2122,409 @@
       "label": "Other blocks",
       "cards": [
         {
+          "name": "Article card",
+          "sysname": "_article-card",
+          "id": "article-card",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Only addable inside its parent block."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "article-excerpt",
+                  "page": "blocks",
+                  "anchor": "article-excerpt"
+                },
+                {
+                  "text": "article-image",
+                  "page": "blocks",
+                  "anchor": "article-image"
+                },
+                {
+                  "text": "article-meta",
+                  "page": "blocks",
+                  "anchor": "article-meta"
+                },
+                {
+                  "text": "article-tag",
+                  "page": "blocks",
+                  "anchor": "article-tag"
+                },
+                {
+                  "text": "article-title",
+                  "page": "blocks",
+                  "anchor": "article-title"
+                },
+                {
+                  "text": "badge",
+                  "page": "blocks",
+                  "anchor": "badge"
+                },
+                {
+                  "text": "button",
+                  "page": "blocks",
+                  "anchor": "button"
+                },
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                },
+                {
+                  "text": "heading",
+                  "page": "blocks",
+                  "anchor": "heading"
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Vertical gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Background",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Border",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Solid"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Hover effect",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Zoom in",
+                "Lift"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Article excerpt",
+          "sysname": "article-excerpt",
+          "id": "article-excerpt",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Limit to lines",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Max characters",
+              "desc": "0 keeps the theme default of roughly 24 words.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Article image",
+          "sysname": "article-image",
+          "id": "article-image",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Adapt to image",
+                "Wide (16:10)",
+                "Square",
+                "Portrait",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Fit",
+              "desc": "Choose one option.",
+              "options": [
+                "Cover",
+                "Contain"
+              ]
+            },
+            {
+              "label": "Link to article page",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Use the theme's radius",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Image corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Article meta",
+          "sysname": "article-meta",
+          "id": "article-meta",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Show date",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show author",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Date format",
+              "desc": "Choose one option.",
+              "options": [
+                "Short",
+                "Month day, year",
+                "Full"
+              ]
+            },
+            {
+              "label": "Separator",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Article tag",
+          "sysname": "article-tag",
+          "id": "article-tag",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Corner",
+              "desc": "Choose one option.",
+              "options": [
+                "Top left",
+                "Top right",
+                "Bottom left",
+                "Bottom right"
+              ]
+            },
+            {
+              "label": "Tilt the sticker",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "Overrides the colours this chip inherits from the card.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Article title",
+          "sysname": "article-title",
+          "id": "article-title",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "HTML tag",
+              "desc": "Choose one option.",
+              "options": [
+                "H2",
+                "H3",
+                "H4",
+                "Paragraph"
+              ]
+            },
+            {
+              "label": "Link to article page",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Limit to lines",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Badge",
           "sysname": "_trust-item",
           "id": "trust-item",
@@ -2186,6 +2639,16 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "_article-card",
+                  "page": "blocks",
+                  "anchor": "article-card"
+                },
+                {
+                  "text": "_collection-card",
+                  "page": "blocks",
+                  "anchor": "collection-card"
+                },
                 {
                   "text": "_product-card",
                   "page": "blocks",
@@ -2313,6 +2776,359 @@
                 "Return (easy returns)",
                 "Lock (secure payment)"
               ]
+            }
+          ]
+        },
+        {
+          "name": "Carousel navigation",
+          "sysname": "_carousel-nav",
+          "id": "carousel-nav",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Only addable inside its parent block."
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Arrows",
+              "desc": "Choose one option.",
+              "options": [
+                "Above the carousel",
+                "Either side of the carousel",
+                "On the sides, over the media",
+                "In the corner",
+                "Under the carousel, beside the dots",
+                "None"
+              ]
+            },
+            {
+              "label": "Arrows on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Above the carousel",
+                "Either side of the carousel",
+                "On the sides, over the media",
+                "In the corner",
+                "Under the carousel, beside the dots",
+                "None"
+              ]
+            },
+            {
+              "label": "Show dots",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Dots position",
+              "desc": "Choose one option.",
+              "options": [
+                "Over the media",
+                "Under the carousel"
+              ]
+            },
+            {
+              "label": "Arrow size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Dot size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "When there is nothing to scroll",
+              "desc": "Choose one option.",
+              "options": [
+                "Hide the controls",
+                "Show them, greyed out"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collection card",
+          "sysname": "_collection-card",
+          "id": "collection-card",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Only addable inside its parent block."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "badge",
+                  "page": "blocks",
+                  "anchor": "badge"
+                },
+                {
+                  "text": "button",
+                  "page": "blocks",
+                  "anchor": "button"
+                },
+                {
+                  "text": "collection-image",
+                  "page": "blocks",
+                  "anchor": "collection-image"
+                },
+                {
+                  "text": "collection-title",
+                  "page": "blocks",
+                  "anchor": "collection-title"
+                },
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                },
+                {
+                  "text": "heading",
+                  "page": "blocks",
+                  "anchor": "heading"
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Title placement",
+              "desc": "Choose one option.",
+              "options": [
+                "On tile (chip)",
+                "Below tile"
+              ]
+            },
+            {
+              "label": "Title chip style",
+              "desc": "Choose one option.",
+              "options": [
+                "Over the image",
+                "Card colour"
+              ]
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Background",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Border",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Solid"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Hover effect",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Zoom in",
+                "Lift"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collection image",
+          "sysname": "collection-image",
+          "id": "collection-image",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_collection-card",
+                  "page": "blocks",
+                  "anchor": "collection-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image source",
+              "desc": "Choose one option.",
+              "options": [
+                "Collection image",
+                "First product image"
+              ]
+            },
+            {
+              "label": "Tile aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Portrait",
+                "Square",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Fit",
+              "desc": "Choose one option.",
+              "options": [
+                "Contain",
+                "Cover"
+              ]
+            },
+            {
+              "label": "Use the theme's radius",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Image corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Image padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Collection title",
+          "sysname": "collection-title",
+          "id": "collection-title",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_collection-card",
+                  "page": "blocks",
+                  "anchor": "collection-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Link to collection page",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "HTML tag",
+              "desc": "Choose one option.",
+              "options": [
+                "H2",
+                "H3",
+                "H4",
+                "Paragraph"
+              ]
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)"
+              ]
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Show product count",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -3052,7 +3868,7 @@
             },
             {
               "label": "Heading",
-              "desc": "Text you type in.",
+              "desc": "Type [br] where you want the line to break.",
               "options": null
             },
             {

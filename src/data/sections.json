@@ -450,16 +450,6 @@
               ]
             },
             {
-              "label": "Navigation arrows",
-              "desc": "Choose one option.",
-              "options": [
-                "Sides",
-                "Bottom corner",
-                "Under the slideshow",
-                "Hidden"
-              ]
-            },
-            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
@@ -715,25 +705,6 @@
               ]
             },
             {
-              "label": "Navigation arrows",
-              "desc": "Choose one option.",
-              "options": [
-                "Outside slides",
-                "Sides",
-                "Bottom corner",
-                "Under the slideshow",
-                "Hidden"
-              ]
-            },
-            {
-              "label": "Dots position",
-              "desc": "Choose one option.",
-              "options": [
-                "Over slides",
-                "Below slides"
-              ]
-            },
-            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
@@ -911,11 +882,6 @@
               "options": null
             },
             {
-              "label": "Show collection title",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
               "label": "Layout",
               "desc": "Choose one option.",
               "options": [
@@ -925,17 +891,14 @@
               ]
             },
             {
-              "label": "Columns on desktop",
-              "desc": "A slider.",
+              "label": "Slide width on mobile",
+              "desc": "Under 100% leaves a peek of the next card, so a visitor can see there is more to scroll.",
               "options": null
             },
             {
-              "label": "Title placement",
-              "desc": "Choose one option.",
-              "options": [
-                "On tile (chip)",
-                "Below tile"
-              ]
+              "label": "Columns on desktop",
+              "desc": "A slider.",
+              "options": null
             },
             {
               "label": "Section width",
@@ -947,35 +910,12 @@
               ]
             },
             {
-              "label": "Tile style",
-              "desc": "Choose one option.",
-              "options": [
-                "Image (photo fills tile)",
-                "Box-shot on card",
-                "Box-shot, no background"
-              ]
-            },
-            {
-              "label": "Tile aspect ratio",
-              "desc": "Choose one option.",
-              "options": [
-                "Portrait",
-                "Square",
-                "Landscape"
-              ]
-            },
-            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
               "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Image padding",
               "desc": "A slider.",
               "options": null
             },
@@ -1037,7 +977,7 @@
           "settings": [
             {
               "label": "Heading",
-              "desc": "Text you type in.",
+              "desc": "Type [br] where you want the line to break.",
               "options": null
             },
             {
@@ -1455,6 +1395,11 @@
                 "Page",
                 "Full width"
               ]
+            },
+            {
+              "label": "Slide width on mobile",
+              "desc": "Under 100% leaves a peek of the next card, so a visitor can see there is more to scroll.",
+              "options": null
             },
             {
               "label": "Color scheme",
@@ -1929,6 +1874,20 @@
               ]
             },
             {
+              "label": "Layout on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Grid",
+                "Carousel"
+              ]
+            },
+            {
+              "label": "Slide width on mobile",
+              "desc": "Under 100% leaves a peek of the next card, so a visitor can see there is more to scroll.",
+              "options": null
+            },
+            {
               "label": "Columns",
               "desc": "A slider.",
               "options": null
@@ -2082,16 +2041,6 @@
               "options": null
             },
             {
-              "label": "Show summary",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show category chip",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
               "label": "Columns",
               "desc": "A slider.",
               "options": null
@@ -2103,15 +2052,6 @@
                 "Narrow",
                 "Page",
                 "Full width"
-              ]
-            },
-            {
-              "label": "Title size",
-              "desc": "Choose one option.",
-              "options": [
-                "Medium",
-                "Large",
-                "Extra large"
               ]
             },
             {
@@ -2346,6 +2286,11 @@
               ]
             },
             {
+              "label": "Slide width on mobile",
+              "desc": "Under 100% leaves a peek of the next card, so a visitor can see there is more to scroll.",
+              "options": null
+            },
+            {
               "label": "Columns on desktop",
               "desc": "A slider.",
               "options": null
@@ -2573,16 +2518,6 @@
             {
               "label": "Centre card scale",
               "desc": "How much the centred card grows as it passes the middle. Browsers without scroll-driven animations, and visitors who prefer reduced motion, see an even carousel instead.",
-              "options": null
-            },
-            {
-              "label": "Show arrows",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show dots",
-              "desc": "An on / off switch.",
               "options": null
             },
             {
@@ -4402,6 +4337,16 @@
             {
               "label": "Tint the stage",
               "desc": "Washes the image ground with the collection accent. Turn off for a neutral ground.",
+              "options": null
+            },
+            {
+              "label": "Use the theme's radius",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Image corner radius",
+              "desc": "A slider.",
               "options": null
             },
             {
