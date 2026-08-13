@@ -30,6 +30,14 @@
           ],
           "settings": [
             {
+              "label": "Arrows",
+              "desc": "Choose one option.",
+              "options": [
+                "Either side of the carousel",
+                "None"
+              ]
+            },
+            {
               "label": "Text",
               "desc": "Shown when there are no message blocks. Add message blocks to rotate several announcements.",
               "options": null

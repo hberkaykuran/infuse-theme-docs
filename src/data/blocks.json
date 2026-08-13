@@ -500,6 +500,17 @@
               ]
             },
             {
+              "label": "Aspect ratio on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape"
+              ]
+            },
+            {
               "label": "Fit",
               "desc": "Choose one option.",
               "options": [

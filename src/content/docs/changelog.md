@@ -8,6 +8,11 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-13b
+
+- **Pictures can take a different shape on the phone.** The image block's **Aspect ratio** applied at every screen size, so a **Portrait** that looked right beside the writing in an A+ split turned into a very tall slab once the two halves stacked on a phone. **Aspect ratio on mobile** sits beside it and starts on **Same as desktop**, so nothing changes until you pick something else.
+- **A card can no longer come out empty.** Product, blog post and collection cards are composed from blocks, and a page layout that was written by hand rather than built in the editor could leave a card with nothing declared inside it, which drew an empty box with no warning. A card in that state now falls back to its picture, title and price so the page still reads, and any block you add replaces the fallback.
+
 ## Unreleased — 2026-08-13
 
 - **Carousel navigation is its own block now.** Every carousel in the theme — the hero and promo slideshows, the product, blog post, collection and testimonial carousels, the gallery and the announcement ticker — carries a **Carousel navigation** entry in the editor, nested under the section. Its settings used to be scattered across each section's own panel, or missing entirely. It holds: **Arrows** (Above the carousel / Either side / On the sides over the media / In the corner / Under the carousel beside the dots / None), **Arrows on mobile** with its own copy of those choices, **Show dots**, **Dots position**, **Arrow size**, **Dot size**, and what happens **when there is nothing to scroll**.
