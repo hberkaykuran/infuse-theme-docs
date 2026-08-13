@@ -148,6 +148,34 @@
               "options": null
             },
             {
+              "label": "Overlay the first section",
+              "desc": "Lets the header sit on top of the first section instead of above it. Works with any scroll behaviour, including sticky.",
+              "options": [
+                "Never",
+                "On every page",
+                "Only when the page opens with an image section"
+              ]
+            },
+            {
+              "label": "Colour scheme while overlaying",
+              "desc": "Used only while the header is over the first section. It returns to its normal scheme once you scroll past.",
+              "options": null
+            },
+            {
+              "label": "Shading behind the header",
+              "desc": "A soft gradient behind the bar so the logo and menu stay readable over a photograph. Raise it on bright images.",
+              "options": [
+                "None",
+                "Soft",
+                "Strong"
+              ]
+            },
+            {
+              "label": "Count this header in full-height sections",
+              "desc": "Full-height sections such as the hero subtract the header so they end exactly at the bottom of the screen. Turn this off to let them fill the whole screen instead.",
+              "options": null
+            },
+            {
               "label": "Default category marker",
               "desc": "What shows next to each collection link in a mega menu. Individual mega menus can override this in their own panel settings.",
               "options": [

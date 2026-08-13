@@ -8,6 +8,13 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-13c
+
+- **The header can sit on top of the first section.** Until now it always took its own strip of the page, so a picture at the top of a page started underneath it. **Overlay the first section** puts the header over that picture instead, with the logo and menu floating on top of it. It starts on **Never**, so nothing changes until you turn it on, and it works with any scroll behaviour including sticky and hide-on-scroll.
+- **You choose which pages it applies to.** **On every page** does exactly that. **Only when the page opens with an image section** leaves the header in its normal place on pages that begin with writing, so the menu never lands on top of a paragraph, and overlays it on the ones that open with a picture.
+- **The header gets its own colour scheme while it is overlaying.** A dark photograph usually wants a light logo and menu, which is rarely what the header uses further down the page. **Colour scheme while overlaying** applies only while it is over the first section; scrolling past returns it to its normal scheme. There is also **Shading behind the header** (None / Soft / Strong), a soft gradient that keeps the logo readable over a busy or bright photograph.
+- **Full-height sections can ignore the header's height.** A hero set to **Full** height subtracts the header so it ends exactly at the bottom of the screen. **Count this header in full-height sections** lets you turn that off so the hero fills the whole screen instead. It is a separate setting from the overlay one on purpose: you can have a floating header that still shortens the hero, or a normal header that does not.
+
 ## Unreleased — 2026-08-13b
 
 - **Pictures can take a different shape on the phone.** The image block's **Aspect ratio** applied at every screen size, so a **Portrait** that looked right beside the writing in an A+ split turned into a very tall slab once the two halves stacked on a phone. **Aspect ratio on mobile** sits beside it and starts on **Same as desktop**, so nothing changes until you pick something else.
