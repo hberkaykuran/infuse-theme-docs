@@ -2304,6 +2304,16 @@
               "label": "Max characters",
               "desc": "0 keeps the theme default of roughly 24 words.",
               "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -2426,6 +2436,16 @@
               "label": "Alignment",
               "desc": "Left, center, or right alignment.",
               "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -2524,12 +2544,45 @@
               ]
             },
             {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)"
+              ]
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Alignment",
               "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
               "label": "Limit to lines",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             }
@@ -2627,6 +2680,48 @@
             },
             {
               "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Layout direction",
+              "desc": "Choose one option.",
+              "options": [
+                "Horizontal",
+                "Vertical"
+              ]
+            },
+            {
+              "label": "Mobile layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Row",
+                "Column"
+              ]
+            },
+            {
+              "label": "Vertical alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom",
+                "Stretch"
+              ]
+            },
+            {
+              "label": "Distribution",
+              "desc": "Choose one option.",
+              "options": [
+                "Start",
+                "Center",
+                "End",
+                "Space between"
+              ]
+            },
+            {
+              "label": "Padding",
               "desc": "A slider.",
               "options": null
             },
