@@ -1,5 +1,5 @@
 {
-  "total": 50,
+  "total": 57,
   "groups": [
     {
       "id": "layout-and-text",
@@ -156,11 +156,6 @@
                   "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
-                },
-                {
-                  "text": "footer",
-                  "page": "sections",
-                  "anchor": "footer"
                 },
                 {
                   "text": "most sections that accept content"
@@ -472,11 +467,6 @@
             {
               "label": "Where it works",
               "items": [
-                {
-                  "text": "footer",
-                  "page": "sections",
-                  "anchor": "footer"
-                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -2133,6 +2123,22 @@
       "label": "Other blocks",
       "cards": [
         {
+          "name": "Article body",
+          "sysname": "article-body",
+          "id": "article-body",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
           "name": "Article card",
           "sysname": "_article-card",
           "id": "article-card",
@@ -2409,6 +2415,11 @@
               "options": null
             },
             {
+              "label": "Show reading time",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Date format",
               "desc": "Choose one option.",
               "options": [
@@ -2497,6 +2508,43 @@
           ]
         },
         {
+          "name": "Article tags",
+          "sysname": "article-tags",
+          "id": "article-tags",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Article title",
           "sysname": "article-title",
           "id": "article-title",
@@ -2520,6 +2568,7 @@
               "label": "HTML tag",
               "desc": "Choose one option.",
               "options": [
+                "H1",
                 "H2",
                 "H3",
                 "H4",
@@ -2540,7 +2589,8 @@
                 "Medium",
                 "Large",
                 "Extra large",
-                "2X large"
+                "2X large",
+                "Display"
               ]
             },
             {
@@ -3398,6 +3448,83 @@
           ]
         },
         {
+          "name": "Link list",
+          "sysname": "menu",
+          "id": "menu",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Menu",
+              "desc": "Pick a navigation menu.",
+              "options": null
+            },
+            {
+              "label": "Heading size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Follows the color scheme. Edit the palette under Theme settings > Colors.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Mega menu panel",
           "sysname": "mega-panel",
           "id": "mega-panel",
@@ -3460,6 +3587,97 @@
             {
               "label": "Block area width",
               "desc": "Width of the area your blocks sit in, to the right of the links.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Newsletter",
+          "sysname": "newsletter",
+          "id": "newsletter",
+          "meta": [
+            {
+              "label": "Styles",
+              "items": [
+                {
+                  "text": "inline"
+                },
+                {
+                  "text": "stacked"
+                }
+              ]
+            },
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Button label",
+              "desc": "Leave blank to use the default \"Subscribe\" label.",
+              "options": null
+            },
+            {
+              "label": "Email field label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "One row",
+                "Stacked"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Max width",
+              "desc": "0 = no limit.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             }
           ]
@@ -3856,6 +4074,48 @@
           ]
         },
         {
+          "name": "Share links",
+          "sysname": "article-share",
+          "id": "article-share",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Show \"Share\" label",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Shoppable image cell",
           "sysname": "_hotspot-image",
           "id": "hotspot-image",
@@ -4042,6 +4302,82 @@
             {
               "label": "Text overlay opacity",
               "desc": "Darkens the media behind the copy for AA contrast. 100% = the AA-tested scrim.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Social links",
+          "sysname": "social",
+          "id": "social",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Instagram URL",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Facebook URL",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "TikTok URL",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "YouTube URL",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "X (Twitter) URL",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Icon style",
+              "desc": "Choose one option.",
+              "options": [
+                "Plain",
+                "Outlined",
+                "Filled"
+              ]
+            },
+            {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
               "options": null
             }
           ]
@@ -4252,6 +4588,68 @@
             {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Table of contents",
+          "sysname": "article-toc",
+          "id": "article-toc",
+          "meta": [
+            {
+              "label": "Styles",
+              "items": [
+                {
+                  "text": "ruled"
+                },
+                {
+                  "text": "numbered"
+                },
+                {
+                  "text": "card"
+                },
+                {
+                  "text": "leader"
+                }
+              ]
+            },
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Contents heading",
+              "desc": "Leave blank to show just the links.",
+              "options": null
+            },
+            {
+              "label": "Include",
+              "desc": "Choose one option.",
+              "options": [
+                "Main headings only",
+                "Main and sub headings"
+              ]
+            },
+            {
+              "label": "Style",
+              "desc": "Choose one option.",
+              "options": [
+                "Ruled list",
+                "Numbered",
+                "Card",
+                "Dotted leader"
+              ]
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
               "options": null
             }
           ]

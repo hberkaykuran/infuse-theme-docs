@@ -32,6 +32,7 @@ export const docsNav = [
     blurb: 'Badge your products, style your blog, and translate your store into more languages.',
     items: [
       { path: '/docs/guides/product-badges', label: 'Product badges' },
+      { path: '/docs/guides/collection-colors', label: 'Collection colours' },
       { path: '/docs/guides/blog-posts', label: 'Blog posts' },
       { path: '/docs/guides/hover-effects', label: 'Hover effects and clickable cards' },
       { path: '/docs/guides/age-verifier', label: 'Age verifier' },

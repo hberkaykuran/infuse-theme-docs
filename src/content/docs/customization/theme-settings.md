@@ -12,6 +12,14 @@ Theme settings are the store-wide options that apply everywhere, separate from a
 
 Chooses the overall look: **Infuse** or **Utility**. The preset sets the display font, corner radius, and motion feel for the whole theme. Colours are handled separately in the schemes below. See [Styles](/docs/customization/presets) for the difference between the two.
 
+**Animation style** overrides just the motion part of that choice, so you can keep a style's typography and shapes without keeping the way it moves.
+
+**Follow preset** is the default and changes nothing: Infuse keeps its springy motion, which overshoots slightly and settles, and Utility keeps none at all. **Springy** and **Smooth** apply that feel to either style — smooth uses an even ease with no bounce, which suits a serious or high-end store that still wants things to move. **None** removes transitions everywhere: hovers, card lifts, drawers and menus all change state instantly.
+
+This affects only how things move, not how they look. Nothing appears or disappears from the page when you change it.
+
+Visitors who have asked their device to reduce motion always get **None**, whatever you pick here. That is a system-level accessibility preference and the theme honours it.
+
 ## Typography
 
 By default, Infuse uses a self-hosted display font that loads with the theme, and Utility uses your system's monospace font for both headings and body text, which makes no font request at all and keeps prices, SKUs, and spec columns lined up without any extra setup.

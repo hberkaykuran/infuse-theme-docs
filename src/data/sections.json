@@ -1,5 +1,5 @@
 {
-  "addableCount": 43,
+  "addableCount": 44,
   "groups": [
     {
       "id": "header",
@@ -70,6 +70,107 @@
             {
               "label": "Bottom padding",
               "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Article",
+          "sysname": "article",
+          "id": "article",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "centered"
+                },
+                {
+                  "text": "sidebar"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Article"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout",
+              "desc": "Centred suits short posts. Sidebar gives the margin a job, carrying the byline, contents and share beside the copy.",
+              "options": [
+                "Centred column",
+                "Column with sidebar"
+              ]
+            },
+            {
+              "label": "Sidebar side",
+              "desc": "Blocks you add here sit in the narrow rail beside the article.",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Content width",
+              "desc": "Body text only. Images and tables extend past it on wide screens.",
+              "options": [
+                "Narrow",
+                "Standard",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Show \"Back to blog\" link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Featured image",
+              "desc": "Choose one option.",
+              "options": [
+                "Hidden",
+                "In the column",
+                "Full width",
+                "Full width, title over it"
+              ]
+            },
+            {
+              "label": "Darken behind the title",
+              "desc": "Only affects the overlay title. Text stays light whatever colour scheme you pick.",
+              "options": null
+            },
+            {
+              "label": "Show author",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show date",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show reading time",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             }
           ]
@@ -3675,30 +3776,7 @@
               "label": "Add inside",
               "items": [
                 {
-                  "text": "brand",
-                  "code": true
-                },
-                {
-                  "text": "image",
-                  "page": "blocks",
-                  "anchor": "image"
-                },
-                {
-                  "text": "menu",
-                  "code": true
-                },
-                {
-                  "text": "newsletter",
-                  "code": true
-                },
-                {
-                  "text": "social",
-                  "code": true
-                },
-                {
-                  "text": "text",
-                  "page": "blocks",
-                  "anchor": "text"
+                  "text": "any content block"
                 }
               ]
             },
@@ -3770,131 +3848,6 @@
             {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            }
-          ]
-        },
-        {
-          "name": "Article",
-          "sysname": "article",
-          "id": "article",
-          "meta": [
-            {
-              "label": "Layouts",
-              "items": [
-                {
-                  "text": "centered"
-                },
-                {
-                  "text": "sidebar"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Show contents",
-              "desc": "Built from the headings in the post. Needs at least two, and falls back to a card above the article on narrow screens.",
-              "options": null
-            },
-            {
-              "label": "Style",
-              "desc": "Choose one option.",
-              "options": [
-                "Ruled list",
-                "Numbered",
-                "Card",
-                "Dotted leader"
-              ]
-            },
-            {
-              "label": "Contents side",
-              "desc": "Choose one option.",
-              "options": [
-                "Left",
-                "Right"
-              ]
-            },
-            {
-              "label": "Contents heading",
-              "desc": "Leave blank to show just the links.",
-              "options": null
-            },
-            {
-              "label": "Include",
-              "desc": "Choose one option.",
-              "options": [
-                "Main headings only",
-                "Main and sub headings"
-              ]
-            },
-            {
-              "label": "Show author",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show date",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show reading time",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show tags",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show share links",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Share links",
-              "desc": "Choose one option.",
-              "options": [
-                "Below the article",
-                "In the sidebar"
-              ]
-            },
-            {
-              "label": "Layout",
-              "desc": "Centred suits short posts. Sidebar gives the margin a job, carrying the byline, contents and share beside the copy.",
-              "options": [
-                "Centred column",
-                "Column with sidebar"
-              ]
-            },
-            {
-              "label": "Content width",
-              "desc": "Body text only. Images and tables extend past it on wide screens.",
-              "options": [
-                "Narrow",
-                "Standard",
-                "Wide"
-              ]
-            },
-            {
-              "label": "Featured image",
-              "desc": "Choose one option.",
-              "options": [
-                "In the column",
-                "Full width",
-                "Full width, title over it"
-              ]
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
-              "label": "Darken behind the title",
-              "desc": "Only affects the overlay title. Text stays light whatever colour scheme you pick.",
               "options": null
             }
           ]
