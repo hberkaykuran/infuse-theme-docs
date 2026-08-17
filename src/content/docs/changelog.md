@@ -8,6 +8,11 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-17
+
+- **The magnifier panel shows the part of the picture you are pointing at.** On a product page with **Aspect ratio** set to **Adapt to image**, or **Image fit** set to **Cover**, the panel beside the gallery was showing a different part of the picture than the box on the picture itself, and on **Cover** it also drew a band of the stage's background along the edges. Both are fixed, in every combination of those two settings.
+- **The box that marks the magnified region keeps all four of its edges.** When you moved the pointer near an edge of the picture, the box drawn on it lost the outline along that edge, and its corner was clipped where the picture's rounded corner is. It is now drawn just inside its own outline, and rounded to match your **Image corner radius**, so it stays whole wherever you point.
+
 ## Unreleased — 2026-08-16
 
 - **The footer is built from blocks now.** It used to offer a fixed set of columns — a brand column, link columns, a text column, a newsletter, social links — and nothing else. You can now add any block to the footer, and arrange them with groups: a group set to a horizontal layout is a row of columns, and a second group is a second row underneath it. The brand column is a group as well, so its logo is an ordinary **Logo** block you can restyle or replace, and you can put anything beside it.
