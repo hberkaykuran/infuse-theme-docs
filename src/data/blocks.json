@@ -3849,6 +3849,16 @@
               "label": "Show on mobile",
               "desc": "An on / off switch.",
               "options": null
+            },
+            {
+              "label": "Show a \"view product\" bar",
+              "desc": "A bar across the bottom of the picture linking to the product. It slides up on hover with a mouse, and is always visible on a touch screen. A gentler alternative to an add-to-cart button on the card.",
+              "options": null
+            },
+            {
+              "label": "Bar text",
+              "desc": "Text you type in.",
+              "options": null
             }
           ]
         },

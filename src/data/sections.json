@@ -287,6 +287,24 @@
               ]
             },
             {
+              "label": "Show mega menu content in the mobile menu",
+              "desc": "The promotion or featured products from a mega menu panel appear under that menu's links in the mobile menu. The category links themselves are already listed there, so they are not repeated.",
+              "options": null
+            },
+            {
+              "label": "Mega menu columns",
+              "desc": "Packed fits as many columns as the panel allows and stacks short groups under each other, instead of giving every group a column of its own.",
+              "options": [
+                "One per group",
+                "Packed"
+              ]
+            },
+            {
+              "label": "Packed column width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Image corner radius",
               "desc": "A slider.",
               "options": null
@@ -4288,6 +4306,14 @@
               "options": [
                 "Thumbnails below",
                 "Thumbnails beside"
+              ]
+            },
+            {
+              "label": "Phone gallery",
+              "desc": "Compact swaps the thumbnail rail for the carousel arrows and dots, and drops the label from the zoom button. Position and size are on the Carousel navigation block.",
+              "options": [
+                "Thumbnails",
+                "Compact: arrows and dots"
               ]
             },
             {
