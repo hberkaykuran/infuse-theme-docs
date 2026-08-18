@@ -971,6 +971,14 @@
                 "Reveal colour",
                 "Zoom in"
               ]
+            },
+            {
+              "label": "On a phone",
+              "desc": "Phones have no hover, so the effect above does nothing there. Swipe turns the card image into a track the shopper can swipe through, with dots below. Needs a product with two or more images.",
+              "options": [
+                "None",
+                "Swipe through the images"
+              ]
             }
           ]
         },

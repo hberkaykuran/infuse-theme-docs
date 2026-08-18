@@ -8,6 +8,12 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-18b
+
+- **Product card pictures can be swiped on a phone.** The **Hover effect** options that page through a product's other photos — **Second image** and **Scrub** — need a mouse, so on a phone a card showed one picture and nothing else. **Product image → On a phone → Swipe through the images** turns the card picture into a track your visitor swipes, with dots underneath showing where they are. There are no arrows on purpose: the card is small and its own tap has to keep opening the product, so the swipe is the gesture. It is off by default, and the extra pictures are only fetched once someone touches the card, so a card that nobody swipes costs nothing.
+- **The zoom button on a product page stays where it is.** It was drawn on each picture, so it slid off the screen with the picture as you moved through the gallery and a new one slid in behind it. There is one button now, fixed to the corner of the gallery, and it opens whichever picture you are looking at. It hides itself on a video or 3D slide, which have their own buttons.
+- **The large tile in an editorial grid is fixed.** After the previous update, the tile that is drawn twice as wide in the **Editorial** layout could render as an empty box on a page you had already built, and arrived without its add-to-cart button. Both are fixed. If you had already arranged that section, open **Featured collection → Product card** in the editor to compose the large tile the way you want it; a section you add from now on brings the full card.
+
 ## Unreleased — 2026-08-18
 
 - **The mega menu finally reaches your phone visitors.** A mega menu panel could hold a promotion, featured products, or any blocks you liked, and none of it appeared in the mobile menu — the phone menu was a list of links and nothing else, on the screen most of your visitors use. That content now appears under its menu's links when you open that section of the mobile menu. The category links are not repeated, since the mobile menu already lists them. **Header → Show mega menu content in the mobile menu** turns it off if you would rather keep the menu plain. Blocks you place in a panel keep their own settings, so a promotion built as a group can use **Mobile layout direction** to stack on a phone and sit in a row on a desktop.

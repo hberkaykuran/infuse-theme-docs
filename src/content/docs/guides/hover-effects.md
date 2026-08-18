@@ -22,6 +22,16 @@ Product cards keep **Lift** on by default and logos keep **Grayscale** on by def
 
 Hover only applies to pointers that can hover — a touch screen shows the plain image. Every effect except grayscale also switches off for visitors whose device is set to reduce motion; grayscale is a colour change, not motion, so it still runs.
 
+## On a phone
+
+Since none of the above happens on a touch screen, the product image block carries a second setting for phones: **On a phone → Swipe through the images**. It turns the card picture into a track your visitor swipes through, with dots underneath showing which picture they are on, and it works whether or not you set a hover effect for desktop.
+
+There are no arrows. A card in a grid is small, and its own tap has to keep opening the product, so an extra pair of tap targets on top of the picture would mostly get pressed by accident — the swipe is the gesture, the way it is everywhere else on a phone.
+
+The extra pictures are not fetched until someone touches the card, so switching this on does not slow a page down for visitors who never swipe. It is off by default, and it needs a product with two or more pictures.
+
+If your cards also show a **"view product" bar**, the dots sit above it rather than on top of it.
+
 ## A whole card as one link
 
 A group block with a background image can become a single clickable card:
