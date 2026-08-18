@@ -10,6 +10,12 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-18e
 
+- **You can put your own blocks under a grid.** Sections that arrange tiles — features, badges,
+  steps, logos, columns, stats, testimonials, gallery items, spec rows — accept blocks of your own
+  below the tiles now, so a "view all" button or a line of small print can live inside the section
+  instead of needing one of its own underneath. The heading area above the tiles was already yours
+  to fill. Hero and Promo slideshows do not take these, since they are edge-to-edge bands with
+  nothing but the slides in them.
 - **Every repeated tile now sits in one named group.** Testimonials, badges, steps, logos,
   columns, stats, slides, gallery items and spec rows used to appear in the editor as a loose
   run of blocks, with nothing showing which of them formed the grid. Each section now has a

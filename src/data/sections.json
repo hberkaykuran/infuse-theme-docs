@@ -1731,6 +1731,14 @@
           "id": "spec-table",
           "meta": [
             {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
               "label": "Presets",
               "items": [
                 {
@@ -2064,6 +2072,14 @@
           "id": "logo-bar",
           "meta": [
             {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
               "label": "Presets",
               "items": [
                 {
@@ -2215,6 +2231,14 @@
               ]
             },
             {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
               "label": "Presets",
               "items": [
                 {
@@ -2279,6 +2303,14 @@
           "id": "stats-row",
           "meta": [
             {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
               "label": "Presets",
               "items": [
                 {
@@ -2342,6 +2374,14 @@
                 },
                 {
                   "text": "carousel"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
                 }
               ]
             },
@@ -2428,6 +2468,14 @@
           "id": "trust-strip",
           "meta": [
             {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
               "label": "Presets",
               "items": [
                 {
@@ -2507,6 +2555,14 @@
                 },
                 {
                   "text": "stories"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
                 }
               ]
             },
@@ -2843,6 +2899,14 @@
           "sysname": "how-to",
           "id": "how-to",
           "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
             {
               "label": "Presets",
               "items": [
@@ -3207,6 +3271,14 @@
           "id": "feature-grid",
           "meta": [
             {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
               "label": "Presets",
               "items": [
                 {
@@ -3362,6 +3434,14 @@
           "sysname": "multicolumn",
           "id": "multicolumn",
           "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
             {
               "label": "Presets",
               "items": [
