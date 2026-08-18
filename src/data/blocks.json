@@ -1,5 +1,5 @@
 {
-  "total": 57,
+  "total": 71,
   "groups": [
     {
       "id": "layout-and-text",
@@ -168,6 +168,27 @@
               "label": "Text",
               "desc": "Type [br] where you want the line to break.",
               "options": null
+            },
+            {
+              "label": "HTML tag",
+              "desc": "Changes the HTML element, not the look. Use Quote for a pull quote and Caption for text describing an image.",
+              "options": [
+                "Block (default)",
+                "Paragraph",
+                "Quote",
+                "Caption"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
             },
             {
               "label": "Size",
@@ -554,9 +575,19 @@
                   "anchor": "collection-card"
                 },
                 {
+                  "text": "_multicolumn",
+                  "page": "blocks",
+                  "anchor": "multicolumn"
+                },
+                {
                   "text": "_product-card",
                   "page": "blocks",
                   "anchor": "product-card"
+                },
+                {
+                  "text": "_stats-row",
+                  "page": "blocks",
+                  "anchor": "stats-row"
                 },
                 {
                   "text": "most sections that accept content"
@@ -1203,6 +1234,11 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "product-accordion",
+                  "page": "blocks",
+                  "anchor": "product-accordion"
+                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -1954,8 +1990,8 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "logo-bar",
-                  "page": "sections",
+                  "text": "_logo-bar",
+                  "page": "blocks",
                   "anchor": "logo-bar"
                 },
                 {
@@ -2655,14 +2691,14 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "_trust-strip",
+                  "page": "blocks",
+                  "anchor": "trust-strip"
+                },
+                {
                   "text": "group",
                   "page": "blocks",
                   "anchor": "group"
-                },
-                {
-                  "text": "trust-strip",
-                  "page": "sections",
-                  "anchor": "trust-strip"
                 }
               ]
             },
@@ -2676,71 +2712,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Icon",
-              "desc": "Choose one option.",
-              "options": [
-                "Leaf",
-                "Cup",
-                "Stick",
-                "Shield",
-                "Truck",
-                "Recycle",
-                "Return (easy returns)",
-                "Lock (secure payment)",
-                "Drop (no-drip)",
-                "Swirl (stir)",
-                "No spoon",
-                "Mesh brew"
-              ]
-            },
-            {
-              "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting. Paste the SVG code below instead if you want it to.",
-              "options": null
-            },
-            {
-              "label": "Custom icon (SVG code)",
-              "desc": "Optional. Paste the SVG source. Takes priority over the uploaded image, and because it is drawn inline it follows the icon colour and size settings, as long as the SVG uses currentColor rather than a hard-coded fill.",
-              "options": null
-            },
-            {
-              "label": "Text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large"
-              ]
-            },
-            {
-              "label": "Color",
-              "desc": "Choose one option.",
-              "options": [
-                "Text",
-                "Muted text",
-                "Accent text",
-                "Background (for dark surfaces)",
-                "On accent (for accent fills)"
-              ]
-            },
-            {
-              "label": "Icon size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
             {
               "label": "Layout direction",
               "desc": "Choose one option.",
@@ -2777,6 +2748,11 @@
                 "End",
                 "Space between"
               ]
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
             },
             {
               "label": "Padding",
@@ -3305,8 +3281,8 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "feature-grid",
-                  "page": "sections",
+                  "text": "_feature-grid",
+                  "page": "blocks",
                   "anchor": "feature-grid"
                 }
               ]
@@ -3321,74 +3297,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Glyph",
-              "desc": "Choose one option.",
-              "options": [
-                "Leaf",
-                "Cup",
-                "Stick",
-                "Shield",
-                "Truck",
-                "Recycle"
-              ]
-            },
-            {
-              "label": "Custom icon",
-              "desc": "Optional. Overrides the glyph above. An SVG uploaded to Files works best; a transparent PNG is fine too. Your file keeps its own colours, so it will not follow the icon colour setting. Paste the SVG code below instead if you want it to.",
-              "options": null
-            },
-            {
-              "label": "Custom icon (SVG code)",
-              "desc": "Optional. Paste the SVG source. Takes priority over the uploaded image, and because it is drawn inline it follows the icon colour and size settings, as long as the SVG uses currentColor rather than a hard-coded fill.",
-              "options": null
-            },
-            {
-              "label": "Icon style",
-              "desc": "Choose one option.",
-              "options": [
-                "Coral chip",
-                "Accent",
-                "Ink",
-                "Muted"
-              ]
-            },
-            {
-              "label": "Icon size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Heading",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Title size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large"
-              ]
-            },
-            {
-              "label": "Text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Text size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
             {
               "label": "Alignment",
               "desc": "Left, center, or right alignment.",
@@ -3420,6 +3328,58 @@
               "options": null
             }
           ]
+        },
+        {
+          "name": "Feature grid",
+          "sysname": "_feature-grid",
+          "id": "feature-grid",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_feature",
+                  "page": "blocks",
+                  "anchor": "feature"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
+          "name": "Hero slideshow track",
+          "sysname": "_hero-slideshow",
+          "id": "hero-slideshow",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_hero-slide",
+                  "page": "blocks",
+                  "anchor": "hero-slide"
+                }
+              ]
+            }
+          ],
+          "settings": []
         },
         {
           "name": "Hotspot",
@@ -3454,6 +3414,32 @@
               "options": null
             }
           ]
+        },
+        {
+          "name": "How-to row",
+          "sysname": "_how-to",
+          "id": "how-to",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_step",
+                  "page": "blocks",
+                  "anchor": "step"
+                }
+              ]
+            }
+          ],
+          "settings": []
         },
         {
           "name": "Link list",
@@ -3533,6 +3519,32 @@
           ]
         },
         {
+          "name": "Logo bar band",
+          "sysname": "_logo-bar",
+          "id": "logo-bar",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "logo",
+                  "page": "blocks",
+                  "anchor": "logo"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
           "name": "Mega menu panel",
           "sysname": "mega-panel",
           "id": "mega-panel",
@@ -3598,6 +3610,32 @@
               "options": null
             }
           ]
+        },
+        {
+          "name": "Multicolumn grid",
+          "sysname": "_multicolumn",
+          "id": "multicolumn",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                }
+              ]
+            }
+          ],
+          "settings": []
         },
         {
           "name": "Newsletter",
@@ -3871,6 +3909,38 @@
           ]
         },
         {
+          "name": "Product details accordion",
+          "sysname": "product-accordion",
+          "id": "product-accordion",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "product-details",
+                  "page": "blocks",
+                  "anchor": "product-details"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Product specs",
           "sysname": "product-specs",
           "id": "product-specs",
@@ -3943,8 +4013,8 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "promo-slideshow",
-                  "page": "sections",
+                  "text": "_promo-slideshow",
+                  "page": "blocks",
                   "anchor": "promo-slideshow"
                 }
               ]
@@ -4030,6 +4100,32 @@
           ]
         },
         {
+          "name": "Promo slideshow track",
+          "sysname": "_promo-slideshow",
+          "id": "promo-slideshow",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_promo-slide",
+                  "page": "blocks",
+                  "anchor": "promo-slide"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
           "name": "Question",
           "sysname": "_accordion-row",
           "id": "accordion-row",
@@ -4060,11 +4156,6 @@
               "options": null
             },
             {
-              "label": "Answer",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
               "label": "Question size",
               "desc": "Choose one option.",
               "options": [
@@ -4075,18 +4166,70 @@
               ]
             },
             {
-              "label": "Answer size",
+              "label": "Open by default",
+              "desc": "An on / off switch.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Rating",
+          "sysname": "rating",
+          "id": "rating",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Star rating",
               "desc": "Choose one option.",
               "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
+                "5",
+                "4",
+                "3",
+                "2",
+                "1"
               ]
             },
             {
-              "label": "Open by default",
-              "desc": "An on / off switch.",
+              "label": "Star color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text"
+              ]
+            },
+            {
+              "label": "Star size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Star spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
               "options": null
             }
           ]
@@ -4142,8 +4285,8 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "shoppable-image",
-                  "page": "sections",
+                  "text": "_shoppable-image",
+                  "page": "blocks",
                   "anchor": "shoppable-image"
                 }
               ]
@@ -4206,6 +4349,32 @@
           ]
         },
         {
+          "name": "Shoppable image items",
+          "sysname": "_shoppable-image",
+          "id": "shoppable-image",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_hotspot-image",
+                  "page": "blocks",
+                  "anchor": "hotspot-image"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
           "name": "Slide",
           "sysname": "_hero-slide",
           "id": "hero-slide",
@@ -4214,8 +4383,8 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "hero-slideshow",
-                  "page": "sections",
+                  "text": "_hero-slideshow",
+                  "page": "blocks",
                   "anchor": "hero-slideshow"
                 }
               ]
@@ -4246,52 +4415,8 @@
               "options": null
             },
             {
-              "label": "Eyebrow",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Heading",
-              "desc": "Type [br] where you want the line to break.",
-              "options": null
-            },
-            {
-              "label": "Heading size",
-              "desc": "Choose one option.",
-              "options": [
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Text size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large"
-              ]
-            },
-            {
               "label": "Gap",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Button label",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Button link",
-              "desc": "A link to a page, product, or collection.",
               "options": null
             },
             {
@@ -4409,14 +4534,14 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "_spec-rows",
+                  "page": "blocks",
+                  "anchor": "spec-rows"
+                },
+                {
                   "text": "group",
                   "page": "blocks",
                   "anchor": "group"
-                },
-                {
-                  "text": "spec-table",
-                  "page": "sections",
-                  "anchor": "spec-table"
                 }
               ]
             }
@@ -4460,6 +4585,58 @@
           ]
         },
         {
+          "name": "Spec rows",
+          "sysname": "_spec-rows",
+          "id": "spec-rows",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_spec-row",
+                  "page": "blocks",
+                  "anchor": "spec-row"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
+          "name": "Stats row",
+          "sysname": "_stats-row",
+          "id": "stats-row",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "group",
+                  "page": "blocks",
+                  "anchor": "group"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
           "name": "Step",
           "sysname": "_step",
           "id": "step",
@@ -4468,8 +4645,8 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "how-to",
-                  "page": "sections",
+                  "text": "_how-to",
+                  "page": "blocks",
                   "anchor": "how-to"
                 }
               ]
@@ -4484,110 +4661,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Eyebrow",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Media type",
-              "desc": "Choose one option.",
-              "options": [
-                "Image",
-                "Icon"
-              ]
-            },
-            {
-              "label": "Image",
-              "desc": "An image you upload or pick from files.",
-              "options": null
-            },
-            {
-              "label": "Glyph",
-              "desc": "Choose one option.",
-              "options": [
-                "Leaf",
-                "Cup",
-                "Stick",
-                "Shield",
-                "Truck",
-                "Recycle"
-              ]
-            },
-            {
-              "label": "Media position",
-              "desc": "Choose one option.",
-              "options": [
-                "Above eyebrow",
-                "Below eyebrow"
-              ]
-            },
-            {
-              "label": "Media ratio",
-              "desc": "Choose one option.",
-              "options": [
-                "Square",
-                "Portrait",
-                "Landscape"
-              ]
-            },
-            {
-              "label": "Fit",
-              "desc": "Choose one option.",
-              "options": [
-                "Cover",
-                "Contain"
-              ]
-            },
-            {
-              "label": "Media width",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Full"
-              ]
-            },
-            {
-              "label": "Media corner radius",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Round"
-              ]
-            },
-            {
-              "label": "Heading",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Title size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large"
-              ]
-            },
-            {
-              "label": "Text",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Text size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
             {
               "label": "Gap",
               "desc": "A slider.",
@@ -4681,8 +4754,8 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "testimonials",
-                  "page": "sections",
+                  "text": "_testimonials",
+                  "page": "blocks",
                   "anchor": "testimonials"
                 }
               ]
@@ -4697,77 +4770,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Star rating",
-              "desc": "Choose one option.",
-              "options": [
-                "5",
-                "4",
-                "3",
-                "2",
-                "1"
-              ]
-            },
-            {
-              "label": "Quote",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Author",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Verified buyer",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Quote size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Author size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Star color",
-              "desc": "Choose one option.",
-              "options": [
-                "Text",
-                "Muted text",
-                "Accent text"
-              ]
-            },
-            {
-              "label": "Star size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Star spacing",
-              "desc": "A slider.",
-              "options": null
-            },
             {
               "label": "Alignment",
               "desc": "Left, center, or right alignment.",
@@ -4796,6 +4798,84 @@
           ]
         },
         {
+          "name": "Testimonial items",
+          "sysname": "_testimonials",
+          "id": "testimonials",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_testimonial",
+                  "page": "blocks",
+                  "anchor": "testimonial"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
+          "name": "Trust strip",
+          "sysname": "_trust-strip",
+          "id": "trust-strip",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_trust-item",
+                  "page": "blocks",
+                  "anchor": "trust-item"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
+          "name": "UGC gallery items",
+          "sysname": "_ugc-gallery",
+          "id": "ugc-gallery",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_ugc-item",
+                  "page": "blocks",
+                  "anchor": "ugc-item"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
           "name": "UGC item",
           "sysname": "_ugc-item",
           "id": "ugc-item",
@@ -4804,8 +4884,8 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "ugc-gallery",
-                  "page": "sections",
+                  "text": "_ugc-gallery",
+                  "page": "blocks",
                   "anchor": "ugc-gallery"
                 }
               ]

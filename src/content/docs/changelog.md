@@ -8,6 +8,59 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-18e
+
+- **Every repeated tile now sits in one named group.** Testimonials, badges, steps, logos,
+  columns, stats, slides, gallery items and spec rows used to appear in the editor as a loose
+  run of blocks, with nothing showing which of them formed the grid. Each section now has a
+  single group holding them — **Testimonial items**, **Trust strip**, **How-to row** and so on —
+  so you can tell the grid apart from the heading above it, and the **Add block** button inside
+  that group adds another tile straight away instead of opening the full block list. The group
+  cannot be deleted or duplicated by accident, because it is part of the section rather than
+  something you add.
+- **The product page's detail rows are an accordion.** **Description**, **Nutrition facts**,
+  **Shipping** and **Returns** were four separate blocks sitting in the product column with
+  nothing joining them. They are now inside a **Product details accordion**, whose add button
+  makes a new row. Adding the accordion from scratch gives you three rows to edit rather than an
+  empty box. A row still draws nothing when its source is empty, so a metafield you have not
+  filled in will not leave a blank heading on the page.
+- **Product cards on Featured collection are fixed.** On some stores the picture escaped its
+  frame and painted over the title and price. That is repaired.
+- **Cards no longer show greyed-out entries you cannot use.** A product card listed dimmed
+  **Product image**, **Product title**, **Price** and **Add to cart** rows that could not be
+  moved or removed, and adding your own block to the card made the card's contents disappear.
+  Both are gone. If a card of yours is empty after updating, open it and add the blocks you want;
+  every card the theme ships arrives complete.
+- **The block list says which half of a split section you are editing.** In sections with a
+  picture on one side and words on the other, the two entries read **Image** and **Group**, which
+  told you nothing — and with **Media position** set to the right, their order did not match what
+  you saw. They now read **Media** and **Copy**, and the same went for step, stat, column and
+  gallery entries, which are numbered instead of repeating one word.
+- **Sections that are deliberately empty explain themselves.** A Blog posts section with no blog
+  chosen, a Video section with no video, or a Related products section on a page that has no
+  product used to be invisible in the editor with no clue whether they were broken. Each now
+  shows a short line telling you what it needs. Visitors never see it.
+- **Slide text no longer sits flush against the edge of the screen.** On a full-width Hero
+  slideshow the heading and buttons touched the very edge of the phone screen. They keep the
+  page's normal margin now, and **Horizontal padding** still adds to it.
+
+## Unreleased — 2026-08-18c
+
+- **Testimonials, features, steps, badges, FAQ answers and hero slides hold any blocks.** Each of
+  these used to draw its own fixed arrangement and then let you add blocks after it, so anything
+  you added landed at the bottom. A picture could not go above a quote, or beside the author's
+  name. They are canvases now: the parts are ordinary blocks you can reorder, restyle or replace,
+  and each arrives arranged the way it always looked, so nothing changes until you move something.
+- **A Rating block.** The stars that were locked inside a testimonial are a block of their own,
+  so you can put a rating anywhere blocks go.
+- **Text blocks can be quotes, captions or paragraphs.** A new **Tag** option on the Text block
+  chooses what kind of text it is, which matters for search engines and screen readers, and a
+  **Weight** option sets how bold it looks.
+- **Search engines get a fuller description of your store.** The data the theme hands to Google
+  now covers article, page and blog pages, which previously sent none, and product data gained
+  condition, price validity, correct barcode fields and your return policy. Collection and blog
+  pages describe their contents as a list. None of this changes how your store looks.
+
 ## Unreleased — 2026-08-18b
 
 - **Product card pictures can be swiped on a phone.** The **Hover effect** options that page through a product's other photos — **Second image** and **Scrub** — need a mouse, so on a phone a card showed one picture and nothing else. **Product image → On a phone → Swipe through the images** turns the card picture into a track your visitor swipes, with dots underneath showing where they are. There are no arrows on purpose: the card is small and its own tap has to keep opening the product, so the swipe is the gesture. It is off by default, and the extra pictures are only fetched once someone touches the card, so a card that nobody swipes costs nothing.

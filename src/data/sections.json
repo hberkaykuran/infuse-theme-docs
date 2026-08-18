@@ -556,16 +556,6 @@
           "id": "hero-slideshow",
           "meta": [
             {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "_hero-slide",
-                  "page": "blocks",
-                  "anchor": "hero-slide"
-                }
-              ]
-            },
-            {
               "label": "Presets",
               "items": [
                 {
@@ -794,16 +784,6 @@
           "sysname": "promo-slideshow",
           "id": "promo-slideshow",
           "meta": [
-            {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "_promo-slide",
-                  "page": "blocks",
-                  "anchor": "promo-slide"
-                }
-              ]
-            },
             {
               "label": "Presets",
               "items": [
@@ -1751,16 +1731,6 @@
           "id": "spec-table",
           "meta": [
             {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "_spec-row",
-                  "page": "blocks",
-                  "anchor": "spec-row"
-                }
-              ]
-            },
-            {
               "label": "Presets",
               "items": [
                 {
@@ -2094,19 +2064,6 @@
           "id": "logo-bar",
           "meta": [
             {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                },
-                {
-                  "text": "logo",
-                  "page": "blocks",
-                  "anchor": "logo"
-                }
-              ]
-            },
-            {
               "label": "Presets",
               "items": [
                 {
@@ -2258,19 +2215,6 @@
               ]
             },
             {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                },
-                {
-                  "text": "_hotspot-image",
-                  "page": "blocks",
-                  "anchor": "hotspot-image"
-                }
-              ]
-            },
-            {
               "label": "Presets",
               "items": [
                 {
@@ -2335,14 +2279,6 @@
           "id": "stats-row",
           "meta": [
             {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            },
-            {
               "label": "Presets",
               "items": [
                 {
@@ -2406,19 +2342,6 @@
                 },
                 {
                   "text": "carousel"
-                }
-              ]
-            },
-            {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                },
-                {
-                  "text": "_testimonial",
-                  "page": "blocks",
-                  "anchor": "testimonial"
                 }
               ]
             },
@@ -2505,19 +2428,6 @@
           "id": "trust-strip",
           "meta": [
             {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                },
-                {
-                  "text": "_trust-item",
-                  "page": "blocks",
-                  "anchor": "trust-item"
-                }
-              ]
-            },
-            {
               "label": "Presets",
               "items": [
                 {
@@ -2597,19 +2507,6 @@
                 },
                 {
                   "text": "stories"
-                }
-              ]
-            },
-            {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                },
-                {
-                  "text": "_ugc-item",
-                  "page": "blocks",
-                  "anchor": "ugc-item"
                 }
               ]
             },
@@ -2930,6 +2827,11 @@
               "options": null
             },
             {
+              "label": "Add FAQ structured data",
+              "desc": "Describes these questions and answers to search engines. Turn it off on the second FAQ section if a page has more than one, so the page describes a single set.",
+              "options": null
+            },
+            {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
               "options": null
@@ -2941,16 +2843,6 @@
           "sysname": "how-to",
           "id": "how-to",
           "meta": [
-            {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "_step",
-                  "page": "blocks",
-                  "anchor": "step"
-                }
-              ]
-            },
             {
               "label": "Presets",
               "items": [
@@ -3315,19 +3207,6 @@
           "id": "feature-grid",
           "meta": [
             {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                },
-                {
-                  "text": "_feature",
-                  "page": "blocks",
-                  "anchor": "feature"
-                }
-              ]
-            },
-            {
               "label": "Presets",
               "items": [
                 {
@@ -3483,14 +3362,6 @@
           "sysname": "multicolumn",
           "id": "multicolumn",
           "meta": [
-            {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            },
             {
               "label": "Presets",
               "items": [
@@ -3734,14 +3605,6 @@
           "sysname": "promo-popup",
           "id": "promo-popup",
           "meta": [
-            {
-              "label": "Add inside",
-              "items": [
-                {
-                  "text": "any content block"
-                }
-              ]
-            },
             {
               "label": "Presets",
               "items": [
