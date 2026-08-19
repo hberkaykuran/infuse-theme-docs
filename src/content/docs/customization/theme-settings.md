@@ -97,6 +97,14 @@ Set these once per scheme and the whole store follows. You do not need to touch 
 
 **Free shipping threshold** sets the amount a customer needs to reach for free shipping, shown as a progress bar in the cart. Enter the amount in your store currency. If you prefer to manage the number in one place, a shop metafield can override this value. Leave it blank to hide the progress bar.
 
+## Quick view
+
+The quick view window opens from a product card without leaving the page, and every card on a page shares the same one — so it is set up here rather than section by section.
+
+**Image fit** decides how the product photo sits in the left half. **Fit whole image** keeps the whole picture visible with room around it, which suits packshots on a plain background. **Fill the frame** crops the picture to fill the panel edge to edge, which suits lifestyle photography.
+
+**Reassurance line** is the small line at the bottom, under the link to the full product page. Show **two items**, **one item**, or **hide** it. Leave **First item** and **Second item** blank to keep the theme's own wording, or type your own — your returns policy, delivery time, whatever your customers ask about most. The line is hidden on phones, where the window is already compact.
+
 ## SEO and social
 
 Provide a logo for search and social previews, plus links to your Instagram, Facebook, TikTok, YouTube, and X profiles. These feed structured data and the footer's social links, which helps your store show up correctly when pages are shared.

@@ -71,6 +71,21 @@
               "label": "Bottom padding",
               "desc": "A slider.",
               "options": null
+            },
+            {
+              "label": "Use different spacing on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Top padding (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding (mobile)",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -335,6 +350,21 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Use different spacing on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Top padding (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding (mobile)",
               "desc": "A slider.",
               "options": null
             }
@@ -1528,6 +1558,16 @@
               "options": null
             },
             {
+              "label": "\"View all\" link URL",
+              "desc": "Optional. Defaults to the chosen collection. The link hides when this and the collection are both empty.",
+              "options": null
+            },
+            {
+              "label": "Show \"view all\" link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -2597,6 +2637,16 @@
             {
               "label": "Seconds per photo",
               "desc": "How long a photo shows before moving on. Videos run their own length instead.",
+              "options": null
+            },
+            {
+              "label": "Scroll the carousel automatically",
+              "desc": "Moves the track on by itself. It stops while a visitor is hovering or tabbing through it, and never runs for someone who prefers reduced motion.",
+              "options": null
+            },
+            {
+              "label": "Seconds per slide",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -4396,6 +4446,26 @@
             },
             {
               "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Use different spacing on mobile",
+              "desc": "Phone-only top, bottom and breadcrumb spacing. Off means phones use the desktop values.",
+              "options": null
+            },
+            {
+              "label": "Top padding (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding (mobile)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Space under breadcrumbs (mobile)",
               "desc": "A slider.",
               "options": null
             },

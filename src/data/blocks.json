@@ -1243,6 +1243,14 @@
                   "text": "most sections that accept content"
                 }
               ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
             }
           ],
           "settings": [
@@ -2970,6 +2978,14 @@
               "options": [
                 "Over the media",
                 "Under the carousel"
+              ]
+            },
+            {
+              "label": "Row layout",
+              "desc": "Only applies where the arrows and dots sit under the carousel as one row.",
+              "options": [
+                "Spread across the full width",
+                "Grouped in the middle"
               ]
             },
             {
@@ -4943,6 +4959,11 @@
                 "Quick view",
                 "Discover (product page)"
               ]
+            },
+            {
+              "label": "Show \"add all\" in the viewer",
+              "desc": "One button under the shoppable strip that adds the whole look in a single step. Only products with one available variant can be included, so it appears once two or more of them qualify.",
+              "options": null
             },
             {
               "label": "Button in the viewer",

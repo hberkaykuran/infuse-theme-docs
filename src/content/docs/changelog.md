@@ -10,6 +10,20 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-19
 
+- **Tighter pages on phones.** The announcement bar, the header and the product section each
+  take their own phone spacing now: turn on **Use different spacing on mobile** for a separate
+  top and bottom padding, and on the product section also **Space under breadcrumbs (mobile)**,
+  which can go all the way to nothing. Before, the gap under the breadcrumb trail was tied to
+  the gap between the picture and the details, so closing one closed the other — and the bar
+  and header had one padding for every screen size. Desktop is untouched either way.
+- **Add a whole look to the cart at once.** A gallery photo tagged with several products shows
+  an **Add all to cart** button under the shoppable list in the viewer. It covers the tagged
+  products that have a single option and are in stock; anything with sizes or colours keeps its
+  own button, because there is no way to guess which one the customer wants.
+- **The quick view window is yours to set up.** New **Quick view** settings: **Image fit**
+  (fit the whole picture, or fill the frame) and the small reassurance line at the bottom —
+  two items, one, or none, with your own wording.
+
 - **The "view product" bar sits on the picture again.** On cards whose picture is taller than it
   is wide, the bar was landing partway up the image instead of across its bottom edge. It now
   follows the picture whatever shape you give it.
