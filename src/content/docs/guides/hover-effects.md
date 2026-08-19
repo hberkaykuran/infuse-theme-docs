@@ -30,7 +30,7 @@ There are no arrows. A card in a grid is small, and its own tap has to keep open
 
 The extra pictures are not fetched until someone touches the card, so switching this on does not slow a page down for visitors who never swipe. It is off by default, and it needs a product with two or more pictures.
 
-If your cards also show a **"view product" bar**, the dots sit above it rather than on top of it.
+If your cards also show a **"view product" bar** across the picture, the dots sit above it rather than on top of it. Set the bar to a small pill on mobile and the dots stay where they were, since a pill leaves the bottom edge free.
 
 ## A whole card as one link
 

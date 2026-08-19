@@ -35,6 +35,8 @@ Menus live in your Shopify admin under *Online Store → Navigation*, not in the
 
 A menu item with sub-items becomes a dropdown. If those sub-items have their own children, it becomes a full mega menu instead, and you can add blocks to fill the space beside the link columns: an image, a heading, some text, a button, or a group holding several of those. A group can also carry its own background image, which turns it into a promo card, handy for a small feature panel beside your menu links. The older promo panel settings (kicker, title, image, link) still work, but they only show when you have not added any blocks.
 
+By default each group of links in a mega menu gets a column of its own, which leaves a tall gap next to a group holding one or two links. Setting **Mega menu columns** to **Packed** spreads the groups across a fixed number of columns instead, so short groups stack under each other. **Packed columns** sets how many; fewer columns means more sharing. Narrow screens drop to fewer on their own.
+
 ## Arrange your header
 
 The header's **Layout** setting moves the fixed pieces around without changing what they are:

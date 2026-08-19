@@ -8,6 +8,21 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-19
+
+- **The "view product" bar sits on the picture again.** On cards whose picture is taller than it
+  is wide, the bar was landing partway up the image instead of across its bottom edge. It now
+  follows the picture whatever shape you give it.
+- **The bar has its own mobile setting.** A phone has no hover, so the bar was simply always
+  there, covering the bottom of every carton. **On mobile** now offers a **small pill** in the
+  corner or hides the bar altogether, and leaves the full bar as the default.
+- **Packed mega menu columns work.** Setting **Mega menu columns** to **Packed** used to squeeze
+  the whole panel into one narrow strip. It now spreads the groups across the number of columns
+  you pick in **Packed columns**, stacking short groups under each other so there is no tall gap
+  beside a group holding one link.
+- **The mobile menu scrolls.** A long menu, especially one showing mega menu content, could run
+  past the bottom of the screen with no way to reach the last items. It scrolls on its own now.
+
 ## Unreleased — 2026-08-18e
 
 - **You can put your own blocks under a grid.** Sections that arrange tiles — features, badges,

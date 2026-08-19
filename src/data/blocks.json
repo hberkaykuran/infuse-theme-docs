@@ -3905,6 +3905,15 @@
               "label": "Bar text",
               "desc": "Text you type in.",
               "options": null
+            },
+            {
+              "label": "On mobile",
+              "desc": "A full-width bar sits over the picture the whole time on a touch screen, since there is no hover to reveal it. A pill takes up much less of the product.",
+              "options": [
+                "Same bar",
+                "Small pill",
+                "Hide"
+              ]
             }
           ]
         },

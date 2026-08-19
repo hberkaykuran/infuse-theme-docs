@@ -293,11 +293,16 @@
             },
             {
               "label": "Mega menu columns",
-              "desc": "Packed fits as many columns as the panel allows and stacks short groups under each other, instead of giving every group a column of its own.",
+              "desc": "Packed spreads the groups across a fixed number of columns and stacks short groups under each other, instead of giving every group a column of its own.",
               "options": [
                 "One per group",
                 "Packed"
               ]
+            },
+            {
+              "label": "Packed columns",
+              "desc": "How many columns the groups are spread across. Fewer columns means more short groups sharing one. Narrow screens use fewer automatically.",
+              "options": null
             },
             {
               "label": "Packed column width",
