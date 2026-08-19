@@ -8,6 +8,15 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-19e
+
+- **The benefit checklist can run across, not just down.** The ticked lines under the product
+  title were always one per row. **Layout** now offers **Row**, which flows them side by side
+  and wraps when they run out of space, and **Grid**, which lines them up in the number of
+  **Columns** you pick. **Layout on mobile** and **Columns on mobile** set what happens on a
+  phone, so a four-across row on desktop can be two-across, or back to a list, on a small
+  screen. Existing stores look exactly as they did.
+
 ## Unreleased — 2026-08-19b
 
 - **Quick view opens straight away.** The window used to sit there loading, still showing

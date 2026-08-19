@@ -1105,6 +1105,20 @@
           "id": "product-benefits",
           "meta": [
             {
+              "label": "Styles",
+              "items": [
+                {
+                  "text": "column"
+                },
+                {
+                  "text": "row"
+                },
+                {
+                  "text": "grid"
+                }
+              ]
+            },
+            {
               "label": "Where it works",
               "items": [
                 {
@@ -1142,6 +1156,35 @@
             {
               "label": "Manual lines",
               "desc": "One benefit per line. Used only when the metafield above is empty.",
+              "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Column",
+                "Row",
+                "Grid"
+              ]
+            },
+            {
+              "label": "Layout on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Column",
+                "Row",
+                "Grid"
+              ]
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
+              "desc": "A slider.",
               "options": null
             },
             {
