@@ -1339,6 +1339,27 @@
               ]
             },
             {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as page",
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Content source",
               "desc": "Choose one option.",
               "options": [

@@ -10,6 +10,16 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-19e
 
+- **The quick view window can hug its contents.** New **Width** setting: **Fixed** keeps it at
+  the **Max width** as before, **Fit content** lets it shrink to whatever the blocks inside
+  need. Capping the width of the details column used to leave empty space down the right of the
+  window; now the window comes in with it.
+- **Overlay settings show their effect straight away.** Changing a setting on the quick view,
+  the cart drawer or the promo popup closed the very window you were editing, so the change
+  looked like it did nothing. The window now reopens itself after each change.
+- **The accordion body has its own text size and spacing.** **Details / accordion** only ever
+  styled its title. It now takes a **Text size** for the collapsible part (**Same as page** by
+  default) and its own top and bottom padding.
 - **The benefit checklist can run across, not just down.** The ticked lines under the product
   title were always one per row. **Layout** now offers **Row**, which flows them side by side
   and wraps when they run out of space, and **Grid**, which lines them up in the number of

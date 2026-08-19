@@ -4579,6 +4579,14 @@
               "options": null
             },
             {
+              "label": "Width",
+              "desc": "Fixed keeps the dialog at the max width. Fit content lets it shrink to whatever the blocks inside need, up to that width.",
+              "options": [
+                "Fixed (max width)",
+                "Fit content"
+              ]
+            },
+            {
               "label": "On mobile",
               "desc": "Choose one option.",
               "options": [
