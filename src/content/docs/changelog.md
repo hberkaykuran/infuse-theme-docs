@@ -10,6 +10,16 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-19f
 
+- **Product info is four blocks now.** Vendor, SKU, stock status and the tax / shipping note
+  used to be four rows inside one **Product info** block, in a fixed order, each behind a
+  checkbox. They are separate blocks — **Product vendor**, **Product SKU**, **Stock status**,
+  **Tax / shipping note** — so each one can go where you want it, in its own group, at its own
+  size, colour and alignment. The stock pill can sit under the buy button while the SKU stays
+  up by the title. New product pages ship with **Stock status** only; add the others where you
+  want them. Stores that had **Product info** on a saved page need to add the blocks they were
+  using.
+
+
 - **Colour pickers where there were none.** The in stock / low stock / sold out lines in
   **Product info** each take their own colour (the green "In stock" was fixed in the code and
   followed no palette), and **Benefits** and **Delivery estimate** now colour their text and

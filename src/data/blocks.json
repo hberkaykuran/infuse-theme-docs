@@ -1,5 +1,5 @@
 {
-  "total": 72,
+  "total": 75,
   "groups": [
     {
       "id": "layout-and-text",
@@ -1053,106 +1053,6 @@
                 "None",
                 "Swipe through the images"
               ]
-            }
-          ]
-        },
-        {
-          "name": "Product meta",
-          "sysname": "product-meta",
-          "id": "product-meta",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "_product-card",
-                  "page": "blocks",
-                  "anchor": "product-card"
-                },
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Show vendor",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show SKU",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Show inventory status",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Low-stock threshold",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Show tax / shipping note",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
-            {
-              "label": "Color",
-              "desc": "Choose one option.",
-              "options": [
-                "Text",
-                "Muted text",
-                "Accent text",
-                "Background (for dark surfaces)",
-                "On accent (for accent fills)",
-                "Collection color",
-                "Custom"
-              ]
-            },
-            {
-              "label": "In stock color",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Low stock color",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Sold out color",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Custom color",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Vertical padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Horizontal padding",
-              "desc": "A slider.",
-              "options": null
             }
           ]
         },
@@ -4032,9 +3932,9 @@
                   "anchor": "product-image"
                 },
                 {
-                  "text": "product-meta",
+                  "text": "product-sku",
                   "page": "blocks",
-                  "anchor": "product-meta"
+                  "anchor": "product-sku"
                 },
                 {
                   "text": "product-specs",
@@ -4042,9 +3942,19 @@
                   "anchor": "product-specs"
                 },
                 {
+                  "text": "product-stock",
+                  "page": "blocks",
+                  "anchor": "product-stock"
+                },
+                {
                   "text": "product-title",
                   "page": "blocks",
                   "anchor": "product-title"
+                },
+                {
+                  "text": "product-vendor",
+                  "page": "blocks",
+                  "anchor": "product-vendor"
                 },
                 {
                   "text": "text",
@@ -4202,6 +4112,76 @@
           ]
         },
         {
+          "name": "Product SKU",
+          "sysname": "product-sku",
+          "id": "product-sku",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Show the \"SKU:\" label",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)",
+                "Collection color",
+                "Custom"
+              ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Product specs",
           "sysname": "product-specs",
           "id": "product-specs",
@@ -4245,6 +4225,84 @@
                 "Small",
                 "Medium"
               ]
+            }
+          ]
+        },
+        {
+          "name": "Product vendor",
+          "sysname": "product-vendor",
+          "id": "product-vendor",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)",
+                "Collection color",
+                "Custom"
+              ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -4952,6 +5010,78 @@
           ]
         },
         {
+          "name": "Stock status",
+          "sysname": "product-stock",
+          "id": "product-stock",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_product-card",
+                  "page": "blocks",
+                  "anchor": "product-card"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Low-stock threshold",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show the status dot",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "In stock color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Low stock color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Sold out color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Table of contents",
           "sysname": "article-toc",
           "id": "article-toc",
@@ -5008,6 +5138,76 @@
             },
             {
               "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Tax / shipping note",
+          "sysname": "product-tax-note",
+          "id": "product-tax-note",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Show the tax line",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show the shipping line",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)",
+                "Collection color",
+                "Custom"
+              ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
               "desc": "A slider.",
               "options": null
             }
