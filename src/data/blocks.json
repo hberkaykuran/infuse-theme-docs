@@ -1125,6 +1125,21 @@
               ]
             },
             {
+              "label": "In stock color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Low stock color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Sold out color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
               "label": "Custom color",
               "desc": "A colour picker.",
               "options": null
@@ -1238,6 +1253,16 @@
                 "Medium",
                 "Large"
               ]
+            },
+            {
+              "label": "Text color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Icon color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Icon size",
@@ -1836,6 +1861,16 @@
             }
           ],
           "settings": [
+            {
+              "label": "Text color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Icon color",
+              "desc": "A colour picker.",
+              "options": null
+            },
             {
               "label": "Fastest delivery (days from order)",
               "desc": "A slider.",
@@ -3831,7 +3866,28 @@
               ]
             }
           ],
-          "settings": []
+          "settings": [
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Max width",
+              "desc": "0 = no limit.",
+              "options": null
+            }
+          ]
         },
         {
           "name": "Newsletter",
@@ -4409,8 +4465,15 @@
               "options": [
                 "Text",
                 "Muted text",
-                "Accent text"
+                "Accent text",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Star size",

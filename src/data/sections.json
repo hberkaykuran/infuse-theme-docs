@@ -3585,16 +3585,6 @@
           ],
           "settings": [
             {
-              "label": "Columns",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Columns on mobile",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -3606,11 +3596,6 @@
             {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
-              "label": "Grid spacing",
-              "desc": "A slider.",
               "options": null
             },
             {

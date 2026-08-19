@@ -8,6 +8,19 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-19f
+
+- **Colour pickers where there were none.** The in stock / low stock / sold out lines in
+  **Product info** each take their own colour (the green "In stock" was fixed in the code and
+  followed no palette), and **Benefits** and **Delivery estimate** now colour their text and
+  their icon. **Rating** stars take a custom colour too. Leave any of them empty and it looks
+  exactly as it does today.
+- **The multicolumn grid owns its own grid.** **Columns**, **Columns on mobile** and **Gap**
+  moved off the section and onto the **Columns** block that draws the grid, where you would
+  look for them, and the grid's own **Max width** is a setting instead of a fixed 56rem — which
+  is why a full-width multicolumn section still drew a narrow grid. If you had changed columns
+  on the section, set them again on the block.
+
 ## Unreleased — 2026-08-19e
 
 - **Text can take a collection's colour, or one you pick.** The **Color** setting on text,
