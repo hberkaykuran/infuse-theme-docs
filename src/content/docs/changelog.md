@@ -8,6 +8,30 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-19b
+
+- **Quick view opens straight away.** The window used to sit there loading, still showing
+  whichever product you looked at last. It now starts fetching the moment your pointer reaches
+  the quick view button, so by the time you click it is usually ready, and a different product
+  never flashes the old one first.
+- **The link to the full product page is a block now.** It used to be a fixed line under the
+  whole window, which put it below the picture no matter how you arranged the rest. Add a
+  **Button** wherever you want it — inside the details column, under the price, anywhere — and
+  set **Link to** to **Current product page**. The old **Show details link** setting is still
+  there for stores using it, and it now shows in the editor even before you pick a product.
+- **A separate logo for phones.** The header takes a **Mobile logo**, used below 750px. Only the
+  one that fits the screen is downloaded, so a wide wordmark on desktop and a compact mark on a
+  phone cost nothing extra.
+- **Size the logo by height.** **Size logo by** now offers **Height** as well as **Width**, which
+  is what a wordmark needs to line up with the menu, and the only way two logos of different
+  shapes come out the same size. Both have their own phone value behind **Custom logo size on
+  mobile**.
+- **Header icons scale.** **Icon size** sets the search, account and cart icons, with **Custom
+  icon size on mobile** for a different size on phones.
+- **Text sizes go much further.** Every size in **Typography** had a narrow range that stopped
+  well short of small captions and big display headings. All of them now run from far lower to
+  far higher. Your current values are unchanged.
+
 ## Unreleased — 2026-08-19
 
 - **Tighter pages on phones.** The announcement bar, the header and the product section each

@@ -1,5 +1,5 @@
 {
-  "total": 71,
+  "total": 72,
   "groups": [
     {
       "id": "layout-and-text",
@@ -363,6 +363,14 @@
               "label": "Text",
               "desc": "Text you type in.",
               "options": null
+            },
+            {
+              "label": "Link to",
+              "desc": "Choose one option.",
+              "options": [
+                "Custom URL",
+                "Current product page"
+              ]
             },
             {
               "label": "Link",
@@ -1477,7 +1485,8 @@
               "desc": "Compact takes one step off the padding and label. On product cards the button already steps down on mobile on its own.",
               "options": [
                 "Default",
-                "Compact"
+                "Compact",
+                "Small"
               ]
             },
             {
@@ -2928,6 +2937,47 @@
           ]
         },
         {
+          "name": "Buy it now",
+          "sysname": "buy-now",
+          "id": "buy-now",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Button size",
+              "desc": "Choose one option.",
+              "options": [
+                "Default",
+                "Compact",
+                "Small"
+              ]
+            },
+            {
+              "label": "Show payment terms",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Carousel navigation",
           "sysname": "_carousel-nav",
           "id": "carousel-nav",
@@ -2946,6 +2996,7 @@
               "label": "Arrows",
               "desc": "Choose one option.",
               "options": [
+                "Automatic (fits this section)",
                 "Above the carousel",
                 "Either side of the carousel",
                 "On the sides, over the media",
@@ -2976,6 +3027,15 @@
               "label": "Dots position",
               "desc": "Choose one option.",
               "options": [
+                "Over the media",
+                "Under the carousel"
+              ]
+            },
+            {
+              "label": "Dots position on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
                 "Over the media",
                 "Under the carousel"
               ]

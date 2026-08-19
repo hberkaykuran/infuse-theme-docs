@@ -225,7 +225,55 @@
               "options": null
             },
             {
+              "label": "Mobile logo",
+              "desc": "Optional. Used below 750px; the desktop logo is used when empty.",
+              "options": null
+            },
+            {
+              "label": "Size logo by",
+              "desc": "Choose one option.",
+              "options": [
+                "Width",
+                "Height"
+              ]
+            },
+            {
               "label": "Logo width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Logo height",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Custom logo size on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Logo width on mobile",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Logo height on mobile",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Custom icon size on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Icon size on mobile",
               "desc": "A slider.",
               "options": null
             },
@@ -1553,6 +1601,11 @@
               "options": null
             },
             {
+              "label": "Products (manual)",
+              "desc": "Optional. When set, these products override the collection loop and render in this order.",
+              "options": null
+            },
+            {
               "label": "Products to show",
               "desc": "A slider.",
               "options": null
@@ -1574,6 +1627,30 @@
                 "Narrow",
                 "Page",
                 "Full width"
+              ]
+            },
+            {
+              "label": "Cards per view",
+              "desc": "Replaces the card width when set.",
+              "options": [
+                "Auto (fixed width)",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ]
+            },
+            {
+              "label": "Cards per view on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Auto (fixed width)",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
               ]
             },
             {
@@ -4315,6 +4392,11 @@
               ]
             },
             {
+              "label": "Gallery width on mobile",
+              "desc": "Narrows the image area on phones. The details column is unaffected.",
+              "options": null
+            },
+            {
               "label": "Gallery / details ratio",
               "desc": "Choose one option.",
               "options": [
@@ -4472,6 +4554,61 @@
             {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Quick view",
+          "sysname": "quick-view",
+          "id": "quick-view",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Max width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "On mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Bottom sheet",
+                "Centred"
+              ]
+            },
+            {
+              "label": "Show “View full details” link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Link text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "labels.border_radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
               "options": null
             }
           ]
