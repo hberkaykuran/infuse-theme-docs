@@ -10,6 +10,15 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-19e
 
+- **Text can take a collection's colour, or one you pick.** The **Color** setting on text,
+  heading, label, icon, product title, product info, product description and collection title
+  now offers **Collection color** and **Custom**. Collection color uses the **Color** metafield
+  (`custom.accent_color`) on the collection: on a product card it is the colour of the
+  collection that product belongs to, so a category line under each card comes out in its own
+  colour with one setting for the whole grid. Custom reveals a colour picker. Set neither and
+  nothing changes.
+
+
 - **The quick view window can hug its contents.** New **Width** setting: **Fixed** keeps it at
   the **Max width** as before, **Fit content** lets it shrink to whatever the blocks inside
   need. Capping the width of the details column used to leave empty space down the right of the

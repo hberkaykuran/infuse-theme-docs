@@ -67,8 +67,15 @@
                 "Muted text",
                 "Accent text",
                 "Background (for dark surfaces)",
-                "On accent (for accent fills)"
+                "On accent (for accent fills)",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Italic / marked word colour",
@@ -211,8 +218,15 @@
                 "Muted text",
                 "Accent text",
                 "Background (for dark surfaces)",
-                "On accent (for accent fills)"
+                "On accent (for accent fills)",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Letter spacing",
@@ -297,8 +311,15 @@
                 "Accent text",
                 "Muted text",
                 "Background (for dark surfaces)",
-                "On accent (for accent fills)"
+                "On accent (for accent fills)",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Alignment",
@@ -478,8 +499,15 @@
                 "Accent (vivid)",
                 "Accent text",
                 "Text",
-                "Muted text"
+                "Muted text",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Accessible label",
@@ -901,8 +929,15 @@
                 "Text",
                 "Muted text",
                 "Accent text",
-                "Background (for dark surfaces)"
+                "Background (for dark surfaces)",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Letter spacing",
@@ -1084,8 +1119,15 @@
                 "Muted text",
                 "Accent text",
                 "Background (for dark surfaces)",
-                "On accent (for accent fills)"
+                "On accent (for accent fills)",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Vertical padding",
@@ -1258,8 +1300,15 @@
               "options": [
                 "Text",
                 "Muted text",
-                "Accent text"
+                "Accent text",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Max lines (0 = no clamp)",
@@ -3374,8 +3423,15 @@
                 "Text",
                 "Muted text",
                 "Accent text",
-                "Background (for dark surfaces)"
+                "Background (for dark surfaces)",
+                "Collection color",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Letter spacing",
