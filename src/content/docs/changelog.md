@@ -8,6 +8,30 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-20
+
+- **Icons have a size setting now.** Theme settings → Typography gains **Icon size** and
+  **Icon size on mobile**, a percentage each. They scale every icon in the theme that had no
+  size of its own, so a store that brings its mobile type down 15% can bring the icons with
+  it instead of leaving them at full size. Both start at 100%, which renders exactly what the
+  theme rendered before. The header icons, social links, benefit list and carousel arrows keep
+  their own icon settings and are left out of it.
+- **A product title can carry the pack size on the same line.** **Product title** gains a
+  **Suffix** setting that reads a product metafield (`custom.pack` by default) and prints it
+  next to the name, in the same run of text, with a separator you choose. Previously the
+  amount had to be a second block, which meant a second box: a title that wrapped left a
+  half-empty last line and pushed the amount onto a row of its own, on every card. Size and
+  colour for the suffix are separate, so it can sit small and muted beside a large title. Off
+  unless you turn it on, and it works the same on the product page and on product cards.
+- **Delivery estimate can count down to your dispatch cutoff.** Turn on **Show a cutoff
+  countdown** and set a time per weekday, in 24-hour `HH:MM` and your shop's timezone. Saturday
+  can close at 11:00 while weekdays close at 13:00, and a day left blank means you do not
+  dispatch that day at all. Before the cutoff the block adds a line counting down and naming
+  the day the order ships, as *today*, *tomorrow* or a weekday name. After it, you choose
+  whether to name the next dispatch day or keep the countdown running to it. The clock runs in
+  the customer's browser, so a cached page can never show a stale countdown, and a customer
+  with JavaScript off still sees the plain delivery estimate.
+
 ## Unreleased — 2026-08-19f
 
 - **Product info is four blocks now.** Vendor, SKU, stock status and the tax / shipping note

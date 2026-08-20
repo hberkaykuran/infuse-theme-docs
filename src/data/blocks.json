@@ -953,6 +953,60 @@
               "options": null
             },
             {
+              "label": "Suffix",
+              "desc": "Prints a short amount next to the product name, in the same line of text — e.g. \"Green Tea · 25 g\".",
+              "options": [
+                "None",
+                "From a product metafield"
+              ]
+            },
+            {
+              "label": "Metafield",
+              "desc": "Namespace and key, e.g. custom.pack. Products without a value simply show no suffix.",
+              "options": null
+            },
+            {
+              "label": "Separator",
+              "desc": "Choose one option.",
+              "options": [
+                "None (runs straight on)",
+                "Space",
+                "Middle dot",
+                "Dash",
+                "Pipe"
+              ]
+            },
+            {
+              "label": "Suffix size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large"
+              ]
+            },
+            {
+              "label": "Suffix color",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as heading",
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "Collection color",
+                "Custom"
+              ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
               "label": "Alignment",
               "desc": "Left, center, or right alignment.",
               "options": null
@@ -1779,6 +1833,59 @@
             {
               "label": "Latest delivery (days from order)",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show a cutoff countdown",
+              "desc": "Adds a line counting down to today's cutoff and naming the day the order ships. One time per day, 24-hour HH:MM in your shop's timezone. Leave a day blank if you do not dispatch that day.",
+              "options": null
+            },
+            {
+              "label": "Monday cutoff",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Tuesday cutoff",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Wednesday cutoff",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Thursday cutoff",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Friday cutoff",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Saturday cutoff",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Sunday cutoff",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Once today's cutoff has passed",
+              "desc": "Choose one option.",
+              "options": [
+                "Name the next dispatch day",
+                "Keep counting down, to the next dispatch day"
+              ]
+            },
+            {
+              "label": "Cutoff line color",
+              "desc": "A colour picker.",
               "options": null
             },
             {

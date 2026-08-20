@@ -70,6 +70,8 @@ Each step also has its own **mobile size**, used below 750 pixels wide. Desktop 
 
 Leave **Medium (body) on mobile** at 16 pixels or above. Safari on iPhone zooms the page whenever a customer taps a form field whose text is smaller than that, which throws off checkout and search.
 
+**Icon size** and **Icon size on mobile** are the same idea for icons: one percentage each, applied to every icon in the theme that has no size setting of its own. Leave both at 100% and nothing changes. Shrink the mobile type and you can bring the icons down with it in one place, instead of leaving them at full size next to smaller text. The header icons, social links, benefit list and carousel arrows keep their own icon settings and ignore this one, so you are never tuning the same icon through two sliders.
+
 **Heading decoration** picks the default accent drawn under or around headings that turn on *Show decoration*: a wavy, straight, dotted, double or brush rule, a looping line, sparkles, a sticker, a highlight marker, or a circled word. Individual heading blocks can override it. For **Highlight marker** and **Circled word**, italicise the word or phrase you want marked in the heading text; with no italics the last word is marked.
 
 ## Layout
