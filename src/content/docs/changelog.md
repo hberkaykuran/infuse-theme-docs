@@ -8,6 +8,25 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-20b
+
+- **Every text block has a Weight setting now.** Product title, Heading, Label, Badge, Price,
+  Article title, Article meta, Article excerpt, Collection title, Stock status, Stock counter,
+  Product description, Product benefits, Product SKU, Product vendor, Tax / shipping note and
+  Delivery estimate each gain **Weight**: Regular, Medium, Semibold or Bold. Before this, only
+  the **Text** block had one, and every other block's weight was fixed in the theme's code, so
+  a product title could not be made bold at any size. Each setting starts at **Inherit**, which
+  renders exactly what the block rendered before, so nothing on a saved page moves until you
+  change it.
+- **Delivery estimate can show the cutoff line on its own.** A new **Show the delivery window**
+  checkbox turns off the estimated-dates sentence, leaving just the dispatch countdown. The
+  cutoff line also gets its own **Text size** and **Weight**, separate from the estimate above
+  it, and the estimate's own size choices now run from Eyebrow to Extra large instead of three
+  steps. With the window turned off and no cutoff time set on any day, the block shows a note
+  in the theme editor explaining why it is painting nothing.
+- **Fixed: the password page's Enter button sat flush against the password field.** The form
+  had no spacing of its own, so its heading, field and button stacked with no gap between them.
+
 ## Unreleased — 2026-08-20
 
 - **Icons have a size setting now.** Theme settings → Typography gains **Icon size** and
