@@ -8,6 +8,32 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-20c
+
+- **The mobile menu can show your mega menu properly.** Until now a mega menu's categories
+  appeared in the mobile menu as a plain list of text links: the collection images or colour
+  dots you had chosen, and the product counts, were desktop-only. The setting is now called
+  **Use the mega menu panel in the mobile menu**, and it does what it says — the same columns
+  the desktop panel draws, markers, counts, promotion and all. **Mega menu columns** applies
+  there too, though a phone-width menu usually fits one column unless you set a narrow
+  **Packed column width**. Turn it off for the old plain text list.
+- **Fixed: a mega menu dropped links that were not inside a group.** If a mega menu mixed
+  groups of links with a plain link at the same level, the plain one rendered as a heading
+  with nothing under it and could not be clicked. It shows as a normal link now, with its
+  marker and product count, on both desktop and mobile.
+- **Fixed: sub-category links in the mobile menu were indented twice**, sitting two steps in
+  from the edge of the menu.
+- **Fixed: opening a filter stretched the filter next to it.** On a collection page, opening
+  **Availability** stretched every other filter box to the same height, leaving a tall empty
+  **Price** box beside it.
+- **Fixed: video in the product gallery ignored the gallery's frame.** Pressing play replaced
+  the picture with a video that ran edge to edge, ignoring the **Image stage padding** and the
+  rounded corners every image slide sits inside. The video now opens at its own shape, in the
+  same frame the thumbnail was drawn in, so nothing jumps when you press play. Videos uploaded
+  to Shopify (rather than linked from YouTube or Vimeo) also get the poster-and-play-button
+  treatment that linked videos already had, instead of showing a bare player with browser
+  controls.
+
 ## Unreleased — 2026-08-20b
 
 - **Every text block has a Weight setting now.** Product title, Heading, Label, Badge, Price,

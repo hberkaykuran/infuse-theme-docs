@@ -37,6 +37,8 @@ A menu item with sub-items becomes a dropdown. If those sub-items have their own
 
 By default each group of links in a mega menu gets a column of its own, which leaves a tall gap next to a group holding one or two links. Setting **Mega menu columns** to **Packed** spreads the groups across a fixed number of columns instead, so short groups stack under each other. **Packed columns** sets how many; fewer columns means more sharing. Narrow screens drop to fewer on their own.
 
+On a phone, **Use the mega menu panel in the mobile menu** puts the panel itself into the mobile menu, so the category markers, product counts and the promotion all come along instead of the links appearing as plain text. Packing applies there too, though a narrow drawer usually fits only one column unless you set a narrow **Packed column width**. Turn the setting off to get a plain text list of the same links.
+
 ## Arrange your header
 
 The header's **Layout** setting moves the fixed pieces around without changing what they are:
