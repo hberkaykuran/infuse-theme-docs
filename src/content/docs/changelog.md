@@ -8,6 +8,33 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-20d
+
+- **Fixed: the mobile menu did nothing on some pages.** Opening the menu drew it correctly, but
+  the page's own content painted on top of it, so taps went to the page behind. It now sits above
+  every section on every template. This affected any store whose header is not sticky and not
+  overlaid.
+- **The mobile menu's category columns are easier to read.** When you mirror a mega menu into the
+  mobile menu, its groups now sit two across at a slightly smaller size instead of stacking one
+  per row — a three-group menu went from around 680px of scrolling to under 300px on a phone. If
+  you use **Packed columns**, the mobile menu gets two columns as well; it could only ever manage
+  one before.
+- **A product video now plays in the full-screen gallery viewer.** Pressing play on a video in the
+  product gallery opens the zoom viewer and starts the clip there, at the video's own shape, rather
+  than swapping a player into a slide sized for product photos. The video also gets its own
+  thumbnail in the viewer's filmstrip, so you can reach it from any other shot. It stops when you
+  swipe to the next image or close the viewer. Needs **Enable zoom** on; with zoom off, video plays
+  in place exactly as before.
+- **Video and 3D thumbnails line up with the rest.** They used to sit small in the middle of their
+  square with pale bands above and below. They now fill the square like the images beside them.
+- **The UGC viewer's progress bar is visible on desktop.** It was drawn in white over the
+  photograph, so it disappeared on any light-coloured shot.
+- **A UGC photo's "Add to cart" now adds every product tagged on that photo.** One tap buys the
+  whole look. Products with options are left out — there is no variant to add until someone
+  chooses one — and they keep their own row inside the viewer.
+- **Removed: the "Add all N to cart" button in the UGC viewer.** The photo's own button does this
+  now, so the extra button in the viewer is gone along with its setting.
+
 ## Unreleased — 2026-08-20c
 
 - **The mobile menu can show your mega menu properly.** Until now a mega menu's categories

@@ -350,8 +350,8 @@
               ]
             },
             {
-              "label": "Show mega menu content in the mobile menu",
-              "desc": "The promotion or featured products from a mega menu panel appear under that menu's links in the mobile menu. The category links themselves are already listed there, so they are not repeated.",
+              "label": "Use the mega menu panel in the mobile menu",
+              "desc": "The mobile menu shows the panel itself, so link markers, product counts and the promotion all carry over from the desktop mega menu. Turn it off for a plain text list of the same links.",
               "options": null
             },
             {

@@ -60,6 +60,17 @@
               ]
             },
             {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "Color",
               "desc": "Follows the color scheme. Edit the palette under Theme settings > Colors.",
               "options": [
@@ -294,6 +305,17 @@
                 "Extra large",
                 "2X large",
                 "Display"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -923,6 +945,17 @@
               ]
             },
             {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -1209,6 +1242,17 @@
               ]
             },
             {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "Text color",
               "desc": "A colour picker.",
               "options": null
@@ -1271,6 +1315,17 @@
                 "Small",
                 "Medium",
                 "Large"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -1461,6 +1516,17 @@
                 "Extra large",
                 "2X large",
                 "Display"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -1773,6 +1839,17 @@
               ]
             },
             {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -1823,6 +1900,11 @@
             {
               "label": "Icon color",
               "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Show the delivery window",
+              "desc": "Turn off to show only the dispatch cutoff line.",
               "options": null
             },
             {
@@ -1889,6 +1971,29 @@
               "options": null
             },
             {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as page",
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "Icon",
               "desc": "Choose one option.",
               "options": [
@@ -1915,9 +2020,22 @@
               "label": "Text size",
               "desc": "Choose one option.",
               "options": [
+                "Eyebrow (XS)",
                 "Small",
                 "Medium",
-                "Large"
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -2504,6 +2622,17 @@
               ]
             },
             {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -2660,6 +2789,17 @@
               ]
             },
             {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "Alignment",
               "desc": "Left, center, or right alignment.",
               "options": null
@@ -2807,6 +2947,17 @@
                 "Extra large",
                 "2X large",
                 "Display"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -3032,6 +3183,17 @@
                 "Small",
                 "Medium",
                 "Large"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -3456,6 +3618,17 @@
                 "Extra large",
                 "2X large",
                 "Display"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -4254,6 +4427,17 @@
               ]
             },
             {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -4363,6 +4547,17 @@
                 "Small",
                 "Medium",
                 "Large"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -5157,6 +5352,17 @@
               ]
             },
             {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
               "label": "In stock color",
               "desc": "A colour picker.",
               "options": null
@@ -5283,6 +5489,17 @@
                 "Small",
                 "Medium",
                 "Large"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
               ]
             },
             {
@@ -5509,11 +5726,6 @@
                 "Quick view",
                 "Discover (product page)"
               ]
-            },
-            {
-              "label": "Show \"add all\" in the viewer",
-              "desc": "One button under the shoppable strip that adds the whole look in a single step. Only products with one available variant can be included, so it appears once two or more of them qualify.",
-              "options": null
             },
             {
               "label": "Button in the viewer",
