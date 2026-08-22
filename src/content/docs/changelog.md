@@ -8,6 +8,38 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-22
+
+- **Fixed: adding a Collection list gave you a grid of blank tiles.** The section arrived without
+  the picture and title inside its collection card, so every tile rendered empty until you built
+  the card by hand. New sections now come with the card filled in. Sections you already have on a
+  page are unaffected.
+- **New: a "See all" tile at the end of a collection list.** The collection picker holds six, so
+  on a larger catalogue the grid is a taster. You can now close it off with a tile linking to your
+  full collections page, in one of three looks: an **outlined tile**, an **accent tile** that names
+  how many collections are left, or a **mosaic** showing thumbnails of what is behind the cap. Off
+  by default, and separate from the "View all" link in the section heading — you can run either,
+  both, or neither.
+- **New: a gradient title style for collection cards.** Alongside the existing chip and card-colour
+  options, **Gradient veil** lays the title across the full width of the tile's foot on a soft fade,
+  with the product count on its own line. Best suited to photography and full-bleed crops.
+- **Fixed: one tile could stretch a collection grid out of shape.** A cell whose contents were
+  wider than the rest used to take space from its neighbours, leaving uneven columns. Columns are
+  now always equal.
+- **Fixed: the Sale collection template had no title.** Collections using it rendered without their
+  heading or description. Both are back.
+- **Changed: the Rating block no longer starts at five stars.** It used to arrive pre-set to the
+  maximum, so any rating block you dropped in and did not edit published a five-star score you
+  never entered. It now starts at **Not set** and shows nothing until you choose a score.
+- **Changed: the review score on Review photos comes from your review app.** The strip used to
+  offer a free text box for typing a score by hand. It now reads the rating and review count your
+  review app stores on the product, shows stars and the figure when they are there, and shows
+  nothing when they are not. If you were typing a score into that box, it will no longer display —
+  connect a review app to show a real one.
+- **Removed: "Verified buyer" from the sample testimonials.** The theme has no way to check whether
+  a reviewer bought the product, so it no longer ships the claim. The quotes, names and stars stay,
+  and you can still write whatever you like in a testimonial.
+
 ## Unreleased — 2026-08-20d
 
 - **Fixed: the mobile menu did nothing on some pages.** Opening the menu drew it correctly, but
