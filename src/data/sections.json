@@ -1066,9 +1066,6 @@
               "items": [
                 {
                   "text": "Collection list"
-                },
-                {
-                  "text": "Collections bento"
                 }
               ]
             }
@@ -1077,6 +1074,11 @@
             {
               "label": "Collections",
               "desc": "Leave empty to show the first six collections in the store.",
+              "options": null
+            },
+            {
+              "label": "Maximum collections",
+              "desc": "The picker above holds at most 6. Leave it empty to show every collection in the store, up to this many.",
               "options": null
             },
             {
@@ -1100,6 +1102,16 @@
               "options": null
             },
             {
+              "label": "\"See all\" tile",
+              "desc": "Adds a tile at the end of the grid linking to every collection. The collection picker above holds six, so this is how a shopper reaches the rest. Independent of the header link.",
+              "options": [
+                "None",
+                "Outlined tile",
+                "Accent tile with count",
+                "Mosaic of what's left"
+              ]
+            },
+            {
               "label": "Layout",
               "desc": "Choose one option.",
               "options": [
@@ -1115,6 +1127,11 @@
             },
             {
               "label": "Columns on desktop",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
               "desc": "A slider.",
               "options": null
             },
@@ -4189,24 +4206,6 @@
             {
               "label": "Anchor ID",
               "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
-              "options": null
-            }
-          ]
-        },
-        {
-          "name": "Collections list",
-          "sysname": "collections",
-          "id": "collections",
-          "meta": [],
-          "settings": [
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            },
-            {
-              "label": "Grid spacing",
-              "desc": "A slider.",
               "options": null
             }
           ]

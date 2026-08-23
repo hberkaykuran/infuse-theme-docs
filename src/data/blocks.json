@@ -1966,7 +1966,25 @@
               ]
             },
             {
+              "label": "Countdown format",
+              "desc": "Words reads \"2 h 14 min\". Clock is a live 02:14:09 that ticks every second.",
+              "options": [
+                "Words",
+                "Clock (00:00:00)"
+              ]
+            },
+            {
               "label": "Cutoff line color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Countdown colour",
+              "desc": "Just the number. Leave empty to use the cutoff line colour.",
+              "options": null
+            },
+            {
+              "label": "Dispatch day colour",
               "desc": "A colour picker.",
               "options": null
             },
@@ -2148,11 +2166,6 @@
           "settings": [
             {
               "label": "Heading",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Rating text",
               "desc": "Text you type in.",
               "options": null
             },
@@ -3453,7 +3466,8 @@
               "desc": "Choose one option.",
               "options": [
                 "Over the image",
-                "Card colour"
+                "Card colour",
+                "Gradient veil (full width)"
               ]
             },
             {
@@ -4356,6 +4370,15 @@
                 "Small pill",
                 "Hide"
               ]
+            },
+            {
+              "label": "Treatment",
+              "desc": "How a sold-out product's own card shows it, on top of any \"Sold out\" badge added to the media above. The quick-add button always shows its real state, whichever option is picked.",
+              "options": [
+                "Off",
+                "Grey out button and price",
+                "Scrim + label over the image"
+              ]
             }
           ]
         },
@@ -4810,8 +4833,9 @@
           "settings": [
             {
               "label": "Star rating",
-              "desc": "Choose one option.",
+              "desc": "Left unset, the block renders nothing. Only set a score you can stand behind — this is a claim to your customers, not decoration.",
               "options": [
+                "Not set (hidden)",
                 "5",
                 "4",
                 "3",

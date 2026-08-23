@@ -8,6 +8,44 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-23
+
+- **Fixed: the Collections page used an old section that could not be customised.** The page that
+  lists every collection was drawn by a section predating the theme's block system. It showed no
+  pictures at all, its heading could not be edited, and it carried two settings. That section has
+  been removed. The Collections page now uses the ordinary **Collection list** section, so it takes
+  pictures, a heading you can write, layouts, widths, padding and everything else that section
+  offers.
+- **Removed: the "Collections bento" section from the picker.** It was the Collection list with its
+  layout set to Bento, which made it look like a second section doing the same job. Add
+  **Collection list** and set **Layout** to **Bento** for the same result.
+- **New: a maximum for how many collections a Collection list shows.** The collection picker holds
+  six. When you leave it empty the section falls back to your whole catalogue, and it used to stop
+  at six there too. You can now raise that to thirty, which is what the Collections page uses.
+- **Fixed: photos in a UGC gallery carousel were blurry.** The theme was asking the browser for a
+  picture sized for the grid layout no matter which layout you had chosen, so a carousel with wide
+  cards loaded an image far smaller than the space it filled. Each layout now asks for the size it
+  actually draws, including the enlarged card in Spotlight.
+- **Fixed: the UGC viewer left a lot of empty space around the photo.** The viewer sized its width
+  for a portrait shape whatever shape you had set, so a square or 4:5 gallery opened around 30%
+  narrower than it should have. It now matches the shape you chose.
+- **Fixed: a gap appeared between a UGC photo and the text under it.** The photo's rounded corners
+  were being drawn against the caption or the buy bar below, leaving two notches of background
+  biting into the top of that strip. Only carousels were affected.
+- **New: control over products on UGC tiles.** A new **Products on tiles** setting offers **Both**
+  (the product name and an add button, as before), **Info only** (the product name with no add
+  button, for editorial or Instagram galleries) and **None**. Individual tiles keep their own
+  switch for hiding their product.
+- **Fixed: the link on a UGC item did nothing when the viewer was on.** Setting a link on a tile
+  had no effect unless you also turned the whole gallery's viewer off. A link now wins for that
+  tile, so one Instagram post can point at Instagram while the rest of the gallery opens the
+  viewer. There is a new **Open in a new tab** switch beside it.
+- **New: a gradient caption style for UGC galleries.** Alongside Plain and Accent, **Gradient veil**
+  lays the caption across the foot of the photo on a soft fade, matching the collection card's
+  Gradient veil. Any product name on the tile moves to the top so the two do not overlap.
+- **Fixed: the Accent caption style only coloured its background.** The text inside it stayed dark
+  against the accent fill. It reads correctly now.
+
 ## Unreleased — 2026-08-22
 
 - **Fixed: adding a Collection list gave you a grid of blank tiles.** The section arrived without
