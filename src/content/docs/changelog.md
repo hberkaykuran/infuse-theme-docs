@@ -8,6 +8,14 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-24c
+
+- **New: icons can be any size you want.** The Icon block only offered Small, Medium and
+  Large, so a value-prop row was stuck at 32px however much room it had. Pick **Custom
+  size** and you get a slider from 12px to 128px, plus an optional separate size for
+  phones. The three named sizes are unchanged, and every icon you have already placed
+  keeps exactly the size it has today.
+
 ## Unreleased — 2026-08-24b
 
 - **Fixed: you could only pick six collections.** The collection picker on every Collection
