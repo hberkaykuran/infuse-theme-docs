@@ -3625,6 +3625,7 @@
               "label": "Size",
               "desc": "Choose one option.",
               "options": [
+                "Automatic (match placement)",
                 "Eyebrow (XS)",
                 "Small",
                 "Medium",
@@ -3649,6 +3650,7 @@
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
+                "Automatic (match placement)",
                 "Text",
                 "Muted text",
                 "Accent text",
@@ -5728,7 +5730,12 @@
             },
             {
               "label": "Link",
-              "desc": "A link to a page, product, or collection.",
+              "desc": "Set this and the tile opens the link instead of the viewer — for a tile that should go to the original Instagram post.",
+              "options": null
+            },
+            {
+              "label": "Open in new tab",
+              "desc": "An on / off switch.",
               "options": null
             },
             {

@@ -8,6 +8,40 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-24
+
+- **New: four more Collection list layouts, including one that fits any number of collections.**
+  **Auto** asks you for a tile *size* instead of a column count and lets the browser fit as many
+  per row as there is room for, so the same setting looks right on a store with four collections
+  and a store with sixty. **Ribbon** alternates rows of two different widths for a magazine feel,
+  with separate row counts for phones. **Rows** is a plain directory listing — small thumbnail,
+  name, count, one collection per line, in one to three columns. **Carousel** and **Grid** are
+  unchanged.
+- **Fixed: the Bento layout looked wrong on phones.** The featured tile was meant to be a large
+  square but rendered as a short full-width band, indistinguishable from an ordinary wide tile.
+  It is now a true large tile on every screen size.
+- **Changed: Bento now features one collection, not every fourth one.** With six collections the
+  old layout produced two large tiles, and with sixteen it produced four, which read as a repeating
+  pattern rather than a feature. The first collection is now the featured one and the rest are
+  uniform. The same change applies to the **Editorial** layout on product grids, which was
+  enlarging one product in every seven.
+- **Fixed: settings on the collection title did nothing.** Padding, colour and text size on the
+  Collection title block were being overridden by the card whenever the title sat on top of the
+  tile, so changing them had no visible effect. They now work. Cards you have not touched look
+  exactly as they did.
+- **Changed: Collection list is now three sections, so you only see the cards you can use.**
+  Every layout needed its own card design, and the theme editor listed all of them on every
+  section, including the ones your chosen layout never draws — the "why are there several cards
+  here" problem. The layouts are split across **Collection list** (Grid, Auto, Carousel),
+  **Collection list editorial** (Bento, Ribbon) and **Collection list rows** (the directory).
+  Existing sections keep working; pick the section that matches the layout you want.
+- **Fixed: pictures in the Bento and Ribbon layouts, and in the rows directory, were the wrong
+  size.** The theme was asking the browser for a picture sized for an ordinary grid tile, so large
+  featured tiles loaded a picture too small for the space and small row thumbnails loaded one four
+  to five times larger than needed. Each shape now asks for its own.
+- **Fixed: the column setting on the rows directory did nothing.** It always drew two columns
+  whatever you chose.
+
 ## Unreleased — 2026-08-23
 
 - **Fixed: the Collections page used an old section that could not be customised.** The page that
