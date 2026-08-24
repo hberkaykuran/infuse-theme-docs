@@ -8,6 +8,37 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-24b
+
+- **Fixed: you could only pick six collections.** The collection picker on every Collection
+  list section stopped at six. That cap was the theme's own, not Shopify's — it now holds
+  **fifty**. The **Maximum collections** slider also stopped truncating a list you pick by
+  hand: it now applies only when you leave the picker empty and the section falls back to
+  your whole catalogue, which is what its description always said it did. Pick twelve
+  collections and you get twelve.
+- **New: the "See all" tile is a card you can build.** The tile at the end of a Collection
+  list used to offer three fixed looks and nothing else. It now has its own entry in the
+  section's block list, with settings for a heading, a line of text, the label style
+  (plain / button / pill), the icon and its frame, the collection count, background and
+  text colour, border, corner radius, alignment, and label size, weight and capitals. You
+  can also **drop blocks inside it** — a heading, text, a button, an image, an icon — so it
+  can carry real copy instead of just a link.
+- **New: arrow icons.** The theme's icon set had no arrow in it, so the "see all" tile and
+  the promotion bar were falling back to a typed arrow character that sat slightly low and
+  looked thinner than the rest of the icons. There are now proper **Arrow**, **Arrow
+  (diagonal)**, **Chevron** and **Grid** icons, available anywhere you can pick an icon.
+- **New: Mosaic tile options.** The mosaic — the tile that shows thumbnails of the
+  collections that did not fit — can now use four cells, three across, one large with two
+  small, or a nine-cell wall; the count can sit in the last cell, as a badge, as wording
+  under the label, or be hidden; the label can sit under the mosaic, over it, or above it;
+  and the colour tint behind each photo is adjustable.
+- **Fixed: a dead setting on the home page's multi-column section.** A leftover spacing
+  value was being sent to Shopify and discarded on every save. The section's spacing comes
+  from the column block itself and is unchanged.
+
+Existing Collection list sections keep the exact look they had — every new setting starts
+at "match the current style" and changes nothing until you touch it.
+
 ## Unreleased — 2026-08-24
 
 - **New: four more Collection list layouts, including one that fits any number of collections.**

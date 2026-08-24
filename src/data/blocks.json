@@ -1,5 +1,5 @@
 {
-  "total": 75,
+  "total": 76,
   "groups": [
     {
       "id": "layout-and-text",
@@ -489,6 +489,10 @@
                 "Recycle",
                 "Return (easy returns)",
                 "Lock (secure payment)",
+                "Arrow",
+                "Arrow (diagonal)",
+                "Chevron",
+                "Grid",
                 "Drop (no-drip)",
                 "Swirl (stir)",
                 "No spoon",
@@ -2469,6 +2473,195 @@
       "id": "other",
       "label": "Other blocks",
       "cards": [
+        {
+          "name": "\"See all\" tile",
+          "sysname": "_seeall-card",
+          "id": "seeall-card",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Tile heading",
+              "desc": "Optional. Adds a headline inside the tile, above the label.",
+              "options": null
+            },
+            {
+              "label": "Tile text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Label style",
+              "desc": "Choose one option.",
+              "options": [
+                "Plain text",
+                "Button",
+                "Pill"
+              ]
+            },
+            {
+              "label": "Icon",
+              "desc": "Choose one option.",
+              "options": [
+                "Automatic (match placement)",
+                "None",
+                "Arrow",
+                "Arrow (diagonal)",
+                "Chevron",
+                "Grid",
+                "Plus"
+              ]
+            },
+            {
+              "label": "Icon frame",
+              "desc": "Choose one option.",
+              "options": [
+                "Automatic (match placement)",
+                "None",
+                "Circle",
+                "Square",
+                "Pill"
+              ]
+            },
+            {
+              "label": "Collection count",
+              "desc": "Automatic shows the count on the accent tile only, as before.",
+              "options": [
+                "Automatic (match placement)",
+                "Always show",
+                "Never show"
+              ]
+            },
+            {
+              "label": "Background",
+              "desc": "Leave colours empty to keep the tile style’s own.",
+              "options": null
+            },
+            {
+              "label": "Text colour",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Border",
+              "desc": "Choose one option.",
+              "options": [
+                "Automatic (match placement)",
+                "None",
+                "Solid",
+                "Dashed"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Border colour",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Use the theme's radius",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Content alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Automatic (match placement)",
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Label size",
+              "desc": "Choose one option.",
+              "options": [
+                "Automatic (match placement)",
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Label weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Mosaic layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Four cells (2×2)",
+                "Three across",
+                "One large, two small",
+                "Nine cells (3×3)"
+              ]
+            },
+            {
+              "label": "Mosaic count",
+              "desc": "Choose one option.",
+              "options": [
+                "As the last cell",
+                "Badge beside the label",
+                "Wording under the label",
+                "Hide"
+              ]
+            },
+            {
+              "label": "Mosaic label",
+              "desc": "Choose one option.",
+              "options": [
+                "Bar under the mosaic",
+                "Over the mosaic",
+                "Above the mosaic"
+              ]
+            },
+            {
+              "label": "Mosaic tint",
+              "desc": "How strongly each cell takes its collection’s colour behind the photo.",
+              "options": null
+            }
+          ]
+        },
         {
           "name": "Article body",
           "sysname": "article-body",

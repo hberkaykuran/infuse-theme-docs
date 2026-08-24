@@ -1073,12 +1073,12 @@
           "settings": [
             {
               "label": "Collections",
-              "desc": "Leave empty to show the first six collections in the store.",
+              "desc": "Leave empty to show collections from the store automatically, up to the maximum below.",
               "options": null
             },
             {
               "label": "Maximum collections",
-              "desc": "The picker above holds at most 6. Leave it empty to show every collection in the store, up to this many.",
+              "desc": "Applies when the picker above is empty. A list you pick by hand always shows every collection you chose.",
               "options": null
             },
             {
@@ -1103,7 +1103,7 @@
             },
             {
               "label": "\"See all\" tile",
-              "desc": "Adds a tile at the end of the grid linking to every collection. The collection picker above holds six, so this is how a shopper reaches the rest. Independent of the header link.",
+              "desc": "Adds a tile at the end of the grid linking to every collection. Use it when the grid shows only some of your collections. Independent of the header link.",
               "options": [
                 "None",
                 "Outlined tile",
@@ -1227,12 +1227,12 @@
           "settings": [
             {
               "label": "Collections",
-              "desc": "Leave empty to show the first six collections in the store.",
+              "desc": "Leave empty to show collections from the store automatically, up to the maximum below.",
               "options": null
             },
             {
               "label": "Maximum collections",
-              "desc": "The picker above holds at most 6. Leave it empty to show every collection in the store, up to this many.",
+              "desc": "Applies when the picker above is empty. A list you pick by hand always shows every collection you chose.",
               "options": null
             },
             {
@@ -1257,7 +1257,7 @@
             },
             {
               "label": "\"See all\" tile",
-              "desc": "Adds a tile at the end of the grid linking to every collection. The collection picker above holds six, so this is how a shopper reaches the rest. Independent of the header link.",
+              "desc": "Adds a tile at the end of the grid linking to every collection. Use it when the grid shows only some of your collections. Independent of the header link.",
               "options": [
                 "None",
                 "Outlined tile",
@@ -1364,12 +1364,12 @@
           "settings": [
             {
               "label": "Collections",
-              "desc": "Leave empty to show the first six collections in the store.",
+              "desc": "Leave empty to show collections from the store automatically, up to the maximum below.",
               "options": null
             },
             {
               "label": "Maximum collections",
-              "desc": "The picker above holds at most 6. Leave it empty to show every collection in the store, up to this many.",
+              "desc": "Applies when the picker above is empty. A list you pick by hand always shows every collection you chose.",
               "options": null
             },
             {
@@ -1394,7 +1394,7 @@
             },
             {
               "label": "\"See all\" tile",
-              "desc": "Adds a tile at the end of the grid linking to every collection. The collection picker above holds six, so this is how a shopper reaches the rest. Independent of the header link.",
+              "desc": "Adds a tile at the end of the grid linking to every collection. Use it when the grid shows only some of your collections. Independent of the header link.",
               "options": [
                 "None",
                 "Outlined tile",
