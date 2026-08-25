@@ -8,6 +8,19 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-25c
+
+- **New: a separate hero image for phones on the Collection section.** The banner at the top
+  of a collection page took one image at every screen size, so a wide banner cut for desktop
+  lost most of its width to the crop on a phone. There is now a **Hero image on mobile**
+  picker beside the existing one; set it and a phone loads only that file, leaving the
+  desktop image undownloaded. Leave it empty and nothing changes.
+- **New: you can set the collection banner's height.** It used to size itself to the browser
+  window between 256 and 416px, with no way to change it. Turn on **Set the banner height**
+  and you get an exact height plus a separate one for phones, so you can match a banner you
+  cut at a specific size instead of letting the crop decide. Off by default, and off means
+  exactly the height it has always been.
+
 ## Unreleased — 2026-08-25b
 
 - **Fixed: the sticky buy bar overlapped its own button on narrow phones.** The price,

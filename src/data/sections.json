@@ -4428,6 +4428,26 @@
               "options": null
             },
             {
+              "label": "Hero image on mobile",
+              "desc": "Optional. Shown below 750px instead of the hero image, so a phone downloads only this file. Leave empty to use the same image at every size.",
+              "options": null
+            },
+            {
+              "label": "Set the banner height",
+              "desc": "Off, the banner sizes itself to the viewport (256–416px). Turn it on to pick an exact height, for example to match a banner you cut at a specific size.",
+              "options": null
+            },
+            {
+              "label": "Banner height",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Banner height on mobile",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Overlay strength",
               "desc": "Darkens the image behind the title so the text stays readable (AA). 100% = the full tested overlay; lower it over darker images.",
               "options": null
@@ -4763,7 +4783,32 @@
               "options": null
             },
             {
+              "label": "Show product image in the bar",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show product title in the bar",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show selected variant in the bar",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show price in the bar",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Show compare-at price in the bar",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Show discount percentage in the bar",
               "desc": "An on / off switch.",
               "options": null
             },

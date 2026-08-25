@@ -97,8 +97,14 @@
                 "Muted text",
                 "Accent text",
                 "Background (for dark surfaces)",
-                "On accent (for accent fills)"
+                "On accent (for accent fills)",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Letter spacing",
@@ -515,8 +521,24 @@
               "options": [
                 "Small",
                 "Medium",
-                "Large"
+                "Large",
+                "Custom size"
               ]
+            },
+            {
+              "label": "Icon size",
+              "desc": "Overrides Small/Medium/Large. Small, Medium and Large are 20, 24 and 32px.",
+              "options": null
+            },
+            {
+              "label": "Use a different size on mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Icon size (mobile)",
+              "desc": "A slider.",
+              "options": null
             },
             {
               "label": "Color",
@@ -780,6 +802,21 @@
               "options": null
             },
             {
+              "label": "Use separate vertical and horizontal padding",
+              "desc": "Off, the padding above applies to all four sides.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Width",
               "desc": "Choose one option.",
               "options": [
@@ -848,8 +885,14 @@
               "desc": "Turns this group into a card. Every layout setting above still applies.",
               "options": [
                 "None",
+                "Color",
                 "Image"
               ]
+            },
+            {
+              "label": "Background color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Background image",
@@ -874,7 +917,7 @@
             },
             {
               "label": "Corner radius",
-              "desc": "A slider.",
+              "desc": "Turn this all the way up for a pill.",
               "options": null
             },
             {
@@ -1551,8 +1594,14 @@
                 "Muted text",
                 "Accent text",
                 "Background (for dark surfaces)",
-                "On accent (for accent fills)"
+                "On accent (for accent fills)",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Show savings amount",
@@ -1798,8 +1847,14 @@
                 "Muted text",
                 "Accent text",
                 "Background (for dark surfaces)",
-                "On accent (for accent fills)"
+                "On accent (for accent fills)",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Vertical padding",
@@ -1861,8 +1916,14 @@
                 "Muted text",
                 "Accent text",
                 "Background (for dark surfaces)",
-                "On accent (for accent fills)"
+                "On accent (for accent fills)",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Alignment",
@@ -2382,6 +2443,77 @@
               ]
             },
             {
+              "label": "Label size",
+              "desc": "Choose one option.",
+              "options": [
+                "Automatic (match placement)",
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display",
+                "Custom size"
+              ]
+            },
+            {
+              "label": "Label size (custom)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Label size on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display",
+                "Custom size"
+              ]
+            },
+            {
+              "label": "Label size on mobile (custom)",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
+              "label": "Use custom label spacing",
+              "desc": "Off, the labels use the theme spacing scale.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Distance from the edge",
+              "desc": "How far each label sits from the top or bottom and the side of the image.",
+              "options": null
+            },
+            {
               "label": "Aspect ratio",
               "desc": "Choose one option.",
               "options": [
@@ -2659,6 +2791,11 @@
               "label": "Mosaic tint",
               "desc": "How strongly each cell takes its collection’s colour behind the photo.",
               "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
             }
           ]
         },
@@ -2844,8 +2981,14 @@
               "options": [
                 "Text",
                 "Muted text",
-                "Accent text"
+                "Accent text",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Alignment",
@@ -3173,8 +3316,14 @@
                 "Text",
                 "Muted text",
                 "Accent text",
-                "Background (for dark surfaces)"
+                "Background (for dark surfaces)",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Letter spacing",
@@ -4113,8 +4262,14 @@
                 "Text",
                 "Muted text",
                 "Accent text",
-                "Background (for dark surfaces)"
+                "Background (for dark surfaces)",
+                "Custom"
               ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
+              "options": null
             },
             {
               "label": "Alignment",
