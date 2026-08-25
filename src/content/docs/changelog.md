@@ -8,6 +8,21 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-25
+
+- **New: before/after labels have a size setting.** The two labels on an Image compare
+  block were locked at one size, which read as too large on a phone. There is now a **Label
+  size** setting with a separate **Label size on mobile**, both starting at "match the
+  current style" so nothing moves until you change them.
+- **Fixed: the "See all" mosaic thumbnails looked soft.** The tile was only ever allowed to
+  fetch a small version of each collection photo, so the four-cell mosaic went blurry as
+  soon as the tile had any real width. It now loads a sharp image, and there is a **Sizes**
+  field on the tile if your grid uses an unusual number of columns.
+- **Note: UGC tiles can already open a link in a new tab.** The **Open in new tab**
+  checkbox appears on a UGC item once you paste something into its **Link** field, which is
+  what you want for an Instagram post. A tile with a link opens that link instead of the
+  gallery viewer.
+
 ## Unreleased — 2026-08-24c
 
 - **New: icons can be any size you want.** The Icon block only offered Small, Medium and
