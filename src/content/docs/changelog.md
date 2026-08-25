@@ -8,6 +8,27 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-25b
+
+- **Fixed: the sticky buy bar overlapped its own button on narrow phones.** The price,
+  the crossed-out original price and the discount badge could run underneath the **Add to
+  cart** button on a small screen. They now wrap onto a second line instead. On very
+  narrow screens the small product thumbnail steps aside so nothing collides.
+- **New: you can choose what the sticky buy bar shows.** Separate switches for the
+  thumbnail, product title, selected variant, price, compare-at price and the discount
+  percentage. The discount badge in particular used to be tied to the compare-at price and
+  could not be turned off on its own. Everything starts on, so existing bars are unchanged.
+- **New: any group can be a coloured pill or badge.** A group's **Background** setting now
+  offers a flat **Color** alongside an image, with your own colour, a corner radius that
+  goes all the way to a pill shape, and optional separate vertical and horizontal padding.
+  Put a text block and an icon inside and you have a label chip you can style freely.
+- **New: custom colours in seven more places.** Article title, article excerpt, menu,
+  quantity, stock counter, the sale price and a heading's highlight now all offer **Custom**
+  in their colour setting, with a colour picker, matching the text and heading blocks.
+- **New: full control over the before/after labels on an Image compare block.** Size now
+  runs the whole type scale plus a custom pixel value, with a separate mobile size, and
+  there are weight, padding and distance-from-the-edge settings.
+
 ## Unreleased — 2026-08-25
 
 - **New: before/after labels have a size setting.** The two labels on an Image compare
