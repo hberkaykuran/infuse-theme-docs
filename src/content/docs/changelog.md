@@ -10,6 +10,10 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-08-26
 
+- **Fixed: Promo bar ignored its own Color scheme setting.** band always painted itself accent colour, so picking scheme on it changed nothing. now takes background text colour from scheme like every other section, theme ships new **Accent** scheme (accent plate, on-accent text) is what promo bar uses default. Want different campaign colour, make new colour scheme and pick it.
+- **New: Promo bar built from blocks.** Adding one now gives you Text block and Button block instead of two fixed fields, so size, weight, case, colour alignment message button are all yours. Promo bars saved before this keep working unchanged.
+- **New: Custom badge look.** **Fill** now has **Custom** option with background, text border colour pickers, **Size** has **Custom size** option with own text size, vertical horizontal padding. Existing badges untouched.
+
 - **Fixed: horizontal padding on a group had no effect on a stacked group.** Turning on
   **Use separate vertical and horizontal padding** and setting a horizontal value did nothing
   when the group stacked its blocks in a column, and the vertical value did nothing when the

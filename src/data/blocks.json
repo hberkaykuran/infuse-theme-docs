@@ -3518,8 +3518,24 @@
                 "Ink",
                 "Outline",
                 "Soft accent",
-                "Neutral"
+                "Neutral",
+                "Custom"
               ]
+            },
+            {
+              "label": "Background color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Text color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Border color",
+              "desc": "Only paints with a border width above 0.",
+              "options": null
             },
             {
               "label": "Use a different color scheme",
@@ -3537,8 +3553,24 @@
               "options": [
                 "Small",
                 "Medium",
-                "Large"
+                "Large",
+                "Custom size"
               ]
+            },
+            {
+              "label": "Text size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
             },
             {
               "label": "Weight",
