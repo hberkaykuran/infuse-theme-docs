@@ -8,6 +8,17 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-26
+
+- **Fixed: horizontal padding on a group had no effect on a stacked group.** Turning on
+  **Use separate vertical and horizontal padding** and setting a horizontal value did nothing
+  when the group stacked its blocks in a column, and the vertical value did nothing when the
+  group laid them out in a row. Both values now apply whichever way the group is arranged.
+  Groups already using the plain **Padding** setting are unchanged.
+- **Clearer wording on that same checkbox.** Its note said the plain padding applies to all
+  four sides. That is only true on a Grid group or one with a background; everywhere else it
+  applies along the direction the group stacks. The note now says so.
+
 ## Unreleased — 2026-08-25c
 
 - **New: a separate hero image for phones on the Collection section.** The banner at the top

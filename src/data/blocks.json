@@ -803,7 +803,7 @@
             },
             {
               "label": "Use separate vertical and horizontal padding",
-              "desc": "Off, the padding above applies to all four sides.",
+              "desc": "Off, the padding above applies along the layout direction only — all four sides on Grid, or with a background.",
               "options": null
             },
             {
