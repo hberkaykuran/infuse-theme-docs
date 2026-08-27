@@ -2677,6 +2677,23 @@
               ]
             },
             {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Landscape",
+                "Square",
+                "Portrait"
+              ]
+            },
+            {
+              "label": "Fit",
+              "desc": "Choose one option.",
+              "options": [
+                "Contain",
+                "Cover"
+              ]
+            },
+            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null

@@ -1057,6 +1057,11 @@
               ]
             },
             {
+              "label": "Space before suffix",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Suffix size",
               "desc": "Choose one option.",
               "options": [
@@ -2051,6 +2056,37 @@
             {
               "label": "Dispatch day colour",
               "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Dispatch day weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
+              "label": "Countdown (an hour or more left)",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Countdown (under an hour)",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Countdown (clock format)",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "After the cutoff has passed",
+              "desc": "Text you type in.",
               "options": null
             },
             {

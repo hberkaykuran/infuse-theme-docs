@@ -8,6 +8,31 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-27
+
+- **New: space before the product title's suffix.** The pack size printed next to a product
+  name sat one plain space away from it, with no way to open that up. There is now a **Space
+  before suffix** slider on the Product title block. It starts at zero, so nothing moves until
+  you raise it, and the suffix still wraps onto the next line rather than being pushed off the
+  edge on a narrow card.
+- **New: write your own dispatch countdown.** The countdown line's wording came from the
+  theme's translations and could only be changed there. The Delivery estimate block now has a
+  **Wording** section with a field for each version of the line: an hour or more left, under an
+  hour, the clock format, and the one shown once the cutoff has passed. Write `[hours]`,
+  `[minutes]`, `[day]` or `[clock]` wherever the values belong in your sentence — they can go
+  anywhere, in any order, so the line reads naturally in your language. Leave a field empty and
+  you get the theme's own translated wording, exactly as before. Because these are ordinary
+  settings, you can translate what you write in Translate & Adapt like any other text.
+- **New: dispatch day weight.** The day the order ships ("tomorrow", "Thursday") already had
+  its own colour; it now takes its own weight too, so you can make just that word bold without
+  bolding the whole line.
+- **New: shape and fit for the shoppable image's product card.** The card that opens when a
+  shopper taps a dot on a Shoppable image was locked to a wide box with the photo fitted inside
+  it, showing the card background around the edges. The section now has a **Product card**
+  group with **Aspect ratio** (landscape, square or portrait) and **Fit** (contain or cover).
+  Pick Cover and the photo fills the whole box edge to edge. Existing sections keep the look
+  they have.
+
 ## Unreleased — 2026-08-26
 
 - **Fixed: Promo bar ignored its own Color scheme setting.** band always painted itself accent colour, so picking scheme on it changed nothing. now takes background text colour from scheme like every other section, theme ships new **Accent** scheme (accent plate, on-accent text) is what promo bar uses default. Want different campaign colour, make new colour scheme and pick it.
