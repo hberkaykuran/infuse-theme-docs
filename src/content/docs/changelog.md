@@ -8,6 +8,21 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-30
+
+- **New: a Divider block.** Divider had only ever been a whole section, so there was no way
+  to put a line between two blocks inside a Group — the only hairlines in the theme were the
+  ones baked into a spec table's rows. Divider is now a block you can drop anywhere blocks
+  go, with **Show line**, **Direction**, **Border width**, **Color** and **Space around**.
+  Turn the line off and it becomes plain spacing instead. Pick **Vertical** when you want a
+  line *between* two things sitting side by side, like "Free shipping | 30-day returns" —
+  a horizontal line always takes a row of its own.
+- **New: a border on the Group block.** Groups could take a background colour or image but
+  never an outline, so a bordered box had to be a product card or nothing. Group now has
+  **Border** (None or Solid) with its own width and colour, and switching it on gives the
+  group the same padded, rounded box a background does, so the line never sits flush against
+  the text. Groups you have already set up are untouched — the border starts at None.
+
 ## Unreleased — 2026-08-29
 
 - **New: timeline layout for the How-to steps on phones.** The steps used to stack one under

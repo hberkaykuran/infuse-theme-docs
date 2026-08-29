@@ -1,5 +1,5 @@
 {
-  "total": 76,
+  "total": 77,
   "groups": [
     {
       "id": "layout-and-text",
@@ -878,6 +878,24 @@
             {
               "label": "Show only the highest-priority badge",
               "desc": "Hides every badge in this group except the one with the lowest priority number.",
+              "options": null
+            },
+            {
+              "label": "Border",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Solid"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Border color",
+              "desc": "A colour picker.",
               "options": null
             },
             {
@@ -4110,6 +4128,51 @@
             {
               "label": "Horizontal padding",
               "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Divider",
+          "sysname": "divider",
+          "id": "divider",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Show line",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Direction",
+              "desc": "Horizontal takes a row of its own. Use Vertical to separate items sitting side by side.",
+              "options": [
+                "Horizontal",
+                "Vertical"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Space around",
+              "desc": "Clear space on both sides of the line. With the line off this is the whole gap.",
               "options": null
             }
           ]
