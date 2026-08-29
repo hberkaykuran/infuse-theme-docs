@@ -8,6 +8,25 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-30 (later)
+
+- **New: Promo mosaic section.** A grid of image tiles that each link wherever you point
+  them — a collection, a page, an external URL. It comes in three arrangements from the
+  Add section menu: **Promo mosaic** (one big tile with four squares), **rows** (image
+  above its caption, in pairs) and **collage** (edge to edge, captions over the photos).
+  Every tile is an ordinary Group block, so you can add, remove and rearrange them freely,
+  give any tile its own size with Column span and Row span, and put anything inside one.
+- **New: aspect ratio on the Group block.** Groups had no shape of their own, so a group
+  holding only a background image had no height and collapsed. **Aspect ratio** (Square,
+  Portrait, Landscape or Wide) fixes that, with its own phone setting. Groups you have
+  already set up are untouched — it starts at Adapt.
+- **New: Map section.** An address, opening hours and a directions button beside an
+  embedded map, with three arrangements: **beside the text**, **on the map** (the details
+  in a card floating over it) and **address only**. The map loads only when a shopper
+  scrolls near it, and setting **Map** to *None* removes it altogether — the address and
+  hours still show, and the page makes no third-party request at all. All the copy is
+  ordinary blocks, so wording, sizes and colours are yours.
+
 ## Unreleased — 2026-08-30
 
 - **New: a Divider block.** Divider had only ever been a whole section, so there was no way

@@ -881,6 +881,29 @@
               "options": null
             },
             {
+              "label": "Aspect ratio",
+              "desc": "Gives a tile of pure media a height. A background image alone has none.",
+              "options": [
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)"
+              ]
+            },
+            {
+              "label": "Aspect ratio on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)"
+              ]
+            },
+            {
               "label": "Border",
               "desc": "Choose one option.",
               "options": [
