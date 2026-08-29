@@ -2136,6 +2136,11 @@
               "options": null
             },
             {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Text size",
               "desc": "Choose one option.",
               "options": [
@@ -4276,7 +4281,25 @@
               ]
             }
           ],
-          "settings": []
+          "settings": [
+            {
+              "label": "Mobile layout",
+              "desc": "Timeline runs a rail down the middle of the phone layout and alternates each step's image from side to side.",
+              "options": [
+                "Stacked",
+                "Timeline"
+              ]
+            },
+            {
+              "label": "Timeline marker",
+              "desc": "Choose one option.",
+              "options": [
+                "Numbered",
+                "Dot",
+                "None"
+              ]
+            }
+          ]
         },
         {
           "name": "Link list",

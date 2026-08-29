@@ -8,6 +8,20 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-29
+
+- **New: timeline layout for the How-to steps on phones.** The steps used to stack one under
+  another on a phone. Select the **How-to row** in the section and you now get a **Mobile
+  layout** choice: keep **Stacked**, or pick **Timeline** to run a line down the middle of the
+  screen with each step's image alternating from side to side across it. A **Timeline marker**
+  setting puts a numbered circle, a small dot or nothing at all on the line beside each step.
+  Desktop keeps its three-across row either way, and sections you have already set up stay
+  Stacked until you change them.
+- **New: icon size on the Delivery estimate.** The little truck (or whatever glyph you picked)
+  was locked at 20 pixels. There is now an **Icon size** slider from 12 to 64 pixels next to
+  the icon picker, and it applies to an uploaded icon too. It starts at 20, so nothing changes
+  until you move it. The **Icon colour** picker beside it is unchanged.
+
 ## Unreleased — 2026-08-27
 
 - **New: space before the product title's suffix.** The pack size printed next to a product
