@@ -20,6 +20,10 @@ Notable changes to the Infuse theme, newest first.
   holding only a background image had no height and collapsed. **Aspect ratio** (Square,
   Portrait, Landscape or Wide) fixes that, with its own phone setting. Groups you have
   already set up are untouched — it starts at Adapt.
+- **New: a Wide shape for the Image block.** Image offered Square, Portrait and Landscape
+  but not Wide, even though the rest of the theme names that shape. Picking it gave you an
+  image with no set shape at all, which on a full-width row meant a very tall picture.
+  Wide (16:10) is now in the list, with the phone setting alongside it.
 - **New: Map section.** An address, opening hours and a directions button beside an
   embedded map, with three arrangements: **beside the text**, **on the map** (the details
   in a card floating over it) and **address only**. The map loads only when a shopper

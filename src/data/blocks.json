@@ -591,7 +591,8 @@
                 "Adapt to image",
                 "Square",
                 "Portrait",
-                "Landscape"
+                "Landscape",
+                "Wide (16:10)"
               ]
             },
             {
@@ -602,7 +603,8 @@
                 "Adapt to image",
                 "Square",
                 "Portrait",
-                "Landscape"
+                "Landscape",
+                "Wide (16:10)"
               ]
             },
             {
