@@ -8,6 +8,26 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-30 (later still)
+
+- **New: Decoration colour on every colour scheme.** Heading underlines, circles, sparkles
+  and brush strokes took their colour from the scheme's Accent — the same colour your
+  buttons fill from. So a green button forced a green underline in the same section, and a
+  shop running two brand colours had to give up a whole colour scheme to the second one.
+  Each scheme now has its own **Decoration** colour in the Accent group. Leave it empty and
+  it follows Accent exactly as before, so nothing moves until you set it.
+- **New: Decoration as an icon colour.** The Icon block's Color list now includes
+  **Decoration**, so reassurance icons can follow the underlines instead of the buttons
+  without you pasting a hex into each one.
+- **New: Keep children on one row.** A horizontal Group wraps, and a child holding a
+  sentence is wider than the row on its own — so an icon beside a paragraph always broke,
+  with the icon ending up above the text. The Group block now has **Keep children on one
+  row**; switch it on and children shrink to share the row instead. Off by default, so
+  groups that wrap on purpose keep wrapping.
+- **Changed: the How-to steps now ship with a picture.** Each step in the theme's sample
+  content carries an image placeholder, so the new Timeline layout shows what it does
+  straight away. Swap the placeholders for your own photos.
+
 ## Unreleased — 2026-08-30 (later)
 
 - **New: Promo mosaic section.** A grid of image tiles that each link wherever you point

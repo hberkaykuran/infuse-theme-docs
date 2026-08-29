@@ -546,6 +546,7 @@
               "options": [
                 "Accent (vivid)",
                 "Accent text",
+                "Decoration",
                 "Text",
                 "Muted text",
                 "Collection color",
@@ -880,6 +881,11 @@
             {
               "label": "Show only the highest-priority badge",
               "desc": "Hides every badge in this group except the one with the lowest priority number.",
+              "options": null
+            },
+            {
+              "label": "Keep children on one row",
+              "desc": "Off, a child holding a sentence drops to its own line. On, children shrink to share the row — an icon beside a paragraph.",
               "options": null
             },
             {
