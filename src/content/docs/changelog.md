@@ -8,7 +8,31 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
-## Unreleased — 2026-08-31 (latest)
+## Unreleased — 2026-09-01 (latest)
+
+- **New: Split and Full bleed layouts on a hero slide.** A slide in the Hero slideshow could
+  only ever be a banner — its own background image with the copy laid over it. It now has the
+  same **Layout** list the Hero section has: *Banner*, *Split (copy + image)* and *Split, full
+  bleed*. On the two split layouts the slide's background pickers step aside and you add an
+  **Image** block inside the slide instead, beside your copy; **Image width** sets the split.
+  Existing slides are untouched — Banner is the default and renders exactly as before.
+- **New: Custom height ratio on Hero, Hero slideshow and Promo slideshow.** Height gains a
+  **Custom ratio** option with a width and a height number (16 and 9 for widescreen, 3 and 1
+  for a wide strip, and so on), with its own pair for phones. The preset heights now spell out
+  the ratio they use in the note under the setting, including the phone ladder — *Small* is
+  32:9 on a laptop and 1:1 on a phone, which is why the same name can look so different.
+- **Fixed: dots can sit over the media on desktop.** With the arrows set to *Under the media*,
+  **Dots position** was hidden and the dots were forced into the arrow row. The two are
+  separate choices now: arrows under, dots over the image, in any combination.
+- **Fixed: a gap under the image on a stacked hero.** On a phone, a full-bleed or split hero
+  taller than its content split the leftover space between the copy and the picture — and
+  since the picture keeps its aspect ratio it could not use its share, so it left an empty
+  band beneath itself that no setting could close. The copy takes all of it now, which is what
+  a Group set to *Height: Fill* was promising.
+- **Fixed: the reversed step in a How-to timeline.** On phones, every second step (the one
+  with its picture on the right) dropped its text below the picture instead of beside it.
+
+## Unreleased — 2026-08-31
 
 - **New: Height on the Group block.** Group has always had a **Width** control (Fill or Fit content); it now has **Height** beside it, with the same two choices. Leave it on *Fit content* and nothing changes — the group is as tall as what's inside it. Set it to *Fill* and the group stretches to match whatever it sits beside: a copy panel in a split hero grows to the full height of the photograph next to it, so a background colour on that panel covers its half of the band instead of floating as a short card in the middle. Inside a vertical group it takes the leftover space instead, which is how you push one child to the bottom. Fill only shows itself when something around the group is taller — on its own, a group has no extra height to take.
 

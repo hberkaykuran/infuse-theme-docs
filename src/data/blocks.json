@@ -5599,6 +5599,20 @@
           "id": "hero-slide",
           "meta": [
             {
+              "label": "Styles",
+              "items": [
+                {
+                  "text": "banner"
+                },
+                {
+                  "text": "split"
+                },
+                {
+                  "text": "bleed"
+                }
+              ]
+            },
+            {
               "label": "Where it works",
               "items": [
                 {
@@ -5619,6 +5633,15 @@
           ],
           "settings": [
             {
+              "label": "Layout",
+              "desc": "Banner overlays the copy on this slide's own background image. Split and Full bleed put the copy beside an Image block you add inside the slide.",
+              "options": [
+                "Banner (media background)",
+                "Split (copy + image)",
+                "Split, full bleed"
+              ]
+            },
+            {
               "label": "Image",
               "desc": "An image you upload or pick from files.",
               "options": null
@@ -5627,6 +5650,19 @@
               "label": "Background image (mobile)",
               "desc": "Optional art-directed crop shown at ≤749px.",
               "options": null
+            },
+            {
+              "label": "Media width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Split image position (mobile)",
+              "desc": "Choose one option.",
+              "options": [
+                "Above copy",
+                "Below copy"
+              ]
             },
             {
               "label": "Load image eagerly",
