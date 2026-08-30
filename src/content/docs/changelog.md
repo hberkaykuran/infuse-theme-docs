@@ -8,6 +8,24 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-31 (later still)
+
+- **New: Frosted glass on the Group block.** Background now offers **Frosted glass** beside
+  None, Colour and Image. The panel takes on the section's colour and blurs whatever is
+  behind it, so a card of copy over a hero image reads without hiding the photograph. A
+  **Glass tint** slider controls how solid it is. Two things worth knowing: it only does
+  anything over an image or a video, since on a plain background it is simply a tinted box;
+  and the slider starts at 80% because below that text stops being readable over a busy
+  photo. Visitors who have asked their device to reduce transparency see a solid panel
+  instead, and so does anyone with transparency effects switched off in Windows or macOS.
+- **New: Split, full bleed — a hero layout.** The Hero section's Layout list gains a third
+  option. The image and the copy each take half the screen, edge to edge, with no page
+  margin and no gap between them. Put a Group in the copy half and give it a background
+  colour and you get the two-tone hero: photograph on one side, a solid block of colour with
+  your heading on the other. **Image width** sets the split, so 50/50 and 60/40 are the same
+  setting. Unlike the ordinary split, the image fills its half completely rather than keeping
+  its own shape — the section's Height setting decides the band, and the picture covers it.
+
 ## Unreleased — 2026-08-31 (later)
 
 - **New: Align copy on the How-to timeline.** The timeline puts each step's image beside

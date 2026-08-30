@@ -934,8 +934,14 @@
               "options": [
                 "None",
                 "Color",
+                "Frosted glass",
                 "Image"
               ]
+            },
+            {
+              "label": "Glass tint",
+              "desc": "How solid the frosted panel is. It only reads over an image or a video — on a plain background it is just a tinted box. The range starts at 80% so text stays readable whatever is behind it.",
+              "options": null
             },
             {
               "label": "Background color",
