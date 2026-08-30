@@ -10,12 +10,14 @@ Notable changes to the Infuse theme, newest first.
 
 ## Unreleased — 2026-09-01 (latest)
 
-- **New: Split and Full bleed layouts on a hero slide.** A slide in the Hero slideshow could
-  only ever be a banner — its own background image with the copy laid over it. It now has the
-  same **Layout** list the Hero section has: *Banner*, *Split (copy + image)* and *Split, full
-  bleed*. On the two split layouts the slide's background pickers step aside and you add an
-  **Image** block inside the slide instead, beside your copy; **Image width** sets the split.
-  Existing slides are untouched — Banner is the default and renders exactly as before.
+- **New: Split slide, a second kind of hero slide.** A slide in the Hero slideshow could only
+  ever be a banner — its own background image with the copy laid over it. **Add block** inside
+  the slideshow now offers **Split slide** as well: copy on one side, a picture on the other,
+  and it arrives with a Group of copy and an Image block already in it, ready to edit. Its
+  **Layout** setting chooses between *Split* (inside the page margin, with a gap) and *Split,
+  full bleed* (edge to edge, the two halves touching), and **Media width** sets how the row
+  divides. On a phone it stacks, with **Split image position** deciding whether the picture
+  goes above or below the copy. Ordinary slides are untouched.
 - **New: Custom height ratio on Hero, Hero slideshow and Promo slideshow.** Height gains a
   **Custom ratio** option with a width and a height number (16 and 9 for widescreen, 3 and 1
   for a wide strip, and so on), with its own pair for phones. The preset heights now spell out
