@@ -8,6 +8,10 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-31 (latest)
+
+- **New: Height on the Group block.** Group has always had a **Width** control (Fill or Fit content); it now has **Height** beside it, with the same two choices. Leave it on *Fit content* and nothing changes — the group is as tall as what's inside it. Set it to *Fill* and the group stretches to match whatever it sits beside: a copy panel in a split hero grows to the full height of the photograph next to it, so a background colour on that panel covers its half of the band instead of floating as a short card in the middle. Inside a vertical group it takes the leftover space instead, which is how you push one child to the bottom. Fill only shows itself when something around the group is taller — on its own, a group has no extra height to take.
+
 ## Unreleased — 2026-08-31 (later still)
 
 - **New: Frosted glass on the Group block.** Background now offers **Frosted glass** beside

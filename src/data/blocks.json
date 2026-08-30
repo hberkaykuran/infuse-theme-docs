@@ -827,6 +827,14 @@
               ]
             },
             {
+              "label": "Height",
+              "desc": "Fill only shows when something beside or around this group is taller.",
+              "options": [
+                "Fit content",
+                "Fill"
+              ]
+            },
+            {
               "label": "Max width",
               "desc": "0 = no limit.",
               "options": null
