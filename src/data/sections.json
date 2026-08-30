@@ -738,6 +738,17 @@
               "options": null
             },
             {
+              "label": "Height",
+              "desc": "Choose one option.",
+              "options": [
+                "Custom height (below)",
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
               "label": "Minimum height",
               "desc": "A slider.",
               "options": null
@@ -893,7 +904,8 @@
               "options": [
                 "Small",
                 "Medium",
-                "Large"
+                "Large",
+                "Full screen"
               ]
             },
             {
@@ -1500,10 +1512,9 @@
                 "Wavy line",
                 "Straight rule",
                 "Dotted rule",
-                "Double stroke",
                 "Brush stroke",
                 "Looping line",
-                "Sparkles",
+                "Brackets",
                 "Sticker",
                 "Highlight marker",
                 "Circled word"
@@ -4450,6 +4461,17 @@
               "options": null
             },
             {
+              "label": "Height",
+              "desc": "Choose one option.",
+              "options": [
+                "Theme default",
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
               "label": "Set the banner height",
               "desc": "Off, the banner sizes itself to the viewport (256–416px). Turn it on to pick an exact height, for example to match a banner you cut at a specific size.",
               "options": null
@@ -4938,7 +4960,7 @@
               "options": null
             },
             {
-              "label": "labels.border_radius",
+              "label": "Corner radius",
               "desc": "A slider.",
               "options": null
             },

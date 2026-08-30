@@ -132,10 +132,9 @@
                 "Wavy line",
                 "Straight rule",
                 "Dotted rule",
-                "Double stroke",
                 "Brush stroke",
                 "Looping line",
-                "Sparkles",
+                "Brackets",
                 "Sticker",
                 "Highlight marker",
                 "Circled word"
@@ -1448,6 +1447,11 @@
             {
               "label": "Max lines (0 = no clamp)",
               "desc": "Truncates after this many lines. Set 0 to show the full text.",
+              "options": null
+            },
+            {
+              "label": "Let shoppers expand it",
+              "desc": "Adds a \"Read more\" link under the trimmed text. It only appears when the description is long enough to be cut off.",
               "options": null
             },
             {
@@ -5821,7 +5825,18 @@
               ]
             }
           ],
-          "settings": []
+          "settings": [
+            {
+              "label": "Columns",
+              "desc": "Set to 0 to fit as many columns as the row has room for.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
+              "desc": "Set to 0 to fit as many columns as the row has room for.",
+              "options": null
+            }
+          ]
         },
         {
           "name": "Step",

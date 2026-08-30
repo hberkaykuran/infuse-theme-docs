@@ -8,6 +8,42 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-31
+
+- **Changed: hero height is now an aspect ratio.** Small, Medium and Large used to be
+  fixed heights, so the same photo was a letterboxed strip on a wide monitor and nearly
+  square on a laptop. They are ratios now — the band's height follows its own width, so
+  your image keeps one crop on every screen. Phones get their own ratio for the same size
+  name (a cinematic band would be a 110px sliver otherwise), and the phone heights land
+  within a few percent of what they were, so your existing pages barely move. Applies to
+  **Hero**, **Hero slideshow**, **Promo slideshow**, **Image banner** and the
+  **Collection** page banner.
+- **New: Full height on more banners.** Promo slideshow, Image banner and the Collection
+  banner can now be set to fill the screen, which only Hero and Hero slideshow could
+  before. As before, it stops at the fold rather than running under your announcement bar
+  and header.
+- **Kept: your own numbers.** Image banner still has its pixel height — it is the
+  **Custom height** option, which is what the setting is on until you pick a size. The
+  Collection banner likewise keeps **Theme default** and its own **Set the banner height**
+  checkbox.
+- **New: "Read more" on a trimmed product description.** The Product description block can
+  cut copy to a few lines, and there was no way to reach the rest of it. **Let shoppers
+  expand it** (on by default) adds a Read more link, and only when the description is
+  actually long enough to be cut off. No JavaScript — it uses the browser's own
+  disclosure, so it works with scripts blocked.
+- **New: Columns on the Stats row.** The row filled itself automatically and could not be
+  told how many columns to use. It now has **Columns** and **Columns on mobile** on the
+  Stats items block. Leave them at 0 to keep fitting as many as the row has room for.
+- **New: Brackets heading decoration.** A pair of drawn brackets around the whole heading.
+- **Removed: Sparkles and Double stroke.** The stars read as novelty next to the rest of
+  the set, and the double stroke was drawn as two wavy lines rather than two rules. A
+  heading set to either falls back to no decoration; pick another style.
+- **Changed: Circle, Looping line and Wavy line redrawn.** The circle was cutting through
+  the first letter of the word it rings and is wider now. The looping line sloped more the
+  longer the heading got, until it fell away from a long title; the slope is fixed at any
+  width, the start is thinner, and it sits a little further below the text. The wavy line
+  is gentler and closer to the words.
+
 ## Unreleased — 2026-08-30 (later still)
 
 - **New: Decoration colour on every colour scheme.** Heading underlines, circles, sparkles
