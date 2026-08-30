@@ -669,6 +669,17 @@
               ]
             },
             {
+              "label": "Height (mobile)",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -741,6 +752,18 @@
               "label": "Height",
               "desc": "Choose one option.",
               "options": [
+                "Custom height (below)",
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
+              "label": "Height (mobile)",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
                 "Custom height (below)",
                 "Small",
                 "Medium",
@@ -902,6 +925,17 @@
               "label": "Height",
               "desc": "Choose one option.",
               "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
+              "label": "Height (mobile)",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
                 "Small",
                 "Medium",
                 "Large",
@@ -4465,6 +4499,17 @@
               "desc": "Choose one option.",
               "options": [
                 "Theme default",
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen"
+              ]
+            },
+            {
+              "label": "Height (mobile)",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
                 "Small",
                 "Medium",
                 "Large",

@@ -8,6 +8,21 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
+## Unreleased — 2026-08-31 (later)
+
+- **New: Align copy on the How-to timeline.** The timeline puts each step's image beside
+  its copy, and the copy always sat at the top of a taller image. **Align copy**
+  (Top / Centre / Bottom) is on the How-to steps block. It needs the step's copy to sit
+  inside one **Group** block — several loose blocks have no single box to line up, so they
+  stay at the top. New How-to sections and the sample About page already ship that way; on
+  an older section, drag the step's text blocks into a Group.
+- **New: Image width on the timeline.** How much of the row the image takes, from 25% to
+  75%. The rail and the step markers follow it.
+- **New: Height (mobile) on every banner.** Hero slideshow, Promo slideshow, Image banner
+  and the Collection banner had a single height control shared by both screen sizes. Each
+  now has its own mobile setting, matching Hero. Left on **Same as desktop** it keeps the
+  phone shape it already had.
+
 ## Unreleased — 2026-08-31
 
 - **Changed: hero height is now an aspect ratio.** Small, Medium and Large used to be

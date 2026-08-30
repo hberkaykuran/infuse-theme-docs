@@ -4389,6 +4389,20 @@
               ]
             },
             {
+              "label": "Image width",
+              "desc": "How much of the row the image takes on the timeline. The rail and the markers follow it.",
+              "options": null
+            },
+            {
+              "label": "Align copy",
+              "desc": "Lines the copy up against the image. It needs the step’s copy to sit inside one Group block — several loose blocks stay at the top, because they have no single box to line up.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            },
+            {
               "label": "Timeline marker",
               "desc": "Choose one option.",
               "options": [
