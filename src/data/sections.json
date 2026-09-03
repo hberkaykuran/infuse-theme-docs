@@ -220,6 +220,21 @@
           ],
           "settings": [
             {
+              "label": "Menu",
+              "desc": "Pick a navigation menu.",
+              "options": null
+            },
+            {
+              "label": "Show search icon",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Search shortcuts",
+              "desc": "Collections offered in the search dialog before typing. Leave empty to use your first collections automatically.",
+              "options": null
+            },
+            {
               "label": "Logo image",
               "desc": "An image you upload or pick from files.",
               "options": null
@@ -275,21 +290,6 @@
             {
               "label": "Icon size on mobile",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Menu",
-              "desc": "Pick a navigation menu.",
-              "options": null
-            },
-            {
-              "label": "Show search icon",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Search shortcuts",
-              "desc": "Collections offered in the search dialog before typing. Leave empty to use your first collections automatically.",
               "options": null
             },
             {
@@ -1579,12 +1579,7 @@
               "label": "Add inside",
               "items": [
                 {
-                  "text": "column",
-                  "code": true
-                },
-                {
-                  "text": "row",
-                  "code": true
+                  "text": "any content block"
                 }
               ]
             },
@@ -1599,62 +1594,6 @@
           ],
           "settings": [
             {
-              "label": "Heading",
-              "desc": "Type [br] where you want the line to break.",
-              "options": null
-            },
-            {
-              "label": "Show decoration",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Decoration style",
-              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. For Circled word and Highlight marker, italicize the word or phrase to mark in the heading text; without italics the last word is marked.",
-              "options": [
-                "Use theme default",
-                "Wavy line",
-                "Straight rule",
-                "Dotted rule",
-                "Brush stroke",
-                "Looping line",
-                "Brackets",
-                "Sticker",
-                "Highlight marker",
-                "Circled word"
-              ]
-            },
-            {
-              "label": "Italic / marked word colour",
-              "desc": "Colours italic text in the heading. With the Highlight or Circled word decoration, that is the word you italicised to mark.",
-              "options": [
-                "Same as heading",
-                "Text",
-                "Muted text",
-                "Accent text",
-                "Background (for dark surfaces)",
-                "On accent (for accent fills)"
-              ]
-            },
-            {
-              "label": "Size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
-              "options": null
-            },
-            {
               "label": "Section width",
               "desc": "Choose one option.",
               "options": [
@@ -1667,6 +1606,19 @@
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
+            },
+            {
+              "label": "Highlight column",
+              "desc": "Applies a highlighted background to one column, matched by position across the header and every row.",
+              "options": [
+                "None",
+                "1st",
+                "2nd",
+                "3rd",
+                "4th",
+                "5th",
+                "6th"
+              ]
             },
             {
               "label": "Cell padding",
@@ -1741,13 +1693,8 @@
               "options": null
             },
             {
-              "label": "\"View all\" link URL",
-              "desc": "Optional. Defaults to the chosen collection. The link hides when this and the collection are both empty.",
-              "options": null
-            },
-            {
-              "label": "Show \"view all\" link",
-              "desc": "An on / off switch.",
+              "label": "Products to show",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -1756,8 +1703,13 @@
               "options": null
             },
             {
-              "label": "Products to show",
-              "desc": "A slider.",
+              "label": "Show \"view all\" link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "\"View all\" link URL",
+              "desc": "Optional. Defaults to the chosen collection. The link hides when this and the collection are both empty.",
               "options": null
             },
             {
@@ -3733,6 +3685,51 @@
               ]
             },
             {
+              "label": "Height",
+              "desc": "Small 32:9 · Medium 21:9 · Large 16:9 · Full screen. On phones the same names use their own ratios: 1:1 · 3:4 · 9:16.",
+              "options": [
+                "Adapt to image",
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen",
+                "Custom ratio"
+              ]
+            },
+            {
+              "label": "Height (mobile)",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Adapt to image",
+                "Small",
+                "Medium",
+                "Large",
+                "Full screen",
+                "Custom ratio"
+              ]
+            },
+            {
+              "label": "Custom ratio: width",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Custom ratio: height",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Custom ratio: width (mobile)",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Custom ratio: height (mobile)",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",
               "options": null
@@ -4566,13 +4563,14 @@
             },
             {
               "label": "Height",
-              "desc": "Choose one option.",
+              "desc": "Small 32:9 · Medium 21:9 · Large 16:9 · Full screen. On phones the same names use their own ratios: 1:1 · 3:4 · 9:16.",
               "options": [
                 "Theme default",
                 "Small",
                 "Medium",
                 "Large",
-                "Full screen"
+                "Full screen",
+                "Custom ratio"
               ]
             },
             {
@@ -4583,8 +4581,29 @@
                 "Small",
                 "Medium",
                 "Large",
-                "Full screen"
+                "Full screen",
+                "Custom ratio"
               ]
+            },
+            {
+              "label": "Custom ratio: width",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Custom ratio: height",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Custom ratio: width (mobile)",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Custom ratio: height (mobile)",
+              "desc": "A setting.",
+              "options": null
             },
             {
               "label": "Set the banner height",
@@ -4824,6 +4843,17 @@
               ]
             },
             {
+              "label": "Gallery / details ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "40 / 60",
+                "45 / 55",
+                "50 / 50",
+                "55 / 45",
+                "60 / 40"
+              ]
+            },
+            {
               "label": "Phone gallery",
               "desc": "Compact swaps the thumbnail rail for the carousel arrows and dots, and drops the label from the zoom button. Position and size are on the Carousel navigation block.",
               "options": [
@@ -4837,17 +4867,6 @@
               "options": null
             },
             {
-              "label": "Gallery / details ratio",
-              "desc": "Choose one option.",
-              "options": [
-                "40 / 60",
-                "45 / 55",
-                "50 / 50",
-                "55 / 45",
-                "60 / 40"
-              ]
-            },
-            {
               "label": "Aspect ratio",
               "desc": "Choose one option.",
               "options": [
@@ -4855,11 +4874,6 @@
                 "Portrait",
                 "Adapt to image"
               ]
-            },
-            {
-              "label": "Sticky gallery",
-              "desc": "Holds the media in place while the details column scrolls. Desktop only. Leave off when the gallery is taller than the viewport, since it can never fully rest.",
-              "options": null
             },
             {
               "label": "Image fit",
@@ -4895,13 +4909,8 @@
               "options": null
             },
             {
-              "label": "Breadcrumb top padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Breadcrumb bottom padding",
-              "desc": "A slider.",
+              "label": "Sticky gallery",
+              "desc": "Holds the media in place while the details column scrolls. Desktop only. Leave off when the gallery is taller than the viewport, since it can never fully rest.",
               "options": null
             },
             {
@@ -4997,6 +5006,16 @@
               "options": null
             },
             {
+              "label": "Breadcrumb top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Breadcrumb bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Use different spacing on mobile",
               "desc": "Phone-only top, bottom and breadcrumb spacing. Off means phones use the desktop values.",
               "options": null
@@ -5039,8 +5058,13 @@
           ],
           "settings": [
             {
-              "label": "Max width",
-              "desc": "A slider.",
+              "label": "Show “View full details” link",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Link text",
+              "desc": "Text you type in.",
               "options": null
             },
             {
@@ -5052,22 +5076,17 @@
               ]
             },
             {
+              "label": "Max width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "On mobile",
               "desc": "Choose one option.",
               "options": [
                 "Bottom sheet",
                 "Centred"
               ]
-            },
-            {
-              "label": "Show “View full details” link",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Link text",
-              "desc": "Text you type in.",
-              "options": null
             },
             {
               "label": "Color scheme",

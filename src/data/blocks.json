@@ -1,5 +1,5 @@
 {
-  "total": 78,
+  "total": 86,
   "groups": [
     {
       "id": "layout-and-text",
@@ -15,14 +15,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "article-card"
-                },
-                {
-                  "text": "_collection-card",
-                  "page": "blocks",
-                  "anchor": "collection-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -71,6 +66,24 @@
               ]
             },
             {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Color",
               "desc": "Follows the color scheme. Edit the palette under Theme settings > Colors.",
               "options": [
@@ -107,19 +120,6 @@
               "options": null
             },
             {
-              "label": "Letter spacing",
-              "desc": "Choose one option.",
-              "options": [
-                "Normal",
-                "Wide"
-              ]
-            },
-            {
-              "label": "Uppercase",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
               "label": "Show decoration",
               "desc": "An on / off switch.",
               "options": null
@@ -139,11 +139,6 @@
                 "Highlight marker",
                 "Circled word"
               ]
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
-              "options": null
             },
             {
               "label": "Vertical padding",
@@ -166,19 +161,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "article-card"
-                },
-                {
-                  "text": "_collection-card",
-                  "page": "blocks",
-                  "anchor": "collection-card"
-                },
-                {
-                  "text": "_product-card",
-                  "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -203,17 +188,6 @@
               ]
             },
             {
-              "label": "Weight",
-              "desc": "Choose one option.",
-              "options": [
-                "Inherit",
-                "Regular",
-                "Medium",
-                "Semibold",
-                "Bold"
-              ]
-            },
-            {
               "label": "Size",
               "desc": "Choose one option.",
               "options": [
@@ -225,6 +199,35 @@
                 "2X large",
                 "Display"
               ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
             },
             {
               "label": "Color",
@@ -242,24 +245,6 @@
             {
               "label": "Custom color",
               "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Letter spacing",
-              "desc": "Choose one option.",
-              "options": [
-                "Normal",
-                "Wide"
-              ]
-            },
-            {
-              "label": "Uppercase",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -283,9 +268,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -324,6 +309,11 @@
               ]
             },
             {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Letter spacing",
               "desc": "Choose one option.",
               "options": [
@@ -346,11 +336,6 @@
             {
               "label": "Custom color",
               "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -391,14 +376,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "article-card"
-                },
-                {
-                  "text": "_collection-card",
-                  "page": "blocks",
-                  "anchor": "collection-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -426,6 +406,11 @@
               "options": null
             },
             {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Style",
               "desc": "Choose one option.",
               "options": [
@@ -436,13 +421,13 @@
               ]
             },
             {
-              "label": "Open in new tab",
+              "label": "Use a different color scheme",
               "desc": "An on / off switch.",
               "options": null
             },
             {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             },
             {
@@ -456,13 +441,8 @@
               "options": null
             },
             {
-              "label": "Use a different color scheme",
+              "label": "Open in new tab",
               "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
               "options": null
             }
           ]
@@ -475,6 +455,16 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "_card-content",
+                  "page": "blocks",
+                  "anchor": "card-content"
+                },
+                {
+                  "text": "_card-media",
+                  "page": "blocks",
+                  "anchor": "card-media"
+                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -573,6 +563,11 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "_card-media",
+                  "page": "blocks",
+                  "anchor": "card-media"
+                },
+                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -592,20 +587,19 @@
                 "Square",
                 "Portrait",
                 "Landscape",
-                "Wide (16:10)"
+                "Wide (16:10)",
+                "Custom ratio"
               ]
             },
             {
-              "label": "Aspect ratio on mobile",
-              "desc": "Choose one option.",
-              "options": [
-                "Same as desktop",
-                "Adapt to image",
-                "Square",
-                "Portrait",
-                "Landscape",
-                "Wide (16:10)"
-              ]
+              "label": "Custom ratio: width",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Custom ratio: height",
+              "desc": "A setting.",
+              "options": null
             },
             {
               "label": "Fit",
@@ -618,6 +612,29 @@
             {
               "label": "Corner radius",
               "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)",
+                "Custom ratio"
+              ]
+            },
+            {
+              "label": "Custom ratio: width (mobile)",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Custom ratio: height (mobile)",
+              "desc": "A setting.",
               "options": null
             },
             {
@@ -641,372 +658,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Group",
-          "sysname": "group",
-          "id": "group",
-          "meta": [
-            {
-              "label": "Where it works",
-              "items": [
-                {
-                  "text": "_article-card",
-                  "page": "blocks",
-                  "anchor": "article-card"
-                },
-                {
-                  "text": "_collection-card",
-                  "page": "blocks",
-                  "anchor": "collection-card"
-                },
-                {
-                  "text": "_multicolumn",
-                  "page": "blocks",
-                  "anchor": "multicolumn"
-                },
-                {
-                  "text": "_product-card",
-                  "page": "blocks",
-                  "anchor": "product-card"
-                },
-                {
-                  "text": "_stats-row",
-                  "page": "blocks",
-                  "anchor": "stats-row"
-                },
-                {
-                  "text": "most sections that accept content"
-                }
-              ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "any content block"
-                },
-                {
-                  "text": "_spec-row",
-                  "page": "blocks",
-                  "anchor": "spec-row"
-                },
-                {
-                  "text": "_trust-item",
-                  "page": "blocks",
-                  "anchor": "trust-item"
-                }
-              ]
-            }
-          ],
-          "settings": [
-            {
-              "label": "Link",
-              "desc": "A link to a page, product, or collection.",
-              "options": null
-            },
-            {
-              "label": "Make the whole card a link",
-              "desc": "Adds an invisible overlay so the whole card is clickable. Needs a nested heading or text block to carry the link text.",
-              "options": null
-            },
-            {
-              "label": "Layout direction",
-              "desc": "Choose one option.",
-              "options": [
-                "Horizontal",
-                "Vertical",
-                "Grid"
-              ]
-            },
-            {
-              "label": "Columns",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Columns on mobile",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Mobile layout",
-              "desc": "Choose one option.",
-              "options": [
-                "Same as desktop",
-                "Row",
-                "Column"
-              ]
-            },
-            {
-              "label": "Alignment",
-              "desc": "Choose one option.",
-              "options": [
-                "Left",
-                "Center",
-                "Right",
-                "Stretch"
-              ]
-            },
-            {
-              "label": "Distribution",
-              "desc": "Choose one option.",
-              "options": [
-                "Start",
-                "Center",
-                "End",
-                "Space between"
-              ]
-            },
-            {
-              "label": "Distribution",
-              "desc": "Distributes free vertical space, so it only has an effect when the group is taller than its contents — stretched inside a grid or given a minimum height.",
-              "options": [
-                "Start",
-                "Center",
-                "End",
-                "Space between"
-              ]
-            },
-            {
-              "label": "Vertical alignment",
-              "desc": "Choose one option.",
-              "options": [
-                "Top",
-                "Center",
-                "Bottom",
-                "Stretch"
-              ]
-            },
-            {
-              "label": "Gap",
-              "desc": "In a grid this is the gap between columns. Row gap sets the space between rows.",
-              "options": null
-            },
-            {
-              "label": "Row gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Use a different gap on mobile",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Mobile gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Use separate vertical and horizontal padding",
-              "desc": "Off, the padding above applies along the layout direction only — all four sides on Grid, or with a background.",
-              "options": null
-            },
-            {
-              "label": "Vertical padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Horizontal padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Width",
-              "desc": "Choose one option.",
-              "options": [
-                "Fill",
-                "Fit content"
-              ]
-            },
-            {
-              "label": "Height",
-              "desc": "Fill only shows when something beside or around this group is taller.",
-              "options": [
-                "Fit content",
-                "Fill"
-              ]
-            },
-            {
-              "label": "Max width",
-              "desc": "0 = no limit.",
-              "options": null
-            },
-            {
-              "label": "Minimum height",
-              "desc": "0 = fits content. Distribute settings need spare height to do anything.",
-              "options": null
-            },
-            {
-              "label": "Column span",
-              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
-              "options": null
-            },
-            {
-              "label": "Row span",
-              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
-              "options": null
-            },
-            {
-              "label": "Display",
-              "desc": "Overlay lifts this group out of the layout and pins it over the block behind it, such as a product image. Its blocks still stack by direction and gap.",
-              "options": [
-                "In the layout",
-                "Overlay"
-              ]
-            },
-            {
-              "label": "Vertical position",
-              "desc": "Choose one option.",
-              "options": [
-                "Top",
-                "Center",
-                "Bottom"
-              ]
-            },
-            {
-              "label": "Horizontal position",
-              "desc": "Choose one option.",
-              "options": [
-                "Left",
-                "Center",
-                "Right"
-              ]
-            },
-            {
-              "label": "Edge offset",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Show only the highest-priority badge",
-              "desc": "Hides every badge in this group except the one with the lowest priority number.",
-              "options": null
-            },
-            {
-              "label": "Keep children on one row",
-              "desc": "Off, a child holding a sentence drops to its own line. On, children shrink to share the row — an icon beside a paragraph.",
-              "options": null
-            },
-            {
-              "label": "Aspect ratio",
-              "desc": "Gives a tile of pure media a height. A background image alone has none.",
-              "options": [
-                "Adapt to image",
-                "Square",
-                "Portrait",
-                "Landscape",
-                "Wide (16:10)"
-              ]
-            },
-            {
-              "label": "Aspect ratio on mobile",
-              "desc": "Choose one option.",
-              "options": [
-                "Same as desktop",
-                "Adapt to image",
-                "Square",
-                "Portrait",
-                "Landscape",
-                "Wide (16:10)"
-              ]
-            },
-            {
-              "label": "Border",
-              "desc": "Choose one option.",
-              "options": [
-                "None",
-                "Solid"
-              ]
-            },
-            {
-              "label": "Border width",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Border color",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Background",
-              "desc": "Turns this group into a card. Every layout setting above still applies.",
-              "options": [
-                "None",
-                "Color",
-                "Frosted glass",
-                "Image"
-              ]
-            },
-            {
-              "label": "Glass tint",
-              "desc": "How solid the frosted panel is. It only reads over an image or a video — on a plain background it is just a tinted box. The range starts at 80% so text stays readable whatever is behind it.",
-              "options": null
-            },
-            {
-              "label": "Background color",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Background image",
-              "desc": "An image you upload or pick from files.",
-              "options": null
-            },
-            {
-              "label": "Image position",
-              "desc": "Choose one option.",
-              "options": [
-                "Center",
-                "Top",
-                "Bottom",
-                "Left",
-                "Right"
-              ]
-            },
-            {
-              "label": "Overlay",
-              "desc": "Darkens the image so text on top stays readable.",
-              "options": null
-            },
-            {
-              "label": "Corner radius",
-              "desc": "Turn this all the way up for a pill.",
-              "options": null
-            },
-            {
-              "label": "Sizes attribute",
-              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
-              "options": null
-            },
-            {
-              "label": "Hover effect",
-              "desc": "Choose one option.",
-              "options": [
-                "None",
-                "Zoom in",
-                "Lift"
-              ]
-            },
-            {
-              "label": "Use a different color scheme",
-              "desc": "Repaints everything inside this group. Leave off to follow the section.",
-              "options": null
-            },
-            {
-              "label": "Color scheme",
-              "desc": "Colors the text and buttons sitting on the image.",
-              "options": null
-            }
-          ]
         }
       ]
     },
@@ -1024,9 +675,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -1037,60 +688,6 @@
           "settings": [
             {
               "label": "Link to product page",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Weight",
-              "desc": "Choose one option.",
-              "options": [
-                "Inherit",
-                "Regular",
-                "Medium",
-                "Semibold",
-                "Bold"
-              ]
-            },
-            {
-              "label": "Color",
-              "desc": "Choose one option.",
-              "options": [
-                "Text",
-                "Muted text",
-                "Accent text",
-                "Background (for dark surfaces)",
-                "Collection color",
-                "Custom"
-              ]
-            },
-            {
-              "label": "Custom color",
-              "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Letter spacing",
-              "desc": "Choose one option.",
-              "options": [
-                "Normal",
-                "Wide"
-              ]
-            },
-            {
-              "label": "Uppercase",
               "desc": "An on / off switch.",
               "options": null
             },
@@ -1154,8 +751,62 @@
               "options": null
             },
             {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Alignment",
               "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "Collection color",
+                "Custom"
+              ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
               "options": null
             },
             {
@@ -1179,9 +830,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-media",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-media"
                 },
                 {
                   "text": "most sections that accept content"
@@ -1209,6 +860,14 @@
               ]
             },
             {
+              "label": "Size",
+              "desc": "Editorial gives the image more room to breathe — use it in spotlight or editorial layouts, not dense grids.",
+              "options": [
+                "Standard",
+                "Editorial (larger)"
+              ]
+            },
+            {
               "label": "Use the theme's radius",
               "desc": "An on / off switch.",
               "options": null
@@ -1221,19 +880,6 @@
             {
               "label": "Padding",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Size",
-              "desc": "Editorial gives the image more room to breathe — use it in spotlight or editorial layouts, not dense grids.",
-              "options": [
-                "Standard",
-                "Editorial (larger)"
-              ]
-            },
-            {
-              "label": "Sizes attribute",
-              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
               "options": null
             },
             {
@@ -1254,6 +900,11 @@
                 "None",
                 "Swipe through the images"
               ]
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
             }
           ]
         },
@@ -1397,9 +1048,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -1419,6 +1070,16 @@
             {
               "label": "Metafield (namespace.key)",
               "desc": "Used when source is Product metafield, e.g. custom.subtitle.",
+              "options": null
+            },
+            {
+              "label": "Max lines (0 = no clamp)",
+              "desc": "Truncates after this many lines. Set 0 to show the full text.",
+              "options": null
+            },
+            {
+              "label": "Let shoppers expand it",
+              "desc": "Adds a \"Read more\" link under the trimmed text. It only appears when the description is long enough to be cut off.",
               "options": null
             },
             {
@@ -1443,6 +1104,15 @@
               ]
             },
             {
+              "label": "Alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -1457,25 +1127,6 @@
               "label": "Custom color",
               "desc": "A colour picker.",
               "options": null
-            },
-            {
-              "label": "Max lines (0 = no clamp)",
-              "desc": "Truncates after this many lines. Set 0 to show the full text.",
-              "options": null
-            },
-            {
-              "label": "Let shoppers expand it",
-              "desc": "Adds a \"Read more\" link under the trimmed text. It only appears when the description is long enough to be cut off.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Choose one option.",
-              "options": [
-                "Left",
-                "Center",
-                "Right"
-              ]
             }
           ]
         },
@@ -1513,21 +1164,6 @@
               "options": null
             },
             {
-              "label": "Title size",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large"
-              ]
-            },
-            {
-              "label": "Icon size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Icon",
               "desc": "Choose one option.",
               "options": [
@@ -1541,23 +1177,7 @@
               ]
             },
             {
-              "label": "Text size",
-              "desc": "Choose one option.",
-              "options": [
-                "Same as page",
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large"
-              ]
-            },
-            {
-              "label": "Top padding",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Bottom padding",
+              "label": "Icon size",
               "desc": "A slider.",
               "options": null
             },
@@ -1601,6 +1221,37 @@
               "label": "Open by default",
               "desc": "An on / off switch.",
               "options": null
+            },
+            {
+              "label": "Title size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Text size",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as page",
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         },
@@ -1613,9 +1264,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -1624,57 +1275,6 @@
             }
           ],
           "settings": [
-            {
-              "label": "Size",
-              "desc": "Choose one option.",
-              "options": [
-                "Eyebrow (XS)",
-                "Small",
-                "Medium",
-                "Large",
-                "Extra large",
-                "2X large",
-                "Display"
-              ]
-            },
-            {
-              "label": "Weight",
-              "desc": "Choose one option.",
-              "options": [
-                "Inherit",
-                "Regular",
-                "Medium",
-                "Semibold",
-                "Bold"
-              ]
-            },
-            {
-              "label": "Compare-at layout",
-              "desc": "Choose one option.",
-              "options": [
-                "Stacked (above price)",
-                "Stacked (below price)",
-                "Inline (before price)",
-                "Inline (after price)"
-              ]
-            },
-            {
-              "label": "Color",
-              "desc": "Choose one option.",
-              "options": [
-                "Text",
-                "Muted text",
-                "Accent text",
-                "Background (for dark surfaces)",
-                "On accent (for accent fills)",
-                "Custom"
-              ]
-            },
-            {
-              "label": "Custom color",
-              "desc": "A colour picker.",
-              "options": null
-            },
             {
               "label": "Show savings amount",
               "desc": "An on / off switch.",
@@ -1705,6 +1305,57 @@
             {
               "label": "Keep the savings row when not on sale",
               "desc": "Holds the row open on full-price products so a mixed row of sale and full-price cards keeps one baseline. Turn it off only where every product is on sale.",
+              "options": null
+            },
+            {
+              "label": "Compare-at layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Stacked (above price)",
+                "Stacked (below price)",
+                "Inline (before price)",
+                "Inline (after price)"
+              ]
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Eyebrow (XS)",
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large",
+                "2X large",
+                "Display"
+              ]
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            },
+            {
+              "label": "Color",
+              "desc": "Choose one option.",
+              "options": [
+                "Text",
+                "Muted text",
+                "Accent text",
+                "Background (for dark surfaces)",
+                "On accent (for accent fills)",
+                "Custom"
+              ]
+            },
+            {
+              "label": "Custom color",
+              "desc": "A colour picker.",
               "options": null
             },
             {
@@ -1742,9 +1393,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -1753,6 +1404,11 @@
             }
           ],
           "settings": [
+            {
+              "label": "Show dynamic checkout button",
+              "desc": "Shows the customer's one-click checkout buttons (Shop Pay, PayPal…).",
+              "options": null
+            },
             {
               "label": "Button emphasis",
               "desc": "Tinted and outlined give up the accent fill while keeping the full hit area. Use one of them on product grids: a filled accent on every card stops reading as an accent, and where cards also carry a sale badge only one element should take the fill.",
@@ -1800,11 +1456,6 @@
                 "No spoon",
                 "Mesh brew"
               ]
-            },
-            {
-              "label": "Show dynamic checkout button",
-              "desc": "Shows the customer's one-click checkout buttons (Shop Pay, PayPal…).",
-              "options": null
             },
             {
               "label": "Vertical padding",
@@ -1981,6 +1632,11 @@
               ]
             },
             {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -1995,11 +1651,6 @@
             {
               "label": "Custom color",
               "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -2267,6 +1918,21 @@
               "options": null
             },
             {
+              "label": "Dialog heading",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Content page",
+              "desc": "Pick a page.",
+              "options": null
+            },
+            {
+              "label": "Fallback content",
+              "desc": "Shown when no page is selected above.",
+              "options": null
+            },
+            {
               "label": "Trigger style",
               "desc": "Choose one option.",
               "options": [
@@ -2282,21 +1948,6 @@
                 "Medium",
                 "Large"
               ]
-            },
-            {
-              "label": "Dialog heading",
-              "desc": "Text you type in.",
-              "options": null
-            },
-            {
-              "label": "Content page",
-              "desc": "Pick a page.",
-              "options": null
-            },
-            {
-              "label": "Fallback content",
-              "desc": "Shown when no page is selected above.",
-              "options": null
             },
             {
               "label": "Alignment",
@@ -2398,11 +2049,6 @@
               "options": null
             },
             {
-              "label": "Grid spacing",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Corner radius",
               "desc": "Choose one option.",
               "options": [
@@ -2410,6 +2056,11 @@
                 "Medium",
                 "Round"
               ]
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
             }
           ]
         }
@@ -2543,6 +2194,40 @@
               "options": null
             },
             {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Adapt to image",
+                "Square",
+                "Landscape",
+                "Portrait"
+              ]
+            },
+            {
+              "label": "Width",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Full"
+              ]
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Starting position",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Label position",
               "desc": "Choose one option.",
               "options": [
@@ -2619,40 +2304,6 @@
             {
               "label": "Distance from the edge",
               "desc": "How far each label sits from the top or bottom and the side of the image.",
-              "options": null
-            },
-            {
-              "label": "Aspect ratio",
-              "desc": "Choose one option.",
-              "options": [
-                "Adapt to image",
-                "Square",
-                "Landscape",
-                "Portrait"
-              ]
-            },
-            {
-              "label": "Width",
-              "desc": "Choose one option.",
-              "options": [
-                "Small",
-                "Medium",
-                "Full"
-              ]
-            },
-            {
-              "label": "Starting position",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Corner radius",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Sizes attribute",
-              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
               "options": null
             }
           ]
@@ -2935,69 +2586,9 @@
                   "text": "Only addable inside its parent block."
                 }
               ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "article-excerpt",
-                  "page": "blocks",
-                  "anchor": "article-excerpt"
-                },
-                {
-                  "text": "article-image",
-                  "page": "blocks",
-                  "anchor": "article-image"
-                },
-                {
-                  "text": "article-meta",
-                  "page": "blocks",
-                  "anchor": "article-meta"
-                },
-                {
-                  "text": "article-tag",
-                  "page": "blocks",
-                  "anchor": "article-tag"
-                },
-                {
-                  "text": "article-title",
-                  "page": "blocks",
-                  "anchor": "article-title"
-                },
-                {
-                  "text": "badge",
-                  "page": "blocks",
-                  "anchor": "badge"
-                },
-                {
-                  "text": "button",
-                  "page": "blocks",
-                  "anchor": "button"
-                },
-                {
-                  "text": "group",
-                  "page": "blocks",
-                  "anchor": "group"
-                },
-                {
-                  "text": "heading",
-                  "page": "blocks",
-                  "anchor": "heading"
-                },
-                {
-                  "text": "text",
-                  "page": "blocks",
-                  "anchor": "text"
-                }
-              ]
             }
           ],
           "settings": [
-            {
-              "label": "Vertical gap",
-              "desc": "A slider.",
-              "options": null
-            },
             {
               "label": "Background",
               "desc": "A colour picker.",
@@ -3005,11 +2596,6 @@
             },
             {
               "label": "Corner radius",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Padding",
               "desc": "A slider.",
               "options": null
             },
@@ -3032,6 +2618,16 @@
               "options": null
             },
             {
+              "label": "Vertical gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Hover effect",
               "desc": "Choose one option.",
               "options": [
@@ -3051,9 +2647,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "article-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -3062,6 +2658,16 @@
             }
           ],
           "settings": [
+            {
+              "label": "Max characters",
+              "desc": "0 keeps the theme default of roughly 24 words.",
+              "options": null
+            },
+            {
+              "label": "Limit to lines",
+              "desc": "A slider.",
+              "options": null
+            },
             {
               "label": "Size",
               "desc": "Choose one option.",
@@ -3104,16 +2710,6 @@
               "options": null
             },
             {
-              "label": "Limit to lines",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Max characters",
-              "desc": "0 keeps the theme default of roughly 24 words.",
-              "options": null
-            },
-            {
               "label": "Vertical padding",
               "desc": "A slider.",
               "options": null
@@ -3134,9 +2730,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-media",
                   "page": "blocks",
-                  "anchor": "article-card"
+                  "anchor": "card-media"
                 },
                 {
                   "text": "most sections that accept content"
@@ -3195,9 +2791,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "article-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -3282,9 +2878,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-media",
                   "page": "blocks",
-                  "anchor": "article-card"
+                  "anchor": "card-media"
                 },
                 {
                   "text": "most sections that accept content"
@@ -3366,9 +2962,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "article-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -3434,17 +3030,17 @@
               "options": null
             },
             {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
               "label": "Letter spacing",
               "desc": "Choose one option.",
               "options": [
                 "Normal",
                 "Wide"
               ]
-            },
-            {
-              "label": "Uppercase",
-              "desc": "An on / off switch.",
-              "options": null
             },
             {
               "label": "Alignment",
@@ -3482,9 +3078,14 @@
                   "anchor": "trust-strip"
                 },
                 {
-                  "text": "group",
+                  "text": "grid",
                   "page": "blocks",
-                  "anchor": "group"
+                  "anchor": "grid"
+                },
+                {
+                  "text": "stack",
+                  "page": "blocks",
+                  "anchor": "stack"
                 }
               ]
             },
@@ -3566,19 +3167,14 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_article-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "article-card"
+                  "anchor": "card-content"
                 },
                 {
-                  "text": "_collection-card",
+                  "text": "_card-media",
                   "page": "blocks",
-                  "anchor": "collection-card"
-                },
-                {
-                  "text": "_product-card",
-                  "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-media"
                 },
                 {
                   "text": "most sections that accept content"
@@ -3790,6 +3386,255 @@
           ]
         },
         {
+          "name": "Card content",
+          "sysname": "_card-content",
+          "id": "card-content",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "article-excerpt",
+                  "page": "blocks",
+                  "anchor": "article-excerpt"
+                },
+                {
+                  "text": "article-meta",
+                  "page": "blocks",
+                  "anchor": "article-meta"
+                },
+                {
+                  "text": "article-title",
+                  "page": "blocks",
+                  "anchor": "article-title"
+                },
+                {
+                  "text": "badge",
+                  "page": "blocks",
+                  "anchor": "badge"
+                },
+                {
+                  "text": "button",
+                  "page": "blocks",
+                  "anchor": "button"
+                },
+                {
+                  "text": "buy-buttons",
+                  "page": "blocks",
+                  "anchor": "buy-buttons"
+                },
+                {
+                  "text": "collection-title",
+                  "page": "blocks",
+                  "anchor": "collection-title"
+                },
+                {
+                  "text": "divider",
+                  "page": "blocks",
+                  "anchor": "divider"
+                },
+                {
+                  "text": "grid",
+                  "page": "blocks",
+                  "anchor": "grid"
+                },
+                {
+                  "text": "heading",
+                  "page": "blocks",
+                  "anchor": "heading"
+                },
+                {
+                  "text": "icon",
+                  "page": "blocks",
+                  "anchor": "icon"
+                },
+                {
+                  "text": "label",
+                  "page": "blocks",
+                  "anchor": "label"
+                },
+                {
+                  "text": "price",
+                  "page": "blocks",
+                  "anchor": "price"
+                },
+                {
+                  "text": "product-description",
+                  "page": "blocks",
+                  "anchor": "product-description"
+                },
+                {
+                  "text": "product-sku",
+                  "page": "blocks",
+                  "anchor": "product-sku"
+                },
+                {
+                  "text": "product-specs",
+                  "page": "blocks",
+                  "anchor": "product-specs"
+                },
+                {
+                  "text": "product-stock",
+                  "page": "blocks",
+                  "anchor": "product-stock"
+                },
+                {
+                  "text": "product-title",
+                  "page": "blocks",
+                  "anchor": "product-title"
+                },
+                {
+                  "text": "product-vendor",
+                  "page": "blocks",
+                  "anchor": "product-vendor"
+                },
+                {
+                  "text": "rating",
+                  "page": "blocks",
+                  "anchor": "rating"
+                },
+                {
+                  "text": "stack",
+                  "page": "blocks",
+                  "anchor": "stack"
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as page",
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Card media",
+          "sysname": "_card-media",
+          "id": "card-media",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "article-image",
+                  "page": "blocks",
+                  "anchor": "article-image"
+                },
+                {
+                  "text": "article-tag",
+                  "page": "blocks",
+                  "anchor": "article-tag"
+                },
+                {
+                  "text": "badge",
+                  "page": "blocks",
+                  "anchor": "badge"
+                },
+                {
+                  "text": "collection-image",
+                  "page": "blocks",
+                  "anchor": "collection-image"
+                },
+                {
+                  "text": "grid",
+                  "page": "blocks",
+                  "anchor": "grid"
+                },
+                {
+                  "text": "icon",
+                  "page": "blocks",
+                  "anchor": "icon"
+                },
+                {
+                  "text": "image",
+                  "page": "blocks",
+                  "anchor": "image"
+                },
+                {
+                  "text": "product-image",
+                  "page": "blocks",
+                  "anchor": "product-image"
+                },
+                {
+                  "text": "stack",
+                  "page": "blocks",
+                  "anchor": "stack"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Aspect ratio",
+              "desc": "Leave on \"Same as page\" to let the image inside decide the height.",
+              "options": [
+                "Same as desktop",
+                "Square",
+                "Portrait",
+                "Landscape"
+              ]
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Carousel navigation",
           "sysname": "_carousel-nav",
           "id": "carousel-nav",
@@ -3892,46 +3737,6 @@
                   "text": "Only addable inside its parent block."
                 }
               ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "badge",
-                  "page": "blocks",
-                  "anchor": "badge"
-                },
-                {
-                  "text": "button",
-                  "page": "blocks",
-                  "anchor": "button"
-                },
-                {
-                  "text": "collection-image",
-                  "page": "blocks",
-                  "anchor": "collection-image"
-                },
-                {
-                  "text": "collection-title",
-                  "page": "blocks",
-                  "anchor": "collection-title"
-                },
-                {
-                  "text": "group",
-                  "page": "blocks",
-                  "anchor": "group"
-                },
-                {
-                  "text": "heading",
-                  "page": "blocks",
-                  "anchor": "heading"
-                },
-                {
-                  "text": "text",
-                  "page": "blocks",
-                  "anchor": "text"
-                }
-              ]
             }
           ],
           "settings": [
@@ -3953,22 +3758,12 @@
               ]
             },
             {
-              "label": "Gap",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Background",
               "desc": "A colour picker.",
               "options": null
             },
             {
               "label": "Corner radius",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Padding",
               "desc": "A slider.",
               "options": null
             },
@@ -3991,6 +3786,16 @@
               "options": null
             },
             {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
               "label": "Hover effect",
               "desc": "Choose one option.",
               "options": [
@@ -4010,9 +3815,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_collection-card",
+                  "text": "_card-media",
                   "page": "blocks",
-                  "anchor": "collection-card"
+                  "anchor": "card-media"
                 },
                 {
                   "text": "most sections that accept content"
@@ -4077,9 +3882,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_collection-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "collection-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -4102,6 +3907,11 @@
                 "H4",
                 "Paragraph"
               ]
+            },
+            {
+              "label": "Show product count",
+              "desc": "An on / off switch.",
+              "options": null
             },
             {
               "label": "Size",
@@ -4165,11 +3975,6 @@
               "options": null
             },
             {
-              "label": "Show product count",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
               "label": "Vertical padding",
               "desc": "A slider.",
               "options": null
@@ -4182,6 +3987,167 @@
           ]
         },
         {
+          "name": "Comparison column",
+          "sysname": "_comparison-column",
+          "id": "comparison-column",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_comparison-columns",
+                  "page": "blocks",
+                  "anchor": "comparison-columns"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Column label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Logo",
+              "desc": "Optional. Replaces the label in the header, shown at a small height.",
+              "options": null
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Comparison columns",
+          "sysname": "_comparison-columns",
+          "id": "comparison-columns",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_comparison-column",
+                  "page": "blocks",
+                  "anchor": "comparison-column"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
+          "name": "Comparison row",
+          "sysname": "_comparison-row",
+          "id": "comparison-row",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_comparison-rows",
+                  "page": "blocks",
+                  "anchor": "comparison-rows"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_comparison-value",
+                  "page": "blocks",
+                  "anchor": "comparison-value"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Feature",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Weight",
+              "desc": "Choose one option.",
+              "options": [
+                "Inherit",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Comparison rows",
+          "sysname": "_comparison-rows",
+          "id": "comparison-rows",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_comparison-row",
+                  "page": "blocks",
+                  "anchor": "comparison-row"
+                }
+              ]
+            }
+          ],
+          "settings": []
+        },
+        {
+          "name": "Comparison value",
+          "sysname": "_comparison-value",
+          "id": "comparison-value",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_comparison-row",
+                  "page": "blocks",
+                  "anchor": "comparison-row"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Value",
+              "desc": "Enter a spec value such as 18 V. Type yes or no to show a check or cross icon instead.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Divider",
           "sysname": "divider",
           "id": "divider",
@@ -4189,6 +4155,11 @@
             {
               "label": "Where it works",
               "items": [
+                {
+                  "text": "_card-content",
+                  "page": "blocks",
+                  "anchor": "card-content"
+                },
                 {
                   "text": "most sections that accept content"
                 }
@@ -4308,6 +4279,350 @@
             }
           ],
           "settings": []
+        },
+        {
+          "name": "Grid",
+          "sysname": "grid",
+          "id": "grid",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_card-content",
+                  "page": "blocks",
+                  "anchor": "card-content"
+                },
+                {
+                  "text": "_card-media",
+                  "page": "blocks",
+                  "anchor": "card-media"
+                },
+                {
+                  "text": "_multicolumn",
+                  "page": "blocks",
+                  "anchor": "multicolumn"
+                },
+                {
+                  "text": "_stats-row",
+                  "page": "blocks",
+                  "anchor": "stats-row"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                },
+                {
+                  "text": "_spec-row",
+                  "page": "blocks",
+                  "anchor": "spec-row"
+                },
+                {
+                  "text": "_trust-item",
+                  "page": "blocks",
+                  "anchor": "trust-item"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Make the whole card a link",
+              "desc": "Adds an invisible overlay so the whole card is clickable. Needs a nested heading or text block to carry the link text.",
+              "options": null
+            },
+            {
+              "label": "Columns",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Columns on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "label": "Alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Start",
+                "Center",
+                "End",
+                "Stretch"
+              ]
+            },
+            {
+              "label": "Distribution",
+              "desc": "Choose one option.",
+              "options": [
+                "Start",
+                "Center",
+                "End",
+                "Space between"
+              ]
+            },
+            {
+              "label": "Width",
+              "desc": "Choose one option.",
+              "options": [
+                "Fill",
+                "Fit content"
+              ]
+            },
+            {
+              "label": "Height",
+              "desc": "Fill only shows when something beside or around this group is taller.",
+              "options": [
+                "Fit content",
+                "Fill"
+              ]
+            },
+            {
+              "label": "Set size limits",
+              "desc": "Reveals a maximum width and a minimum height for this box.",
+              "options": null
+            },
+            {
+              "label": "Max width",
+              "desc": "0 = no limit.",
+              "options": null
+            },
+            {
+              "label": "Minimum height",
+              "desc": "0 = fits content. Distribute settings need spare height to do anything.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Gives a tile of pure media a height. A background image alone has none.",
+              "options": [
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)"
+              ]
+            },
+            {
+              "label": "Aspect ratio on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)"
+              ]
+            },
+            {
+              "label": "Column span",
+              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "options": null
+            },
+            {
+              "label": "Row span",
+              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "options": null
+            },
+            {
+              "label": "Display",
+              "desc": "Overlay lifts this group out of the layout and pins it over the block behind it, such as a product image. Its blocks still stack by direction and gap.",
+              "options": [
+                "In the layout",
+                "Overlay"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Edge offset",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show only the highest-priority badge",
+              "desc": "Hides every badge in this group except the one with the lowest priority number.",
+              "options": null
+            },
+            {
+              "label": "Border",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Solid"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Border color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Background",
+              "desc": "Turns this group into a card. Every layout setting above still applies.",
+              "options": [
+                "None",
+                "Color",
+                "Frosted glass",
+                "Image"
+              ]
+            },
+            {
+              "label": "Glass tint",
+              "desc": "How solid the frosted panel is. It only reads over an image or a video, and blurs whatever is behind it. Below about 60% text may stop clearing AA over busy photography, so check it against your own image. Visitors whose system asks for reduced transparency see a solid panel instead, whatever this is set to.",
+              "options": null
+            },
+            {
+              "label": "Background color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Background image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Image position",
+              "desc": "Choose one option.",
+              "options": [
+                "Center",
+                "Top",
+                "Bottom",
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Overlay",
+              "desc": "Darkens the image so text on top stays readable.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "Turn this all the way up for a pill.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            },
+            {
+              "label": "Hover effect",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Zoom in",
+                "Lift"
+              ]
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "Repaints everything inside this group. Leave off to follow the section.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Colors the text and buttons sitting on the image.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "In a grid this is the gap between columns. Row gap sets the space between rows.",
+              "options": null
+            },
+            {
+              "label": "Row gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Customize for mobile",
+              "desc": "Reveals separate padding, gap and position values for phones.",
+              "options": null
+            },
+            {
+              "label": "Mobile gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Mobile vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Mobile horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Mobile horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Mobile vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            }
+          ]
         },
         {
           "name": "Hero slideshow track",
@@ -4478,6 +4793,11 @@
               ]
             },
             {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Color",
               "desc": "Follows the color scheme. Edit the palette under Theme settings > Colors.",
               "options": [
@@ -4491,11 +4811,6 @@
             {
               "label": "Custom color",
               "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -4625,9 +4940,14 @@
               "label": "Nest inside it",
               "items": [
                 {
-                  "text": "group",
+                  "text": "grid",
                   "page": "blocks",
-                  "anchor": "group"
+                  "anchor": "grid"
+                },
+                {
+                  "text": "stack",
+                  "page": "blocks",
+                  "anchor": "stack"
                 }
               ]
             }
@@ -4758,84 +5078,9 @@
                   "text": "Only addable inside its parent block."
                 }
               ]
-            },
-            {
-              "label": "Nest inside it",
-              "items": [
-                {
-                  "text": "badge",
-                  "page": "blocks",
-                  "anchor": "badge"
-                },
-                {
-                  "text": "buy-buttons",
-                  "page": "blocks",
-                  "anchor": "buy-buttons"
-                },
-                {
-                  "text": "group",
-                  "page": "blocks",
-                  "anchor": "group"
-                },
-                {
-                  "text": "label",
-                  "page": "blocks",
-                  "anchor": "label"
-                },
-                {
-                  "text": "price",
-                  "page": "blocks",
-                  "anchor": "price"
-                },
-                {
-                  "text": "product-description",
-                  "page": "blocks",
-                  "anchor": "product-description"
-                },
-                {
-                  "text": "product-image",
-                  "page": "blocks",
-                  "anchor": "product-image"
-                },
-                {
-                  "text": "product-sku",
-                  "page": "blocks",
-                  "anchor": "product-sku"
-                },
-                {
-                  "text": "product-specs",
-                  "page": "blocks",
-                  "anchor": "product-specs"
-                },
-                {
-                  "text": "product-stock",
-                  "page": "blocks",
-                  "anchor": "product-stock"
-                },
-                {
-                  "text": "product-title",
-                  "page": "blocks",
-                  "anchor": "product-title"
-                },
-                {
-                  "text": "product-vendor",
-                  "page": "blocks",
-                  "anchor": "product-vendor"
-                },
-                {
-                  "text": "text",
-                  "page": "blocks",
-                  "anchor": "text"
-                }
-              ]
             }
           ],
           "settings": [
-            {
-              "label": "Vertical gap",
-              "desc": "A slider.",
-              "options": null
-            },
             {
               "label": "Background",
               "desc": "A colour picker.",
@@ -4843,11 +5088,6 @@
             },
             {
               "label": "Corner radius",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Padding",
               "desc": "A slider.",
               "options": null
             },
@@ -4867,6 +5107,16 @@
             {
               "label": "Color",
               "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Vertical gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Padding",
+              "desc": "A slider.",
               "options": null
             },
             {
@@ -4995,9 +5245,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -5033,6 +5283,11 @@
               ]
             },
             {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -5048,11 +5303,6 @@
             {
               "label": "Custom color",
               "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -5076,9 +5326,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 }
               ]
             }
@@ -5123,9 +5373,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -5156,6 +5406,24 @@
               ]
             },
             {
+              "label": "Letter spacing",
+              "desc": "Choose one option.",
+              "options": [
+                "Normal",
+                "Wide"
+              ]
+            },
+            {
+              "label": "Uppercase",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -5171,24 +5439,6 @@
             {
               "label": "Custom color",
               "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Uppercase",
-              "desc": "An on / off switch.",
-              "options": null
-            },
-            {
-              "label": "Letter spacing",
-              "desc": "Choose one option.",
-              "options": [
-                "Normal",
-                "Wide"
-              ]
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -5397,6 +5647,11 @@
               "label": "Where it works",
               "items": [
                 {
+                  "text": "_card-content",
+                  "page": "blocks",
+                  "anchor": "card-content"
+                },
+                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -5416,6 +5671,16 @@
               ]
             },
             {
+              "label": "Star size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Star color",
               "desc": "Choose one option.",
               "options": [
@@ -5432,18 +5697,8 @@
               "options": null
             },
             {
-              "label": "Star size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Star spacing",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -5533,6 +5788,11 @@
               "options": null
             },
             {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            },
+            {
               "label": "Aspect ratio",
               "desc": "Used in the single layout. In a lookbook grid the grid controls the cell height.",
               "options": [
@@ -5549,11 +5809,6 @@
                 "Normal",
                 "Tall"
               ]
-            },
-            {
-              "label": "Sizes attribute",
-              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
-              "options": null
             },
             {
               "label": "Corner radius",
@@ -5714,6 +5969,16 @@
               "options": null
             },
             {
+              "label": "Icon size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Icon style",
               "desc": "Choose one option.",
               "options": [
@@ -5723,18 +5988,8 @@
               ]
             },
             {
-              "label": "Icon size",
-              "desc": "A slider.",
-              "options": null
-            },
-            {
               "label": "Gap",
               "desc": "A slider.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -5763,9 +6018,14 @@
                   "anchor": "spec-rows"
                 },
                 {
-                  "text": "group",
+                  "text": "grid",
                   "page": "blocks",
-                  "anchor": "group"
+                  "anchor": "grid"
+                },
+                {
+                  "text": "stack",
+                  "page": "blocks",
+                  "anchor": "stack"
                 }
               ]
             }
@@ -5899,6 +6159,354 @@
           ]
         },
         {
+          "name": "Stack",
+          "sysname": "stack",
+          "id": "stack",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_card-content",
+                  "page": "blocks",
+                  "anchor": "card-content"
+                },
+                {
+                  "text": "_card-media",
+                  "page": "blocks",
+                  "anchor": "card-media"
+                },
+                {
+                  "text": "_multicolumn",
+                  "page": "blocks",
+                  "anchor": "multicolumn"
+                },
+                {
+                  "text": "_stats-row",
+                  "page": "blocks",
+                  "anchor": "stats-row"
+                },
+                {
+                  "text": "most sections that accept content"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "any content block"
+                },
+                {
+                  "text": "_spec-row",
+                  "page": "blocks",
+                  "anchor": "spec-row"
+                },
+                {
+                  "text": "_trust-item",
+                  "page": "blocks",
+                  "anchor": "trust-item"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
+              "options": null
+            },
+            {
+              "label": "Make the whole card a link",
+              "desc": "Adds an invisible overlay so the whole card is clickable. Needs a nested heading or text block to carry the link text.",
+              "options": null
+            },
+            {
+              "label": "Direction",
+              "desc": "Choose one option.",
+              "options": [
+                "Horizontal",
+                "Vertical"
+              ]
+            },
+            {
+              "label": "Mobile layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Row",
+                "Column"
+              ]
+            },
+            {
+              "label": "Keep children on one row",
+              "desc": "Off, a child holding a sentence drops to its own line. On, children shrink to share the row — an icon beside a paragraph.",
+              "options": null
+            },
+            {
+              "label": "Alignment",
+              "desc": "Choose one option.",
+              "options": [
+                "Start",
+                "Center",
+                "End",
+                "Stretch"
+              ]
+            },
+            {
+              "label": "Distribution",
+              "desc": "Choose one option.",
+              "options": [
+                "Start",
+                "Center",
+                "End",
+                "Space between"
+              ]
+            },
+            {
+              "label": "Width",
+              "desc": "Choose one option.",
+              "options": [
+                "Fill",
+                "Fit content"
+              ]
+            },
+            {
+              "label": "Height",
+              "desc": "Fill only shows when something beside or around this group is taller.",
+              "options": [
+                "Fit content",
+                "Fill"
+              ]
+            },
+            {
+              "label": "Set size limits",
+              "desc": "Reveals a maximum width and a minimum height for this box.",
+              "options": null
+            },
+            {
+              "label": "Max width",
+              "desc": "0 = no limit.",
+              "options": null
+            },
+            {
+              "label": "Minimum height",
+              "desc": "0 = fits content. Distribute settings need spare height to do anything.",
+              "options": null
+            },
+            {
+              "label": "Aspect ratio",
+              "desc": "Gives a tile of pure media a height. A background image alone has none.",
+              "options": [
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)"
+              ]
+            },
+            {
+              "label": "Aspect ratio on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Adapt to image",
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)"
+              ]
+            },
+            {
+              "label": "Column span",
+              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "options": null
+            },
+            {
+              "label": "Row span",
+              "desc": "Applies only when this group sits directly inside a group set to Grid. Spans drop back to one cell on mobile.",
+              "options": null
+            },
+            {
+              "label": "Display",
+              "desc": "Overlay lifts this group out of the layout and pins it over the block behind it, such as a product image. Its blocks still stack by direction and gap.",
+              "options": [
+                "In the layout",
+                "Overlay"
+              ]
+            },
+            {
+              "label": "Vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Edge offset",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show only the highest-priority badge",
+              "desc": "Hides every badge in this group except the one with the lowest priority number.",
+              "options": null
+            },
+            {
+              "label": "Border",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Solid"
+              ]
+            },
+            {
+              "label": "Border width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Border color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Background",
+              "desc": "Turns this group into a card. Every layout setting above still applies.",
+              "options": [
+                "None",
+                "Color",
+                "Frosted glass",
+                "Image"
+              ]
+            },
+            {
+              "label": "Glass tint",
+              "desc": "How solid the frosted panel is. It only reads over an image or a video, and blurs whatever is behind it. Below about 60% text may stop clearing AA over busy photography, so check it against your own image. Visitors whose system asks for reduced transparency see a solid panel instead, whatever this is set to.",
+              "options": null
+            },
+            {
+              "label": "Background color",
+              "desc": "A colour picker.",
+              "options": null
+            },
+            {
+              "label": "Background image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Image position",
+              "desc": "Choose one option.",
+              "options": [
+                "Center",
+                "Top",
+                "Bottom",
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Overlay",
+              "desc": "Darkens the image so text on top stays readable.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "Turn this all the way up for a pill.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            },
+            {
+              "label": "Hover effect",
+              "desc": "Choose one option.",
+              "options": [
+                "None",
+                "Zoom in",
+                "Lift"
+              ]
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "Repaints everything inside this group. Leave off to follow the section.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Colors the text and buttons sitting on the image.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Customize for mobile",
+              "desc": "Reveals separate padding, gap and position values for phones.",
+              "options": null
+            },
+            {
+              "label": "Mobile gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Mobile vertical padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Mobile horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Mobile horizontal position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Center",
+                "Right"
+              ]
+            },
+            {
+              "label": "Mobile vertical position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            }
+          ]
+        },
+        {
           "name": "Stats row",
           "sysname": "_stats-row",
           "id": "stats-row",
@@ -5915,9 +6523,14 @@
               "label": "Nest inside it",
               "items": [
                 {
-                  "text": "group",
+                  "text": "grid",
                   "page": "blocks",
-                  "anchor": "group"
+                  "anchor": "grid"
+                },
+                {
+                  "text": "stack",
+                  "page": "blocks",
+                  "anchor": "stack"
                 }
               ]
             }
@@ -5991,9 +6604,9 @@
               "label": "Where it works",
               "items": [
                 {
-                  "text": "_product-card",
+                  "text": "_card-content",
                   "page": "blocks",
-                  "anchor": "product-card"
+                  "anchor": "card-content"
                 },
                 {
                   "text": "most sections that accept content"
@@ -6034,6 +6647,11 @@
               ]
             },
             {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "In stock color",
               "desc": "A colour picker.",
               "options": null
@@ -6046,11 +6664,6 @@
             {
               "label": "Sold out color",
               "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {
@@ -6174,6 +6787,11 @@
               ]
             },
             {
+              "label": "Alignment",
+              "desc": "Left, center, or right alignment.",
+              "options": null
+            },
+            {
               "label": "Color",
               "desc": "Choose one option.",
               "options": [
@@ -6189,11 +6807,6 @@
             {
               "label": "Custom color",
               "desc": "A colour picker.",
-              "options": null
-            },
-            {
-              "label": "Alignment",
-              "desc": "Left, center, or right alignment.",
               "options": null
             },
             {

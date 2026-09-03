@@ -8,7 +8,26 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
-## Unreleased — 2026-09-01 (latest)
+## Unreleased — 2026-09-03 (latest)
+
+- **Changed: every block and section setting now sits under a named heading.** Forty-three of
+  them used to open with a flat run of controls — a Heading block put fifteen in a row with
+  nothing marking where typography ended and spacing began. They are grouped now, in the same
+  order everywhere: content first, then layout, size, typography, colour, spacing, mobile and
+  advanced last. Nothing moved that you had already set; this only changes where a control sits
+  in the sidebar.
+- **Changed: forty-two controls now hide themselves when they cannot do anything.** A star
+  rating’s size, colour, spacing and alignment no longer show until you have actually set a
+  score. The social block’s styling controls appear once you fill in a profile URL. In the
+  header, the seven logo sizing controls stay out of the way until a logo is uploaded, and the
+  frosted-glass and product-page options appear only when the header is set to stick. The
+  before/after block hides its custom label settings unless you have chosen a custom size.
+- **Fixed: a duplicated “Show product count” checkbox** on the Collection title block, which
+  appeared twice in the sidebar.
+- **Fixed: several settings in the header that were meant to hide and never did.** One of the
+  logo sizing rules was written incorrectly and had never taken effect.
+
+## Unreleased — 2026-09-01
 
 - **New: Split slide, a second kind of hero slide.** A slide in the Hero slideshow could only
   ever be a banner — its own background image with the copy laid over it. **Add block** inside
