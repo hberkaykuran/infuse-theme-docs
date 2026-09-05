@@ -8,7 +8,36 @@ path: /docs/changelog
 
 Notable changes to the Infuse theme, newest first.
 
-## Unreleased — 2026-09-03 (latest)
+## Unreleased — 2026-09-05 (latest)
+
+- **New: Expanding carousel.** A strip of image cards where the selected one opens in place to
+  show its copy and the product it sells, while the rest stay collapsed to a titled photo. One
+  card is open at a time, the strip loops, and every card is its own block with its own picture,
+  label, badge, product and colour scheme. On a phone it becomes a plain swipe carousel with
+  every card open, because expanding is a mouse idiom and a collapsed card costs a tap.
+- **New: Scroll story.** A media stage that stays put while the visitor scrolls past it, its
+  artwork changing step by step and the copy advancing with it. The stage is a stack of layers,
+  each with keyframes at the steps where it changes, so a liquid can fill, a stick can drop in
+  and stir, and everything reverses cleanly if the visitor scrolls back up. Nothing is trapped:
+  the page scrolls normally throughout.
+- **New: Scroll story now has three layouts.** *Centred* is what it has always been. *Split*
+  puts the step copy beside the stage, with the title and progress bar across the top of both.
+  *Full bleed* lets the stage fill the band and floats the copy over it in a frosted card, with
+  **Copy position** placing that card at the top, middle or bottom. **Stage side** flips the
+  split. Both new layouts apply on wider screens only — a phone always gets the centred column,
+  which is the layout that has room for it.
+- **New: Fit on a scroll story layer.** *Contain* (the default) keeps the whole picture inside
+  the stage, which is what a silhouette or a masked layer needs. *Cover* crops it to fill the
+  stage, for the photographic case the full-bleed layout exists for.
+- **New: Dim inactive cards and Edge fade on the Expanding carousel.** The cards you have not
+  selected can take a wash, so the open one carries the eye; the card under your pointer clears
+  as you hover it. The edge fade softens the cards cut off at each end of the strip instead of
+  slicing them. Both apply on wider screens only.
+- **Fixed: the Expanding carousel animated itself open on every page load.** The first card grew
+  open and the strip slid to centre it, about a second of movement before the page had settled.
+  It now arrives already open, and animates only when you actually change cards.
+
+## Unreleased — 2026-09-03
 
 - **Changed: every block and section setting now sits under a named heading.** Forty-three of
   them used to open with a flat run of controls — a Heading block put fifteen in a row with

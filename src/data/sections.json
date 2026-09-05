@@ -1,10 +1,40 @@
 {
-  "addableCount": 48,
+  "addableCount": 52,
   "groups": [
     {
       "id": "header",
       "label": "Header and announcement bar",
       "cards": [
+        {
+          "name": "404 page",
+          "sysname": "404",
+          "id": "404",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "404 page"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
         {
           "name": "Announcement bar",
           "sysname": "announcement-bar",
@@ -14,8 +44,9 @@
               "label": "Add inside",
               "items": [
                 {
-                  "text": "message",
-                  "code": true
+                  "text": "_announcement",
+                  "page": "blocks",
+                  "anchor": "announcement"
                 }
               ]
             },
@@ -414,6 +445,36 @@
             {
               "label": "Bottom padding (mobile)",
               "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "sysname": "password",
+          "id": "password",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Password"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
               "options": null
             }
           ]
@@ -2545,6 +2606,130 @@
           ]
         },
         {
+          "name": "Expanding carousel",
+          "sysname": "expanding-carousel",
+          "id": "expanding-carousel",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Expanding carousel"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Card width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Open card width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Image width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Height",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Dim inactive cards",
+              "desc": "Desktop only. The card under the pointer clears while you hover it.",
+              "options": null
+            },
+            {
+              "label": "Edge fade",
+              "desc": "Desktop only. Softens the cards cut off at each end of the strip.",
+              "options": null
+            },
+            {
+              "label": "Card width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Fit card to its content",
+              "desc": "The card grows to fit the copy instead of clipping it. The image keeps the height the two settings below give it.",
+              "options": null
+            },
+            {
+              "label": "Height",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Image height",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Label size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large",
+                "Extra large"
+              ]
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Grid spacing",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Logo bar",
           "sysname": "logo-bar",
           "id": "logo-bar",
@@ -2682,6 +2867,173 @@
             },
             {
               "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Scroll story",
+          "sysname": "scroll-story",
+          "id": "scroll-story",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "centred"
+                },
+                {
+                  "text": "split"
+                },
+                {
+                  "text": "bleed"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Scroll story"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Layout",
+              "desc": "Split and full bleed only take effect on wider screens; a phone always gets the centred column.",
+              "options": [
+                "Centred",
+                "Split (copy beside the stage)",
+                "Full bleed (copy over the stage)"
+              ]
+            },
+            {
+              "label": "Stage side",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Copy position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top",
+                "Center",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Scroll distance per step",
+              "desc": "How much the visitor has to scroll to advance one step.",
+              "options": null
+            },
+            {
+              "label": "Step count",
+              "desc": "Animation steps in the story. 0 derives it from the keys and the copy tiles; set it higher to leave steps with motion but no copy.",
+              "options": null
+            },
+            {
+              "label": "Content width",
+              "desc": "Width of the pinned column: the stage, the title and the step copy.",
+              "options": null
+            },
+            {
+              "label": "Stage height",
+              "desc": "Share of the screen height the media may use. Automatically reduced if the band would not fit.",
+              "options": null
+            },
+            {
+              "label": "Extra top offset",
+              "desc": "Added to the header height so the pinned band clears a sticky header or announcement bar.",
+              "options": null
+            },
+            {
+              "label": "Show \"next step\" button",
+              "desc": "A button in the corner of the band that scrolls to the next step.",
+              "options": null
+            },
+            {
+              "label": "Button size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Position",
+              "desc": "Choose one option.",
+              "options": [
+                "Bottom right",
+                "Bottom left",
+                "Bottom centre",
+                "Top right"
+              ]
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Show progress bar",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Style",
+              "desc": "Choose one option.",
+              "options": [
+                "Segments",
+                "Line"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Custom transition speed",
+              "desc": "Off uses the theme motion setting. A scroll story often wants slower motion than the rest of the UI.",
+              "options": null
+            },
+            {
+              "label": "Transition speed",
               "desc": "A slider.",
               "options": null
             },
@@ -3908,10 +4260,164 @@
           ]
         },
         {
+          "name": "Map",
+          "sysname": "map",
+          "id": "map",
+          "meta": [
+            {
+              "label": "Layouts",
+              "items": [
+                {
+                  "text": "split"
+                },
+                {
+                  "text": "overlay"
+                },
+                {
+                  "text": "stacked"
+                }
+              ]
+            },
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Map"
+                },
+                {
+                  "text": "Map — floating card"
+                },
+                {
+                  "text": "Map — address only"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Map",
+              "desc": "\"None\" renders the address and hours with no third-party request at all.",
+              "options": [
+                "Embedded map",
+                "None"
+              ]
+            },
+            {
+              "label": "Address",
+              "desc": "Searched on Google Maps, exactly as typed. Leave empty to hide the map.",
+              "options": null
+            },
+            {
+              "label": "Map description",
+              "desc": "Read out to screen readers. Defaults to the address.",
+              "options": null
+            },
+            {
+              "label": "Zoom",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Layout",
+              "desc": "Choose one option.",
+              "options": [
+                "Beside the text",
+                "Text on the map",
+                "Above the text"
+              ]
+            },
+            {
+              "label": "Map position",
+              "desc": "Choose one option.",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            },
+            {
+              "label": "Map shape",
+              "desc": "Width / height, for example 4 / 3 or 16 / 9.",
+              "options": null
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Gap",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Marquee",
           "sysname": "marquee",
           "id": "marquee",
           "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "heading",
+                  "page": "blocks",
+                  "anchor": "heading"
+                },
+                {
+                  "text": "icon",
+                  "page": "blocks",
+                  "anchor": "icon"
+                },
+                {
+                  "text": "text",
+                  "page": "blocks",
+                  "anchor": "text"
+                }
+              ]
+            },
             {
               "label": "Presets",
               "items": [
@@ -4007,6 +4513,71 @@
               "items": [
                 {
                   "text": "Multicolumn"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Section width",
+              "desc": "Choose one option.",
+              "options": [
+                "Narrow",
+                "Page",
+                "Full width"
+              ]
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            },
+            {
+              "label": "Top padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bottom padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Horizontal padding",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Anchor ID",
+              "desc": "Optional id for in-page anchor links (e.g. the product anchors row). Spaces are removed.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Promo mosaic",
+          "sysname": "promo-mosaic",
+          "id": "promo-mosaic",
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            },
+            {
+              "label": "Presets",
+              "items": [
+                {
+                  "text": "Promo mosaic"
+                },
+                {
+                  "text": "Promo mosaic — rows"
+                },
+                {
+                  "text": "Promo mosaic — collage"
                 }
               ]
             }
@@ -4345,19 +4916,6 @@
       "label": "Built-in page sections",
       "note": "These sections are part of specific page templates (the product page, cart, collection, header, footer, and account pages). You do not add them by hand. You edit their settings on the template where they appear.",
       "cards": [
-        {
-          "name": "404 page",
-          "sysname": "404",
-          "id": "404",
-          "meta": [],
-          "settings": [
-            {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
-              "options": null
-            }
-          ]
-        },
         {
           "name": "Blog",
           "sysname": "blog",
@@ -4780,21 +5338,22 @@
           "name": "Page",
           "sysname": "page",
           "id": "page",
-          "meta": [],
+          "meta": [
+            {
+              "label": "Add inside",
+              "items": [
+                {
+                  "text": "any content block"
+                }
+              ]
+            }
+          ],
           "settings": [
             {
-              "label": "Color scheme",
-              "desc": "Picks which colour scheme this section uses.",
+              "label": "Show title",
+              "desc": "An on / off switch.",
               "options": null
-            }
-          ]
-        },
-        {
-          "name": "Password",
-          "sysname": "password",
-          "id": "password",
-          "meta": [],
-          "settings": [
+            },
             {
               "label": "Color scheme",
               "desc": "Picks which colour scheme this section uses.",

@@ -1,5 +1,5 @@
 {
-  "total": 86,
+  "total": 93,
   "groups": [
     {
       "id": "layout-and-text",
@@ -18,6 +18,11 @@
                   "text": "_card-content",
                   "page": "blocks",
                   "anchor": "card-content"
+                },
+                {
+                  "text": "marquee",
+                  "page": "sections",
+                  "anchor": "marquee"
                 },
                 {
                   "text": "most sections that accept content"
@@ -126,7 +131,7 @@
             },
             {
               "label": "Decoration style",
-              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. For Circled word and Highlight marker, italicize the word or phrase to mark in the heading text; without italics the last word is marked.",
+              "desc": "Overrides the theme default decoration for this heading. \"Use theme default\" follows Theme settings > Typography. To decorate one word or phrase, italicise it in the heading text. Circled word and Highlight marker fall back to the last word when nothing is italicised; the underline styles underline the whole heading instead.",
               "options": [
                 "Use theme default",
                 "Wavy line",
@@ -164,6 +169,11 @@
                   "text": "_card-content",
                   "page": "blocks",
                   "anchor": "card-content"
+                },
+                {
+                  "text": "marquee",
+                  "page": "sections",
+                  "anchor": "marquee"
                 },
                 {
                   "text": "most sections that accept content"
@@ -466,6 +476,11 @@
                   "anchor": "card-media"
                 },
                 {
+                  "text": "marquee",
+                  "page": "sections",
+                  "anchor": "marquee"
+                },
+                {
                   "text": "most sections that accept content"
                 }
               ]
@@ -584,6 +599,7 @@
               "desc": "Choose one option.",
               "options": [
                 "Adapt to image",
+                "Fill container",
                 "Square",
                 "Portrait",
                 "Landscape",
@@ -620,6 +636,7 @@
               "options": [
                 "Same as desktop",
                 "Adapt to image",
+                "Fill container",
                 "Square",
                 "Portrait",
                 "Landscape",
@@ -3681,6 +3698,14 @@
               "options": null
             },
             {
+              "label": "Indicator style",
+              "desc": "Bars carry the autoplay countdown as a fill. Dots stay the same circle on every slide and show no countdown.",
+              "options": [
+                "Bars",
+                "Dots"
+              ]
+            },
+            {
               "label": "Dots position",
               "desc": "Choose one option.",
               "options": [
@@ -3712,6 +3737,16 @@
             },
             {
               "label": "Dot size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bar width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bar thickness",
               "desc": "A slider.",
               "options": null
             },
@@ -4198,6 +4233,168 @@
           ]
         },
         {
+          "name": "Expanding card",
+          "sysname": "_expanding-card",
+          "id": "expanding-card",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_expanding-carousel",
+                  "page": "blocks",
+                  "anchor": "expanding-carousel"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Collapsed label",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Eyebrow",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Product",
+              "desc": "Pick one product.",
+              "options": null
+            },
+            {
+              "label": "Use a different color scheme",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Color scheme",
+              "desc": "Picks which colour scheme this section uses.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Expanding carousel row",
+          "sysname": "_expanding-carousel",
+          "id": "expanding-carousel",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_expanding-card",
+                  "page": "blocks",
+                  "anchor": "expanding-card"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Arrows",
+              "desc": "Choose one option.",
+              "options": [
+                "On the sides, over the media",
+                "Above the carousel",
+                "Under the carousel, beside the dots",
+                "None"
+              ]
+            },
+            {
+              "label": "Arrows on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "On the sides, over the media",
+                "Above the carousel",
+                "Under the carousel, beside the dots",
+                "None"
+              ]
+            },
+            {
+              "label": "Arrow size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show dots",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Indicator style",
+              "desc": "Choose one option.",
+              "options": [
+                "Bars",
+                "Dots"
+              ]
+            },
+            {
+              "label": "Dots position",
+              "desc": "Choose one option.",
+              "options": [
+                "Under the carousel",
+                "Over the media"
+              ]
+            },
+            {
+              "label": "Dots position on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Under the carousel",
+                "Over the media"
+              ]
+            },
+            {
+              "label": "Dot size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bar width",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Bar thickness",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Customize for mobile",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Arrow size",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Dot size",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
           "name": "Feature",
           "sysname": "_feature",
           "id": "feature",
@@ -4353,7 +4550,9 @@
               "desc": "Choose one option.",
               "options": [
                 "1",
-                "2"
+                "2",
+                "3",
+                "4"
               ]
             },
             {
@@ -4919,6 +5118,35 @@
             {
               "label": "Block area width",
               "desc": "Width of the area your blocks sit in, to the right of the links.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Message",
+          "sysname": "_announcement",
+          "id": "announcement",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "announcement-bar",
+                  "page": "sections",
+                  "anchor": "announcement-bar"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Text",
+              "desc": "Text you type in.",
+              "options": null
+            },
+            {
+              "label": "Link",
+              "desc": "A link to a page, product, or collection.",
               "options": null
             }
           ]
@@ -5712,6 +5940,296 @@
               "options": null
             }
           ]
+        },
+        {
+          "name": "Scroll key",
+          "sysname": "_scroll-key",
+          "id": "scroll-key",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_scroll-layer",
+                  "page": "blocks",
+                  "anchor": "scroll-layer"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Step",
+              "desc": "A setting.",
+              "options": null
+            },
+            {
+              "label": "Horizontal offset",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Vertical offset",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Rotation",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Plus a turn",
+              "desc": "Added to the rotation, so a layer can end up on its side or upside down.",
+              "options": [
+                "None",
+                "Quarter turn (90°)",
+                "Half turn (180°)",
+                "Quarter turn back (−90°)"
+              ]
+            },
+            {
+              "label": "Scale",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Opacity",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Tint color",
+              "desc": "Used only when the layer's Render as is set to Tint.",
+              "options": null
+            },
+            {
+              "label": "Easing",
+              "desc": "Choose one option.",
+              "options": [
+                "Section default",
+                "Spring",
+                "Ease out",
+                "Ease in and out",
+                "Ease",
+                "Linear"
+              ]
+            },
+            {
+              "label": "Duration",
+              "desc": "0 uses the section's transition speed.",
+              "options": null
+            },
+            {
+              "label": "Motion",
+              "desc": "Runs continuously while this step is active. Applies to an image layer, not a tint.",
+              "options": [
+                "None",
+                "Sway",
+                "Bob",
+                "Stir",
+                "Pulse"
+              ]
+            },
+            {
+              "label": "Amount",
+              "desc": "Degrees for sway and stir; a proportional distance for bob and pulse.",
+              "options": null
+            },
+            {
+              "label": "Repeat speed",
+              "desc": "A slider.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Scroll layer",
+          "sysname": "_scroll-layer",
+          "id": "scroll-layer",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "_scroll-stage",
+                  "page": "blocks",
+                  "anchor": "scroll-stage"
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_scroll-key",
+                  "page": "blocks",
+                  "anchor": "scroll-key"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Image",
+              "desc": "An image you upload or pick from files.",
+              "options": null
+            },
+            {
+              "label": "Render as",
+              "desc": "Choose one option.",
+              "options": [
+                "Image",
+                "Tint (silhouette mask)"
+              ]
+            },
+            {
+              "label": "Fit",
+              "desc": "Cover crops the picture to fill the stage. Contain keeps all of it, which is what a silhouette or a masked layer needs.",
+              "options": [
+                "Contain",
+                "Cover"
+              ]
+            },
+            {
+              "label": "Mask",
+              "desc": "A silhouette that clips this image. Transparent areas of the mask hide the image.",
+              "options": null
+            },
+            {
+              "label": "Sizes attribute",
+              "desc": "Responsive sizes attribute, e.g. (min-width: 750px) 50vw, 100vw.",
+              "options": null
+            },
+            {
+              "label": "Pivot",
+              "desc": "Where rotation and repeating motion turn around. Top for something hanging into the frame, rim for something held at a lip.",
+              "options": [
+                "Top",
+                "Near the top",
+                "Centre",
+                "Bottom"
+              ]
+            },
+            {
+              "label": "Blend with layers below",
+              "desc": "Multiply lets a tint over an object read as colour on it rather than a film over it.",
+              "options": [
+                "Normal",
+                "Multiply",
+                "Screen",
+                "Overlay"
+              ]
+            },
+            {
+              "label": "Blur what is behind",
+              "desc": "Blurs the layers under this one, within its mask. Reads as looking through liquid or glass.",
+              "options": null
+            }
+          ]
+        },
+        {
+          "name": "Scroll stage",
+          "sysname": "_scroll-stage",
+          "id": "scroll-stage",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_scroll-layer",
+                  "page": "blocks",
+                  "anchor": "scroll-layer"
+                }
+              ]
+            }
+          ],
+          "settings": [
+            {
+              "label": "Aspect ratio",
+              "desc": "Choose one option.",
+              "options": [
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)"
+              ]
+            },
+            {
+              "label": "Aspect ratio on mobile",
+              "desc": "Choose one option.",
+              "options": [
+                "Same as desktop",
+                "Square",
+                "Portrait",
+                "Landscape",
+                "Wide (16:10)"
+              ]
+            },
+            {
+              "label": "Corner radius",
+              "desc": "A slider.",
+              "options": null
+            },
+            {
+              "label": "Show step counter",
+              "desc": "An on / off switch.",
+              "options": null
+            },
+            {
+              "label": "Position",
+              "desc": "Choose one option.",
+              "options": [
+                "Top left",
+                "Top right",
+                "Bottom left",
+                "Bottom right"
+              ]
+            },
+            {
+              "label": "Size",
+              "desc": "Choose one option.",
+              "options": [
+                "Small",
+                "Medium",
+                "Large"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll steps",
+          "sysname": "_scroll-steps",
+          "id": "scroll-steps",
+          "meta": [
+            {
+              "label": "Where it works",
+              "items": [
+                {
+                  "text": "Built into the header. You cannot add this block manually."
+                }
+              ]
+            },
+            {
+              "label": "Nest inside it",
+              "items": [
+                {
+                  "text": "_step",
+                  "page": "blocks",
+                  "anchor": "step"
+                }
+              ]
+            }
+          ],
+          "settings": []
         },
         {
           "name": "Share links",
@@ -6560,6 +7078,11 @@
                   "text": "_how-to",
                   "page": "blocks",
                   "anchor": "how-to"
+                },
+                {
+                  "text": "_scroll-steps",
+                  "page": "blocks",
+                  "anchor": "scroll-steps"
                 }
               ]
             },
@@ -6573,6 +7096,11 @@
             }
           ],
           "settings": [
+            {
+              "label": "Show from step",
+              "desc": "In a scroll story: the animation step this copy appears at, and it stays until the next tile's step. 0 means the step after the previous tile. Ignored elsewhere.",
+              "options": null
+            },
             {
               "label": "Gap",
               "desc": "A slider.",
