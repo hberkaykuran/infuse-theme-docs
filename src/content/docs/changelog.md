@@ -37,6 +37,18 @@ Notable changes to the Infuse theme, newest first.
   open and the strip slid to centre it, about a second of movement before the page had settled.
   It now arrives already open, and animates only when you actually change cards.
 
+- **Fixed: a split Hero with only one block was stuck at half width.** Hide the image (or
+  never add one) and the copy stayed in its column with the rest of the band empty beside it,
+  and no **Width: Fill** on that block could reach the gap — Fill fills its column. A split
+  with one block is now full width. The same applied to a Split slide in the Hero slideshow.
+- **Changed: the Hero's settings now match the layout you chose.** The three layouts share one
+  sidebar, and it used to show all of it: a split hero opened on four background image and
+  video pickers, a scrim opacity and two content-position selects that only the banner layout
+  uses, which read as though a background image were required. **Layout** now comes first, and
+  the settings under it are the ones that layout actually uses — a fresh Hero shows 22 controls
+  instead of 31. **Image width** also appears for *Split, full bleed*, where it always worked
+  and was simply hidden. Nothing you have already set has changed.
+
 ## Unreleased — 2026-09-03
 
 - **Changed: every block and section setting now sits under a named heading.** Forty-three of
